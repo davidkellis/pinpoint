@@ -1,0 +1,268 @@
+{
+  "version": 1,
+  "manifest_sha256": "3f20d7097091576d13bd15e133f9b706b3dcfa2f6ec59b3e48602bc73f8f4c07",
+  "go_source_sha256": "a061793e03a5bd6b684a8509f165d79ee3943803dee4b534b9f1d56c408e87a5",
+  "go_version": "go1.26.5",
+  "started_utc": "2026-11-06T06:35:10Z",
+  "profile": "all",
+  "status": "fail",
+  "verified_assets": 95,
+  "cases": [
+    {
+      "id": "r21-standard",
+      "status": "fail",
+      "seconds": 2.940019607,
+      "fragments": 129,
+      "curves": [
+        {
+          "id": "publisher-frequency-trace",
+          "anchor_hit_fraction": 0.37538940809968846,
+          "anchor_coverage": 0.3925233644859813,
+          "rmse_hz": 3.4522385533183892,
+          "harmonic_ratio": 1,
+          "strong": false,
+          "pass": false
+        }
+      ],
+      "failures": [
+        "did not recover publisher-frequency-trace"
+      ],
+      "note": "All publisher anchors evaluated against one continuous detected ridge. A failed recovery is reported as failure, not absence of an aircraft."
+    },
+    {
+      "id": "r21-short-pass",
+      "status": "fail",
+      "seconds": 22.635941466,
+      "fragments": 563,
+      "strong_candidates": 2,
+      "curves": [
+        {
+          "id": "publisher-frequency-trace",
+          "anchor_hit_fraction": 0.705607476635514,
+          "anchor_coverage": 0.7274143302180686,
+          "rmse_hz": 4.482991537287974,
+          "harmonic_ratio": 1,
+          "strong": true,
+          "pass": false
+        }
+      ],
+      "failures": [
+        "did not recover publisher-frequency-trace"
+      ],
+      "note": "All publisher anchors evaluated against one continuous detected ridge. A failed recovery is reported as failure, not absence of an aircraft."
+    },
+    {
+      "id": "r50-standard",
+      "status": "fail",
+      "seconds": 1.02058762,
+      "fragments": 58,
+      "curves": [
+        {
+          "id": "publisher-frequency-trace",
+          "anchor_hit_fraction": 0.06153846153846154,
+          "anchor_coverage": 0.36153846153846153,
+          "rmse_hz": 29.867208371204253,
+          "harmonic_ratio": 3,
+          "strong": false,
+          "pass": false
+        }
+      ],
+      "failures": [
+        "did not recover publisher-frequency-trace"
+      ],
+      "note": "All publisher anchors evaluated against one continuous detected ridge. A failed recovery is reported as failure, not absence of an aircraft."
+    },
+    {
+      "id": "r50-short-pass",
+      "status": "fail",
+      "seconds": 6.398161363,
+      "fragments": 245,
+      "curves": [
+        {
+          "id": "publisher-frequency-trace",
+          "anchor_hit_fraction": 0.16153846153846155,
+          "anchor_coverage": 0.18461538461538463,
+          "rmse_hz": 1.6243308442760873,
+          "harmonic_ratio": 1,
+          "strong": false,
+          "pass": false
+        }
+      ],
+      "failures": [
+        "did not recover publisher-frequency-trace"
+      ],
+      "note": "All publisher anchors evaluated against one continuous detected ridge. A failed recovery is reported as failure, not absence of an aircraft."
+    },
+    {
+      "id": "challenger-competing-california",
+      "status": "fail",
+      "seconds": 156.506649584,
+      "best": {
+        "lat": 34.01253310007186,
+        "lon": -118.45095284092282,
+        "height_ellipsoid_m": 1.8951640940460024,
+        "clock_offset_s": -5,
+        "score_db": 16.70437298487329,
+        "events": [
+          {
+            "track_id": "781a1f-1778889600.000-987",
+            "f0_hz": 700.9487288948585,
+            "score_db": 16.70437298487329,
+            "coverage": 1,
+            "cpa": {
+              "Emitted": 1778955892.2952235,
+              "Heard": 1778955899.8799937,
+              "Distance": 2601.5761681203817,
+              "Speed": 140.70826709561518
+            }
+          }
+        ]
+      },
+      "flight_groups": [
+        {
+          "lat": 34.01253310007186,
+          "lon": -118.45095284092282,
+          "height_ellipsoid_m": 1.8951640940460024,
+          "clock_offset_s": -5,
+          "score_db": 16.70437298487329,
+          "events": [
+            {
+              "track_id": "781a1f-1778889600.000-987",
+              "f0_hz": 700.9487288948585,
+              "score_db": 16.70437298487329,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955892.2952235,
+                "Heard": 1778955899.8799937,
+                "Distance": 2601.5761681203817,
+                "Speed": 140.70826709561518
+              }
+            }
+          ]
+        },
+        {
+          "lat": 37.65603294286741,
+          "lon": -121.78238967780624,
+          "height_ellipsoid_m": 116.91899684845842,
+          "clock_offset_s": -0.53955296404276,
+          "score_db": 16.329873365486325,
+          "events": [
+            {
+              "track_id": "a732a2-1778889600.000-1035",
+              "f0_hz": 692.0624977193913,
+              "score_db": 16.329873365486325,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955898.6941197,
+                "Heard": 1778955904.5688026,
+                "Distance": 2015.0162219853523,
+                "Speed": 135.41500440117153
+              }
+            }
+          ]
+        },
+        {
+          "lat": 38.44458738501617,
+          "lon": -121.50968718458468,
+          "height_ellipsoid_m": -26.90575606650788,
+          "clock_offset_s": -1.200000000000001,
+          "score_db": 16.101695144524093,
+          "events": [
+            {
+              "track_id": "a55055-1778889600.000-3179",
+              "f0_hz": 690.3215423723957,
+              "score_db": 16.101695144524093,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955898.2871587,
+                "Heard": 1778955903.9967217,
+                "Distance": 1958.3801477303355,
+                "Speed": 129.71961928571014
+              }
+            }
+          ]
+        },
+        {
+          "lat": 36.97624152623069,
+          "lon": -121.65275015598316,
+          "height_ellipsoid_m": 359.82076391983276,
+          "clock_offset_s": 1.199999999999999,
+          "score_db": 15.997463853254885,
+          "events": [
+            {
+              "track_id": "ac8009-1778889600.000-3868",
+              "f0_hz": 696.1601960339264,
+              "score_db": 15.997463853254885,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955897.7631009,
+                "Heard": 1778955906.1286786,
+                "Distance": 2869.3931369709453,
+                "Speed": 147.40059664341186
+              }
+            }
+          ]
+        },
+        {
+          "lat": 33.97442224847287,
+          "lon": -117.93379316622303,
+          "height_ellipsoid_m": 227.90113684446433,
+          "clock_offset_s": 3.9208940719144825,
+          "score_db": 15.511829514922319,
+          "events": [
+            {
+              "track_id": "ac10af-1778889600.000-1085",
+              "f0_hz": 695.6292252790885,
+              "score_db": 15.511829514922319,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955902.7426608,
+                "Heard": 1778955909.028081,
+                "Distance": 2155.899159711137,
+                "Speed": 133.24162900072693
+              }
+            }
+          ]
+        },
+        {
+          "lat": 32.83121455443766,
+          "lon": -116.65518717724729,
+          "height_ellipsoid_m": 840.6232060293794,
+          "clock_offset_s": 3.3208940719144833,
+          "score_db": 13.677637761892022,
+          "events": [
+            {
+              "track_id": "4851b1-1778889600.000-3608",
+              "f0_hz": 689.6411388850325,
+              "score_db": 13.677637761892022,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955899.6467183,
+                "Heard": 1778955908.8736808,
+                "Distance": 3164.848199730926,
+                "Speed": 146.07016959479864
+              }
+            }
+          ]
+        }
+      ],
+      "locations_evaluated": 6769423,
+      "ambiguity": "Ambiguous: locations more than 10 km apart score within 1 dB of the top fit, including possible alternatives for the same aircraft. This recording does not establish one location.",
+      "failures": [
+        "top candidate outside reported regional label",
+        "wrong aircraft for event 1"
+      ],
+      "note": "Known single passage: select longest automatically strong/usable curve, before reading aircraft or location labels. Search all California at 200 m with refinement to 10 m against competing archived flights. Inferred audio clock from publisher UTC labels. Broad city-area evaluation, not surveyed GPS. Current winner is wrong; expected to fail until discrimination improves."
+    },
+    {
+      "id": "regional-jet-supplied-track-auto",
+      "status": "error",
+      "seconds": 6.335694273,
+      "failures": [
+        "expected 1 automatically usable events, found 0"
+      ],
+      "note": ""
+    }
+  ],
+  "decoder": "ffmpeg version 8.1.3 Copyright (c) 2000-2026 the FFmpeg developers"
+}

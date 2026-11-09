@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "manifest_sha256": "48b0c14ff03cd5aeb5e5ded131e4ec50d3c92bf1b8831c4019c770e1f13340ec",
+  "go_source_sha256": "a48da1c728fe8a30a36ca659ffa545b91386039409384674dc40d1dcee34da1e",
+  "go_version": "go1.26.5",
+  "started_utc": "2026-11-06T06:16:36Z",
+  "profile": "audio",
+  "status": "pass",
+  "verified_assets": 33,
+  "cases": [
+    {
+      "id": "colsto-full-audio",
+      "status": "pass",
+      "seconds": 115.936597612,
+      "fragments": 2113,
+      "strong_candidates": 19,
+      "curves": [
+        {
+          "id": "colsto-flyover-1",
+          "anchor_hit_fraction": 1,
+          "anchor_coverage": 1,
+          "rmse_hz": 0.6422616289332564,
+          "harmonic_ratio": 1,
+          "strong": true,
+          "pass": true
+        },
+        {
+          "id": "colsto-flyover-2",
+          "anchor_hit_fraction": 1,
+          "anchor_coverage": 1,
+          "rmse_hz": 0.9100137361600648,
+          "harmonic_ratio": 1,
+          "strong": true,
+          "pass": true
+        }
+      ],
+      "note": "Decode full recording and compute whitening anew before detection, matching the web analysis band."
+    },
+    {
+      "id": "pathak-n373df_r06",
+      "status": "unlabeled_observation",
+      "seconds": 1.446634628,
+      "fragments": 52,
+      "note": "Known aircraft passage; audio-relative curve labels pending. Counts are observations, not recall or false positives."
+    },
+    {
+      "id": "pathak-n394fx_r20",
+      "status": "unlabeled_observation",
+      "seconds": 1.901169801,
+      "fragments": 65,
+      "strong_candidates": 1,
+      "note": "Known aircraft passage; audio-relative curve labels pending. Counts are observations, not recall or false positives."
+    },
+    {
+      "id": "pathak-n4040_r12",
+      "status": "unlabeled_observation",
+      "seconds": 2.814732047,
+      "fragments": 90,
+      "strong_candidates": 1,
+      "note": "Known aircraft passage; audio-relative curve labels pending. Counts are observations, not recall or false positives."
+    },
+    {
+      "id": "pathak-n413ak_r49",
+      "status": "unlabeled_observation",
+      "seconds": 3.039302434,
+      "fragments": 116,
+      "strong_candidates": 2,
+      "note": "Known aircraft passage; audio-relative curve labels pending. Counts are observations, not recall or false positives."
+    },
+    {
+      "id": "pathak-n757ah_r41",
+      "status": "unlabeled_observation",
+      "seconds": 2.190346208,
+      "fragments": 79,
+      "strong_candidates": 1,
+      "note": "Known aircraft passage; audio-relative curve labels pending. Counts are observations, not recall or false positives."
+    },
+    {
+      "id": "pathak-n784mb_r04",
+      "status": "pass",
+      "seconds": 3.442996693,
+      "fragments": 95,
+      "strong_candidates": 5,
+      "curves": [
+        {
+          "id": "publisher-r04",
+          "anchor_hit_fraction": 0.9578163771712159,
+          "anchor_coverage": 1,
+          "rmse_hz": 2.7386550363421693,
+          "harmonic_ratio": 0.5,
+          "strong": true,
+          "pass": true
+        }
+      ],
+      "note": "Publisher UTC trace independently aligned to audio by +4.975 s; development regression."
+    },
+    {
+      "id": "pathak-n788bm_r03",
+      "status": "unlabeled_observation",
+      "seconds": 3.177437421,
+      "fragments": 102,
+      "strong_candidates": 4,
+      "note": "Known aircraft passage; audio-relative curve labels pending. Counts are observations, not recall or false positives."
+    },
+    {
+      "id": "pathak-n916kt_r22",
+      "status": "unlabeled_observation",
+      "seconds": 4.838725872,
+      "fragments": 124,
+      "strong_candidates": 6,
+      "note": "Known aircraft passage; audio-relative curve labels pending. Counts are observations, not recall or false positives."
+    }
+  ],
+  "decoder": "ffmpeg version 8.1.3 Copyright (c) 2000-2026 the FFmpeg developers"
+}

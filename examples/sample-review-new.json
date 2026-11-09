@@ -1,0 +1,42 @@
+{
+  "methods": [
+    "production-2+4s",
+    "stft-1s",
+    "stft-2s",
+    "stft-4s",
+    "local-2s",
+    "harmonic-2s",
+    "reassigned-1s",
+    "reassigned-2s",
+    "stft-8s"
+  ],
+  "cases": [
+    {
+      "id": "nov4-150514",
+      "label": "2026_11_04_15_05_14_1.mp3",
+      "kind": "unlabeled",
+      "audio": "samples/2026_11_04_15_05_14_1.mp3",
+      "start_s": 0,
+      "duration_s": 1216,
+      "seed": 20261104
+    },
+    {
+      "id": "nov4-154319",
+      "label": "2026_11_04_15_43_19_1.mp3",
+      "kind": "unlabeled",
+      "audio": "samples/2026_11_04_15_43_19_1.mp3",
+      "start_s": 0,
+      "duration_s": 2819,
+      "seed": 20261104
+    },
+    {
+      "id": "nov4-214904",
+      "label": "2026_11_04_21_49_04_1.mp3",
+      "kind": "unlabeled",
+      "audio": "samples/2026_11_04_21_49_04_1.mp3",
+      "start_s": 0,
+      "duration_s": 2667,
+      "seed": 20261104
+    }
+  ]
+}

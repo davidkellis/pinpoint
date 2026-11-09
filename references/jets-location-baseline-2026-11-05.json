@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "manifest_sha256": "21c48b55ec94fb5611c08e41f8ed3ca5ae301d10251ab90709011578a8660141",
+  "go_source_sha256": "b02fa7cee5910b32e3d86ed538dc89bc7ee7077035494183437948acbb884b29",
+  "go_version": "go1.26.5",
+  "started_utc": "2026-11-05T18:30:13Z",
+  "profile": "location",
+  "status": "pass",
+  "verified_assets": 53,
+  "cases": [
+    {
+      "id": "phenom-known-track-california",
+      "status": "pass",
+      "seconds": 8.239682686,
+      "best": {
+        "lat": 37.66734033596838,
+        "lon": -121.79093640953606,
+        "height_ellipsoid_m": 106.69300649294505,
+        "clock_offset_s": -4.400000000000002,
+        "score_db": 16.459845971225395,
+        "events": [
+          {
+            "track_id": "N394FX",
+            "f0_hz": 353.5262772368982,
+            "score_db": 16.459845971225395,
+            "coverage": 1,
+            "cpa": {
+              "Emitted": 1778962352.7754705,
+              "Heard": 1778962357.9176807,
+              "Distance": 1763.778111456054,
+              "Speed": 135.1105615540389
+            }
+          }
+        ]
+      },
+      "flight_groups": [
+        {
+          "lat": 37.66734033596838,
+          "lon": -121.79093640953606,
+          "height_ellipsoid_m": 106.69300649294505,
+          "clock_offset_s": -4.400000000000002,
+          "score_db": 16.459845971225395,
+          "events": [
+            {
+              "track_id": "N394FX",
+              "f0_hz": 353.5262772368982,
+              "score_db": 16.459845971225395,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778962352.7754705,
+                "Heard": 1778962357.9176807,
+                "Distance": 1763.778111456054,
+                "Speed": 135.1105615540389
+              }
+            }
+          ]
+        }
+      ],
+      "locations_evaluated": 5703,
+      "note": "ASSISTED known-aircraft test. Re-runs automatic curve extraction and California search. Target KML supplied; no competing aircraft. Expected broad Livermore region is evaluation-only. No verified microphone GPS; cannot assert metre-level error or global uniqueness."
+    }
+  ],
+  "decoder": "ffmpeg version 8.1.3 Copyright (c) 2000-2026 the FFmpeg developers"
+}

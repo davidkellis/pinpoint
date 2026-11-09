@@ -1,0 +1,56 @@
+{
+  "spectrogram": "../work/reproduction/full-spectrum/spectrogram.bin",
+  "tracks": "../work/reproduction/ny-tracks.csv",
+  "recording_start": "2026-09-08T20:16:00Z",
+  "clock_uncertainty_s": 120,
+  "clock_step_s": 2,
+  "bounds": {
+    "south": 40.49,
+    "north": 45.02,
+    "west": -79.77,
+    "east": -71.85
+  },
+  "grid_m": 450,
+  "refine_m": 50,
+  "terrain_dir": "../data/terrain-ny-3arc",
+  "terrain_geoid_offset_m": -33,
+  "microphone_height_agl_m": 5,
+  "sound_speed_mps": 343,
+  "max_track_gap_s": 20,
+  "min_event_score_db": 5,
+  "workers": 16,
+  "events": [
+    {
+      "start_s": 2100,
+      "end_s": 2280,
+      "cpa_s": 2155,
+      "f0_min_hz": 105,
+      "f0_max_hz": 125,
+      "f0_step_hz": 0.5,
+      "harmonics": [
+        1
+      ],
+      "min_speed_mps": 110,
+      "max_speed_mps": 170,
+      "min_slant_m": 3500,
+      "max_slant_m": 9000
+    },
+    {
+      "start_s": 3040,
+      "end_s": 3140,
+      "cpa_s": 3076,
+      "f0_min_hz": 120,
+      "f0_max_hz": 170,
+      "f0_step_hz": 0.5,
+      "harmonics": [
+        1
+      ],
+      "min_speed_mps": 60,
+      "max_speed_mps": 180,
+      "min_slant_m": 500,
+      "max_slant_m": 12000
+    }
+  ],
+  "max_grid_points": 2000000,
+  "omit_unmodeled_points": true
+}

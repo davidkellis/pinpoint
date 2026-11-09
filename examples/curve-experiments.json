@@ -1,0 +1,254 @@
+{
+  "cases": [
+    {
+      "id": "reference-1",
+      "label": "Reference flyover 1",
+      "kind": "reference",
+      "audio": "samples/Unknown location - raw audio [4CxVxuMVkMc].mp3",
+      "start_s": 2040,
+      "duration_s": 240,
+      "seed": 20261104,
+      "anchors": [
+        {
+          "time_s": 88,
+          "hz": 144
+        },
+        {
+          "time_s": 100,
+          "hz": 131.5
+        },
+        {
+          "time_s": 114,
+          "hz": 114
+        },
+        {
+          "time_s": 128,
+          "hz": 102
+        },
+        {
+          "time_s": 160,
+          "hz": 89
+        }
+      ]
+    },
+    {
+      "id": "reference-2",
+      "label": "Reference flyover 2",
+      "kind": "reference",
+      "audio": "samples/Unknown location - raw audio [4CxVxuMVkMc].mp3",
+      "start_s": 3000,
+      "duration_s": 180,
+      "seed": 20261104,
+      "anchors": [
+        {
+          "time_s": 50,
+          "hz": 168
+        },
+        {
+          "time_s": 60,
+          "hz": 155.5
+        },
+        {
+          "time_s": 70,
+          "hz": 138
+        },
+        {
+          "time_s": 80,
+          "hz": 123.5
+        },
+        {
+          "time_s": 90,
+          "hz": 116
+        },
+        {
+          "time_s": 100,
+          "hz": 110
+        }
+      ]
+    },
+    {
+      "id": "nov3-early",
+      "label": "nov3 early",
+      "kind": "unlabeled",
+      "audio": "samples/walking_2026_11_03_18_50_11_1.mp3",
+      "start_s": 280,
+      "duration_s": 150,
+      "seed": 20261104
+    },
+    {
+      "id": "nov3-middle",
+      "label": "nov3 middle",
+      "kind": "unlabeled",
+      "audio": "samples/walking_2026_11_03_18_50_11_1.mp3",
+      "start_s": 1060,
+      "duration_s": 150,
+      "seed": 20261104
+    },
+    {
+      "id": "nov3-late",
+      "label": "nov3 late",
+      "kind": "unlabeled",
+      "audio": "samples/walking_2026_11_03_18_50_11_1.mp3",
+      "start_s": 2980,
+      "duration_s": 150,
+      "seed": 20261104
+    },
+    {
+      "id": "nov4-early",
+      "label": "nov4 early",
+      "kind": "unlabeled",
+      "audio": "samples/2026_11_04_13_01_27_1.mp3",
+      "start_s": 60,
+      "duration_s": 150,
+      "seed": 20261104
+    },
+    {
+      "id": "nov4-middle",
+      "label": "nov4 middle",
+      "kind": "unlabeled",
+      "audio": "samples/2026_11_04_13_01_27_1.mp3",
+      "start_s": 600,
+      "duration_s": 150,
+      "seed": 20261104
+    },
+    {
+      "id": "nov4-late",
+      "label": "nov4 late",
+      "kind": "unlabeled",
+      "audio": "samples/2026_11_04_13_01_27_1.mp3",
+      "start_s": 1250,
+      "duration_s": 150,
+      "seed": 20261104
+    },
+    {
+      "id": "prop-in-walk-15",
+      "label": "Synthetic prop in Nov 4 noise (-15 dB)",
+      "kind": "injection",
+      "audio": "samples/2026_11_04_13_01_27_1.mp3",
+      "start_s": 600,
+      "duration_s": 120,
+      "seed": 20261104,
+      "inject": {
+        "kind": "prop",
+        "snr_db": -15
+      }
+    },
+    {
+      "id": "prop-in-walk-25",
+      "label": "Synthetic prop in Nov 4 noise (-25 dB)",
+      "kind": "injection",
+      "audio": "samples/2026_11_04_13_01_27_1.mp3",
+      "start_s": 600,
+      "duration_s": 120,
+      "seed": 20261104,
+      "inject": {
+        "kind": "prop",
+        "snr_db": -25
+      }
+    },
+    {
+      "id": "prop-in-walk-35",
+      "label": "Synthetic prop in Nov 4 noise (-35 dB)",
+      "kind": "injection",
+      "audio": "samples/2026_11_04_13_01_27_1.mp3",
+      "start_s": 600,
+      "duration_s": 120,
+      "seed": 20261104,
+      "inject": {
+        "kind": "prop",
+        "snr_db": -35
+      }
+    },
+    {
+      "id": "jet-in-walk-15",
+      "label": "Synthetic jet in Nov 4 noise (-15 dB)",
+      "kind": "injection",
+      "audio": "samples/2026_11_04_13_01_27_1.mp3",
+      "start_s": 600,
+      "duration_s": 120,
+      "seed": 20261104,
+      "inject": {
+        "kind": "jet",
+        "snr_db": -15
+      }
+    },
+    {
+      "id": "jet-in-walk-25",
+      "label": "Synthetic jet in Nov 4 noise (-25 dB)",
+      "kind": "injection",
+      "audio": "samples/2026_11_04_13_01_27_1.mp3",
+      "start_s": 600,
+      "duration_s": 120,
+      "seed": 20261104,
+      "inject": {
+        "kind": "jet",
+        "snr_db": -25
+      }
+    },
+    {
+      "id": "jet-in-walk-35",
+      "label": "Synthetic jet in Nov 4 noise (-35 dB)",
+      "kind": "injection",
+      "audio": "samples/2026_11_04_13_01_27_1.mp3",
+      "start_s": 600,
+      "duration_s": 120,
+      "seed": 20261104,
+      "inject": {
+        "kind": "jet",
+        "snr_db": -35
+      }
+    },
+    {
+      "id": "noise",
+      "label": "Noise + fixed tones",
+      "kind": "non_doppler",
+      "audio": "",
+      "start_s": 0,
+      "duration_s": 120,
+      "seed": 20261104
+    },
+    {
+      "id": "linear",
+      "label": "Noise + linear chirp",
+      "kind": "non_doppler",
+      "audio": "",
+      "start_s": 0,
+      "duration_s": 120,
+      "seed": 20261104,
+      "control": "chirp"
+    },
+    {
+      "id": "bursts",
+      "label": "Noise + footstep-like bursts",
+      "kind": "non_doppler",
+      "audio": "",
+      "start_s": 0,
+      "duration_s": 120,
+      "seed": 20261104,
+      "control": "bursts"
+    },
+    {
+      "id": "shuffled-reference",
+      "label": "Disrupted reference (8 s blocks)",
+      "kind": "non_doppler",
+      "audio": "samples/Unknown location - raw audio [4CxVxuMVkMc].mp3",
+      "start_s": 2040,
+      "duration_s": 240,
+      "seed": 20261104,
+      "control": "shuffle"
+    },
+    {
+      "id": "vehicle",
+      "label": "Ground-vehicle-like Doppler control",
+      "kind": "other_doppler",
+      "audio": "",
+      "start_s": 0,
+      "duration_s": 120,
+      "seed": 20261104,
+      "inject": {
+        "kind": "vehicle",
+        "snr_db": -10
+      }
+    }
+  ]
+}

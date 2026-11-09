@@ -1,0 +1,5881 @@
+{
+  "version": 1,
+  "note": "Combined-profile development regression: labels and acceptance limits copied unchanged from the existing propeller, jet and background suites. These reused development cases are not independent accuracy estimates. Aircraft location certainty remains specific to each source.",
+  "assets": [
+    {
+      "path": "samples/Unknown location - raw audio [4CxVxuMVkMc].mp3",
+      "sha256": "89512e9c28454029059cc3cf7bc79ca77811c9bc931bf17584481ad897e71487",
+      "profiles": [
+        "audio"
+      ],
+      "source": "colsto-audio"
+    },
+    {
+      "path": "samples/public/pathak-2026/N373DF_R06/audio.wav",
+      "sha256": "27629dee59acf4877ac3094f9b6db46189b1f6572bf2ceecff06360caaee49bd",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N373DF_R06/N373DF-track-EGM96.kml",
+      "sha256": "b64c7f6733a526d4477a2111467553a83d88c89cd2451658e1ce355268cbdda7",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N373DF_R06/result_page.pdf",
+      "sha256": "ff5dcd23671233d4866f4c3732821ee5a60406ab270c8735f3010a052a9d8e2d",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N373DF_R06/frequency_vs_time_used.csv",
+      "sha256": "766fc0835220215be110fef2c9deb2766d2d05a2f7cbff455bc1957d72d1aba7",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N394FX_R20/audio.wav",
+      "sha256": "cfd03401b5f891020d76c12000a7552be0c549f65b8e67dc571f06258f0178ac",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N394FX_R20/N394FX-track-EGM96.kml",
+      "sha256": "6eb7303601396f6580356a2c618eb1e46bb3a8dbbb5b1f3fa20c7a6045e150fa",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N394FX_R20/result_page.pdf",
+      "sha256": "3c261c3fb81605d7f1756fa07bb02c35083598f1d44484c6437168f1b053e9c4",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N394FX_R20/frequency_vs_time_used.csv",
+      "sha256": "2babfca80845134872e0bde3edb9b631b49567a1f8682bb106b73cb5604303e1",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N4040_R12/audio.wav",
+      "sha256": "f0a78abf7fb124e0688ce82d0eb6410475b840188209b5e07dc21519c8bfa3df",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N4040_R12/result_page.pdf",
+      "sha256": "3a4cb6b0954ca27b498504c29cb42aff2f63c65703251db1c348e3b37a24d862",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N4040_R12/N4040-track-EGM96.kml",
+      "sha256": "a8bf32f88a98f7fbea1537e62dae354963d8e31d6496f1af4794f2a5628f3c9c",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N4040_R12/frequency_vs_time_used.csv",
+      "sha256": "3f312de3c069c0f6be6579dbeecc6ed0d897749c05f369a4346be766826e3059",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N413AK_R49/audio.wav",
+      "sha256": "c28412b7c3de34b006b40bf6fe005ba042145ee4d480547a0647091e531a5b3b",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N413AK_R49/result_page.pdf",
+      "sha256": "20852d387050a42fb7a091c357d0b955f0b4677e172c285b454a45752788978a",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N413AK_R49/N413AK-track-EGM96.kml",
+      "sha256": "5f835fa8526876f9f0e54e8e99a51741d75d4f585cb247751b26a1cbd9f803b2",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N413AK_R49/frequency_vs_time_used.csv",
+      "sha256": "1701efc414fa37063b4fba7fc1d6aaaa894d19408c1cae26de9ccba15b27dc6b",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N757AH_R41/audio.wav",
+      "sha256": "e47eb35b076a9fbeb4983498221f6853d1d0cc9d8af7259a430557a100bed293",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N757AH_R41/result_page.pdf",
+      "sha256": "269fc0f8d211427b05fd11495a0a27b50e6c18e5e1f3799d7658372f998f970d",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N757AH_R41/N757AH-track-EGM96.kml",
+      "sha256": "0b841dbc8016625198ef3dbc29da7f6a18b434c6ba4f65cac1c4f89ffdd35d4b",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N757AH_R41/frequency_vs_time_used.csv",
+      "sha256": "1c65aa354617ee2b7e26141b64427b006574e4397d28ec6287111a7675b243ac",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N784MB_R04/audio.wav",
+      "sha256": "c0366b111fbf82877bcaba53aa53a99602f9f5512513bc996e629aa04633d37e",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N784MB_R04/N784MB-track-EGM96.kml",
+      "sha256": "411dde59aeb238bb74447a73899a4d68cab3c1df740477ec54fce86381a21dce",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N784MB_R04/result_page.pdf",
+      "sha256": "d78bf4e8d2880cddc7924ca6c94253ccc91cae631b333c84f786533e47b5155d",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N784MB_R04/frequency_vs_time_used.csv",
+      "sha256": "3610fe509fed244d75c8720b55b396ba3f44258bec2a57c59fedd5afb6881638",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N788BM_R03/audio.wav",
+      "sha256": "8d23e3aa36ad439801fcbec6ef3f7f80647ed70d3b9ed11157539e72e771b38b",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N788BM_R03/N788BM-track-EGM96.kml",
+      "sha256": "1773f3bc696c9116f77cea39ea4a297eaef5c4953ab2b8c57c5925451f562b75",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N788BM_R03/result_page.pdf",
+      "sha256": "101fab48cb5a05bd7b9e81aa64c9b1e353a745a6ef33c48fb8bee4b91cae90fd",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N788BM_R03/frequency_vs_time_used.csv",
+      "sha256": "f12e56c8105d43c1c830edc781913736870e0f10c0c32cefdce0695299806f14",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N916KT_R22/audio.wav",
+      "sha256": "81da035ff6af575fcaded1a4dfc3162bb6377a033c0d840af490eba47a879998",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N916KT_R22/N916KT-track-EGM96.kml",
+      "sha256": "df53ae42bf54d62ee4d5292c9307ab6a3d56754d0228db6a4b663dd71408e115",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N916KT_R22/result_page.pdf",
+      "sha256": "242f3990ac7d352733896eccb7aa73b0f0c7bd71308b519253f0eedfd973d900",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/pathak-2026/N916KT_R22/frequency_vs_time_used.csv",
+      "sha256": "4f2d64a4a7f6c0c8f7f65c3e5672686c255d9d9d73c66ba8637973ba2fe062ff",
+      "profiles": [
+        "audio"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C7CD0_2022-12-08_12-29-45_0_0.wav",
+      "sha256": "e4b471da131570c8e80fdadf12101e1158f8cdf3dac64c80964effb4df8156cf",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C77FA_2022-12-08_09-21-43_0_0.wav",
+      "sha256": "1ac790e34513610d9e2b01d2962a964603cf8a78179c0a65edff9579694a90d5",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C7777_2022-12-08_10-06-22_0_0.wav",
+      "sha256": "fbb9b09a30b573ac0175b78c0cc6686b35b9f73d468cde9d09bb64d1fa02ed14",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/750262_2022-12-11_09-48-28_0_0.wav",
+      "sha256": "6e4558a729964d8cc2fa96706d9cf0076a2660cdf641df7d4b4a8aeae752e253",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/06A2B1_2022-12-08_19-55-46_0_0.wav",
+      "sha256": "323d3b3f62d5a1d31c2cac939da17e3bd2148c8e6db8832abf3f9b460ec59f40",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/000000_2022-12-08_09-05-46_0_0.wav",
+      "sha256": "f4c5f6bad0c8b20c91c590d6cff7ca56f25b59331072168b579f59b88ffd2596",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/000000_2023-03-01_13-33-54_1_1.wav",
+      "sha256": "1b0318e9598e9a7a3c1301c8362fdbe25b2a0186c068185b933d775af2c9045c",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/000000_2023-04-24_11-23-47_1_1.wav",
+      "sha256": "fea3ede512b7c9651f52d6a4d293c4638aba6df14bff223a316d2ebc0b4e7e02",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/dlr-a320-rec139/microphone-080.wav",
+      "sha256": "e79e1e3d7d3f8301de7866632a7a7a12185da09652079ed675a876aa8641fbea",
+      "profiles": [
+        "audio"
+      ],
+      "source": "dlr-rec139"
+    },
+    {
+      "path": "samples/public/dlr-a320-rec139/geometry.json",
+      "sha256": "2146c8c9096bf0f72c4fd5207e4c31c443ac824b7679d2dbd3c4dc18ea45ccd5",
+      "profiles": [
+        "audio"
+      ],
+      "source": "dlr-rec139"
+    },
+    {
+      "path": "samples/public/pathak-2026/N958JX_R50/result_page.pdf",
+      "sha256": "9b0d81a46cbe9573dd17cc43f0fd02792f6cb9a8e2f0ab796dd5fc1d09c4c50f",
+      "source": "pathak-2026",
+      "profiles": [
+        "audio"
+      ]
+    },
+    {
+      "path": "samples/public/pathak-2026/N958JX_R50/N958JX-track-EGM96.kml",
+      "sha256": "5f980bb38674baaeb3d8340e1b1fd513bacfedef048f1d0e41f934fea3ef9e67",
+      "source": "pathak-2026",
+      "profiles": [
+        "audio"
+      ]
+    },
+    {
+      "path": "samples/public/pathak-2026/N958JX_R50/audio.wav",
+      "sha256": "3cfa0ca3a58db714074487004ca3b7505ab9ee4e4882b7efbfdf62f8d7f1a426",
+      "source": "pathak-2026",
+      "profiles": [
+        "audio"
+      ]
+    },
+    {
+      "path": "samples/public/pathak-2026/N958JX_R50/frequency_vs_time_used.csv",
+      "sha256": "6bcd151abeb8f9c8978bee8d5fbc00df951d7674c417a5d229989b529a72d8fd",
+      "source": "pathak-2026",
+      "profiles": [
+        "audio"
+      ]
+    },
+    {
+      "path": "samples/public/pathak-2026/N563FX_R21/result_page.pdf",
+      "sha256": "2fc1e2eac37e1e09049f0c86377158f16ec23ad9270ed3c895812fefe4bd2966",
+      "source": "pathak-2026",
+      "profiles": [
+        "audio"
+      ]
+    },
+    {
+      "path": "samples/public/pathak-2026/N563FX_R21/N563FX-track-EGM96.kml",
+      "sha256": "af3373fe1b03f04b0b23ae10ff36224ed5bfdf6d78e1901a7df64a1ae3d9dc8c",
+      "source": "pathak-2026",
+      "profiles": [
+        "audio"
+      ]
+    },
+    {
+      "path": "samples/public/pathak-2026/N563FX_R21/audio.wav",
+      "sha256": "427a7575ec97a84feb8fe81f7fb8b1cff5a122e79223fba11d5327c0ba9e1179",
+      "source": "pathak-2026",
+      "profiles": [
+        "audio"
+      ]
+    },
+    {
+      "path": "samples/public/pathak-2026/N563FX_R21/frequency_vs_time_used.csv",
+      "sha256": "ee79d4883a42f9b9871169e6aa155bd0584235cc9e0feb7f73f65faf4f76a6d3",
+      "source": "pathak-2026",
+      "profiles": [
+        "audio"
+      ]
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/76CD0B_2023-05-10_06-58-39_0_1.wav",
+      "sha256": "95cc809df167772beed116295b168f4ae59f157e72d3d693720620f742a23e50",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/C827EE_2023-05-03_10-38-32_0_1.wav",
+      "sha256": "19a357eadf334c4d3dcc7823ab54bf0ec3c89afbfaa7ca01f6d91a6606cc4a71",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C1ABD_2023-05-03_11-28-53_0_1.wav",
+      "sha256": "5a60521b7688593962363e0306bc2fc329139ba0b21266a6b9d970993c1628ac",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C1B0F_2023-05-20_15-40-08_0_1.wav",
+      "sha256": "2c06a306744e7c6fccde9a0d878cfcb154c4d3b43083f1f0449ad33d98e46343",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C29D4_2023-05-03_11-38-48_0_1.wav",
+      "sha256": "02dea4fe3dbb1009c298f853abb94689b84f1e283e3696e9e7a844550d0eb77b",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C7CD0_2023-05-09_12-42-55_2_1.wav",
+      "sha256": "296ad9da04ac7b42ce1dae91db2c760cdbd26c297bc584bf4a28d3990c3c69a3",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C4209_2023-05-09_12-54-51_2_1.wav",
+      "sha256": "cc1b64304efdf4141dd0b53f1f33f280986a4f6c7c8f2ce94277a199401df5be",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C68B6_2023-05-09_12-56-13_2_1.wav",
+      "sha256": "cf330a2a797f016bd0f114feb055db6ae7755dac218f4d35c6abd45e6413236b",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/000000_2023-05-03_10-41-40_0_1.wav",
+      "sha256": "f06ec44d5d1c78fc96c51b95e20905082fd7bb275374184b34236c0a6d58465e",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/000000_2023-05-09_12-20-43_1_1.wav",
+      "sha256": "eb5c2c692e4bf9ee9d4651fde2b326e4a537a50e3be6d6ae5e3ab4054461445a",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "references/provenance/aerosonic-test-selection.json",
+      "sha256": "0a5dd6bfcca625473a274b95dc34e228dd931dd176637e38d47a2699b4336229",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/sample_meta.csv",
+      "sha256": "4dced5bcd953bc97a39cf54d2b585a7875ef7d9c43f3660951560869b009090c",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/locations.json",
+      "sha256": "7c9517bbb6b993d1d001fba15fc6ba2eee4a239ff0ee27122d790c75a8fe72a7",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    }
+  ],
+  "acoustic": [
+    {
+      "id": "hybrid-colsto-full-audio",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/Unknown location - raw audio [4CxVxuMVkMc].mp3",
+      "labels": [
+        {
+          "id": "colsto-flyover-1",
+          "anchors": [
+            {
+              "time_s": 2128,
+              "hz": 144
+            },
+            {
+              "time_s": 2140,
+              "hz": 131.5
+            },
+            {
+              "time_s": 2154,
+              "hz": 114
+            },
+            {
+              "time_s": 2168,
+              "hz": 102
+            },
+            {
+              "time_s": 2200,
+              "hz": 89
+            }
+          ],
+          "min_hit_fraction": 1,
+          "min_coverage": 1,
+          "max_rmse_hz": 3,
+          "require_strong": true
+        },
+        {
+          "id": "colsto-flyover-2",
+          "anchors": [
+            {
+              "time_s": 3050,
+              "hz": 168
+            },
+            {
+              "time_s": 3060,
+              "hz": 155.5
+            },
+            {
+              "time_s": 3070,
+              "hz": 138
+            },
+            {
+              "time_s": 3080,
+              "hz": 123.5
+            },
+            {
+              "time_s": 3090,
+              "hz": 116
+            },
+            {
+              "time_s": 3100,
+              "hz": 110
+            }
+          ],
+          "min_hit_fraction": 1,
+          "min_coverage": 1,
+          "max_rmse_hz": 3,
+          "require_strong": true
+        }
+      ],
+      "note": "Decode full recording and compute whitening anew before detection, matching the web analysis band.",
+      "detector_profile": "hybrid"
+    },
+    {
+      "id": "hybrid-pathak-n784mb_r04",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/pathak-2026/N784MB_R04/audio.wav",
+      "labels": [
+        {
+          "id": "publisher-r04",
+          "anchors": [
+            {
+              "time_s": 4.9750001430511475,
+              "hz": 321.073
+            },
+            {
+              "time_s": 5.1600000858306885,
+              "hz": 321.621
+            },
+            {
+              "time_s": 5.3459999561309814,
+              "hz": 321.212
+            },
+            {
+              "time_s": 5.5320000648498535,
+              "hz": 320.343
+            },
+            {
+              "time_s": 5.718000173568726,
+              "hz": 320.281
+            },
+            {
+              "time_s": 5.903000116348267,
+              "hz": 320.75
+            },
+            {
+              "time_s": 6.08899998664856,
+              "hz": 321.424
+            },
+            {
+              "time_s": 6.275000095367432,
+              "hz": 309.54
+            },
+            {
+              "time_s": 6.460999965667725,
+              "hz": 312.382
+            },
+            {
+              "time_s": 6.646000146865845,
+              "hz": 320.58
+            },
+            {
+              "time_s": 6.832000017166138,
+              "hz": 319.589
+            },
+            {
+              "time_s": 7.01800012588501,
+              "hz": 309.341
+            },
+            {
+              "time_s": 7.203999996185303,
+              "hz": 314.078
+            },
+            {
+              "time_s": 7.390000104904175,
+              "hz": 309.54
+            },
+            {
+              "time_s": 7.575000047683716,
+              "hz": 317.491
+            },
+            {
+              "time_s": 7.761000156402588,
+              "hz": 312.862
+            },
+            {
+              "time_s": 7.947000026702881,
+              "hz": 320.591
+            },
+            {
+              "time_s": 8.133000135421753,
+              "hz": 333.684
+            },
+            {
+              "time_s": 8.318000078201294,
+              "hz": 333.344
+            },
+            {
+              "time_s": 8.503999948501587,
+              "hz": 318.862
+            },
+            {
+              "time_s": 8.690000057220459,
+              "hz": 319.96
+            },
+            {
+              "time_s": 8.876000165939331,
+              "hz": 318.341
+            },
+            {
+              "time_s": 9.061000108718872,
+              "hz": 319.084
+            },
+            {
+              "time_s": 9.246999979019165,
+              "hz": 319.006
+            },
+            {
+              "time_s": 9.433000087738037,
+              "hz": 318.62
+            },
+            {
+              "time_s": 9.61899995803833,
+              "hz": 318.579
+            },
+            {
+              "time_s": 9.80400013923645,
+              "hz": 318.705
+            },
+            {
+              "time_s": 9.990000009536743,
+              "hz": 321.065
+            },
+            {
+              "time_s": 10.176000118255615,
+              "hz": 325.454
+            },
+            {
+              "time_s": 10.361999988555908,
+              "hz": 316.982
+            },
+            {
+              "time_s": 10.547000169754028,
+              "hz": 317.982
+            },
+            {
+              "time_s": 10.733000040054321,
+              "hz": 335.054
+            },
+            {
+              "time_s": 10.919000148773193,
+              "hz": 317.168
+            },
+            {
+              "time_s": 11.105000019073486,
+              "hz": 318.128
+            },
+            {
+              "time_s": 11.289999961853027,
+              "hz": 318.764
+            },
+            {
+              "time_s": 11.4760000705719,
+              "hz": 316.216
+            },
+            {
+              "time_s": 11.662000179290771,
+              "hz": 328.596
+            },
+            {
+              "time_s": 11.848000049591064,
+              "hz": 327.929
+            },
+            {
+              "time_s": 12.034000158309937,
+              "hz": 328.339
+            },
+            {
+              "time_s": 12.219000101089478,
+              "hz": 315.413
+            },
+            {
+              "time_s": 12.40499997138977,
+              "hz": 314.407
+            },
+            {
+              "time_s": 12.591000080108643,
+              "hz": 316.178
+            },
+            {
+              "time_s": 12.962000131607056,
+              "hz": 315.316
+            },
+            {
+              "time_s": 13.148000001907349,
+              "hz": 314.89
+            },
+            {
+              "time_s": 13.33400011062622,
+              "hz": 311.898
+            },
+            {
+              "time_s": 13.519999980926514,
+              "hz": 313.954
+            },
+            {
+              "time_s": 13.705000162124634,
+              "hz": 314.415
+            },
+            {
+              "time_s": 13.891000032424927,
+              "hz": 314.141
+            },
+            {
+              "time_s": 14.077000141143799,
+              "hz": 314.249
+            },
+            {
+              "time_s": 14.263000011444092,
+              "hz": 313.188
+            },
+            {
+              "time_s": 14.447999954223633,
+              "hz": 313.923
+            },
+            {
+              "time_s": 14.634000062942505,
+              "hz": 313.761
+            },
+            {
+              "time_s": 14.820000171661377,
+              "hz": 313.652
+            },
+            {
+              "time_s": 15.00600004196167,
+              "hz": 313.317
+            },
+            {
+              "time_s": 15.190999984741211,
+              "hz": 312.819
+            },
+            {
+              "time_s": 15.377000093460083,
+              "hz": 312.386
+            },
+            {
+              "time_s": 15.562999963760376,
+              "hz": 312.024
+            },
+            {
+              "time_s": 15.749000072479248,
+              "hz": 312.46
+            },
+            {
+              "time_s": 15.934000015258789,
+              "hz": 312.376
+            },
+            {
+              "time_s": 16.12000012397766,
+              "hz": 311.735
+            },
+            {
+              "time_s": 16.305999994277954,
+              "hz": 311.66
+            },
+            {
+              "time_s": 16.492000102996826,
+              "hz": 311.813
+            },
+            {
+              "time_s": 16.677000045776367,
+              "hz": 310.832
+            },
+            {
+              "time_s": 16.86300015449524,
+              "hz": 310.725
+            },
+            {
+              "time_s": 17.049000024795532,
+              "hz": 310.661
+            },
+            {
+              "time_s": 17.235000133514404,
+              "hz": 310.532
+            },
+            {
+              "time_s": 17.421000003814697,
+              "hz": 309.991
+            },
+            {
+              "time_s": 17.60599994659424,
+              "hz": 310.257
+            },
+            {
+              "time_s": 17.79200005531311,
+              "hz": 309.162
+            },
+            {
+              "time_s": 17.978000164031982,
+              "hz": 309.486
+            },
+            {
+              "time_s": 18.164000034332275,
+              "hz": 308.714
+            },
+            {
+              "time_s": 18.348999977111816,
+              "hz": 308.993
+            },
+            {
+              "time_s": 18.53500008583069,
+              "hz": 308.46
+            },
+            {
+              "time_s": 18.72099995613098,
+              "hz": 308.241
+            },
+            {
+              "time_s": 18.907000064849854,
+              "hz": 308.155
+            },
+            {
+              "time_s": 19.092000007629395,
+              "hz": 307.549
+            },
+            {
+              "time_s": 19.278000116348267,
+              "hz": 294.293
+            },
+            {
+              "time_s": 19.46399998664856,
+              "hz": 306.269
+            },
+            {
+              "time_s": 19.65000009536743,
+              "hz": 306.82
+            },
+            {
+              "time_s": 19.835000038146973,
+              "hz": 306.685
+            },
+            {
+              "time_s": 20.021000146865845,
+              "hz": 306.213
+            },
+            {
+              "time_s": 20.207000017166138,
+              "hz": 305.291
+            },
+            {
+              "time_s": 20.39300012588501,
+              "hz": 306.54
+            },
+            {
+              "time_s": 20.57800006866455,
+              "hz": 305.155
+            },
+            {
+              "time_s": 20.764000177383423,
+              "hz": 305.052
+            },
+            {
+              "time_s": 20.950000047683716,
+              "hz": 304.919
+            },
+            {
+              "time_s": 21.136000156402588,
+              "hz": 303.381
+            },
+            {
+              "time_s": 21.32100009918213,
+              "hz": 303.445
+            },
+            {
+              "time_s": 21.506999969482422,
+              "hz": 304.043
+            },
+            {
+              "time_s": 21.693000078201294,
+              "hz": 302.966
+            },
+            {
+              "time_s": 21.878999948501587,
+              "hz": 301.838
+            },
+            {
+              "time_s": 22.06500005722046,
+              "hz": 302.19
+            },
+            {
+              "time_s": 22.25,
+              "hz": 302.051
+            },
+            {
+              "time_s": 22.436000108718872,
+              "hz": 301.504
+            },
+            {
+              "time_s": 22.621999979019165,
+              "hz": 301.631
+            },
+            {
+              "time_s": 22.808000087738037,
+              "hz": 301.349
+            },
+            {
+              "time_s": 22.993000030517578,
+              "hz": 300.297
+            },
+            {
+              "time_s": 23.17900013923645,
+              "hz": 300.653
+            },
+            {
+              "time_s": 23.365000009536743,
+              "hz": 300.203
+            },
+            {
+              "time_s": 23.551000118255615,
+              "hz": 299.123
+            },
+            {
+              "time_s": 23.736000061035156,
+              "hz": 299.533
+            },
+            {
+              "time_s": 23.92200016975403,
+              "hz": 298.911
+            },
+            {
+              "time_s": 24.10800004005432,
+              "hz": 298.614
+            },
+            {
+              "time_s": 24.294000148773193,
+              "hz": 298.198
+            },
+            {
+              "time_s": 24.479000091552734,
+              "hz": 297.984
+            },
+            {
+              "time_s": 24.664999961853027,
+              "hz": 297.408
+            },
+            {
+              "time_s": 24.8510000705719,
+              "hz": 297.005
+            },
+            {
+              "time_s": 25.03700017929077,
+              "hz": 296.103
+            },
+            {
+              "time_s": 25.222000122070312,
+              "hz": 295.956
+            },
+            {
+              "time_s": 25.407999992370605,
+              "hz": 295.027
+            },
+            {
+              "time_s": 25.594000101089478,
+              "hz": 295.255
+            },
+            {
+              "time_s": 25.77999997138977,
+              "hz": 295.144
+            },
+            {
+              "time_s": 25.96500015258789,
+              "hz": 294.017
+            },
+            {
+              "time_s": 26.151000022888184,
+              "hz": 294.323
+            },
+            {
+              "time_s": 26.337000131607056,
+              "hz": 293.57
+            },
+            {
+              "time_s": 26.52300000190735,
+              "hz": 292.563
+            },
+            {
+              "time_s": 26.70900011062622,
+              "hz": 293.027
+            },
+            {
+              "time_s": 26.89400005340576,
+              "hz": 292.118
+            },
+            {
+              "time_s": 27.080000162124634,
+              "hz": 291.696
+            },
+            {
+              "time_s": 27.266000032424927,
+              "hz": 291.953
+            },
+            {
+              "time_s": 27.4520001411438,
+              "hz": 291.36
+            },
+            {
+              "time_s": 27.63700008392334,
+              "hz": 290.124
+            },
+            {
+              "time_s": 27.822999954223633,
+              "hz": 289.911
+            },
+            {
+              "time_s": 28.009000062942505,
+              "hz": 289.586
+            },
+            {
+              "time_s": 28.195000171661377,
+              "hz": 289.286
+            },
+            {
+              "time_s": 28.380000114440918,
+              "hz": 289.02
+            },
+            {
+              "time_s": 28.56599998474121,
+              "hz": 288.436
+            },
+            {
+              "time_s": 28.752000093460083,
+              "hz": 287.777
+            },
+            {
+              "time_s": 28.937999963760376,
+              "hz": 287.846
+            },
+            {
+              "time_s": 29.123000144958496,
+              "hz": 287.416
+            },
+            {
+              "time_s": 29.30900001525879,
+              "hz": 286.444
+            },
+            {
+              "time_s": 29.49500012397766,
+              "hz": 286.818
+            },
+            {
+              "time_s": 29.680999994277954,
+              "hz": 286.127
+            },
+            {
+              "time_s": 29.866000175476074,
+              "hz": 285.421
+            },
+            {
+              "time_s": 30.052000045776367,
+              "hz": 284.656
+            },
+            {
+              "time_s": 30.23800015449524,
+              "hz": 284.692
+            },
+            {
+              "time_s": 30.424000024795532,
+              "hz": 281.902
+            },
+            {
+              "time_s": 30.608999967575073,
+              "hz": 282.796
+            },
+            {
+              "time_s": 30.795000076293945,
+              "hz": 283.134
+            },
+            {
+              "time_s": 30.98099994659424,
+              "hz": 281.716
+            },
+            {
+              "time_s": 31.16700005531311,
+              "hz": 281.579
+            },
+            {
+              "time_s": 31.353000164031982,
+              "hz": 281.448
+            },
+            {
+              "time_s": 31.538000106811523,
+              "hz": 281.164
+            },
+            {
+              "time_s": 31.723999977111816,
+              "hz": 282.623
+            },
+            {
+              "time_s": 31.91000008583069,
+              "hz": 279.027
+            },
+            {
+              "time_s": 32.09599995613098,
+              "hz": 279.241
+            },
+            {
+              "time_s": 32.2810001373291,
+              "hz": 278.813
+            },
+            {
+              "time_s": 32.467000007629395,
+              "hz": 278.161
+            },
+            {
+              "time_s": 32.65300011634827,
+              "hz": 277.436
+            },
+            {
+              "time_s": 32.83899998664856,
+              "hz": 277.496
+            },
+            {
+              "time_s": 33.02400016784668,
+              "hz": 276.939
+            },
+            {
+              "time_s": 33.21000003814697,
+              "hz": 276.641
+            },
+            {
+              "time_s": 33.396000146865845,
+              "hz": 275.635
+            },
+            {
+              "time_s": 33.58200001716614,
+              "hz": 274.929
+            },
+            {
+              "time_s": 33.76699995994568,
+              "hz": 274.755
+            },
+            {
+              "time_s": 33.95300006866455,
+              "hz": 273.912
+            },
+            {
+              "time_s": 34.13900017738342,
+              "hz": 272.812
+            },
+            {
+              "time_s": 34.325000047683716,
+              "hz": 272.158
+            },
+            {
+              "time_s": 34.50999999046326,
+              "hz": 272.185
+            },
+            {
+              "time_s": 34.69600009918213,
+              "hz": 271.366
+            },
+            {
+              "time_s": 34.88199996948242,
+              "hz": 270.969
+            },
+            {
+              "time_s": 35.068000078201294,
+              "hz": 270.061
+            },
+            {
+              "time_s": 35.253000020980835,
+              "hz": 270.268
+            },
+            {
+              "time_s": 35.43900012969971,
+              "hz": 269.49
+            },
+            {
+              "time_s": 35.625,
+              "hz": 268.978
+            },
+            {
+              "time_s": 35.81100010871887,
+              "hz": 268.011
+            },
+            {
+              "time_s": 35.99600005149841,
+              "hz": 267.84
+            },
+            {
+              "time_s": 36.182000160217285,
+              "hz": 266.805
+            },
+            {
+              "time_s": 36.36800003051758,
+              "hz": 266.501
+            },
+            {
+              "time_s": 36.55400013923645,
+              "hz": 265.537
+            },
+            {
+              "time_s": 36.74000000953674,
+              "hz": 265.865
+            },
+            {
+              "time_s": 36.924999952316284,
+              "hz": 264.614
+            },
+            {
+              "time_s": 37.111000061035156,
+              "hz": 264.523
+            },
+            {
+              "time_s": 37.29700016975403,
+              "hz": 263.768
+            },
+            {
+              "time_s": 37.48300004005432,
+              "hz": 263.281
+            },
+            {
+              "time_s": 37.66799998283386,
+              "hz": 262.151
+            },
+            {
+              "time_s": 37.854000091552734,
+              "hz": 262.644
+            },
+            {
+              "time_s": 38.03999996185303,
+              "hz": 261.802
+            },
+            {
+              "time_s": 38.2260000705719,
+              "hz": 260.957
+            },
+            {
+              "time_s": 38.41100001335144,
+              "hz": 259.905
+            },
+            {
+              "time_s": 38.59700012207031,
+              "hz": 260.056
+            },
+            {
+              "time_s": 38.782999992370605,
+              "hz": 259.465
+            },
+            {
+              "time_s": 38.96900010108948,
+              "hz": 259.292
+            },
+            {
+              "time_s": 39.15400004386902,
+              "hz": 258.061
+            },
+            {
+              "time_s": 39.34000015258789,
+              "hz": 257.66
+            },
+            {
+              "time_s": 39.526000022888184,
+              "hz": 257.718
+            },
+            {
+              "time_s": 39.712000131607056,
+              "hz": 256.787
+            },
+            {
+              "time_s": 39.8970000743866,
+              "hz": 256.31
+            },
+            {
+              "time_s": 40.08299994468689,
+              "hz": 255.771
+            },
+            {
+              "time_s": 40.26900005340576,
+              "hz": 255.186
+            },
+            {
+              "time_s": 40.455000162124634,
+              "hz": 254.618
+            },
+            {
+              "time_s": 40.640000104904175,
+              "hz": 254.297
+            },
+            {
+              "time_s": 40.82599997520447,
+              "hz": 253.572
+            },
+            {
+              "time_s": 41.01200008392334,
+              "hz": 252.676
+            },
+            {
+              "time_s": 41.19799995422363,
+              "hz": 252.951
+            },
+            {
+              "time_s": 41.384000062942505,
+              "hz": 252.07
+            },
+            {
+              "time_s": 41.569000005722046,
+              "hz": 251.23
+            },
+            {
+              "time_s": 41.75500011444092,
+              "hz": 250.546
+            },
+            {
+              "time_s": 41.94099998474121,
+              "hz": 250.511
+            },
+            {
+              "time_s": 42.12700009346008,
+              "hz": 249.759
+            },
+            {
+              "time_s": 42.312000036239624,
+              "hz": 249.527
+            },
+            {
+              "time_s": 42.498000144958496,
+              "hz": 249.0
+            },
+            {
+              "time_s": 42.68400001525879,
+              "hz": 248.512
+            },
+            {
+              "time_s": 42.87000012397766,
+              "hz": 248.737
+            },
+            {
+              "time_s": 43.0550000667572,
+              "hz": 247.416
+            },
+            {
+              "time_s": 43.241000175476074,
+              "hz": 246.913
+            },
+            {
+              "time_s": 43.42700004577637,
+              "hz": 246.376
+            },
+            {
+              "time_s": 43.61300015449524,
+              "hz": 245.509
+            },
+            {
+              "time_s": 43.79800009727478,
+              "hz": 245.11
+            },
+            {
+              "time_s": 43.98399996757507,
+              "hz": 244.779
+            },
+            {
+              "time_s": 44.170000076293945,
+              "hz": 243.966
+            },
+            {
+              "time_s": 44.35599994659424,
+              "hz": 243.587
+            },
+            {
+              "time_s": 44.54100012779236,
+              "hz": 243.194
+            },
+            {
+              "time_s": 44.72699999809265,
+              "hz": 242.98
+            },
+            {
+              "time_s": 44.91300010681152,
+              "hz": 242.214
+            },
+            {
+              "time_s": 45.098999977111816,
+              "hz": 241.997
+            },
+            {
+              "time_s": 45.28400015830994,
+              "hz": 241.247
+            },
+            {
+              "time_s": 45.47000002861023,
+              "hz": 240.879
+            },
+            {
+              "time_s": 45.6560001373291,
+              "hz": 240.427
+            },
+            {
+              "time_s": 45.842000007629395,
+              "hz": 240.122
+            },
+            {
+              "time_s": 46.02800011634827,
+              "hz": 238.851
+            },
+            {
+              "time_s": 46.21300005912781,
+              "hz": 239.019
+            },
+            {
+              "time_s": 46.39900016784668,
+              "hz": 238.045
+            },
+            {
+              "time_s": 46.58500003814697,
+              "hz": 238.035
+            },
+            {
+              "time_s": 46.771000146865845,
+              "hz": 238.301
+            },
+            {
+              "time_s": 46.956000089645386,
+              "hz": 237.202
+            },
+            {
+              "time_s": 47.14199995994568,
+              "hz": 236.677
+            },
+            {
+              "time_s": 47.32800006866455,
+              "hz": 236.328
+            },
+            {
+              "time_s": 47.51400017738342,
+              "hz": 235.588
+            },
+            {
+              "time_s": 47.699000120162964,
+              "hz": 235.508
+            },
+            {
+              "time_s": 47.88499999046326,
+              "hz": 234.897
+            },
+            {
+              "time_s": 48.07100009918213,
+              "hz": 234.545
+            },
+            {
+              "time_s": 48.25699996948242,
+              "hz": 234.151
+            },
+            {
+              "time_s": 48.44200015068054,
+              "hz": 233.967
+            },
+            {
+              "time_s": 48.628000020980835,
+              "hz": 233.815
+            },
+            {
+              "time_s": 48.81400012969971,
+              "hz": 233.021
+            },
+            {
+              "time_s": 49.0,
+              "hz": 232.398
+            },
+            {
+              "time_s": 49.18499994277954,
+              "hz": 231.993
+            },
+            {
+              "time_s": 49.37100005149841,
+              "hz": 231.76
+            },
+            {
+              "time_s": 49.557000160217285,
+              "hz": 231.027
+            },
+            {
+              "time_s": 49.74300003051758,
+              "hz": 231.091
+            },
+            {
+              "time_s": 49.92799997329712,
+              "hz": 230.957
+            },
+            {
+              "time_s": 50.11400008201599,
+              "hz": 230.445
+            },
+            {
+              "time_s": 50.299999952316284,
+              "hz": 230.014
+            },
+            {
+              "time_s": 50.486000061035156,
+              "hz": 229.842
+            },
+            {
+              "time_s": 50.67200016975403,
+              "hz": 229.298
+            },
+            {
+              "time_s": 50.85700011253357,
+              "hz": 228.876
+            },
+            {
+              "time_s": 51.04299998283386,
+              "hz": 228.67
+            },
+            {
+              "time_s": 51.229000091552734,
+              "hz": 228.321
+            },
+            {
+              "time_s": 51.41499996185303,
+              "hz": 227.99
+            },
+            {
+              "time_s": 51.60000014305115,
+              "hz": 227.568
+            },
+            {
+              "time_s": 51.78600001335144,
+              "hz": 227.371
+            },
+            {
+              "time_s": 51.97200012207031,
+              "hz": 226.894
+            },
+            {
+              "time_s": 52.157999992370605,
+              "hz": 227.218
+            },
+            {
+              "time_s": 52.343000173568726,
+              "hz": 226.22
+            },
+            {
+              "time_s": 52.52900004386902,
+              "hz": 226.326
+            },
+            {
+              "time_s": 52.71500015258789,
+              "hz": 225.481
+            },
+            {
+              "time_s": 52.901000022888184,
+              "hz": 225.204
+            },
+            {
+              "time_s": 53.085999965667725,
+              "hz": 225.032
+            },
+            {
+              "time_s": 53.2720000743866,
+              "hz": 223.927
+            },
+            {
+              "time_s": 53.45799994468689,
+              "hz": 224.209
+            },
+            {
+              "time_s": 53.64400005340576,
+              "hz": 223.899
+            },
+            {
+              "time_s": 53.8289999961853,
+              "hz": 223.933
+            },
+            {
+              "time_s": 54.015000104904175,
+              "hz": 223.977
+            },
+            {
+              "time_s": 54.20099997520447,
+              "hz": 223.279
+            },
+            {
+              "time_s": 54.38700008392334,
+              "hz": 222.545
+            },
+            {
+              "time_s": 54.57200002670288,
+              "hz": 223.0
+            },
+            {
+              "time_s": 54.75800013542175,
+              "hz": 222.693
+            },
+            {
+              "time_s": 54.944000005722046,
+              "hz": 221.909
+            },
+            {
+              "time_s": 55.13000011444092,
+              "hz": 222.004
+            },
+            {
+              "time_s": 55.31599998474121,
+              "hz": 221.842
+            },
+            {
+              "time_s": 55.50100016593933,
+              "hz": 221.626
+            },
+            {
+              "time_s": 55.687000036239624,
+              "hz": 221.733
+            },
+            {
+              "time_s": 55.873000144958496,
+              "hz": 220.958
+            },
+            {
+              "time_s": 56.05900001525879,
+              "hz": 220.332
+            },
+            {
+              "time_s": 56.24399995803833,
+              "hz": 220.213
+            },
+            {
+              "time_s": 56.4300000667572,
+              "hz": 220.195
+            },
+            {
+              "time_s": 56.616000175476074,
+              "hz": 201.534
+            },
+            {
+              "time_s": 56.80200004577637,
+              "hz": 201.175
+            },
+            {
+              "time_s": 56.98699998855591,
+              "hz": 220.66
+            },
+            {
+              "time_s": 57.17300009727478,
+              "hz": 220.081
+            },
+            {
+              "time_s": 57.35899996757507,
+              "hz": 218.839
+            },
+            {
+              "time_s": 57.545000076293945,
+              "hz": 219.021
+            },
+            {
+              "time_s": 57.730000019073486,
+              "hz": 218.821
+            },
+            {
+              "time_s": 57.91600012779236,
+              "hz": 218.376
+            },
+            {
+              "time_s": 58.10199999809265,
+              "hz": 217.712
+            },
+            {
+              "time_s": 58.28800010681152,
+              "hz": 217.639
+            },
+            {
+              "time_s": 58.473000049591064,
+              "hz": 217.195
+            },
+            {
+              "time_s": 58.65900015830994,
+              "hz": 216.599
+            },
+            {
+              "time_s": 58.84500002861023,
+              "hz": 216.719
+            },
+            {
+              "time_s": 59.0310001373291,
+              "hz": 217.139
+            },
+            {
+              "time_s": 59.21600008010864,
+              "hz": 216.477
+            },
+            {
+              "time_s": 59.401999950408936,
+              "hz": 216.271
+            },
+            {
+              "time_s": 59.58800005912781,
+              "hz": 215.726
+            },
+            {
+              "time_s": 59.77400016784668,
+              "hz": 215.552
+            },
+            {
+              "time_s": 59.95900011062622,
+              "hz": 215.591
+            },
+            {
+              "time_s": 60.144999980926514,
+              "hz": 215.789
+            },
+            {
+              "time_s": 60.331000089645386,
+              "hz": 214.889
+            },
+            {
+              "time_s": 60.51699995994568,
+              "hz": 215.225
+            },
+            {
+              "time_s": 60.70300006866455,
+              "hz": 215.013
+            },
+            {
+              "time_s": 60.88800001144409,
+              "hz": 214.579
+            },
+            {
+              "time_s": 61.074000120162964,
+              "hz": 214.683
+            },
+            {
+              "time_s": 61.25999999046326,
+              "hz": 214.038
+            },
+            {
+              "time_s": 61.44600009918213,
+              "hz": 213.613
+            },
+            {
+              "time_s": 61.63100004196167,
+              "hz": 213.94
+            },
+            {
+              "time_s": 62.003000020980835,
+              "hz": 213.566
+            },
+            {
+              "time_s": 62.18900012969971,
+              "hz": 212.864
+            },
+            {
+              "time_s": 62.37400007247925,
+              "hz": 212.899
+            },
+            {
+              "time_s": 62.55999994277954,
+              "hz": 212.615
+            },
+            {
+              "time_s": 62.74600005149841,
+              "hz": 213.509
+            },
+            {
+              "time_s": 62.932000160217285,
+              "hz": 212.121
+            },
+            {
+              "time_s": 63.117000102996826,
+              "hz": 212.283
+            },
+            {
+              "time_s": 63.30299997329712,
+              "hz": 212.296
+            },
+            {
+              "time_s": 63.48900008201599,
+              "hz": 212.091
+            },
+            {
+              "time_s": 63.674999952316284,
+              "hz": 211.942
+            },
+            {
+              "time_s": 63.860000133514404,
+              "hz": 211.735
+            },
+            {
+              "time_s": 64.0460000038147,
+              "hz": 211.25
+            },
+            {
+              "time_s": 64.23200011253357,
+              "hz": 211.141
+            },
+            {
+              "time_s": 64.41799998283386,
+              "hz": 211.049
+            },
+            {
+              "time_s": 64.60300016403198,
+              "hz": 211.556
+            },
+            {
+              "time_s": 64.78900003433228,
+              "hz": 210.661
+            },
+            {
+              "time_s": 64.97500014305115,
+              "hz": 210.865
+            },
+            {
+              "time_s": 65.16100001335144,
+              "hz": 210.37
+            },
+            {
+              "time_s": 65.34700012207031,
+              "hz": 210.753
+            },
+            {
+              "time_s": 65.53200006484985,
+              "hz": 210.401
+            },
+            {
+              "time_s": 65.71800017356873,
+              "hz": 210.068
+            },
+            {
+              "time_s": 65.90400004386902,
+              "hz": 211.156
+            },
+            {
+              "time_s": 66.09000015258789,
+              "hz": 210.773
+            },
+            {
+              "time_s": 66.27500009536743,
+              "hz": 208.668
+            },
+            {
+              "time_s": 66.46099996566772,
+              "hz": 209.721
+            },
+            {
+              "time_s": 66.6470000743866,
+              "hz": 191.215
+            },
+            {
+              "time_s": 66.83299994468689,
+              "hz": 209.724
+            },
+            {
+              "time_s": 67.01800012588501,
+              "hz": 209.046
+            },
+            {
+              "time_s": 67.2039999961853,
+              "hz": 208.933
+            },
+            {
+              "time_s": 67.57599997520447,
+              "hz": 208.387
+            },
+            {
+              "time_s": 67.76100015640259,
+              "hz": 208.747
+            },
+            {
+              "time_s": 67.94700002670288,
+              "hz": 208.391
+            },
+            {
+              "time_s": 68.13300013542175,
+              "hz": 208.263
+            },
+            {
+              "time_s": 68.31900000572205,
+              "hz": 208.286
+            },
+            {
+              "time_s": 68.50399994850159,
+              "hz": 207.931
+            },
+            {
+              "time_s": 68.69000005722046,
+              "hz": 208.122
+            },
+            {
+              "time_s": 68.87600016593933,
+              "hz": 207.654
+            },
+            {
+              "time_s": 69.06200003623962,
+              "hz": 207.559
+            },
+            {
+              "time_s": 69.24699997901917,
+              "hz": 207.562
+            },
+            {
+              "time_s": 69.43300008773804,
+              "hz": 207.479
+            },
+            {
+              "time_s": 69.61899995803833,
+              "hz": 207.533
+            },
+            {
+              "time_s": 69.8050000667572,
+              "hz": 207.614
+            },
+            {
+              "time_s": 69.99100017547607,
+              "hz": 206.88
+            },
+            {
+              "time_s": 70.17600011825562,
+              "hz": 206.685
+            },
+            {
+              "time_s": 70.36199998855591,
+              "hz": 207.144
+            },
+            {
+              "time_s": 70.54800009727478,
+              "hz": 206.249
+            },
+            {
+              "time_s": 70.73399996757507,
+              "hz": 206.764
+            },
+            {
+              "time_s": 70.9190001487732,
+              "hz": 206.709
+            },
+            {
+              "time_s": 71.10500001907349,
+              "hz": 206.591
+            },
+            {
+              "time_s": 71.29100012779236,
+              "hz": 206.701
+            },
+            {
+              "time_s": 71.47699999809265,
+              "hz": 206.304
+            },
+            {
+              "time_s": 71.66200017929077,
+              "hz": 206.262
+            },
+            {
+              "time_s": 71.84800004959106,
+              "hz": 206.051
+            },
+            {
+              "time_s": 72.03400015830994,
+              "hz": 206.185
+            },
+            {
+              "time_s": 72.22000002861023,
+              "hz": 206.04
+            },
+            {
+              "time_s": 72.40499997138977,
+              "hz": 205.936
+            },
+            {
+              "time_s": 72.59100008010864,
+              "hz": 205.766
+            },
+            {
+              "time_s": 72.77699995040894,
+              "hz": 205.465
+            },
+            {
+              "time_s": 72.96300005912781,
+              "hz": 205.583
+            },
+            {
+              "time_s": 73.14800000190735,
+              "hz": 205.42
+            },
+            {
+              "time_s": 73.33400011062622,
+              "hz": 205.368
+            },
+            {
+              "time_s": 73.51999998092651,
+              "hz": 205.219
+            },
+            {
+              "time_s": 73.70600008964539,
+              "hz": 205.56
+            },
+            {
+              "time_s": 73.89100003242493,
+              "hz": 205.266
+            },
+            {
+              "time_s": 74.0770001411438,
+              "hz": 204.94
+            },
+            {
+              "time_s": 74.26300001144409,
+              "hz": 205.043
+            },
+            {
+              "time_s": 74.44900012016296,
+              "hz": 204.66
+            },
+            {
+              "time_s": 74.63499999046326,
+              "hz": 204.97
+            },
+            {
+              "time_s": 74.82000017166138,
+              "hz": 204.973
+            },
+            {
+              "time_s": 75.00600004196167,
+              "hz": 204.727
+            },
+            {
+              "time_s": 75.19200015068054,
+              "hz": 204.961
+            },
+            {
+              "time_s": 75.37800002098083,
+              "hz": 204.627
+            },
+            {
+              "time_s": 75.56299996376038,
+              "hz": 204.094
+            },
+            {
+              "time_s": 75.74900007247925,
+              "hz": 204.275
+            },
+            {
+              "time_s": 75.93499994277954,
+              "hz": 204.437
+            },
+            {
+              "time_s": 76.12100005149841,
+              "hz": 204.012
+            },
+            {
+              "time_s": 76.30599999427795,
+              "hz": 204.458
+            },
+            {
+              "time_s": 76.49200010299683,
+              "hz": 204.042
+            },
+            {
+              "time_s": 76.67799997329712,
+              "hz": 203.765
+            },
+            {
+              "time_s": 76.86400008201599,
+              "hz": 203.823
+            },
+            {
+              "time_s": 77.04900002479553,
+              "hz": 203.988
+            },
+            {
+              "time_s": 77.2350001335144,
+              "hz": 203.894
+            },
+            {
+              "time_s": 77.4210000038147,
+              "hz": 203.713
+            },
+            {
+              "time_s": 77.60700011253357,
+              "hz": 203.864
+            },
+            {
+              "time_s": 77.79200005531311,
+              "hz": 203.537
+            },
+            {
+              "time_s": 77.97800016403198,
+              "hz": 203.707
+            },
+            {
+              "time_s": 78.16400003433228,
+              "hz": 203.79
+            },
+            {
+              "time_s": 78.35000014305115,
+              "hz": 203.445
+            },
+            {
+              "time_s": 78.53500008583069,
+              "hz": 203.387
+            },
+            {
+              "time_s": 78.72099995613098,
+              "hz": 203.73
+            },
+            {
+              "time_s": 78.90700006484985,
+              "hz": 202.877
+            },
+            {
+              "time_s": 79.09300017356873,
+              "hz": 202.566
+            },
+            {
+              "time_s": 79.27800011634827,
+              "hz": 203.449
+            },
+            {
+              "time_s": 79.46399998664856,
+              "hz": 203.077
+            },
+            {
+              "time_s": 79.65000009536743,
+              "hz": 203.028
+            },
+            {
+              "time_s": 79.83599996566772,
+              "hz": 203.012
+            },
+            {
+              "time_s": 80.0220000743866,
+              "hz": 202.716
+            },
+            {
+              "time_s": 80.20700001716614,
+              "hz": 202.791
+            }
+          ],
+          "min_hit_fraction": 0.95,
+          "min_coverage": 1,
+          "max_rmse_hz": 3,
+          "require_strong": true
+        }
+      ],
+      "note": "Publisher UTC trace independently aligned to audio by +4.975 s; development regression.",
+      "detector_profile": "hybrid"
+    },
+    {
+      "id": "hybrid-a320",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/aerosonic-ypad0523/7C7CD0_2022-12-08_12-29-45_0_0.wav",
+      "detector_profile": "hybrid",
+      "labels": [
+        {
+          "id": "upper-tonal-branch",
+          "anchors": [
+            {
+              "time_s": 22,
+              "hz": 787.9
+            },
+            {
+              "time_s": 26,
+              "hz": 785.9
+            },
+            {
+              "time_s": 30,
+              "hz": 719.9
+            },
+            {
+              "time_s": 34,
+              "hz": 619.9
+            },
+            {
+              "time_s": 38,
+              "hz": 534
+            },
+            {
+              "time_s": 42,
+              "hz": 498
+            },
+            {
+              "time_s": 46,
+              "hz": 476
+            },
+            {
+              "time_s": 50,
+              "hz": 464
+            }
+          ],
+          "min_hit_fraction": 0.875,
+          "min_coverage": 1,
+          "max_rmse_hz": 5,
+          "require_strong": true
+        }
+      ],
+      "note": "Training subset, not a held-out accuracy estimate. Aircraft labels do not by themselves establish a trackable curve. Public recorder coordinates are displaced."
+    },
+    {
+      "id": "hybrid-phenom-r20",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/pathak-2026/N394FX_R20/audio.wav",
+      "detector_profile": "hybrid",
+      "labels": [
+        {
+          "id": "publisher-frequency-trace",
+          "anchors": [
+            {
+              "time_s": 5.05,
+              "hz": 507.46
+            },
+            {
+              "time_s": 5.236000108718872,
+              "hz": 500.868
+            },
+            {
+              "time_s": 5.422000217437744,
+              "hz": 499.198
+            },
+            {
+              "time_s": 5.607000160217285,
+              "hz": 492.474
+            },
+            {
+              "time_s": 5.793000030517578,
+              "hz": 487.624
+            },
+            {
+              "time_s": 5.97900013923645,
+              "hz": 496.856
+            },
+            {
+              "time_s": 6.165000009536743,
+              "hz": 494.657
+            },
+            {
+              "time_s": 6.350000190734863,
+              "hz": 491.84
+            },
+            {
+              "time_s": 6.536000061035156,
+              "hz": 492.79
+            },
+            {
+              "time_s": 6.722000169754028,
+              "hz": 487.832
+            },
+            {
+              "time_s": 6.908000040054321,
+              "hz": 484.571
+            },
+            {
+              "time_s": 7.092999982833862,
+              "hz": 485.513
+            },
+            {
+              "time_s": 7.279000091552734,
+              "hz": 486.178
+            },
+            {
+              "time_s": 7.465000200271606,
+              "hz": 481.188
+            },
+            {
+              "time_s": 7.651000070571899,
+              "hz": 478.377
+            },
+            {
+              "time_s": 7.837000179290771,
+              "hz": 474.786
+            },
+            {
+              "time_s": 8.022000122070313,
+              "hz": 478.787
+            },
+            {
+              "time_s": 8.207999992370606,
+              "hz": 472.713
+            },
+            {
+              "time_s": 8.394000101089478,
+              "hz": 473.396
+            },
+            {
+              "time_s": 8.58000020980835,
+              "hz": 465.239
+            },
+            {
+              "time_s": 8.765000152587891,
+              "hz": 468.256
+            },
+            {
+              "time_s": 8.951000022888184,
+              "hz": 468.029
+            },
+            {
+              "time_s": 9.137000131607056,
+              "hz": 458.913
+            },
+            {
+              "time_s": 9.32300000190735,
+              "hz": 463.254
+            },
+            {
+              "time_s": 9.50800018310547,
+              "hz": 460.087
+            },
+            {
+              "time_s": 9.694000053405762,
+              "hz": 453.72
+            },
+            {
+              "time_s": 9.880000162124634,
+              "hz": 450.037
+            },
+            {
+              "time_s": 10.066000032424927,
+              "hz": 448.508
+            },
+            {
+              "time_s": 10.251000213623048,
+              "hz": 444.353
+            },
+            {
+              "time_s": 10.43700008392334,
+              "hz": 446.037
+            },
+            {
+              "time_s": 10.623000192642213,
+              "hz": 442.387
+            },
+            {
+              "time_s": 10.809000062942506,
+              "hz": 442.005
+            },
+            {
+              "time_s": 10.994000005722047,
+              "hz": 441.986
+            },
+            {
+              "time_s": 11.180000114440919,
+              "hz": 432.999
+            },
+            {
+              "time_s": 11.365999984741212,
+              "hz": 436.437
+            },
+            {
+              "time_s": 11.552000093460084,
+              "hz": 435.113
+            },
+            {
+              "time_s": 11.737000036239625,
+              "hz": 424.627
+            },
+            {
+              "time_s": 11.923000144958497,
+              "hz": 426.766
+            },
+            {
+              "time_s": 12.10900001525879,
+              "hz": 427.264
+            },
+            {
+              "time_s": 12.295000123977662,
+              "hz": 425.062
+            },
+            {
+              "time_s": 12.480999994277955,
+              "hz": 420.142
+            },
+            {
+              "time_s": 12.666000175476075,
+              "hz": 420.338
+            },
+            {
+              "time_s": 12.852000045776368,
+              "hz": 418.591
+            },
+            {
+              "time_s": 13.03800015449524,
+              "hz": 416.149
+            },
+            {
+              "time_s": 13.224000024795533,
+              "hz": 409.492
+            },
+            {
+              "time_s": 13.409000205993653,
+              "hz": 408.095
+            },
+            {
+              "time_s": 13.595000076293946,
+              "hz": 406.355
+            },
+            {
+              "time_s": 13.781000185012818,
+              "hz": 404.559
+            },
+            {
+              "time_s": 13.967000055313111,
+              "hz": 404.57
+            },
+            {
+              "time_s": 14.151999998092652,
+              "hz": 399.528
+            },
+            {
+              "time_s": 14.338000106811524,
+              "hz": 394.34
+            },
+            {
+              "time_s": 14.524000215530396,
+              "hz": 393.763
+            },
+            {
+              "time_s": 14.71000008583069,
+              "hz": 392.85
+            },
+            {
+              "time_s": 14.89500002861023,
+              "hz": 392.258
+            },
+            {
+              "time_s": 15.081000137329102,
+              "hz": 385.11
+            },
+            {
+              "time_s": 15.267000007629395,
+              "hz": 382.385
+            },
+            {
+              "time_s": 15.453000116348267,
+              "hz": 382.647
+            },
+            {
+              "time_s": 15.638000059127808,
+              "hz": 379.749
+            },
+            {
+              "time_s": 15.82400016784668,
+              "hz": 379.275
+            },
+            {
+              "time_s": 16.010000038146973,
+              "hz": 377.936
+            },
+            {
+              "time_s": 16.196000146865845,
+              "hz": 373.889
+            },
+            {
+              "time_s": 16.381000089645386,
+              "hz": 375.279
+            },
+            {
+              "time_s": 16.56700019836426,
+              "hz": 367.518
+            },
+            {
+              "time_s": 16.75300006866455,
+              "hz": 366.2
+            },
+            {
+              "time_s": 17.124000120162965,
+              "hz": 358.484
+            },
+            {
+              "time_s": 17.309999990463258,
+              "hz": 360.303
+            },
+            {
+              "time_s": 17.49600009918213,
+              "hz": 358.693
+            },
+            {
+              "time_s": 17.682000207901,
+              "hz": 359.229
+            },
+            {
+              "time_s": 17.868000078201295,
+              "hz": 355.629
+            },
+            {
+              "time_s": 18.053000020980836,
+              "hz": 347.037
+            },
+            {
+              "time_s": 18.239000129699708,
+              "hz": 349.065
+            },
+            {
+              "time_s": 18.425,
+              "hz": 347.906
+            },
+            {
+              "time_s": 18.611000108718873,
+              "hz": 346.472
+            },
+            {
+              "time_s": 18.796000051498414,
+              "hz": 344.612
+            },
+            {
+              "time_s": 18.982000160217286,
+              "hz": 342.263
+            },
+            {
+              "time_s": 19.16800003051758,
+              "hz": 340.781
+            },
+            {
+              "time_s": 19.35400013923645,
+              "hz": 341.564
+            },
+            {
+              "time_s": 19.539000082015992,
+              "hz": 338.454
+            },
+            {
+              "time_s": 19.725000190734864,
+              "hz": 337.187
+            },
+            {
+              "time_s": 19.911000061035157,
+              "hz": 336.558
+            },
+            {
+              "time_s": 20.09700016975403,
+              "hz": 335.597
+            },
+            {
+              "time_s": 20.28200011253357,
+              "hz": 330.339
+            },
+            {
+              "time_s": 20.467999982833863,
+              "hz": 328.818
+            },
+            {
+              "time_s": 20.654000091552735,
+              "hz": 323.854
+            },
+            {
+              "time_s": 20.840000200271607,
+              "hz": 327.342
+            },
+            {
+              "time_s": 21.025000143051148,
+              "hz": 328.298
+            },
+            {
+              "time_s": 21.21100001335144,
+              "hz": 323.943
+            },
+            {
+              "time_s": 21.397000122070313,
+              "hz": 325.285
+            },
+            {
+              "time_s": 21.582999992370606,
+              "hz": 322.224
+            },
+            {
+              "time_s": 21.768000173568726,
+              "hz": 319.656
+            },
+            {
+              "time_s": 21.95400004386902,
+              "hz": 316.421
+            },
+            {
+              "time_s": 22.14000015258789,
+              "hz": 318.203
+            },
+            {
+              "time_s": 22.326000022888184,
+              "hz": 317.013
+            },
+            {
+              "time_s": 22.512000131607056,
+              "hz": 318.356
+            },
+            {
+              "time_s": 22.697000074386597,
+              "hz": 314.624
+            },
+            {
+              "time_s": 22.88300018310547,
+              "hz": 309.645
+            },
+            {
+              "time_s": 23.069000053405762,
+              "hz": 311.316
+            },
+            {
+              "time_s": 23.255000162124634,
+              "hz": 310.136
+            },
+            {
+              "time_s": 23.440000104904176,
+              "hz": 309.432
+            },
+            {
+              "time_s": 23.626000213623048,
+              "hz": 307.429
+            },
+            {
+              "time_s": 23.81200008392334,
+              "hz": 308.325
+            },
+            {
+              "time_s": 23.998000192642213,
+              "hz": 308.833
+            },
+            {
+              "time_s": 24.183000135421754,
+              "hz": 305.586
+            },
+            {
+              "time_s": 24.369000005722047,
+              "hz": 303.759
+            },
+            {
+              "time_s": 24.55500011444092,
+              "hz": 303.426
+            },
+            {
+              "time_s": 24.74099998474121,
+              "hz": 300.458
+            },
+            {
+              "time_s": 24.92600016593933,
+              "hz": 302.771
+            },
+            {
+              "time_s": 25.112000036239625,
+              "hz": 303.763
+            },
+            {
+              "time_s": 25.298000144958497,
+              "hz": 299.286
+            },
+            {
+              "time_s": 25.48400001525879,
+              "hz": 301.714
+            },
+            {
+              "time_s": 25.66900019645691,
+              "hz": 294.978
+            },
+            {
+              "time_s": 25.855000066757203,
+              "hz": 300.735
+            },
+            {
+              "time_s": 26.041000175476075,
+              "hz": 297.614
+            },
+            {
+              "time_s": 26.227000045776368,
+              "hz": 294.593
+            },
+            {
+              "time_s": 26.41199998855591,
+              "hz": 294.142
+            },
+            {
+              "time_s": 26.59800009727478,
+              "hz": 296.62
+            },
+            {
+              "time_s": 26.784000205993653,
+              "hz": 294.584
+            },
+            {
+              "time_s": 26.970000076293946,
+              "hz": 294.969
+            },
+            {
+              "time_s": 27.156000185012818,
+              "hz": 290.491
+            },
+            {
+              "time_s": 27.34100012779236,
+              "hz": 291.874
+            },
+            {
+              "time_s": 27.526999998092652,
+              "hz": 292.168
+            },
+            {
+              "time_s": 27.713000106811524,
+              "hz": 292.086
+            },
+            {
+              "time_s": 27.899000215530396,
+              "hz": 290.272
+            },
+            {
+              "time_s": 28.084000158309937,
+              "hz": 289.798
+            },
+            {
+              "time_s": 28.27000002861023,
+              "hz": 289.5
+            },
+            {
+              "time_s": 28.456000137329102,
+              "hz": 288.89
+            },
+            {
+              "time_s": 28.642000007629395,
+              "hz": 287.633
+            },
+            {
+              "time_s": 28.827000188827515,
+              "hz": 289.26
+            },
+            {
+              "time_s": 29.01300005912781,
+              "hz": 290.373
+            },
+            {
+              "time_s": 29.19900016784668,
+              "hz": 287.071
+            },
+            {
+              "time_s": 29.385000038146973,
+              "hz": 287.514
+            },
+            {
+              "time_s": 29.569999980926514,
+              "hz": 288.667
+            },
+            {
+              "time_s": 29.756000089645386,
+              "hz": 281.814
+            },
+            {
+              "time_s": 29.94200019836426,
+              "hz": 284.864
+            },
+            {
+              "time_s": 30.12800006866455,
+              "hz": 282.88
+            },
+            {
+              "time_s": 30.313000011444093,
+              "hz": 284.673
+            },
+            {
+              "time_s": 30.499000120162965,
+              "hz": 283.665
+            },
+            {
+              "time_s": 30.684999990463258,
+              "hz": 285.293
+            },
+            {
+              "time_s": 30.87100009918213,
+              "hz": 282.53
+            },
+            {
+              "time_s": 31.05600004196167,
+              "hz": 277.015
+            },
+            {
+              "time_s": 31.242000150680543,
+              "hz": 281.602
+            },
+            {
+              "time_s": 31.428000020980836,
+              "hz": 275.702
+            },
+            {
+              "time_s": 31.614000129699708,
+              "hz": 281.572
+            },
+            {
+              "time_s": 31.8,
+              "hz": 280.935
+            },
+            {
+              "time_s": 31.98500018119812,
+              "hz": 278.713
+            },
+            {
+              "time_s": 32.17100005149841,
+              "hz": 279.195
+            },
+            {
+              "time_s": 32.35700016021728,
+              "hz": 278.234
+            },
+            {
+              "time_s": 32.543000030517575,
+              "hz": 275.69
+            },
+            {
+              "time_s": 32.728000211715695,
+              "hz": 277.242
+            },
+            {
+              "time_s": 32.91400008201599,
+              "hz": 280.436
+            },
+            {
+              "time_s": 33.10000019073486,
+              "hz": 278.802
+            },
+            {
+              "time_s": 33.28600006103515,
+              "hz": 271.481
+            },
+            {
+              "time_s": 33.471000003814694,
+              "hz": 277.13
+            },
+            {
+              "time_s": 33.65700011253357,
+              "hz": 277.149
+            },
+            {
+              "time_s": 33.84299998283386,
+              "hz": 276.294
+            },
+            {
+              "time_s": 34.02900009155273,
+              "hz": 275.568
+            },
+            {
+              "time_s": 34.21400003433227,
+              "hz": 278.497
+            },
+            {
+              "time_s": 34.400000143051145,
+              "hz": 274.0
+            },
+            {
+              "time_s": 34.58600001335144,
+              "hz": 275.622
+            },
+            {
+              "time_s": 34.77200012207031,
+              "hz": 274.589
+            },
+            {
+              "time_s": 34.95700006484985,
+              "hz": 275.811
+            },
+            {
+              "time_s": 35.14300017356872,
+              "hz": 274.271
+            },
+            {
+              "time_s": 35.329000043869016,
+              "hz": 272.943
+            },
+            {
+              "time_s": 35.51500015258789,
+              "hz": 276.522
+            },
+            {
+              "time_s": 35.70000009536743,
+              "hz": 274.919
+            },
+            {
+              "time_s": 36.258000183105466,
+              "hz": 273.404
+            },
+            {
+              "time_s": 36.44300012588501,
+              "hz": 281.803
+            },
+            {
+              "time_s": 36.6289999961853,
+              "hz": 273.685
+            },
+            {
+              "time_s": 36.81500010490417,
+              "hz": 275.059
+            },
+            {
+              "time_s": 37.001000213623044,
+              "hz": 273.915
+            },
+            {
+              "time_s": 37.18700008392334,
+              "hz": 274.129
+            },
+            {
+              "time_s": 37.37200002670288,
+              "hz": 276.539
+            },
+            {
+              "time_s": 37.55800013542175,
+              "hz": 273.674
+            },
+            {
+              "time_s": 37.74400000572204,
+              "hz": 274.514
+            },
+            {
+              "time_s": 37.930000114440915,
+              "hz": 274.395
+            },
+            {
+              "time_s": 38.115000057220456,
+              "hz": 272.308
+            },
+            {
+              "time_s": 38.30100016593933,
+              "hz": 269.051
+            },
+            {
+              "time_s": 38.48700003623962,
+              "hz": 271.756
+            },
+            {
+              "time_s": 38.67300014495849,
+              "hz": 271.101
+            },
+            {
+              "time_s": 38.858000087738034,
+              "hz": 271.065
+            },
+            {
+              "time_s": 39.044000196456906,
+              "hz": 271.92
+            },
+            {
+              "time_s": 39.2300000667572,
+              "hz": 273.132
+            },
+            {
+              "time_s": 39.41600017547607,
+              "hz": 268.868
+            },
+            {
+              "time_s": 39.60100011825561,
+              "hz": 271.301
+            },
+            {
+              "time_s": 39.786999988555905,
+              "hz": 271.907
+            },
+            {
+              "time_s": 39.97300009727478,
+              "hz": 272.766
+            },
+            {
+              "time_s": 40.15900020599365,
+              "hz": 270.878
+            },
+            {
+              "time_s": 40.34400014877319,
+              "hz": 270.37
+            },
+            {
+              "time_s": 40.53000001907348,
+              "hz": 271.638
+            },
+            {
+              "time_s": 40.716000127792356,
+              "hz": 269.384
+            },
+            {
+              "time_s": 40.90199999809265,
+              "hz": 272.051
+            },
+            {
+              "time_s": 41.08700017929077,
+              "hz": 270.569
+            },
+            {
+              "time_s": 41.27300004959106,
+              "hz": 269.883
+            },
+            {
+              "time_s": 41.459000158309934,
+              "hz": 270.141
+            },
+            {
+              "time_s": 41.64500002861023,
+              "hz": 270.969
+            },
+            {
+              "time_s": 41.8310001373291,
+              "hz": 269.823
+            },
+            {
+              "time_s": 42.01600008010864,
+              "hz": 274.915
+            },
+            {
+              "time_s": 42.75900011062622,
+              "hz": 268.744
+            },
+            {
+              "time_s": 42.94499998092651,
+              "hz": 265.239
+            },
+            {
+              "time_s": 43.13100008964538,
+              "hz": 268.337
+            },
+            {
+              "time_s": 43.317000198364255,
+              "hz": 268.797
+            },
+            {
+              "time_s": 43.502000141143796,
+              "hz": 265.478
+            },
+            {
+              "time_s": 43.68800001144409,
+              "hz": 267.358
+            },
+            {
+              "time_s": 43.87400012016296,
+              "hz": 266.758
+            },
+            {
+              "time_s": 44.059999990463254,
+              "hz": 268.993
+            },
+            {
+              "time_s": 44.245000171661374,
+              "hz": 267.53
+            },
+            {
+              "time_s": 44.43100004196167,
+              "hz": 267.108
+            },
+            {
+              "time_s": 44.98800020217895,
+              "hz": 269.338
+            },
+            {
+              "time_s": 45.54600005149841,
+              "hz": 264.088
+            },
+            {
+              "time_s": 45.73099999427795,
+              "hz": 267.377
+            },
+            {
+              "time_s": 45.91700010299682,
+              "hz": 271.33
+            },
+            {
+              "time_s": 46.103000211715695,
+              "hz": 268.887
+            },
+            {
+              "time_s": 47.03200011253357,
+              "hz": 262.739
+            },
+            {
+              "time_s": 47.21799998283386,
+              "hz": 264.517
+            },
+            {
+              "time_s": 47.40300016403198,
+              "hz": 266.616
+            },
+            {
+              "time_s": 47.58900003433227,
+              "hz": 264.505
+            },
+            {
+              "time_s": 48.33200006484985,
+              "hz": 265.76
+            },
+            {
+              "time_s": 48.704000043869016,
+              "hz": 262.478
+            },
+            {
+              "time_s": 48.88899998664856,
+              "hz": 265.729
+            },
+            {
+              "time_s": 49.07500009536743,
+              "hz": 275.289
+            },
+            {
+              "time_s": 49.2610002040863,
+              "hz": 271.506
+            },
+            {
+              "time_s": 49.81800012588501,
+              "hz": 275.085
+            },
+            {
+              "time_s": 50.19000010490417,
+              "hz": 273.492
+            },
+            {
+              "time_s": 50.37500004768371,
+              "hz": 272.176
+            },
+            {
+              "time_s": 52.04700021743774,
+              "hz": 269.068
+            },
+            {
+              "time_s": 52.419000196456906,
+              "hz": 262.869
+            },
+            {
+              "time_s": 52.6050000667572,
+              "hz": 263.419
+            },
+            {
+              "time_s": 52.79000000953674,
+              "hz": 264.452
+            },
+            {
+              "time_s": 53.161999988555905,
+              "hz": 265.456
+            },
+            {
+              "time_s": 53.34800009727478,
+              "hz": 265.476
+            },
+            {
+              "time_s": 53.71900014877319,
+              "hz": 262.006
+            },
+            {
+              "time_s": 54.834000158309934,
+              "hz": 260.959
+            },
+            {
+              "time_s": 55.019000101089475,
+              "hz": 265.991
+            },
+            {
+              "time_s": 55.20500020980835,
+              "hz": 264.391
+            },
+            {
+              "time_s": 55.57700018882751,
+              "hz": 263.638
+            }
+          ],
+          "min_hit_fraction": 0.75,
+          "min_coverage": 0.8,
+          "max_rmse_hz": 3,
+          "require_strong": true
+        }
+      ],
+      "note": "Real E55P jet. All 235 published trace samples evaluated. Alignment +5.05 s inferred from audio only. Development gate for partial recovery, not full trace completion. Recorder GPS unverified."
+    },
+    {
+      "id": "hybrid-challenger-extended-ridge",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/pathak-2026/N563FX_R21/audio.wav",
+      "detector_profile": "hybrid",
+      "labels": [
+        {
+          "id": "publisher-frequency-trace",
+          "anchors": [
+            {
+              "time_s": 5.000000000000004,
+              "hz": 1253.572
+            },
+            {
+              "time_s": 5.186000000000004,
+              "hz": 1251.051
+            },
+            {
+              "time_s": 5.372000000000004,
+              "hz": 1223.993
+            },
+            {
+              "time_s": 5.558000000000004,
+              "hz": 1239.128
+            },
+            {
+              "time_s": 5.743000000000005,
+              "hz": 1242.478
+            },
+            {
+              "time_s": 5.929000000000005,
+              "hz": 1249.774
+            },
+            {
+              "time_s": 6.115000000000005,
+              "hz": 1248.102
+            },
+            {
+              "time_s": 6.301000000000005,
+              "hz": 1254.02
+            },
+            {
+              "time_s": 6.486000000000004,
+              "hz": 1252.088
+            },
+            {
+              "time_s": 6.672000000000004,
+              "hz": 1250.873
+            },
+            {
+              "time_s": 6.858000000000004,
+              "hz": 1261.111
+            },
+            {
+              "time_s": 7.044000000000004,
+              "hz": 1263.824
+            },
+            {
+              "time_s": 7.2290000000000045,
+              "hz": 1291.651
+            },
+            {
+              "time_s": 7.4150000000000045,
+              "hz": 1286.219
+            },
+            {
+              "time_s": 7.601000000000004,
+              "hz": 1268.22
+            },
+            {
+              "time_s": 7.787000000000004,
+              "hz": 1251.164
+            },
+            {
+              "time_s": 7.972000000000005,
+              "hz": 1253.664
+            },
+            {
+              "time_s": 8.158000000000005,
+              "hz": 1270.213
+            },
+            {
+              "time_s": 8.344000000000005,
+              "hz": 1232.022
+            },
+            {
+              "time_s": 8.530000000000005,
+              "hz": 1236.318
+            },
+            {
+              "time_s": 8.715000000000003,
+              "hz": 1231.079
+            },
+            {
+              "time_s": 8.901000000000003,
+              "hz": 1226.314
+            },
+            {
+              "time_s": 9.087000000000003,
+              "hz": 1236.92
+            },
+            {
+              "time_s": 9.273000000000003,
+              "hz": 1247.337
+            },
+            {
+              "time_s": 9.458000000000006,
+              "hz": 1253.082
+            },
+            {
+              "time_s": 9.644000000000005,
+              "hz": 1235.56
+            },
+            {
+              "time_s": 9.830000000000005,
+              "hz": 1238.027
+            },
+            {
+              "time_s": 10.016000000000005,
+              "hz": 1208.399
+            },
+            {
+              "time_s": 10.201000000000004,
+              "hz": 1209.268
+            },
+            {
+              "time_s": 10.387000000000004,
+              "hz": 1203.38
+            },
+            {
+              "time_s": 10.573000000000004,
+              "hz": 1222.171
+            },
+            {
+              "time_s": 10.759000000000004,
+              "hz": 1217.232
+            },
+            {
+              "time_s": 10.945000000000004,
+              "hz": 1230.043
+            },
+            {
+              "time_s": 11.130000000000004,
+              "hz": 1208.562
+            },
+            {
+              "time_s": 11.316000000000004,
+              "hz": 1251.766
+            },
+            {
+              "time_s": 11.502000000000004,
+              "hz": 1234.115
+            },
+            {
+              "time_s": 11.688000000000004,
+              "hz": 1228.869
+            },
+            {
+              "time_s": 11.873000000000005,
+              "hz": 1234.174
+            },
+            {
+              "time_s": 12.059000000000005,
+              "hz": 1231.187
+            },
+            {
+              "time_s": 12.245000000000005,
+              "hz": 1266.183
+            },
+            {
+              "time_s": 12.431000000000004,
+              "hz": 1265.62
+            },
+            {
+              "time_s": 12.616000000000003,
+              "hz": 1276.045
+            },
+            {
+              "time_s": 12.802000000000003,
+              "hz": 1247.723
+            },
+            {
+              "time_s": 12.988000000000003,
+              "hz": 1248.7
+            },
+            {
+              "time_s": 13.174000000000003,
+              "hz": 1190.658
+            },
+            {
+              "time_s": 13.359000000000005,
+              "hz": 1204.314
+            },
+            {
+              "time_s": 13.545000000000005,
+              "hz": 1203.566
+            },
+            {
+              "time_s": 13.731000000000005,
+              "hz": 1205.064
+            },
+            {
+              "time_s": 13.917000000000005,
+              "hz": 1219.937
+            },
+            {
+              "time_s": 14.102000000000004,
+              "hz": 1207.653
+            },
+            {
+              "time_s": 14.288000000000004,
+              "hz": 1204.901
+            },
+            {
+              "time_s": 14.474000000000004,
+              "hz": 1212.87
+            },
+            {
+              "time_s": 14.660000000000004,
+              "hz": 1230.553
+            },
+            {
+              "time_s": 14.845000000000006,
+              "hz": 1230.112
+            },
+            {
+              "time_s": 15.031000000000006,
+              "hz": 1198.338
+            },
+            {
+              "time_s": 15.217000000000006,
+              "hz": 1180.557
+            },
+            {
+              "time_s": 15.403000000000006,
+              "hz": 1175.035
+            },
+            {
+              "time_s": 15.589000000000006,
+              "hz": 1178.816
+            },
+            {
+              "time_s": 15.774000000000004,
+              "hz": 1173.876
+            },
+            {
+              "time_s": 15.960000000000004,
+              "hz": 1187.055
+            },
+            {
+              "time_s": 16.146000000000004,
+              "hz": 1196.212
+            },
+            {
+              "time_s": 16.332000000000004,
+              "hz": 1205.342
+            },
+            {
+              "time_s": 16.517000000000003,
+              "hz": 1206.247
+            },
+            {
+              "time_s": 16.703000000000003,
+              "hz": 1195.546
+            },
+            {
+              "time_s": 16.889000000000003,
+              "hz": 1206.543
+            },
+            {
+              "time_s": 17.075000000000003,
+              "hz": 1236.446
+            },
+            {
+              "time_s": 17.260000000000005,
+              "hz": 1234.716
+            },
+            {
+              "time_s": 17.446000000000005,
+              "hz": 1223.555
+            },
+            {
+              "time_s": 17.632000000000005,
+              "hz": 1213.425
+            },
+            {
+              "time_s": 17.818000000000005,
+              "hz": 1173.042
+            },
+            {
+              "time_s": 18.003000000000004,
+              "hz": 1188.904
+            },
+            {
+              "time_s": 18.189000000000004,
+              "hz": 1225.239
+            },
+            {
+              "time_s": 18.375000000000004,
+              "hz": 1216.818
+            },
+            {
+              "time_s": 18.561000000000003,
+              "hz": 1185.967
+            },
+            {
+              "time_s": 18.746000000000006,
+              "hz": 1165.523
+            },
+            {
+              "time_s": 18.932000000000006,
+              "hz": 1175.24
+            },
+            {
+              "time_s": 19.118000000000006,
+              "hz": 1191.035
+            },
+            {
+              "time_s": 19.304000000000006,
+              "hz": 1203.561
+            },
+            {
+              "time_s": 19.489000000000004,
+              "hz": 1186.67
+            },
+            {
+              "time_s": 19.675000000000004,
+              "hz": 1176.342
+            },
+            {
+              "time_s": 19.861000000000004,
+              "hz": 1190.731
+            },
+            {
+              "time_s": 20.047000000000004,
+              "hz": 1198.647
+            },
+            {
+              "time_s": 20.233000000000004,
+              "hz": 1181.628
+            },
+            {
+              "time_s": 20.418000000000003,
+              "hz": 1174.77
+            },
+            {
+              "time_s": 20.604000000000003,
+              "hz": 1198.832
+            },
+            {
+              "time_s": 20.790000000000003,
+              "hz": 1195.811
+            },
+            {
+              "time_s": 20.976000000000003,
+              "hz": 1195.452
+            },
+            {
+              "time_s": 21.161000000000005,
+              "hz": 1199.749
+            },
+            {
+              "time_s": 21.347000000000005,
+              "hz": 1195.507
+            },
+            {
+              "time_s": 21.533000000000005,
+              "hz": 1175.506
+            },
+            {
+              "time_s": 21.719000000000005,
+              "hz": 1194.178
+            },
+            {
+              "time_s": 21.904000000000003,
+              "hz": 1192.85
+            },
+            {
+              "time_s": 22.090000000000003,
+              "hz": 1173.357
+            },
+            {
+              "time_s": 22.276000000000003,
+              "hz": 1180.64
+            },
+            {
+              "time_s": 22.462000000000003,
+              "hz": 1168.584
+            },
+            {
+              "time_s": 22.647000000000002,
+              "hz": 1168.01
+            },
+            {
+              "time_s": 22.833000000000002,
+              "hz": 1165.718
+            },
+            {
+              "time_s": 23.019000000000002,
+              "hz": 1188.955
+            },
+            {
+              "time_s": 23.205000000000002,
+              "hz": 1171.605
+            },
+            {
+              "time_s": 23.390000000000004,
+              "hz": 1181.798
+            },
+            {
+              "time_s": 23.576000000000004,
+              "hz": 1194.007
+            },
+            {
+              "time_s": 23.762000000000004,
+              "hz": 1215.124
+            },
+            {
+              "time_s": 23.948000000000004,
+              "hz": 1220.775
+            },
+            {
+              "time_s": 24.133000000000003,
+              "hz": 1208.118
+            },
+            {
+              "time_s": 24.319000000000003,
+              "hz": 1209.862
+            },
+            {
+              "time_s": 24.505000000000003,
+              "hz": 1215.053
+            },
+            {
+              "time_s": 24.691000000000003,
+              "hz": 1193.658
+            },
+            {
+              "time_s": 24.877000000000002,
+              "hz": 1166.13
+            },
+            {
+              "time_s": 25.062000000000005,
+              "hz": 1201.403
+            },
+            {
+              "time_s": 25.248000000000005,
+              "hz": 1203.449
+            },
+            {
+              "time_s": 25.434000000000005,
+              "hz": 1186.67
+            },
+            {
+              "time_s": 25.620000000000005,
+              "hz": 1173.055
+            },
+            {
+              "time_s": 25.805000000000003,
+              "hz": 1182.243
+            },
+            {
+              "time_s": 25.991000000000003,
+              "hz": 1176.425
+            },
+            {
+              "time_s": 26.177000000000003,
+              "hz": 1165.753
+            },
+            {
+              "time_s": 26.363000000000003,
+              "hz": 1175.642
+            },
+            {
+              "time_s": 26.920000000000005,
+              "hz": 1122.885
+            },
+            {
+              "time_s": 27.106000000000005,
+              "hz": 1131.474
+            },
+            {
+              "time_s": 27.291000000000004,
+              "hz": 1182.352
+            },
+            {
+              "time_s": 27.477000000000004,
+              "hz": 1160.504
+            },
+            {
+              "time_s": 27.663000000000004,
+              "hz": 1149.58
+            },
+            {
+              "time_s": 27.849000000000004,
+              "hz": 1150.995
+            },
+            {
+              "time_s": 28.034000000000002,
+              "hz": 1148.685
+            },
+            {
+              "time_s": 28.220000000000002,
+              "hz": 1159.066
+            },
+            {
+              "time_s": 28.406000000000002,
+              "hz": 1163.214
+            },
+            {
+              "time_s": 28.592000000000002,
+              "hz": 1175.438
+            },
+            {
+              "time_s": 28.777000000000005,
+              "hz": 1144.736
+            },
+            {
+              "time_s": 28.963000000000005,
+              "hz": 1151.58
+            },
+            {
+              "time_s": 29.149000000000004,
+              "hz": 1174.294
+            },
+            {
+              "time_s": 29.335000000000004,
+              "hz": 1177.744
+            },
+            {
+              "time_s": 29.520000000000003,
+              "hz": 1175.324
+            },
+            {
+              "time_s": 29.706000000000003,
+              "hz": 1173.058
+            },
+            {
+              "time_s": 29.892000000000003,
+              "hz": 1144.985
+            },
+            {
+              "time_s": 30.078000000000003,
+              "hz": 1153.69
+            },
+            {
+              "time_s": 30.264000000000003,
+              "hz": 1174.191
+            },
+            {
+              "time_s": 30.449000000000005,
+              "hz": 1185.95
+            },
+            {
+              "time_s": 30.635000000000005,
+              "hz": 1193.159
+            },
+            {
+              "time_s": 30.821000000000005,
+              "hz": 1144.498
+            },
+            {
+              "time_s": 31.007000000000005,
+              "hz": 1150.244
+            },
+            {
+              "time_s": 31.192000000000004,
+              "hz": 1142.525
+            },
+            {
+              "time_s": 31.378000000000004,
+              "hz": 1149.271
+            },
+            {
+              "time_s": 31.564000000000004,
+              "hz": 1158.52
+            },
+            {
+              "time_s": 31.750000000000004,
+              "hz": 1154.409
+            },
+            {
+              "time_s": 31.935000000000002,
+              "hz": 1155.682
+            },
+            {
+              "time_s": 32.121,
+              "hz": 1149.722
+            },
+            {
+              "time_s": 32.307,
+              "hz": 1149.303
+            },
+            {
+              "time_s": 32.493,
+              "hz": 1151.472
+            },
+            {
+              "time_s": 32.678000000000004,
+              "hz": 1161.258
+            },
+            {
+              "time_s": 32.864000000000004,
+              "hz": 1158.202
+            },
+            {
+              "time_s": 33.050000000000004,
+              "hz": 1137.901
+            },
+            {
+              "time_s": 33.236000000000004,
+              "hz": 1141.252
+            },
+            {
+              "time_s": 33.42100000000001,
+              "hz": 1124.761
+            },
+            {
+              "time_s": 33.607000000000006,
+              "hz": 1126.301
+            },
+            {
+              "time_s": 33.793000000000006,
+              "hz": 1129.843
+            },
+            {
+              "time_s": 33.979000000000006,
+              "hz": 1136.365
+            },
+            {
+              "time_s": 34.16400000000001,
+              "hz": 1116.182
+            },
+            {
+              "time_s": 34.35000000000001,
+              "hz": 1126.123
+            },
+            {
+              "time_s": 34.53600000000001,
+              "hz": 1133.796
+            },
+            {
+              "time_s": 34.72200000000001,
+              "hz": 1136.572
+            },
+            {
+              "time_s": 34.90800000000001,
+              "hz": 1133.414
+            },
+            {
+              "time_s": 35.093,
+              "hz": 1131.972
+            },
+            {
+              "time_s": 35.279,
+              "hz": 1130.567
+            },
+            {
+              "time_s": 35.465,
+              "hz": 1128.086
+            },
+            {
+              "time_s": 35.651,
+              "hz": 1121.168
+            },
+            {
+              "time_s": 35.836000000000006,
+              "hz": 1115.61
+            },
+            {
+              "time_s": 36.022000000000006,
+              "hz": 1122.606
+            },
+            {
+              "time_s": 36.208000000000006,
+              "hz": 1107.814
+            },
+            {
+              "time_s": 36.394000000000005,
+              "hz": 1120.767
+            },
+            {
+              "time_s": 36.57900000000001,
+              "hz": 1120.288
+            },
+            {
+              "time_s": 36.76500000000001,
+              "hz": 1118.047
+            },
+            {
+              "time_s": 36.95100000000001,
+              "hz": 1138.12
+            },
+            {
+              "time_s": 37.13700000000001,
+              "hz": 1111.373
+            },
+            {
+              "time_s": 37.32200000000001,
+              "hz": 1112.69
+            },
+            {
+              "time_s": 37.50800000000001,
+              "hz": 1126.695
+            },
+            {
+              "time_s": 37.69400000000001,
+              "hz": 1122.131
+            },
+            {
+              "time_s": 37.88000000000001,
+              "hz": 1109.043
+            },
+            {
+              "time_s": 38.065000000000005,
+              "hz": 1109.172
+            },
+            {
+              "time_s": 38.251000000000005,
+              "hz": 1106.778
+            },
+            {
+              "time_s": 38.437000000000005,
+              "hz": 1106.595
+            },
+            {
+              "time_s": 38.623000000000005,
+              "hz": 1113.235
+            },
+            {
+              "time_s": 38.80800000000001,
+              "hz": 1100.287
+            },
+            {
+              "time_s": 38.99400000000001,
+              "hz": 1106.486
+            },
+            {
+              "time_s": 39.18000000000001,
+              "hz": 1121.824
+            },
+            {
+              "time_s": 39.36600000000001,
+              "hz": 1108.418
+            },
+            {
+              "time_s": 39.55200000000001,
+              "hz": 1110.553
+            },
+            {
+              "time_s": 39.73700000000001,
+              "hz": 1107.746
+            },
+            {
+              "time_s": 39.92300000000001,
+              "hz": 1100.8
+            },
+            {
+              "time_s": 40.10900000000001,
+              "hz": 1109.432
+            },
+            {
+              "time_s": 40.29500000000001,
+              "hz": 1116.36
+            },
+            {
+              "time_s": 40.480000000000004,
+              "hz": 1101.694
+            },
+            {
+              "time_s": 40.666000000000004,
+              "hz": 1112.457
+            },
+            {
+              "time_s": 40.852000000000004,
+              "hz": 1103.282
+            },
+            {
+              "time_s": 41.038000000000004,
+              "hz": 1111.729
+            },
+            {
+              "time_s": 41.223000000000006,
+              "hz": 1106.98
+            },
+            {
+              "time_s": 41.409000000000006,
+              "hz": 1097.686
+            },
+            {
+              "time_s": 41.595000000000006,
+              "hz": 1098.478
+            },
+            {
+              "time_s": 41.781000000000006,
+              "hz": 1100.842
+            },
+            {
+              "time_s": 41.96600000000001,
+              "hz": 1094.383
+            },
+            {
+              "time_s": 42.15200000000001,
+              "hz": 1094.285
+            },
+            {
+              "time_s": 42.33800000000001,
+              "hz": 1103.552
+            },
+            {
+              "time_s": 42.52400000000001,
+              "hz": 1097.747
+            },
+            {
+              "time_s": 42.70900000000001,
+              "hz": 1093.671
+            },
+            {
+              "time_s": 42.89500000000001,
+              "hz": 1087.374
+            },
+            {
+              "time_s": 43.08100000000001,
+              "hz": 1094.125
+            },
+            {
+              "time_s": 43.26700000000001,
+              "hz": 1088.456
+            },
+            {
+              "time_s": 43.452000000000005,
+              "hz": 1086.844
+            },
+            {
+              "time_s": 43.638000000000005,
+              "hz": 1085.436
+            },
+            {
+              "time_s": 43.824000000000005,
+              "hz": 1085.199
+            },
+            {
+              "time_s": 44.010000000000005,
+              "hz": 1084.796
+            },
+            {
+              "time_s": 44.196000000000005,
+              "hz": 1087.744
+            },
+            {
+              "time_s": 44.38100000000001,
+              "hz": 1075.966
+            },
+            {
+              "time_s": 44.56700000000001,
+              "hz": 1074.809
+            },
+            {
+              "time_s": 44.75300000000001,
+              "hz": 1075.129
+            },
+            {
+              "time_s": 44.93900000000001,
+              "hz": 1072.947
+            },
+            {
+              "time_s": 45.12400000000001,
+              "hz": 1073.802
+            },
+            {
+              "time_s": 45.31000000000001,
+              "hz": 1085.079
+            },
+            {
+              "time_s": 45.49600000000001,
+              "hz": 1078.48
+            },
+            {
+              "time_s": 45.68200000000001,
+              "hz": 1074.9
+            },
+            {
+              "time_s": 45.867000000000004,
+              "hz": 1070.303
+            },
+            {
+              "time_s": 46.053000000000004,
+              "hz": 1070.091
+            },
+            {
+              "time_s": 46.239000000000004,
+              "hz": 1077.294
+            },
+            {
+              "time_s": 46.425000000000004,
+              "hz": 1065.545
+            },
+            {
+              "time_s": 46.61000000000001,
+              "hz": 1061.904
+            },
+            {
+              "time_s": 46.79600000000001,
+              "hz": 1065.281
+            },
+            {
+              "time_s": 46.982000000000006,
+              "hz": 1068.585
+            },
+            {
+              "time_s": 47.168000000000006,
+              "hz": 1064.991
+            },
+            {
+              "time_s": 47.35300000000001,
+              "hz": 1044.479
+            },
+            {
+              "time_s": 47.53900000000001,
+              "hz": 1055.396
+            },
+            {
+              "time_s": 47.72500000000001,
+              "hz": 1051.828
+            },
+            {
+              "time_s": 47.91100000000001,
+              "hz": 1050.955
+            },
+            {
+              "time_s": 48.096000000000004,
+              "hz": 1053.575
+            },
+            {
+              "time_s": 48.282000000000004,
+              "hz": 1042.245
+            },
+            {
+              "time_s": 48.46800000000001,
+              "hz": 1045.146
+            },
+            {
+              "time_s": 48.65400000000001,
+              "hz": 1040.901
+            },
+            {
+              "time_s": 48.84000000000001,
+              "hz": 1043.57
+            },
+            {
+              "time_s": 49.025000000000006,
+              "hz": 1028.545
+            },
+            {
+              "time_s": 49.211000000000006,
+              "hz": 1035.24
+            },
+            {
+              "time_s": 49.397000000000006,
+              "hz": 1029.997
+            },
+            {
+              "time_s": 49.583000000000006,
+              "hz": 1033.594
+            },
+            {
+              "time_s": 49.76800000000001,
+              "hz": 1030.902
+            },
+            {
+              "time_s": 49.95400000000001,
+              "hz": 1029.75
+            },
+            {
+              "time_s": 50.14000000000001,
+              "hz": 1025.519
+            },
+            {
+              "time_s": 50.32600000000001,
+              "hz": 1018.837
+            },
+            {
+              "time_s": 50.51100000000001,
+              "hz": 1018.907
+            },
+            {
+              "time_s": 50.69700000000001,
+              "hz": 1017.444
+            },
+            {
+              "time_s": 50.88300000000001,
+              "hz": 1013.888
+            },
+            {
+              "time_s": 51.06900000000001,
+              "hz": 1012.061
+            },
+            {
+              "time_s": 51.254000000000005,
+              "hz": 1009.369
+            },
+            {
+              "time_s": 51.440000000000005,
+              "hz": 1006.677
+            },
+            {
+              "time_s": 51.626000000000005,
+              "hz": 1003.986
+            },
+            {
+              "time_s": 51.812000000000005,
+              "hz": 1001.294
+            },
+            {
+              "time_s": 51.99700000000001,
+              "hz": 992.678
+            },
+            {
+              "time_s": 52.18300000000001,
+              "hz": 997.269
+            },
+            {
+              "time_s": 52.36900000000001,
+              "hz": 991.462
+            },
+            {
+              "time_s": 52.55500000000001,
+              "hz": 982.309
+            },
+            {
+              "time_s": 52.74000000000001,
+              "hz": 982.829
+            },
+            {
+              "time_s": 52.92600000000001,
+              "hz": 985.144
+            },
+            {
+              "time_s": 53.11200000000001,
+              "hz": 982.452
+            },
+            {
+              "time_s": 53.29800000000001,
+              "hz": 979.972
+            },
+            {
+              "time_s": 53.483000000000004,
+              "hz": 965.585
+            },
+            {
+              "time_s": 53.669000000000004,
+              "hz": 974.918
+            },
+            {
+              "time_s": 53.855000000000004,
+              "hz": 965.905
+            },
+            {
+              "time_s": 54.041000000000004,
+              "hz": 971.686
+            },
+            {
+              "time_s": 54.227000000000004,
+              "hz": 969.582
+            },
+            {
+              "time_s": 54.412000000000006,
+              "hz": 966.302
+            },
+            {
+              "time_s": 54.598000000000006,
+              "hz": 963.611
+            },
+            {
+              "time_s": 54.784000000000006,
+              "hz": 958.205
+            },
+            {
+              "time_s": 54.970000000000006,
+              "hz": 956.371
+            },
+            {
+              "time_s": 55.15500000000001,
+              "hz": 949.455
+            },
+            {
+              "time_s": 55.34100000000001,
+              "hz": 948.961
+            },
+            {
+              "time_s": 55.52700000000001,
+              "hz": 950.51
+            },
+            {
+              "time_s": 55.71300000000001,
+              "hz": 947.461
+            },
+            {
+              "time_s": 55.89800000000001,
+              "hz": 941.4
+            },
+            {
+              "time_s": 56.08400000000001,
+              "hz": 940.508
+            },
+            {
+              "time_s": 56.27000000000001,
+              "hz": 936.857
+            },
+            {
+              "time_s": 56.45600000000001,
+              "hz": 937.753
+            },
+            {
+              "time_s": 56.641000000000005,
+              "hz": 930.323
+            },
+            {
+              "time_s": 56.827000000000005,
+              "hz": 919.172
+            },
+            {
+              "time_s": 57.013000000000005,
+              "hz": 926.689
+            },
+            {
+              "time_s": 57.199000000000005,
+              "hz": 922.836
+            },
+            {
+              "time_s": 57.38400000000001,
+              "hz": 922.443
+            },
+            {
+              "time_s": 57.57000000000001,
+              "hz": 914.893
+            },
+            {
+              "time_s": 57.75600000000001,
+              "hz": 906.35
+            },
+            {
+              "time_s": 57.94200000000001,
+              "hz": 907.602
+            },
+            {
+              "time_s": 58.12700000000001,
+              "hz": 905.618
+            },
+            {
+              "time_s": 58.31300000000001,
+              "hz": 907.518
+            },
+            {
+              "time_s": 58.49900000000001,
+              "hz": 904.727
+            },
+            {
+              "time_s": 58.68500000000001,
+              "hz": 902.584
+            },
+            {
+              "time_s": 58.87100000000001,
+              "hz": 893.221
+            },
+            {
+              "time_s": 59.056000000000004,
+              "hz": 895.002
+            },
+            {
+              "time_s": 59.242000000000004,
+              "hz": 896.71
+            },
+            {
+              "time_s": 59.428000000000004,
+              "hz": 879.296
+            },
+            {
+              "time_s": 59.614000000000004,
+              "hz": 883.501
+            },
+            {
+              "time_s": 59.79900000000001,
+              "hz": 866.881
+            },
+            {
+              "time_s": 59.98500000000001,
+              "hz": 868.527
+            },
+            {
+              "time_s": 60.17100000000001,
+              "hz": 866.443
+            },
+            {
+              "time_s": 60.357000000000006,
+              "hz": 863.927
+            },
+            {
+              "time_s": 60.54200000000001,
+              "hz": 857.429
+            },
+            {
+              "time_s": 60.72800000000001,
+              "hz": 853.698
+            },
+            {
+              "time_s": 60.91400000000001,
+              "hz": 853.776
+            },
+            {
+              "time_s": 61.10000000000001,
+              "hz": 842.582
+            },
+            {
+              "time_s": 61.285000000000004,
+              "hz": 840.034
+            },
+            {
+              "time_s": 61.471000000000004,
+              "hz": 844.129
+            },
+            {
+              "time_s": 61.657000000000004,
+              "hz": 829.64
+            },
+            {
+              "time_s": 61.84300000000001,
+              "hz": 828.138
+            },
+            {
+              "time_s": 62.028000000000006,
+              "hz": 820.13
+            },
+            {
+              "time_s": 62.214000000000006,
+              "hz": 815.093
+            },
+            {
+              "time_s": 62.400000000000006,
+              "hz": 816.773
+            },
+            {
+              "time_s": 62.586000000000006,
+              "hz": 804.074
+            },
+            {
+              "time_s": 62.77100000000001,
+              "hz": 803.704
+            },
+            {
+              "time_s": 62.95700000000001,
+              "hz": 803.041
+            },
+            {
+              "time_s": 63.14300000000001,
+              "hz": 801.526
+            },
+            {
+              "time_s": 63.32900000000001,
+              "hz": 794.238
+            },
+            {
+              "time_s": 63.51500000000001,
+              "hz": 792.341
+            },
+            {
+              "time_s": 63.70000000000001,
+              "hz": 786.909
+            },
+            {
+              "time_s": 63.88600000000001,
+              "hz": 783.107
+            },
+            {
+              "time_s": 64.072,
+              "hz": 784.398
+            },
+            {
+              "time_s": 64.25800000000001,
+              "hz": 781.817
+            },
+            {
+              "time_s": 64.443,
+              "hz": 767.49
+            },
+            {
+              "time_s": 64.629,
+              "hz": 764.926
+            },
+            {
+              "time_s": 64.815,
+              "hz": 761.038
+            },
+            {
+              "time_s": 65.001,
+              "hz": 760.014
+            },
+            {
+              "time_s": 65.186,
+              "hz": 751.543
+            },
+            {
+              "time_s": 65.372,
+              "hz": 752.166
+            },
+            {
+              "time_s": 65.558,
+              "hz": 738.618
+            },
+            {
+              "time_s": 65.744,
+              "hz": 744.608
+            },
+            {
+              "time_s": 65.929,
+              "hz": 737.628
+            },
+            {
+              "time_s": 66.11500000000001,
+              "hz": 737.817
+            },
+            {
+              "time_s": 66.301,
+              "hz": 729.341
+            },
+            {
+              "time_s": 66.48700000000001,
+              "hz": 728.663
+            },
+            {
+              "time_s": 66.672,
+              "hz": 726.199
+            },
+            {
+              "time_s": 66.858,
+              "hz": 723.175
+            },
+            {
+              "time_s": 67.044,
+              "hz": 723.287
+            },
+            {
+              "time_s": 67.23,
+              "hz": 713.972
+            },
+            {
+              "time_s": 67.415,
+              "hz": 714.028
+            },
+            {
+              "time_s": 67.601,
+              "hz": 718.661
+            },
+            {
+              "time_s": 67.787,
+              "hz": 709.159
+            },
+            {
+              "time_s": 67.973,
+              "hz": 706.609
+            },
+            {
+              "time_s": 68.159,
+              "hz": 712.672
+            },
+            {
+              "time_s": 68.34400000000001,
+              "hz": 699.139
+            },
+            {
+              "time_s": 68.53,
+              "hz": 689.482
+            },
+            {
+              "time_s": 68.71600000000001,
+              "hz": 695.463
+            },
+            {
+              "time_s": 68.902,
+              "hz": 691.121
+            },
+            {
+              "time_s": 69.087,
+              "hz": 682.657
+            },
+            {
+              "time_s": 69.273,
+              "hz": 679.296
+            },
+            {
+              "time_s": 69.459,
+              "hz": 681.321
+            },
+            {
+              "time_s": 69.645,
+              "hz": 674.919
+            },
+            {
+              "time_s": 69.83,
+              "hz": 681.047
+            },
+            {
+              "time_s": 70.016,
+              "hz": 672.24
+            },
+            {
+              "time_s": 70.202,
+              "hz": 666.171
+            },
+            {
+              "time_s": 70.388,
+              "hz": 664.767
+            },
+            {
+              "time_s": 70.573,
+              "hz": 663.358
+            },
+            {
+              "time_s": 70.759,
+              "hz": 662.41
+            },
+            {
+              "time_s": 70.945,
+              "hz": 662.241
+            },
+            {
+              "time_s": 71.131,
+              "hz": 655.778
+            },
+            {
+              "time_s": 71.316,
+              "hz": 655.294
+            },
+            {
+              "time_s": 71.502,
+              "hz": 651.564
+            },
+            {
+              "time_s": 71.688,
+              "hz": 644.031
+            },
+            {
+              "time_s": 71.874,
+              "hz": 650.638
+            },
+            {
+              "time_s": 72.059,
+              "hz": 640.959
+            },
+            {
+              "time_s": 72.245,
+              "hz": 640.205
+            },
+            {
+              "time_s": 72.431,
+              "hz": 640.26
+            },
+            {
+              "time_s": 72.617,
+              "hz": 642.782
+            },
+            {
+              "time_s": 72.802,
+              "hz": 645.468
+            },
+            {
+              "time_s": 72.988,
+              "hz": 631.528
+            },
+            {
+              "time_s": 73.174,
+              "hz": 619.666
+            },
+            {
+              "time_s": 73.36,
+              "hz": 624.974
+            },
+            {
+              "time_s": 73.546,
+              "hz": 631.355
+            },
+            {
+              "time_s": 73.731,
+              "hz": 633.515
+            },
+            {
+              "time_s": 73.917,
+              "hz": 625.076
+            },
+            {
+              "time_s": 74.103,
+              "hz": 618.851
+            },
+            {
+              "time_s": 74.289,
+              "hz": 620.826
+            },
+            {
+              "time_s": 74.474,
+              "hz": 621.629
+            },
+            {
+              "time_s": 74.66,
+              "hz": 617.935
+            },
+            {
+              "time_s": 74.846,
+              "hz": 611.143
+            },
+            {
+              "time_s": 75.032,
+              "hz": 614.568
+            },
+            {
+              "time_s": 75.217,
+              "hz": 612.37
+            },
+            {
+              "time_s": 75.403,
+              "hz": 608.649
+            },
+            {
+              "time_s": 75.589,
+              "hz": 607.375
+            },
+            {
+              "time_s": 75.775,
+              "hz": 612.359
+            },
+            {
+              "time_s": 75.96,
+              "hz": 599.422
+            },
+            {
+              "time_s": 76.146,
+              "hz": 597.07
+            },
+            {
+              "time_s": 76.332,
+              "hz": 600.621
+            },
+            {
+              "time_s": 76.518,
+              "hz": 607.137
+            },
+            {
+              "time_s": 76.703,
+              "hz": 599.099
+            },
+            {
+              "time_s": 76.889,
+              "hz": 598.569
+            },
+            {
+              "time_s": 77.075,
+              "hz": 593.777
+            },
+            {
+              "time_s": 77.261,
+              "hz": 585.333
+            },
+            {
+              "time_s": 77.446,
+              "hz": 598.62
+            },
+            {
+              "time_s": 77.632,
+              "hz": 598.182
+            },
+            {
+              "time_s": 77.818,
+              "hz": 593.814
+            },
+            {
+              "time_s": 78.004,
+              "hz": 586.263
+            },
+            {
+              "time_s": 78.19,
+              "hz": 584.519
+            },
+            {
+              "time_s": 78.375,
+              "hz": 583.827
+            },
+            {
+              "time_s": 78.561,
+              "hz": 582.41
+            },
+            {
+              "time_s": 78.747,
+              "hz": 584.552
+            },
+            {
+              "time_s": 78.933,
+              "hz": 585.393
+            },
+            {
+              "time_s": 79.118,
+              "hz": 579.886
+            },
+            {
+              "time_s": 79.304,
+              "hz": 580.951
+            },
+            {
+              "time_s": 79.49,
+              "hz": 581.584
+            },
+            {
+              "time_s": 79.676,
+              "hz": 574.745
+            },
+            {
+              "time_s": 79.861,
+              "hz": 576.678
+            },
+            {
+              "time_s": 80.047,
+              "hz": 570.078
+            },
+            {
+              "time_s": 80.233,
+              "hz": 567.748
+            },
+            {
+              "time_s": 80.419,
+              "hz": 573.977
+            },
+            {
+              "time_s": 80.604,
+              "hz": 571.378
+            },
+            {
+              "time_s": 80.79,
+              "hz": 567.986
+            },
+            {
+              "time_s": 80.976,
+              "hz": 567.338
+            },
+            {
+              "time_s": 81.162,
+              "hz": 567.601
+            },
+            {
+              "time_s": 81.347,
+              "hz": 574.053
+            },
+            {
+              "time_s": 81.533,
+              "hz": 568.305
+            },
+            {
+              "time_s": 81.719,
+              "hz": 572.588
+            },
+            {
+              "time_s": 81.905,
+              "hz": 575.637
+            },
+            {
+              "time_s": 82.09,
+              "hz": 571.208
+            },
+            {
+              "time_s": 82.276,
+              "hz": 567.806
+            },
+            {
+              "time_s": 82.462,
+              "hz": 567.668
+            },
+            {
+              "time_s": 82.648,
+              "hz": 560.043
+            },
+            {
+              "time_s": 82.834,
+              "hz": 565.592
+            },
+            {
+              "time_s": 83.019,
+              "hz": 560.301
+            },
+            {
+              "time_s": 83.205,
+              "hz": 558.572
+            },
+            {
+              "time_s": 83.391,
+              "hz": 559.438
+            },
+            {
+              "time_s": 83.577,
+              "hz": 557.664
+            },
+            {
+              "time_s": 83.762,
+              "hz": 553.477
+            },
+            {
+              "time_s": 83.948,
+              "hz": 552.48
+            },
+            {
+              "time_s": 84.134,
+              "hz": 556.838
+            },
+            {
+              "time_s": 84.32,
+              "hz": 556.176
+            },
+            {
+              "time_s": 84.505,
+              "hz": 551.76
+            },
+            {
+              "time_s": 84.691,
+              "hz": 556.733
+            },
+            {
+              "time_s": 84.877,
+              "hz": 554.738
+            },
+            {
+              "time_s": 85.063,
+              "hz": 554.814
+            },
+            {
+              "time_s": 85.248,
+              "hz": 548.124
+            },
+            {
+              "time_s": 85.434,
+              "hz": 551.79
+            },
+            {
+              "time_s": 85.62,
+              "hz": 555.575
+            },
+            {
+              "time_s": 85.806,
+              "hz": 554.906
+            },
+            {
+              "time_s": 85.991,
+              "hz": 555.021
+            },
+            {
+              "time_s": 86.177,
+              "hz": 550.94
+            },
+            {
+              "time_s": 86.363,
+              "hz": 550.074
+            },
+            {
+              "time_s": 86.549,
+              "hz": 550.684
+            },
+            {
+              "time_s": 86.734,
+              "hz": 550.745
+            },
+            {
+              "time_s": 86.92,
+              "hz": 544.706
+            },
+            {
+              "time_s": 87.106,
+              "hz": 542.072
+            },
+            {
+              "time_s": 87.292,
+              "hz": 549.802
+            },
+            {
+              "time_s": 87.478,
+              "hz": 549.004
+            },
+            {
+              "time_s": 87.663,
+              "hz": 548.359
+            },
+            {
+              "time_s": 87.849,
+              "hz": 547.185
+            },
+            {
+              "time_s": 88.035,
+              "hz": 548.706
+            },
+            {
+              "time_s": 88.221,
+              "hz": 548.711
+            },
+            {
+              "time_s": 88.406,
+              "hz": 547.445
+            },
+            {
+              "time_s": 88.592,
+              "hz": 544.42
+            },
+            {
+              "time_s": 88.778,
+              "hz": 539.367
+            },
+            {
+              "time_s": 88.964,
+              "hz": 541.863
+            },
+            {
+              "time_s": 89.149,
+              "hz": 542.479
+            },
+            {
+              "time_s": 89.335,
+              "hz": 539.7
+            },
+            {
+              "time_s": 89.521,
+              "hz": 542.066
+            },
+            {
+              "time_s": 89.707,
+              "hz": 538.43
+            },
+            {
+              "time_s": 89.892,
+              "hz": 539.064
+            },
+            {
+              "time_s": 90.078,
+              "hz": 539.803
+            },
+            {
+              "time_s": 90.264,
+              "hz": 542.34
+            },
+            {
+              "time_s": 90.45,
+              "hz": 540.629
+            },
+            {
+              "time_s": 90.635,
+              "hz": 538.894
+            },
+            {
+              "time_s": 90.821,
+              "hz": 538.833
+            },
+            {
+              "time_s": 91.007,
+              "hz": 537.369
+            },
+            {
+              "time_s": 91.193,
+              "hz": 537.982
+            },
+            {
+              "time_s": 91.378,
+              "hz": 535.873
+            },
+            {
+              "time_s": 91.564,
+              "hz": 537.887
+            },
+            {
+              "time_s": 91.75,
+              "hz": 540.613
+            },
+            {
+              "time_s": 91.936,
+              "hz": 534.827
+            },
+            {
+              "time_s": 92.121,
+              "hz": 536.462
+            },
+            {
+              "time_s": 92.307,
+              "hz": 535.736
+            },
+            {
+              "time_s": 92.493,
+              "hz": 536.097
+            },
+            {
+              "time_s": 92.679,
+              "hz": 534.721
+            },
+            {
+              "time_s": 92.865,
+              "hz": 534.876
+            },
+            {
+              "time_s": 93.05,
+              "hz": 534.098
+            },
+            {
+              "time_s": 93.236,
+              "hz": 533.003
+            },
+            {
+              "time_s": 93.422,
+              "hz": 531.926
+            },
+            {
+              "time_s": 93.608,
+              "hz": 533.445
+            },
+            {
+              "time_s": 93.793,
+              "hz": 531.288
+            },
+            {
+              "time_s": 93.979,
+              "hz": 532.92
+            },
+            {
+              "time_s": 94.165,
+              "hz": 530.015
+            },
+            {
+              "time_s": 94.351,
+              "hz": 535.113
+            },
+            {
+              "time_s": 94.536,
+              "hz": 533.563
+            },
+            {
+              "time_s": 94.722,
+              "hz": 534.204
+            },
+            {
+              "time_s": 94.908,
+              "hz": 532.281
+            },
+            {
+              "time_s": 95.094,
+              "hz": 532.911
+            },
+            {
+              "time_s": 95.279,
+              "hz": 533.321
+            },
+            {
+              "time_s": 95.465,
+              "hz": 531.777
+            },
+            {
+              "time_s": 95.651,
+              "hz": 529.79
+            },
+            {
+              "time_s": 95.837,
+              "hz": 535.464
+            },
+            {
+              "time_s": 96.022,
+              "hz": 531.173
+            },
+            {
+              "time_s": 96.208,
+              "hz": 528.669
+            },
+            {
+              "time_s": 96.394,
+              "hz": 526.185
+            },
+            {
+              "time_s": 96.58,
+              "hz": 526.427
+            },
+            {
+              "time_s": 96.765,
+              "hz": 529.918
+            },
+            {
+              "time_s": 96.951,
+              "hz": 530.494
+            },
+            {
+              "time_s": 97.137,
+              "hz": 529.328
+            },
+            {
+              "time_s": 97.323,
+              "hz": 526.384
+            },
+            {
+              "time_s": 97.509,
+              "hz": 529.302
+            },
+            {
+              "time_s": 97.694,
+              "hz": 527.075
+            },
+            {
+              "time_s": 97.88,
+              "hz": 527.239
+            },
+            {
+              "time_s": 98.066,
+              "hz": 519.662
+            },
+            {
+              "time_s": 98.252,
+              "hz": 522.083
+            },
+            {
+              "time_s": 98.437,
+              "hz": 527.279
+            },
+            {
+              "time_s": 98.623,
+              "hz": 523.222
+            },
+            {
+              "time_s": 98.809,
+              "hz": 525.496
+            },
+            {
+              "time_s": 98.995,
+              "hz": 523.295
+            },
+            {
+              "time_s": 99.18,
+              "hz": 527.011
+            },
+            {
+              "time_s": 99.366,
+              "hz": 518.659
+            },
+            {
+              "time_s": 99.552,
+              "hz": 520.53
+            },
+            {
+              "time_s": 99.738,
+              "hz": 525.651
+            },
+            {
+              "time_s": 99.923,
+              "hz": 527.663
+            },
+            {
+              "time_s": 100.109,
+              "hz": 524.812
+            },
+            {
+              "time_s": 100.295,
+              "hz": 525.772
+            },
+            {
+              "time_s": 100.481,
+              "hz": 524.301
+            },
+            {
+              "time_s": 100.666,
+              "hz": 524.151
+            },
+            {
+              "time_s": 100.852,
+              "hz": 524.865
+            },
+            {
+              "time_s": 101.038,
+              "hz": 522.539
+            },
+            {
+              "time_s": 101.224,
+              "hz": 523.353
+            },
+            {
+              "time_s": 101.409,
+              "hz": 525.079
+            },
+            {
+              "time_s": 101.595,
+              "hz": 516.411
+            },
+            {
+              "time_s": 101.781,
+              "hz": 522.036
+            },
+            {
+              "time_s": 101.967,
+              "hz": 523.514
+            },
+            {
+              "time_s": 102.153,
+              "hz": 525.269
+            },
+            {
+              "time_s": 102.338,
+              "hz": 527.899
+            },
+            {
+              "time_s": 102.524,
+              "hz": 522.988
+            },
+            {
+              "time_s": 102.71,
+              "hz": 521.875
+            },
+            {
+              "time_s": 102.896,
+              "hz": 524.778
+            },
+            {
+              "time_s": 103.081,
+              "hz": 525.695
+            },
+            {
+              "time_s": 103.267,
+              "hz": 528.315
+            },
+            {
+              "time_s": 103.453,
+              "hz": 519.86
+            },
+            {
+              "time_s": 103.639,
+              "hz": 525.897
+            },
+            {
+              "time_s": 103.824,
+              "hz": 522.327
+            },
+            {
+              "time_s": 104.01,
+              "hz": 520.792
+            },
+            {
+              "time_s": 104.196,
+              "hz": 519.751
+            },
+            {
+              "time_s": 104.382,
+              "hz": 522.302
+            },
+            {
+              "time_s": 104.567,
+              "hz": 529.636
+            },
+            {
+              "time_s": 104.753,
+              "hz": 520.318
+            },
+            {
+              "time_s": 104.939,
+              "hz": 522.937
+            },
+            {
+              "time_s": 105.125,
+              "hz": 524.619
+            },
+            {
+              "time_s": 105.31,
+              "hz": 520.727
+            },
+            {
+              "time_s": 105.496,
+              "hz": 520.921
+            },
+            {
+              "time_s": 105.682,
+              "hz": 524.612
+            },
+            {
+              "time_s": 105.868,
+              "hz": 517.504
+            },
+            {
+              "time_s": 106.053,
+              "hz": 519.828
+            },
+            {
+              "time_s": 106.239,
+              "hz": 518.987
+            },
+            {
+              "time_s": 106.425,
+              "hz": 522.46
+            },
+            {
+              "time_s": 106.611,
+              "hz": 518.345
+            },
+            {
+              "time_s": 106.797,
+              "hz": 517.76
+            },
+            {
+              "time_s": 106.982,
+              "hz": 515.994
+            },
+            {
+              "time_s": 107.168,
+              "hz": 515.74
+            },
+            {
+              "time_s": 107.354,
+              "hz": 523.946
+            },
+            {
+              "time_s": 107.54,
+              "hz": 519.179
+            },
+            {
+              "time_s": 107.725,
+              "hz": 522.203
+            },
+            {
+              "time_s": 107.911,
+              "hz": 518.043
+            },
+            {
+              "time_s": 108.097,
+              "hz": 519.668
+            },
+            {
+              "time_s": 108.283,
+              "hz": 520.733
+            },
+            {
+              "time_s": 108.468,
+              "hz": 517.601
+            },
+            {
+              "time_s": 108.654,
+              "hz": 516.333
+            },
+            {
+              "time_s": 108.84,
+              "hz": 523.286
+            },
+            {
+              "time_s": 109.026,
+              "hz": 522.521
+            },
+            {
+              "time_s": 109.211,
+              "hz": 520.766
+            },
+            {
+              "time_s": 109.397,
+              "hz": 521.106
+            },
+            {
+              "time_s": 109.583,
+              "hz": 518.933
+            },
+            {
+              "time_s": 109.769,
+              "hz": 514.745
+            },
+            {
+              "time_s": 109.954,
+              "hz": 519.117
+            },
+            {
+              "time_s": 110.14,
+              "hz": 519.166
+            },
+            {
+              "time_s": 110.326,
+              "hz": 514.544
+            },
+            {
+              "time_s": 110.512,
+              "hz": 518.104
+            },
+            {
+              "time_s": 110.697,
+              "hz": 517.758
+            },
+            {
+              "time_s": 110.883,
+              "hz": 517.738
+            },
+            {
+              "time_s": 111.069,
+              "hz": 515.989
+            },
+            {
+              "time_s": 111.255,
+              "hz": 516.867
+            },
+            {
+              "time_s": 111.44,
+              "hz": 519.01
+            },
+            {
+              "time_s": 111.626,
+              "hz": 520.605
+            },
+            {
+              "time_s": 111.812,
+              "hz": 514.154
+            },
+            {
+              "time_s": 111.998,
+              "hz": 518.523
+            },
+            {
+              "time_s": 112.184,
+              "hz": 518.811
+            },
+            {
+              "time_s": 112.369,
+              "hz": 514.793
+            },
+            {
+              "time_s": 112.555,
+              "hz": 517.356
+            },
+            {
+              "time_s": 112.741,
+              "hz": 515.585
+            },
+            {
+              "time_s": 112.927,
+              "hz": 519.662
+            },
+            {
+              "time_s": 113.112,
+              "hz": 513.482
+            },
+            {
+              "time_s": 113.298,
+              "hz": 513.987
+            },
+            {
+              "time_s": 113.484,
+              "hz": 513.647
+            },
+            {
+              "time_s": 113.67,
+              "hz": 513.261
+            },
+            {
+              "time_s": 113.855,
+              "hz": 512.524
+            },
+            {
+              "time_s": 114.227,
+              "hz": 519.013
+            },
+            {
+              "time_s": 114.413,
+              "hz": 516.942
+            },
+            {
+              "time_s": 114.598,
+              "hz": 510.85
+            },
+            {
+              "time_s": 114.784,
+              "hz": 517.283
+            },
+            {
+              "time_s": 114.97,
+              "hz": 515.676
+            },
+            {
+              "time_s": 115.156,
+              "hz": 515.922
+            },
+            {
+              "time_s": 115.341,
+              "hz": 515.92
+            },
+            {
+              "time_s": 115.527,
+              "hz": 516.089
+            },
+            {
+              "time_s": 115.713,
+              "hz": 514.253
+            },
+            {
+              "time_s": 115.899,
+              "hz": 514.956
+            },
+            {
+              "time_s": 116.084,
+              "hz": 515.302
+            },
+            {
+              "time_s": 116.27,
+              "hz": 515.236
+            },
+            {
+              "time_s": 116.456,
+              "hz": 518.053
+            },
+            {
+              "time_s": 116.642,
+              "hz": 505.743
+            },
+            {
+              "time_s": 116.828,
+              "hz": 506.338
+            },
+            {
+              "time_s": 117.013,
+              "hz": 516.106
+            },
+            {
+              "time_s": 117.199,
+              "hz": 515.795
+            },
+            {
+              "time_s": 117.385,
+              "hz": 514.119
+            },
+            {
+              "time_s": 117.571,
+              "hz": 517.417
+            },
+            {
+              "time_s": 117.756,
+              "hz": 517.381
+            },
+            {
+              "time_s": 117.942,
+              "hz": 515.082
+            },
+            {
+              "time_s": 118.128,
+              "hz": 516.545
+            },
+            {
+              "time_s": 118.314,
+              "hz": 515.271
+            },
+            {
+              "time_s": 118.499,
+              "hz": 514.462
+            },
+            {
+              "time_s": 118.685,
+              "hz": 512.175
+            },
+            {
+              "time_s": 118.871,
+              "hz": 512.221
+            },
+            {
+              "time_s": 119.057,
+              "hz": 511.068
+            },
+            {
+              "time_s": 119.242,
+              "hz": 510.766
+            },
+            {
+              "time_s": 119.428,
+              "hz": 510.74
+            },
+            {
+              "time_s": 119.614,
+              "hz": 508.576
+            },
+            {
+              "time_s": 119.8,
+              "hz": 516.881
+            },
+            {
+              "time_s": 119.985,
+              "hz": 510.021
+            },
+            {
+              "time_s": 120.171,
+              "hz": 516.792
+            },
+            {
+              "time_s": 120.357,
+              "hz": 508.788
+            },
+            {
+              "time_s": 120.543,
+              "hz": 510.802
+            },
+            {
+              "time_s": 120.728,
+              "hz": 508.705
+            },
+            {
+              "time_s": 120.914,
+              "hz": 512.576
+            },
+            {
+              "time_s": 121.1,
+              "hz": 511.211
+            },
+            {
+              "time_s": 121.286,
+              "hz": 514.42
+            },
+            {
+              "time_s": 121.472,
+              "hz": 513.061
+            },
+            {
+              "time_s": 121.657,
+              "hz": 508.802
+            },
+            {
+              "time_s": 121.843,
+              "hz": 510.97
+            },
+            {
+              "time_s": 122.029,
+              "hz": 512.503
+            },
+            {
+              "time_s": 122.215,
+              "hz": 517.521
+            },
+            {
+              "time_s": 122.4,
+              "hz": 516.055
+            },
+            {
+              "time_s": 122.586,
+              "hz": 513.972
+            },
+            {
+              "time_s": 122.772,
+              "hz": 518.913
+            },
+            {
+              "time_s": 122.958,
+              "hz": 506.83
+            },
+            {
+              "time_s": 123.143,
+              "hz": 513.516
+            },
+            {
+              "time_s": 123.329,
+              "hz": 510.794
+            },
+            {
+              "time_s": 123.515,
+              "hz": 514.757
+            },
+            {
+              "time_s": 123.701,
+              "hz": 509.904
+            },
+            {
+              "time_s": 123.886,
+              "hz": 513.08
+            },
+            {
+              "time_s": 124.072,
+              "hz": 512.319
+            },
+            {
+              "time_s": 124.258,
+              "hz": 511.59
+            },
+            {
+              "time_s": 124.444,
+              "hz": 511.795
+            },
+            {
+              "time_s": 124.629,
+              "hz": 508.407
+            }
+          ],
+          "min_hit_fraction": 0.68,
+          "min_coverage": 0.7,
+          "max_rmse_hz": 6,
+          "require_strong": true
+        }
+      ],
+      "note": "At least 68% publisher anchor hits and 70% coverage on one strong continuous ridge. Still below the separate 75% full-trace target. Uses unchanged source files and labels; not GPS ground truth."
+    },
+    {
+      "id": "hybrid-background-0",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/aerosonic-ypad0523/000000_2022-12-08_09-05-46_0_0.wav",
+      "detector_profile": "hybrid",
+      "labels": [],
+      "note": "Publisher human-verified 10-second background clip without aircraft. Tests the short-pass mode; too short to test the standard 30-second criterion.",
+      "max_strong_candidates": 0
+    },
+    {
+      "id": "hybrid-background-1",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/aerosonic-ypad0523/000000_2023-03-01_13-33-54_1_1.wav",
+      "detector_profile": "hybrid",
+      "labels": [],
+      "note": "Publisher human-verified 10-second background clip without aircraft. Tests the short-pass mode; too short to test the standard 30-second criterion.",
+      "max_strong_candidates": 0
+    },
+    {
+      "id": "hybrid-background-2",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/aerosonic-ypad0523/000000_2023-04-24_11-23-47_1_1.wav",
+      "detector_profile": "hybrid",
+      "labels": [],
+      "note": "Publisher human-verified 10-second background clip without aircraft. Tests the short-pass mode; too short to test the standard 30-second criterion.",
+      "max_strong_candidates": 0
+    },
+    {
+      "id": "hybrid-background-site0",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/aerosonic-ypad0523/000000_2023-05-03_10-41-40_0_1.wav",
+      "detector_profile": "hybrid",
+      "labels": [],
+      "note": "Publisher human-verified background. Short-pass profile permits detection in ten seconds; zero strong expected.",
+      "max_strong_candidates": 0
+    },
+    {
+      "id": "hybrid-background-site2",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/aerosonic-ypad0523/000000_2023-05-09_12-20-43_1_1.wav",
+      "detector_profile": "hybrid",
+      "labels": [],
+      "note": "Publisher human-verified background. Short-pass profile permits detection in ten seconds; zero strong expected.",
+      "max_strong_candidates": 0
+    }
+  ],
+  "locations": []
+}

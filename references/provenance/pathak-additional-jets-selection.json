@@ -1,0 +1,64 @@
+{
+  "source": "https://zenodo.org/records/23424278",
+  "archive": "Raw data_V_constant_H_varying.zip",
+  "archive_md5": "7dc6eb7cea1a8ee3a1e47b05e5340eb9",
+  "passages": [
+    "N563FX_R21",
+    "N958JX_R50"
+  ],
+  "selection": "Additional jet passages with supplied WAV, UTC frequency labels and KML; selected by aircraft identity before inspecting audio or location fits. Not selected by detector outcome.",
+  "observation_location": "Livermore, California (publisher city label only)",
+  "recorder_gps": null,
+  "assets": [
+    {
+      "path": "samples/public/pathak-2026/N958JX_R50/result_page.pdf",
+      "member": "V_constant_H_varying/N958JX_R50/result_page.pdf",
+      "sha256": "9b0d81a46cbe9573dd17cc43f0fd02792f6cb9a8e2f0ab796dd5fc1d09c4c50f",
+      "bytes": 328376
+    },
+    {
+      "path": "samples/public/pathak-2026/N958JX_R50/N958JX-track-EGM96.kml",
+      "member": "V_constant_H_varying/N958JX_R50/N958JX-track-EGM96.kml",
+      "sha256": "5f980bb38674baaeb3d8340e1b1fd513bacfedef048f1d0e41f934fea3ef9e67",
+      "bytes": 50477
+    },
+    {
+      "path": "samples/public/pathak-2026/N958JX_R50/audio.wav",
+      "member": "V_constant_H_varying/N958JX_R50/audio.wav",
+      "sha256": "3cfa0ca3a58db714074487004ca3b7505ab9ee4e4882b7efbfdf62f8d7f1a426",
+      "bytes": 4544468
+    },
+    {
+      "path": "samples/public/pathak-2026/N958JX_R50/frequency_vs_time_used.csv",
+      "member": "V_constant_H_varying/N958JX_R50/frequency_vs_time_used.csv",
+      "sha256": "6bcd151abeb8f9c8978bee8d5fbc00df951d7674c417a5d229989b529a72d8fd",
+      "bytes": 4312
+    },
+    {
+      "path": "samples/public/pathak-2026/N563FX_R21/result_page.pdf",
+      "member": "V_constant_H_varying/N563FX_R21/result_page.pdf",
+      "sha256": "2fc1e2eac37e1e09049f0c86377158f16ec23ad9270ed3c895812fefe4bd2966",
+      "bytes": 376060
+    },
+    {
+      "path": "samples/public/pathak-2026/N563FX_R21/N563FX-track-EGM96.kml",
+      "member": "V_constant_H_varying/N563FX_R21/N563FX-track-EGM96.kml",
+      "sha256": "af3373fe1b03f04b0b23ae10ff36224ed5bfdf6d78e1901a7df64a1ae3d9dc8c",
+      "bytes": 116899
+    },
+    {
+      "path": "samples/public/pathak-2026/N563FX_R21/audio.wav",
+      "member": "V_constant_H_varying/N563FX_R21/audio.wav",
+      "sha256": "427a7575ec97a84feb8fe81f7fb8b1cff5a122e79223fba11d5327c0ba9e1179",
+      "bytes": 12444452
+    },
+    {
+      "path": "samples/public/pathak-2026/N563FX_R21/frequency_vs_time_used.csv",
+      "member": "V_constant_H_varying/N563FX_R21/frequency_vs_time_used.csv",
+      "sha256": "ee79d4883a42f9b9871169e6aa155bd0584235cc9e0feb7f73f65faf4f76a6d3",
+      "bytes": 21459
+    }
+  ],
+  "license": "CC BY 4.0; Praveen Pathak",
+  "source_metadata": "references/provenance/zenodo-23424278.json"
+}

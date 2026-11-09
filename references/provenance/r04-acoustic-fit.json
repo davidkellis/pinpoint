@@ -1,0 +1,26 @@
+{
+  "fit": {
+    "speed_mps": 91.66860544205015,
+    "slant_m": 2251.253197955767,
+    "cpa_s": 43.55914796993991,
+    "f0_hz": 245.85875878024922,
+    "rmse_hz": 2.710218246999001
+  },
+  "event_bounds": {
+    "start_s": 4.9750001430511475,
+    "end_s": 80.20700001716614,
+    "cpa_s": 43.55914796993991,
+    "cpa_tolerance_s": 15,
+    "f0_min_hz": 159.808193207162,
+    "f0_max_hz": 331.90932435333644,
+    "f0_step_hz": 0.25,
+    "harmonics": [
+      1
+    ],
+    "min_speed_mps": 45.834302721025075,
+    "max_speed_mps": 165.00348979569029,
+    "min_slant_m": 0,
+    "max_slant_m": 9005.012791823068
+  },
+  "note": "Provisional broad bounds from selected frequency measurements only; no target location or target telemetry used."
+}

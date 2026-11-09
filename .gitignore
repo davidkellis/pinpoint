@@ -1,0 +1,15 @@
+/bin/
+/data/
+/work/
+/demo-output/
+*.prof
+
+# Private research inputs: personal phone recordings and the YouTube reference
+# rip stay local. Openly licensed public samples under samples/public/ are kept.
+/samples/*.mp3
+/samples/*.m4a
+/samples/*.wav
+/references/private/
+
+__pycache__/
+*.pyc

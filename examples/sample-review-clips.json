@@ -1,0 +1,74 @@
+{
+  "methods": [
+    "production-2+4s",
+    "stft-1s",
+    "harmonic-2s",
+    "local-2s",
+    "stft-8s"
+  ],
+  "cases": [
+    {
+      "id": "indoor-changing-tone",
+      "label": "indoor changing tone",
+      "kind": "unlabeled",
+      "audio": "samples/2026_11_04_15_43_19_1.mp3",
+      "start_s": 270,
+      "duration_s": 240,
+      "seed": 20261104
+    },
+    {
+      "id": "indoor-early-candidates",
+      "label": "indoor early candidates",
+      "kind": "unlabeled",
+      "audio": "samples/2026_11_04_15_43_19_1.mp3",
+      "start_s": 610,
+      "duration_s": 210,
+      "seed": 20261104
+    },
+    {
+      "id": "indoor-mid-candidate",
+      "label": "indoor mid candidate",
+      "kind": "unlabeled",
+      "audio": "samples/2026_11_04_15_43_19_1.mp3",
+      "start_s": 1570,
+      "duration_s": 220,
+      "seed": 20261104
+    },
+    {
+      "id": "indoor-repeated-candidate",
+      "label": "indoor repeated candidate",
+      "kind": "unlabeled",
+      "audio": "samples/2026_11_04_15_43_19_1.mp3",
+      "start_s": 1710,
+      "duration_s": 180,
+      "seed": 20261104
+    },
+    {
+      "id": "indoor-later-candidate",
+      "label": "indoor later candidate",
+      "kind": "unlabeled",
+      "audio": "samples/2026_11_04_15_43_19_1.mp3",
+      "start_s": 1900,
+      "duration_s": 200,
+      "seed": 20261104
+    },
+    {
+      "id": "indoor-final-candidate",
+      "label": "indoor final candidate",
+      "kind": "unlabeled",
+      "audio": "samples/2026_11_04_15_43_19_1.mp3",
+      "start_s": 2600,
+      "duration_s": 215,
+      "seed": 20261104
+    },
+    {
+      "id": "early-pitch-change",
+      "label": "early pitch change",
+      "kind": "unlabeled",
+      "audio": "samples/2026_11_04_15_05_14_1.mp3",
+      "start_s": 45,
+      "duration_s": 150,
+      "seed": 20261104
+    }
+  ]
+}

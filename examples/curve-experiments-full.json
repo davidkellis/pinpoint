@@ -1,0 +1,37 @@
+{
+  "methods": [
+    "production-2+4s",
+    "harmonic-2s",
+    "local-2s",
+    "stft-8s"
+  ],
+  "cases": [
+    {
+      "id": "reference-full",
+      "label": "Complete reference recording (counts only)",
+      "kind": "unlabeled",
+      "audio": "samples/Unknown location - raw audio [4CxVxuMVkMc].mp3",
+      "start_s": 0,
+      "duration_s": 3600,
+      "seed": 20261104
+    },
+    {
+      "id": "nov3-full",
+      "label": "Complete November 3 walk",
+      "kind": "unlabeled",
+      "audio": "samples/walking_2026_11_03_18_50_11_1.mp3",
+      "start_s": 0,
+      "duration_s": 3811,
+      "seed": 20261104
+    },
+    {
+      "id": "nov4-full",
+      "label": "Complete November 4 walk",
+      "kind": "unlabeled",
+      "audio": "samples/2026_11_04_13_01_27_1.mp3",
+      "start_s": 0,
+      "duration_s": 1432,
+      "seed": 20261104
+    }
+  ]
+}

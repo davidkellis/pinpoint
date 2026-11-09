@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "manifest_sha256": "aceb6abfe0a6d6ecfd977bace24be8e32b563195247d1d3fcc845cdb887d27de",
+  "go_source_sha256": "889163f79ce4c56f4d8b0b518f014a1c21b8f6bc2d51ed23b5cc1de30798e7a7",
+  "go_version": "go1.26.5",
+  "started_utc": "2026-11-06T04:16:59Z",
+  "profile": "all",
+  "status": "pass",
+  "verified_assets": 91,
+  "cases": [
+    {
+      "id": "challenger-partial-ridge",
+      "status": "pass",
+      "seconds": 15.058768982,
+      "fragments": 567,
+      "strong_candidates": 3,
+      "curves": [
+        {
+          "id": "publisher-frequency-trace",
+          "anchor_hit_fraction": 0.32087227414330216,
+          "anchor_coverage": 0.3442367601246106,
+          "rmse_hz": 6.2854857840886424,
+          "harmonic_ratio": 1,
+          "strong": true,
+          "pass": true
+        }
+      ],
+      "note": "Baseline floor for PARTIAL recovery only: 32.1% anchor hits, 34.4% coverage, strong ridge, 6.29 Hz RMSE. Does not establish complete flyover recognition. Full-trace target remains in jets-additional.json."
+    },
+    {
+      "id": "challenger-supplied-track-california",
+      "status": "pass",
+      "seconds": 14.917520102,
+      "best": {
+        "lat": 37.65851442867409,
+        "lon": -121.78385584217745,
+        "height_ellipsoid_m": 115.8029134217166,
+        "clock_offset_s": 1.6208940719144824,
+        "score_db": 21.22421308630973,
+        "events": [
+          {
+            "track_id": "N563FX",
+            "f0_hz": 703.8994035894245,
+            "score_db": 21.22421308630973,
+            "coverage": 1,
+            "cpa": {
+              "Emitted": 1778955899.8688724,
+              "Heard": 1778955905.7131696,
+              "Distance": 2004.5939478947173,
+              "Speed": 124.70373882099553
+            }
+          }
+        ]
+      },
+      "flight_groups": [
+        {
+          "lat": 37.65851442867409,
+          "lon": -121.78385584217745,
+          "height_ellipsoid_m": 115.8029134217166,
+          "clock_offset_s": 1.6208940719144824,
+          "score_db": 21.22421308630973,
+          "events": [
+            {
+              "track_id": "N563FX",
+              "f0_hz": 703.8994035894245,
+              "score_db": 21.22421308630973,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955899.8688724,
+                "Heard": 1778955905.7131696,
+                "Distance": 2004.5939478947173,
+                "Speed": 124.70373882099553
+              }
+            }
+          ]
+        }
+      ],
+      "locations_evaluated": 39003,
+      "note": "ASSISTED supplied-aircraft track, known single passage, longest automatic usable ridge. City-area recovery only; no exact microphone GPS. Competing-flight challenge is separate and currently fails."
+    }
+  ],
+  "decoder": "ffmpeg version 8.1.3 Copyright (c) 2000-2026 the FFmpeg developers"
+}

@@ -1,0 +1,30 @@
+{
+  "spectrogram": "../work/spectrogram.bin",
+  "tracks": "../work/tracks.csv",
+  "recording_start": "2025-09-08T20:30:00Z",
+  "clock_uncertainty_s": 30,
+  "clock_step_s": 1,
+  "bounds": {"south": 35.24, "north": 35.26, "west": -100.515, "east": -100.485},
+  "grid_m": 200,
+  "refine_m": 40,
+  "observer_height_ellipsoid_m": 700,
+  "sound_speed_mps": 343,
+  "max_track_gap_s": 30,
+  "min_event_score_db": 5,
+  "workers": 4,
+  "events": [
+    {
+      "start_s": 30,
+      "end_s": 100,
+      "cpa_s": 65,
+      "f0_min_hz": 120,
+      "f0_max_hz": 140,
+      "f0_step_hz": 0.5,
+      "harmonics": [1],
+      "min_speed_mps": 20,
+      "max_speed_mps": 160,
+      "min_slant_m": 100,
+      "max_slant_m": 10000
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "method": "Evaluation-only KML to archive identity correspondence: horizontal positions at common UTC epochs, no type filter and no observer position. Not used to select search aircraft.",
+  "candidates": [
+    [
+      33.517863912398624,
+      "ad533d",
+      "E145",
+      27
+    ],
+    [
+      14936.228757284149,
+      "a49238",
+      "E55P",
+      21
+    ],
+    [
+      15120.967272287735,
+      "a6a49c",
+      "SR20",
+      27
+    ],
+    [
+      15430.384203045063,
+      "a1118c",
+      "C172",
+      27
+    ],
+    [
+      18393.336754865784,
+      "ad4643",
+      "C152",
+      27
+    ]
+  ]
+}

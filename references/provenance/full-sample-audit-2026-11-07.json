@@ -1,0 +1,1375 @@
+{
+  "version": 1,
+  "date": "2026-11-07",
+  "source_registry": "references/sources.json",
+  "audio_files": 40,
+  "unique_audio": 39,
+  "audio_inputs": [
+    {
+      "path": "samples/public/dlr-a320-rec139/microphone-080.wav",
+      "sha256": "e79e1e3d7d3f8301de7866632a7a7a12185da09652079ed675a876aa8641fbea",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/dlr-a320-rec139/microphone-221.wav",
+      "sha256": "35f75eb30860f2640cf56f2638540588fae8bff95322f3c5265de8088a146a61",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/dlr-a320-rec139/microphone-222.wav",
+      "sha256": "dcfdbc3d2ecae2a9427ed1d6c75a8a373a5116ddc7b9da251111b37cfe80f50f",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/000000_2022-12-08_09-05-46_0_0.wav",
+      "sha256": "f4c5f6bad0c8b20c91c590d6cff7ca56f25b59331072168b579f59b88ffd2596",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/000000_2023-03-01_13-33-54_1_1.wav",
+      "sha256": "1b0318e9598e9a7a3c1301c8362fdbe25b2a0186c068185b933d775af2c9045c",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/000000_2023-04-24_11-23-47_1_1.wav",
+      "sha256": "fea3ede512b7c9651f52d6a4d293c4638aba6df14bff223a316d2ebc0b4e7e02",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/000000_2023-05-03_10-41-40_0_1.wav",
+      "sha256": "f06ec44d5d1c78fc96c51b95e20905082fd7bb275374184b34236c0a6d58465e",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/000000_2023-05-09_12-20-43_1_1.wav",
+      "sha256": "eb5c2c692e4bf9ee9d4651fde2b326e4a537a50e3be6d6ae5e3ab4054461445a",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/pathak-2026/N958JX_R50/audio.wav",
+      "sha256": "3cfa0ca3a58db714074487004ca3b7505ab9ee4e4882b7efbfdf62f8d7f1a426",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/pathak-2026/N373DF_R06/audio.wav",
+      "sha256": "27629dee59acf4877ac3094f9b6db46189b1f6572bf2ceecff06360caaee49bd",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/pathak-2026/N757AH_R41/audio.wav",
+      "sha256": "e47eb35b076a9fbeb4983498221f6853d1d0cc9d8af7259a430557a100bed293",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/06A2B1_2022-12-08_19-55-46_0_0.wav",
+      "sha256": "323d3b3f62d5a1d31c2cac939da17e3bd2148c8e6db8832abf3f9b460ec59f40",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/750262_2022-12-11_09-48-28_0_0.wav",
+      "sha256": "6e4558a729964d8cc2fa96706d9cf0076a2660cdf641df7d4b4a8aeae752e253",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/76CD0B_2023-05-10_06-58-39_0_1.wav",
+      "sha256": "95cc809df167772beed116295b168f4ae59f157e72d3d693720620f742a23e50",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C1ABD_2023-05-03_11-28-53_0_1.wav",
+      "sha256": "5a60521b7688593962363e0306bc2fc329139ba0b21266a6b9d970993c1628ac",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C1B0F_2023-05-20_15-40-08_0_1.wav",
+      "sha256": "2c06a306744e7c6fccde9a0d878cfcb154c4d3b43083f1f0449ad33d98e46343",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C29D4_2023-05-03_11-38-48_0_1.wav",
+      "sha256": "02dea4fe3dbb1009c298f853abb94689b84f1e283e3696e9e7a844550d0eb77b",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C4209_2023-05-09_12-54-51_2_1.wav",
+      "sha256": "cc1b64304efdf4141dd0b53f1f33f280986a4f6c7c8f2ce94277a199401df5be",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C68B6_2023-05-09_12-56-13_2_1.wav",
+      "sha256": "cf330a2a797f016bd0f114feb055db6ae7755dac218f4d35c6abd45e6413236b",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C7777_2022-12-08_10-06-22_0_0.wav",
+      "sha256": "fbb9b09a30b573ac0175b78c0cc6686b35b9f73d468cde9d09bb64d1fa02ed14",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C77FA_2022-12-08_09-21-43_0_0.wav",
+      "sha256": "1ac790e34513610d9e2b01d2962a964603cf8a78179c0a65edff9579694a90d5",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C7CD0_2022-12-08_12-29-45_0_0.wav",
+      "sha256": "e4b471da131570c8e80fdadf12101e1158f8cdf3dac64c80964effb4df8156cf",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C7CD0_2023-05-09_12-42-55_2_1.wav",
+      "sha256": "296ad9da04ac7b42ce1dae91db2c760cdbd26c297bc584bf4a28d3990c3c69a3",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/C827EE_2023-05-03_10-38-32_0_1.wav",
+      "sha256": "19a357eadf334c4d3dcc7823ab54bf0ec3c89afbfaa7ca01f6d91a6606cc4a71",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/pathak-2026/N394FX_R20/audio.wav",
+      "sha256": "cfd03401b5f891020d76c12000a7552be0c549f65b8e67dc571f06258f0178ac",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/pathak-2026/N788BM_R03/audio.wav",
+      "sha256": "8d23e3aa36ad439801fcbec6ef3f7f80647ed70d3b9ed11157539e72e771b38b",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/pathak-2026/N916KT_R22/audio.wav",
+      "sha256": "81da035ff6af575fcaded1a4dfc3162bb6377a033c0d840af490eba47a879998",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/pathak-2026/N784MB_R04/audio.wav",
+      "sha256": "c0366b111fbf82877bcaba53aa53a99602f9f5512513bc996e629aa04633d37e",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/pathak-2026/N4040_R12/audio.wav",
+      "sha256": "f0a78abf7fb124e0688ce82d0eb6410475b840188209b5e07dc21519c8bfa3df",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/pathak-2026/N413AK_R49/audio.wav",
+      "sha256": "c28412b7c3de34b006b40bf6fe005ba042145ee4d480547a0647091e531a5b3b",
+      "aliases": []
+    },
+    {
+      "path": "samples/public/pathak-2026/N563FX_R21/audio.wav",
+      "sha256": "427a7575ec97a84feb8fe81f7fb8b1cff5a122e79223fba11d5327c0ba9e1179",
+      "aliases": []
+    },
+    {
+      "path": "samples/2026_11_04_15_05_14_1.mp3",
+      "sha256": "2c77f1b56707d86c5a7aa0ae1ea259dce75292018991a5dfb3eecb6cc5297ded",
+      "aliases": []
+    },
+    {
+      "path": "samples/2026_11_04_13_01_27_1.mp3",
+      "sha256": "0f617350a9086535074341ba13a93e8706e4b621f53e51643d53be05daf0f842",
+      "aliases": [
+        "samples/desk_2026_11_04_13_01_27_1.mp3"
+      ]
+    },
+    {
+      "path": "samples/2026_11_04_21_49_04_1.mp3",
+      "sha256": "310137c53ab8ac8a181fa97edb7148a356fcd489a194a06d52f59af7d52cddff",
+      "aliases": []
+    },
+    {
+      "path": "samples/2026_11_04_15_43_19_1.mp3",
+      "sha256": "abb254b2aa89e4243711101bc1160b590e7e89540929b9b6a866a1c15b2f7853",
+      "aliases": []
+    },
+    {
+      "path": "samples/Unknown location - raw audio [4CxVxuMVkMc].mp3",
+      "sha256": "89512e9c28454029059cc3cf7bc79ca77811c9bc931bf17584481ad897e71487",
+      "aliases": []
+    },
+    {
+      "path": "samples/walking_2026_11_03_18_50_11_1.mp3",
+      "sha256": "e7ea849627b8ea7e583eadc0003dedc36fc4700b9e24a7ca3d456f45c7146a19",
+      "aliases": []
+    },
+    {
+      "path": "samples/2026_11_05_10_17_58_1.mp3",
+      "sha256": "fe8fe6d4379f4d07dc65dd5745bb4919413ebf33fa98bda2715977b51a2e1c98",
+      "aliases": []
+    },
+    {
+      "path": "samples/2026_11_06_10_23_41_1.mp3",
+      "sha256": "16deb0dc12407922bf2e243316861401f1b1c195744791e5b8f1cd1fde0d4bde",
+      "aliases": []
+    }
+  ],
+  "assets": [
+    {
+      "path": "work/sample-audit-2026-11-07/dlr-microphone-080/analysis-inputs.json",
+      "sha256": "23c0c1230ef14c57d4cbc75b28352877512398c7cd6accb8189100c4ccc0f861",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/dlr-microphone-080/analysis/detection.json",
+      "sha256": "bb4f639b2ba4e257f0374583c7043dfe2615e9c340f91516437e74822ce0a354",
+      "bytes": 145400,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/dlr-microphone-080/localization.json",
+      "sha256": "bb6cfc1185a9fa6484f081567bc4d91a26206bad5a9ece2da0276f4b6f54819b",
+      "bytes": 217,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/dlr-microphone-221/analysis-inputs.json",
+      "sha256": "ec6dcc62be664577a76954ee61990bb2fa983018886df0e5f1bfafa3e40d1a4b",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/dlr-microphone-221/analysis/detection.json",
+      "sha256": "22643babcc03c412510c667e931271fc342ad361c30a034eae6a8c64ce3235b6",
+      "bytes": 207093,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/dlr-microphone-221/localization.json",
+      "sha256": "bb6cfc1185a9fa6484f081567bc4d91a26206bad5a9ece2da0276f4b6f54819b",
+      "bytes": 217,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/dlr-microphone-222/analysis-inputs.json",
+      "sha256": "b99f2e22722b12bf0accda4c2bfcddc259faf5c65a79fa55c058cbc7c08ae2f7",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/dlr-microphone-222/analysis/detection.json",
+      "sha256": "c0d7ef9ff9370e3a5e54b52fc3edbc11b7f27b98a271b6d69f6e5cb87783e661",
+      "bytes": 216321,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/dlr-microphone-222/localization.json",
+      "sha256": "bb6cfc1185a9fa6484f081567bc4d91a26206bad5a9ece2da0276f4b6f54819b",
+      "bytes": 217,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-000000_2022-12-08_09-05-46_0_0/analysis-inputs.json",
+      "sha256": "de90566543aed21bdedc29d350c50e3e1de3766d9e1705e526308b0baa32cae2",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-000000_2022-12-08_09-05-46_0_0/analysis/detection.json",
+      "sha256": "020b82978ecffd283b207124fed4b604a7d769df5249254ad67d6b2c227a90e9",
+      "bytes": 109458,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-000000_2022-12-08_09-05-46_0_0/localization.json",
+      "sha256": "585621996f59e2e4d579b9bf4f6fc6142bd64d1f9316ef2ef186fde734be6f90",
+      "bytes": 262,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-000000_2023-03-01_13-33-54_1_1/analysis-inputs.json",
+      "sha256": "6ad4af62b713f654ff0a33740ccee2f1220ec885fbaa4acdc24768813d1abf89",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-000000_2023-03-01_13-33-54_1_1/analysis/detection.json",
+      "sha256": "84513884daedfd6811f749d5275fea9f3c05d6f299b54d8f03d4aa7177c1f9ac",
+      "bytes": 346126,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-000000_2023-03-01_13-33-54_1_1/localization.json",
+      "sha256": "585621996f59e2e4d579b9bf4f6fc6142bd64d1f9316ef2ef186fde734be6f90",
+      "bytes": 262,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-000000_2023-04-24_11-23-47_1_1/analysis-inputs.json",
+      "sha256": "f55a856b2418de96e74c440e6971681e0b7548fcdf4fb4eedcd5f07a3a260ad7",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-000000_2023-04-24_11-23-47_1_1/analysis/detection.json",
+      "sha256": "71d30f92a0d86f6d90159a4d9f3a66630d1c337085c88cc6cf46844d225f9f9e",
+      "bytes": 282951,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-000000_2023-04-24_11-23-47_1_1/localization.json",
+      "sha256": "585621996f59e2e4d579b9bf4f6fc6142bd64d1f9316ef2ef186fde734be6f90",
+      "bytes": 262,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-000000_2023-05-03_10-41-40_0_1/analysis-inputs.json",
+      "sha256": "e1f02167c3d169ef345bae5fade9d55e5a768cf04455946ceac5f1dabe5cf306",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-000000_2023-05-03_10-41-40_0_1/analysis/detection.json",
+      "sha256": "8052222d161a048543ed2980f5b2599fb420108ab2cdc198baf7ec138a74d6c6",
+      "bytes": 493873,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-000000_2023-05-03_10-41-40_0_1/localization.json",
+      "sha256": "585621996f59e2e4d579b9bf4f6fc6142bd64d1f9316ef2ef186fde734be6f90",
+      "bytes": 262,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-000000_2023-05-09_12-20-43_1_1/analysis-inputs.json",
+      "sha256": "9f1d542beec03617d384381ed841c38847f2fd3d8783127e808cbca4bb3717d1",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-000000_2023-05-09_12-20-43_1_1/analysis/detection.json",
+      "sha256": "bb8e3da93f6f78e59a83bc731eb89f082d5eccd21ad2b225055f1fd2e6be0714",
+      "bytes": 400129,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-000000_2023-05-09_12-20-43_1_1/localization.json",
+      "sha256": "585621996f59e2e4d579b9bf4f6fc6142bd64d1f9316ef2ef186fde734be6f90",
+      "bytes": 262,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N958JX_R50/analysis-inputs.json",
+      "sha256": "0ba5f38eba2a6cbfca3ee7c28ae8594ae50d245b2cecb738f2f808803d31727d",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N958JX_R50/analysis/detection.json",
+      "sha256": "d08b9e79b6f9fdb9fbc05bc32a589038a672224a0de3ab2e8cbdbc225dddbc94",
+      "bytes": 1336367,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N958JX_R50/localization.json",
+      "sha256": "36c74922bfeccecf8e3fd565ed32f4b0e6ae2817c2ef0f4cc2b0c3ebe1d23c25",
+      "bytes": 202,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N373DF_R06/analysis-inputs.json",
+      "sha256": "d1413935c7628d8c71f42df5028e597e3f1621f7b64a0a8af85682b738c4e1f1",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N373DF_R06/analysis/detection.json",
+      "sha256": "a9082e1063f46cf2b86c090fc732697090edccb848f83fbe7251959181098c58",
+      "bytes": 1623427,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N373DF_R06/statewide-tracks/fetch.json",
+      "sha256": "b512f553418076f3327bc1595266f20a36bdfe5381689a523445d0c8be10c8ce",
+      "bytes": 1102,
+      "role": "State-wide data-source scope and coverage"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N373DF_R06/localization.json",
+      "sha256": "71c2d47d261351a4b54bc9594bf553804a63d777697c40ee9f42ad0b1d5ec219",
+      "bytes": 626,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N373DF_R06/location-conditional/inputs.json",
+      "sha256": "ef9d5d5cb5c3c931a29f814fba83ba23dc2c145974f345417559ae17e7ebd056",
+      "bytes": 347,
+      "role": "Location experiment inputs/executable binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N373DF_R06/location-conditional/outcome.json",
+      "sha256": "54e1b8b96d35c865acebf8d460a6ec77222d5c8ee2f53a8f73908ca76b24f6c2",
+      "bytes": 10358,
+      "role": "Completed inference output"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N757AH_R41/analysis-inputs.json",
+      "sha256": "75ac321405295dfecd662cd7a2cb37f3563fb2344529b561b872819a4a892129",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N757AH_R41/analysis/detection.json",
+      "sha256": "ce2cfe25710fd4bdd6f4f6ba5ce21c05c4cfdbaaf95107e57308f279863bc830",
+      "bytes": 1932951,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N757AH_R41/statewide-tracks/fetch.json",
+      "sha256": "b4e06eae709e9e3691a2ce5c2092acb028b142a56aa5efa7afee1845bc851609",
+      "bytes": 1102,
+      "role": "State-wide data-source scope and coverage"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N757AH_R41/localization.json",
+      "sha256": "ff280f8d7bd0cf99fdc6b2aac101306923f3e17fb0aca311515d952832029b28",
+      "bytes": 626,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N757AH_R41/location-conditional/inputs.json",
+      "sha256": "abc154bcc88fa189c642d36d592bf864443edc3a5280ad3595ef129cc30678a9",
+      "bytes": 347,
+      "role": "Location experiment inputs/executable binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N757AH_R41/location-conditional/outcome.json",
+      "sha256": "3a9b1282465bac775e242f9989674fd867f3a5f84730ab0430ba3f04bc353cb1",
+      "bytes": 5129,
+      "role": "Completed inference output"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-06A2B1_2022-12-08_19-55-46_0_0/analysis-inputs.json",
+      "sha256": "c376fd6f17a9dbaf4f6a3644fc46a184b20728e796dd07252456d6d8f59a91b7",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-06A2B1_2022-12-08_19-55-46_0_0/analysis/detection.json",
+      "sha256": "13b4ffbe6a0cbe81086e2e9c7f94cbdbc7a5fdcfac2e9202b1fd84e43d504564",
+      "bytes": 1690650,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-06A2B1_2022-12-08_19-55-46_0_0/localization.json",
+      "sha256": "4637a5fbdc1c3631c2d8996498c5fd921b95122c6fe6764f4ff503740e493054",
+      "bytes": 261,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-750262_2022-12-11_09-48-28_0_0/analysis-inputs.json",
+      "sha256": "75991088f03f0d98c26ea792641ea73cb73234be13fccfa8a5a15088d3c67d75",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-750262_2022-12-11_09-48-28_0_0/analysis/detection.json",
+      "sha256": "60da6fc1053c1450705d38591fc2103bbd0de63205055f0d2a73c7887d6c94a0",
+      "bytes": 2141376,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-750262_2022-12-11_09-48-28_0_0/localization.json",
+      "sha256": "4637a5fbdc1c3631c2d8996498c5fd921b95122c6fe6764f4ff503740e493054",
+      "bytes": 261,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-76CD0B_2023-05-10_06-58-39_0_1/analysis-inputs.json",
+      "sha256": "d2cb116e21e187748c02caed9ace5374b9ce12c5c96590b115dff8c00cda0b24",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-76CD0B_2023-05-10_06-58-39_0_1/analysis/detection.json",
+      "sha256": "2613cbbf0088abd382642844df6e9267625fd4f1150f3e814287dcf252079ae9",
+      "bytes": 1849515,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-76CD0B_2023-05-10_06-58-39_0_1/localization.json",
+      "sha256": "4637a5fbdc1c3631c2d8996498c5fd921b95122c6fe6764f4ff503740e493054",
+      "bytes": 261,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C1ABD_2023-05-03_11-28-53_0_1/analysis-inputs.json",
+      "sha256": "cb4dd70846cc1018ab96682f2ebc7311c8dd15904ce2fa1bc867b0b34abea899",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C1ABD_2023-05-03_11-28-53_0_1/analysis/detection.json",
+      "sha256": "eb4e58246e60d2542922330e6391d95f7f5b50fa161e030026fdbf4d24acbf0c",
+      "bytes": 1614228,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C1ABD_2023-05-03_11-28-53_0_1/localization.json",
+      "sha256": "4637a5fbdc1c3631c2d8996498c5fd921b95122c6fe6764f4ff503740e493054",
+      "bytes": 261,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C1B0F_2023-05-20_15-40-08_0_1/analysis-inputs.json",
+      "sha256": "e91960eb95bb8b9004dcbda46b40228e233f4fb68a31fa6cc0e626b05d810010",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C1B0F_2023-05-20_15-40-08_0_1/analysis/detection.json",
+      "sha256": "15658c85b82a39dad119cd7a370ad4f05bbe1157e005954dfa98fa8f72c2e889",
+      "bytes": 1866713,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C1B0F_2023-05-20_15-40-08_0_1/localization.json",
+      "sha256": "4637a5fbdc1c3631c2d8996498c5fd921b95122c6fe6764f4ff503740e493054",
+      "bytes": 261,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C29D4_2023-05-03_11-38-48_0_1/analysis-inputs.json",
+      "sha256": "37e79a7cef4b9252d3e2251c74c1a99c04931054e1913708e731b71f46fa188e",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C29D4_2023-05-03_11-38-48_0_1/analysis/detection.json",
+      "sha256": "22d01a989e70578fe21491491768a3e8d0bda61c42b85629a2d647f8d287bd64",
+      "bytes": 1775124,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C29D4_2023-05-03_11-38-48_0_1/localization.json",
+      "sha256": "4637a5fbdc1c3631c2d8996498c5fd921b95122c6fe6764f4ff503740e493054",
+      "bytes": 261,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C4209_2023-05-09_12-54-51_2_1/analysis-inputs.json",
+      "sha256": "afe9736dc669ac8077b60045477df17f783a9cbb4b78bc85d3e984234d016213",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C4209_2023-05-09_12-54-51_2_1/analysis/detection.json",
+      "sha256": "858e6e218f3770d82297ee8ac81ede8854e0be9fa2b77f6c6cc2b96c89e42bba",
+      "bytes": 2575592,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C4209_2023-05-09_12-54-51_2_1/localization.json",
+      "sha256": "4637a5fbdc1c3631c2d8996498c5fd921b95122c6fe6764f4ff503740e493054",
+      "bytes": 261,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C68B6_2023-05-09_12-56-13_2_1/analysis-inputs.json",
+      "sha256": "db9b4fd6f43203865c27df649abf2e890b611b14193dc1bc5bf318a4aee6235c",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C68B6_2023-05-09_12-56-13_2_1/analysis/detection.json",
+      "sha256": "83858aed6e656429ce27eb453581c5128da68b562627c1700795a13bb5d48139",
+      "bytes": 2046534,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C68B6_2023-05-09_12-56-13_2_1/localization.json",
+      "sha256": "4637a5fbdc1c3631c2d8996498c5fd921b95122c6fe6764f4ff503740e493054",
+      "bytes": 261,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C7777_2022-12-08_10-06-22_0_0/analysis-inputs.json",
+      "sha256": "dcc077550c8449d2ee0f18b9f2e22e8056d116b2694999e7a8141289b345a46e",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C7777_2022-12-08_10-06-22_0_0/analysis/detection.json",
+      "sha256": "d919ec8052633a7a3aeca584a4333232efe054c79a249f1ad017a6089f917876",
+      "bytes": 1551261,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C7777_2022-12-08_10-06-22_0_0/localization.json",
+      "sha256": "4637a5fbdc1c3631c2d8996498c5fd921b95122c6fe6764f4ff503740e493054",
+      "bytes": 261,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C77FA_2022-12-08_09-21-43_0_0/analysis-inputs.json",
+      "sha256": "5db5ee1f29fcbca064427faa76274e5776729ad8c3cd3eab45ddb592e5142ac5",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C77FA_2022-12-08_09-21-43_0_0/analysis/detection.json",
+      "sha256": "066d39becac9ac20a05e58485b486bc92e5eb8dea2db353b567a1f694248df86",
+      "bytes": 1292012,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C77FA_2022-12-08_09-21-43_0_0/localization.json",
+      "sha256": "4637a5fbdc1c3631c2d8996498c5fd921b95122c6fe6764f4ff503740e493054",
+      "bytes": 261,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C7CD0_2022-12-08_12-29-45_0_0/analysis-inputs.json",
+      "sha256": "60a4f7c423c9fed8e56781563e37c45ecdc7f9464d49d56866399132239da7d0",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C7CD0_2022-12-08_12-29-45_0_0/analysis/detection.json",
+      "sha256": "a6a484918d34433a763727be053eaf5289e9f30c891fa123c3902bb4f0cbd2d9",
+      "bytes": 1725612,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C7CD0_2022-12-08_12-29-45_0_0/localization.json",
+      "sha256": "4637a5fbdc1c3631c2d8996498c5fd921b95122c6fe6764f4ff503740e493054",
+      "bytes": 261,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C7CD0_2023-05-09_12-42-55_2_1/analysis-inputs.json",
+      "sha256": "a1b9b4be1d848684967f38049f0a54ccc435da3337cbbd48725f9975539fef2e",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C7CD0_2023-05-09_12-42-55_2_1/analysis/detection.json",
+      "sha256": "20657d4ee1d19fff6aab19417107127e8cc2bd842ecad5331bd5eec257cd121b",
+      "bytes": 2426038,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-7C7CD0_2023-05-09_12-42-55_2_1/localization.json",
+      "sha256": "4637a5fbdc1c3631c2d8996498c5fd921b95122c6fe6764f4ff503740e493054",
+      "bytes": 261,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-C827EE_2023-05-03_10-38-32_0_1/analysis-inputs.json",
+      "sha256": "f3fb784689658e54e1dbf8b2cdc0b49f5752dc1db147d105f265226a851cf7c5",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-C827EE_2023-05-03_10-38-32_0_1/analysis/detection.json",
+      "sha256": "4126733be6fac7f0a7a7deac8d5f81da23c1d4d8cb83b4619f2e6fe6f392d81c",
+      "bytes": 1780383,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/aerosonic-C827EE_2023-05-03_10-38-32_0_1/localization.json",
+      "sha256": "4637a5fbdc1c3631c2d8996498c5fd921b95122c6fe6764f4ff503740e493054",
+      "bytes": 261,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N394FX_R20/analysis-inputs.json",
+      "sha256": "c7dcf60a7bf6da196b6bcd37a601a84ff03f917630bc73859612f3117e9eaeb6",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N394FX_R20/analysis/detection.json",
+      "sha256": "87c3cc3b570661e88ae52c2d14dad8035939ac2b3f62422eb73680b4c197181b",
+      "bytes": 1443024,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N394FX_R20/statewide-tracks/fetch.json",
+      "sha256": "f2726f2da37f2a625fc10a2d9e5f78dbfa29b8629f4675631223234cc5860a04",
+      "bytes": 1090,
+      "role": "State-wide data-source scope and coverage"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N394FX_R20/statewide-tracks/tracks.csv",
+      "sha256": "6f32f7ef9f040cd3d94a4d55162c7f8d8b39367d816dd74af5dd7e6ec86c6f8f",
+      "bytes": 6151856,
+      "role": "Competing geometric flight trajectories"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N394FX_R20/localization.json",
+      "sha256": "8ce963a0a7c7e5aeb4d184d3e268b8984cddcda4e37a1e78c9c674b6e7ea3385",
+      "bytes": 2617,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N394FX_R20/location-conditional/inputs.json",
+      "sha256": "6d0873d3f05855dce972b9af388366573466c93c6ccb00c2e84a82a8d208756c",
+      "bytes": 347,
+      "role": "Location experiment inputs/executable binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N394FX_R20/location-statewide/inputs.json",
+      "sha256": "430de33ffb6a7d3924b527ef4c1db6ad45265de8d9ea122320b8c4c76c4d6d52",
+      "bytes": 434,
+      "role": "Location experiment inputs/executable binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N394FX_R20/location-conditional/outcome.json",
+      "sha256": "5f0c2db96c8b9d9ee9322b2c17dd38de56081546890c8bf5d4ad662d81189c52",
+      "bytes": 31980,
+      "role": "Completed inference output"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N394FX_R20/location-statewide/outcome.json",
+      "sha256": "5261c2cca9cc1d1bdb7e14838a6653ef845c69025f0dfcb9a07ec4fb42f8cde9",
+      "bytes": 38813,
+      "role": "Completed inference output"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N788BM_R03/analysis-inputs.json",
+      "sha256": "b6bbd1a15c90a561c05ceea7bbfecbeddbce824a555c8c32155d7650a7e2b633",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N788BM_R03/analysis/detection.json",
+      "sha256": "75e08bce62d7d8c3aa78a090969e2d8f93758cd890944c0585ee5d1690a3788d",
+      "bytes": 1904980,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N788BM_R03/statewide-tracks/fetch.json",
+      "sha256": "99cb469e27f915afeae5361b33658fad90a15dd320112c8e9053c82cc88acba2",
+      "bytes": 1102,
+      "role": "State-wide data-source scope and coverage"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N788BM_R03/localization.json",
+      "sha256": "09f875e899c24976db5e1fdf4e3bfe9a127465e4dbc625817c754080b5189e82",
+      "bytes": 1394,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N788BM_R03/location-conditional/inputs.json",
+      "sha256": "979204b01dd50264625004c911b177832b4f1263708b954a02e95d615471253f",
+      "bytes": 347,
+      "role": "Location experiment inputs/executable binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N788BM_R03/location-conditional/outcome.json",
+      "sha256": "82067ed30cd8ddac702375c0386ea74602aac7c0e54b3a17d2b38eb084925b34",
+      "bytes": 18568,
+      "role": "Completed inference output"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N916KT_R22/analysis-inputs.json",
+      "sha256": "aa3484bc0f7bc6173b84313e09a18cc36717c68e46ded03eea000af6037919f5",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N916KT_R22/analysis/detection.json",
+      "sha256": "1a26c576620a2a41d058a42798e2d51cdbd2a20dedeacab20b5a8dac3d176710",
+      "bytes": 2727453,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N916KT_R22/statewide-tracks/fetch.json",
+      "sha256": "5fa7a0f200ca3d5fb5c63b2e961a1466c00e4d3063ce74d0e7f75393f96d0a9e",
+      "bytes": 1089,
+      "role": "State-wide data-source scope and coverage"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N916KT_R22/statewide-tracks/tracks.csv",
+      "sha256": "48cece96fda5c7d63e448586611c99f57b8f3149cf3527fa2ea5cf70a9160863",
+      "bytes": 6245358,
+      "role": "Competing geometric flight trajectories"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N916KT_R22/localization.json",
+      "sha256": "9b77be70938b924e41c281e6bd3fce74907e84fcd62a4e7a8fc49ae7c003ee9d",
+      "bytes": 2614,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N916KT_R22/location-conditional/inputs.json",
+      "sha256": "a2d9559a473e47c607c7541aa5c1fa7fa3c44e0cd2ec8e69173f8b95ba57167a",
+      "bytes": 347,
+      "role": "Location experiment inputs/executable binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N916KT_R22/location-statewide/inputs.json",
+      "sha256": "dfc3d6b50d6d068825e64eb9c1dc28c16e132264eae1edb0600c12dab6b60a30",
+      "bytes": 434,
+      "role": "Location experiment inputs/executable binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N916KT_R22/location-conditional/outcome.json",
+      "sha256": "a01c475542f8c5d7d7f103f225b10af802cf95b53acb554f96c248017689fa75",
+      "bytes": 49866,
+      "role": "Completed inference output"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N916KT_R22/location-statewide/outcome.json",
+      "sha256": "328137a3b62f2bcd59b99eba2e39bf732e36e96adef2cf239b32106f1e58dcf9",
+      "bytes": 62151,
+      "role": "Completed inference output"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N784MB_R04/analysis-inputs.json",
+      "sha256": "4c8a671de9917233d88f43afecdf467097402aad0cab92e0493f0683182e0836",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N784MB_R04/analysis/detection.json",
+      "sha256": "ada490ff29bf564a4564a0e24452336a3f8e074b7947c2181b408b22e5a14ecb",
+      "bytes": 2570183,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N784MB_R04/statewide-tracks/fetch.json",
+      "sha256": "3cd86d8cbab0dadd4238178fad23d845963e36a7b93b9313e0e22efec1ff12a9",
+      "bytes": 1091,
+      "role": "State-wide data-source scope and coverage"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N784MB_R04/statewide-tracks/tracks.csv",
+      "sha256": "e2a20f9629d6c351f0ab015c5a7b3ec8a676616fc615e7171360bdb6bf6d95e5",
+      "bytes": 7453268,
+      "role": "Competing geometric flight trajectories"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N784MB_R04/localization.json",
+      "sha256": "89fb56fc16201f4c787d1493f755069669f2e1fe446916421cdbc3530ea91c25",
+      "bytes": 2609,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N784MB_R04/location-conditional/inputs.json",
+      "sha256": "1c31ee19d860ab0e1cd570d716af9eb673bc3cc6de4d4735649397ba891093ab",
+      "bytes": 347,
+      "role": "Location experiment inputs/executable binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N784MB_R04/location-statewide/inputs.json",
+      "sha256": "d0d4d352389326508c7c526940d67c7ee86099941a00a18f6f6fca607e5a7c0d",
+      "bytes": 434,
+      "role": "Location experiment inputs/executable binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N784MB_R04/location-conditional/outcome.json",
+      "sha256": "940495bb593a331b99b9a95a6bede8bba22b1fd9aed1b076dffc5b2fe316d6ec",
+      "bytes": 19527,
+      "role": "Completed inference output"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N784MB_R04/location-statewide/outcome.json",
+      "sha256": "c5ccb2a5577a87f2f6e7a99088577ad61bd2cafba3e9f8bdcc9a3dcc9b5791a3",
+      "bytes": 31749,
+      "role": "Completed inference output"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N4040_R12/analysis-inputs.json",
+      "sha256": "24274aaa6b53300fa9e5dfb134e3a29db26eb3a16702ca2362473a71a0a2b055",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N4040_R12/analysis/detection.json",
+      "sha256": "6f84d9ba59439a334e9849ba28becf76c08f2682f6b9f180928a0684c609a3a1",
+      "bytes": 2144438,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N4040_R12/statewide-tracks/fetch.json",
+      "sha256": "672c7c5c3cca271398f193598302a3fc243b84192ae718e58ce096b9dddf5cea",
+      "bytes": 1102,
+      "role": "State-wide data-source scope and coverage"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N4040_R12/localization.json",
+      "sha256": "b8383095f36bc7ea230b777d23deba8e164efb15f03e8c1af6207001ab46f033",
+      "bytes": 1388,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N4040_R12/location-conditional/inputs.json",
+      "sha256": "d0df3f9e53abfed315056b1eb447cef9638af65904d0c83b06bd423a15ae995d",
+      "bytes": 347,
+      "role": "Location experiment inputs/executable binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N4040_R12/location-conditional/outcome.json",
+      "sha256": "88b4bb75bbc1bde33e01ae77bd41b795b972f8182e67dcc679b203d30de424cd",
+      "bytes": 17761,
+      "role": "Completed inference output"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N413AK_R49/analysis-inputs.json",
+      "sha256": "27ed5455b4c1a62b4fcd7377afe811b1dff3c3d40863b2712baa0eed9aaefe26",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N413AK_R49/analysis/detection.json",
+      "sha256": "48dd5a63a7c21d0cb9a13bb0e42dc756aeea21acb03e2f1b77065be925bb6e06",
+      "bytes": 2162154,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N413AK_R49/statewide-tracks/fetch.json",
+      "sha256": "99f913166d0338dbbba4368ecc118ff447eb7af3ded312cb67a1e09e76334597",
+      "bytes": 1091,
+      "role": "State-wide data-source scope and coverage"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N413AK_R49/statewide-tracks/tracks.csv",
+      "sha256": "b71d99402da0f173b2f10ba0481a3693e05880102f09bc9f788c07478bd90a61",
+      "bytes": 6502234,
+      "role": "Competing geometric flight trajectories"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N413AK_R49/localization.json",
+      "sha256": "1dc2eb778d6217e6e99d0c226c010a135793c8b5977e3a95373cc7de3efc2c6e",
+      "bytes": 2609,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N413AK_R49/location-conditional/inputs.json",
+      "sha256": "db8571f6d33dd2c33802ca5c9d1ca8ed68f37fe9c0b412dbd7f0a3371af5d539",
+      "bytes": 347,
+      "role": "Location experiment inputs/executable binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N413AK_R49/location-statewide/inputs.json",
+      "sha256": "2a6318f3091b53114344f27f6ad4ae3dfef7c043e5eb063a5358e111102483fa",
+      "bytes": 434,
+      "role": "Location experiment inputs/executable binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N413AK_R49/location-conditional/outcome.json",
+      "sha256": "5f4702506914420888359f91d80e917002928c96635eec2974aee45d3a4a5abf",
+      "bytes": 18961,
+      "role": "Completed inference output"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N413AK_R49/location-statewide/outcome.json",
+      "sha256": "af3cdfd3dfd9bdeff883db9d445b0ade570082a80850ed2e780e52cfa59c347f",
+      "bytes": 31146,
+      "role": "Completed inference output"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N563FX_R21/analysis-inputs.json",
+      "sha256": "4f395d5d4d1aa44b53bf810879152de9f9bcb9de8df13ed023eeee23f6b826eb",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N563FX_R21/analysis/detection.json",
+      "sha256": "a344117d9d167b908eaa0cff1b071908875580c204ac2d69e0a4b242ee000792",
+      "bytes": 3092449,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N563FX_R21/statewide-tracks/fetch.json",
+      "sha256": "2a27b8a4b55250f177222294856de79e826c01991cbee0026eae22f05b1fd8cc",
+      "bytes": 1089,
+      "role": "State-wide data-source scope and coverage"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N563FX_R21/statewide-tracks/tracks.csv",
+      "sha256": "4e72d9bcda69d4b9d4b30b18230a63e750b6d24e8ffa7e6606b727ee5ea22652",
+      "bytes": 7322696,
+      "role": "Competing geometric flight trajectories"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N563FX_R21/localization.json",
+      "sha256": "6488839692d865046d5b2f570df29fcd965c9383222dd7726ce8e63c9612ba1b",
+      "bytes": 2594,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N563FX_R21/location-conditional/inputs.json",
+      "sha256": "39f6c0c75d63174feee56d178d8553e5ab4ba37389b3328611f8d155e660c261",
+      "bytes": 347,
+      "role": "Location experiment inputs/executable binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N563FX_R21/location-statewide/inputs.json",
+      "sha256": "7d9f597960650eea8d4fddb5a6ad45e25b872807a2f907295dea645365abcff2",
+      "bytes": 434,
+      "role": "Location experiment inputs/executable binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N563FX_R21/location-conditional/outcome.json",
+      "sha256": "76691d0ef65f9580f039ae56350f20a8c9873f0ca9cb44f8637219d6830b9ff7",
+      "bytes": 56158,
+      "role": "Completed inference output"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/pathak-N563FX_R21/location-statewide/outcome.json",
+      "sha256": "ee21ed701b1e2600f033f641c8ff5a4445895e81babbe3756276261067dafb87",
+      "bytes": 59655,
+      "role": "Completed inference output"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_15_05_14_1/analysis-inputs.json",
+      "sha256": "a7da8c1b683e30c40c236f9031e95f0ec5c80a7bea57bcfd7c24eedd236e69e9",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_15_05_14_1/analysis/detection.json",
+      "sha256": "3b54288d26b39f9bd0ec4931ae6161455913b1870b5c65ca2ef8ddc80d97f885",
+      "bytes": 20283854,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_15_05_14_1/localization.json",
+      "sha256": "36c74922bfeccecf8e3fd565ed32f4b0e6ae2817c2ef0f4cc2b0c3ebe1d23c25",
+      "bytes": 202,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_13_01_27_1/analysis-inputs.json",
+      "sha256": "1ce17370c3e1153549f35f599c7553941423e620379381320127c7d7539f8917",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_13_01_27_1/analysis/detection.json",
+      "sha256": "e220581200eb4f69c30f0ff038a32ca1144914d593cce3516d7ca93e2bc08cfc",
+      "bytes": 27612961,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_13_01_27_1/statewide-tracks/fetch.json",
+      "sha256": "d521557f9b2a7f59c0a74677de61964a03a79e4ee281d44f8b7e1aeaab5830d2",
+      "bytes": 1174,
+      "role": "State-wide data-source scope and coverage"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_13_01_27_1/statewide-tracks/tracks.csv",
+      "sha256": "f02d92dc1c2ad6aa3ccdee9fabcf5910bc9a2525002b29c68a7dc2afc82d6e5b",
+      "bytes": 72998445,
+      "role": "Competing geometric flight trajectories"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_13_01_27_1/localization.json",
+      "sha256": "b14309fd692a8db456c16d60ced5e990c3403e10032383f8f68151c5f54f6555",
+      "bytes": 1878,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_13_01_27_1/location-statewide/inputs.json",
+      "sha256": "85a3e2ef8f344113a30f5a0b91def959308df0911ba8e28550dc72a1e7bf4f86",
+      "bytes": 338,
+      "role": "Location experiment inputs/executable binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_13_01_27_1/location-statewide/outcome.json",
+      "sha256": "90adae966f784576467779310faedf512329022186a37f9cbb598a8b635f143c",
+      "bytes": 26762,
+      "role": "Completed inference output"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_13_01_27_1/reference-area-diagnostic/run/results.json",
+      "sha256": "5f256a907d7211558e3631a6b88399998ed599ce96ca4d0d077a8aaa47a207df",
+      "bytes": 45468,
+      "role": "Known-reference single-event diagnostic; not blind"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_21_49_04_1/analysis-inputs.json",
+      "sha256": "a235f2ee05167d0ebe9840184351d377398d6ad1f66328438198bc37be83352a",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_21_49_04_1/analysis/detection.json",
+      "sha256": "7e1be0359ec4e6fd91aabdac3e3688c8f361e8c7f3f68adf3fd7112b4118d997",
+      "bytes": 69394690,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_21_49_04_1/statewide-tracks/fetch.json",
+      "sha256": "121067a5696e9273ddcd49997044332d48cf2dc9c3ec4a36d81be9dc4625ec89",
+      "bytes": 1144,
+      "role": "State-wide data-source scope and coverage"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_21_49_04_1/statewide-tracks/tracks.csv",
+      "sha256": "45dd7b8cd5b108961e63b1450d5d83370b944672e4ce9503f5ddc25161d545eb",
+      "bytes": 20440032,
+      "role": "Competing geometric flight trajectories"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_21_49_04_1/localization.json",
+      "sha256": "3b542b8b65fafd492c869a63ca8fce425df3d5b45c4452e31c14e1dc7cca522e",
+      "bytes": 1069,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_21_49_04_1/location-statewide/inputs.json",
+      "sha256": "91473ef2a2ee7f57afced820e2b4c44c493e253bd11084bd0d4e04701b1a9829",
+      "bytes": 341,
+      "role": "Location experiment inputs/executable binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_21_49_04_1/location-statewide/outcome.json",
+      "sha256": "0ef33cf9f6041aa0afc99894a8cfbd068ca731d9d1c77b518df0625775ad83ef",
+      "bytes": 1242,
+      "role": "Completed inference output"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_21_49_04_1/reference-area-diagnostic/run/automatic.json",
+      "sha256": "58b168075d1836b685c9aa275739bd9d7ee91e578b560b1f532b7910e0c928df",
+      "bytes": 25256,
+      "role": "Known-reference joint feasibility diagnostic; not blind"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_15_43_19_1/analysis-inputs.json",
+      "sha256": "9c1c8457ae1bd7ab5ecefe45819e07313de9af394db322f981942028a6c109e4",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_15_43_19_1/analysis/detection.json",
+      "sha256": "3987fc1a2d0f2ebaa919501faa1164352f1e6a2987042038bb9a51551abf8554",
+      "bytes": 46888155,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_15_43_19_1/statewide-tracks/fetch.json",
+      "sha256": "28a64f6207093558970e7758b77baf10af9989bf1dcd588fca690ffd57d039c5",
+      "bytes": 1067,
+      "role": "State-wide data-source scope and coverage"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_15_43_19_1/statewide-tracks/tracks.csv",
+      "sha256": "40ea382785cc45daca4c633bea39cb6bdb560651eb6bc29fd3bd7e3ba4c0a1a8",
+      "bytes": 91777992,
+      "role": "Competing geometric flight trajectories"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_15_43_19_1/localization.json",
+      "sha256": "b057a5bd786edc5714d520e00bbb37af20cc898a14d5b58168880a3f025c4098",
+      "bytes": 670,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_04_15_43_19_1/reference-area-diagnostic/run/automatic.json",
+      "sha256": "c2724a9c312eec41de8f74e0694bd5352d4bab9b6d2df957cbc815222556b73e",
+      "bytes": 67523,
+      "role": "Known-reference joint feasibility diagnostic; not blind"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/colsto-reference/analysis-inputs.json",
+      "sha256": "8f2b20bad0ea74681efaeaaa074de41c34c7d2419e577985660ae2f6349308a0",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/colsto-reference/analysis/detection.json",
+      "sha256": "f33124d234fd1c390b3b4fea3e83410e9c0815fc58e4f1d05e59941da1261911",
+      "bytes": 93759744,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/colsto-reference/localization.json",
+      "sha256": "2277562d632a5a1dd2891ac1036c1b22f999a35cc812c042ae98807295b74ff9",
+      "bytes": 372,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/colsto-reference/reviewed-evaluation.json",
+      "sha256": "f84926c47b8e0e26685ec5cbf4a2b28113ceeb3e0a81d7630ecd9e3216cb7725",
+      "bytes": 1516,
+      "role": "Separate reviewed reference evaluation"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/walking_2026_11_03_18_50_11_1/analysis-inputs.json",
+      "sha256": "bdf138934432ac2c5c26b0f8b38840e41d9b9a7388c1c8abb639cbdce0b01590",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/walking_2026_11_03_18_50_11_1/analysis/detection.json",
+      "sha256": "3378d8566d9ae7a0342642b7370355a69275c894f3ce3a1649a9eb0396f81a44",
+      "bytes": 60325803,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/walking_2026_11_03_18_50_11_1/statewide-tracks/fetch.json",
+      "sha256": "b87447f4e683bf2eeb5b3c3fe056d4badcb3ee613108ce2279979e5663ac3d5d",
+      "bytes": 1281,
+      "role": "State-wide data-source scope and coverage"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/walking_2026_11_03_18_50_11_1/statewide-tracks/tracks.csv",
+      "sha256": "9fd862c72a80bc08ad6b94ca1e3fe5cb0aab424447be29a81a14c1ac575cc016",
+      "bytes": 44899028,
+      "role": "Competing geometric flight trajectories"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/walking_2026_11_03_18_50_11_1/localization.json",
+      "sha256": "0e72fed241f25dc7578c63c28e6fb9b8d8a89e27b8fd3c29f1e491291d260a0f",
+      "bytes": 248,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_05_10_17_58_1/analysis-inputs.json",
+      "sha256": "d56b55432df70896e2bd5b6f456d8784a2719657179e5e585d4bdc5392aba8f9",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_05_10_17_58_1/analysis/detection.json",
+      "sha256": "2d1630d87f9842133ce862af215baf8aef3344a417080f95e06da1385ea5e14e",
+      "bytes": 217403634,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_05_10_17_58_1/statewide-tracks/fetch.json",
+      "sha256": "f4126cc9cd9f76c597f3c49b513a96bf98938d98219cc30e77e339ceefa8e767",
+      "bytes": 1149,
+      "role": "State-wide data-source scope and coverage"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_05_10_17_58_1/statewide-tracks/tracks.csv",
+      "sha256": "9289c0223ef68bf913e816ea40dbdfaffc2f7c0ad62f6bb918f9dd8e5ddca365",
+      "bytes": 184509059,
+      "role": "Competing geometric flight trajectories"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_05_10_17_58_1/localization.json",
+      "sha256": "b57f772d003fbcabb8e61c73414b580ceef439aaf1eeabfa764a898d051a0b69",
+      "bytes": 671,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_05_10_17_58_1/reference-area-diagnostic/run/automatic.json",
+      "sha256": "7eae97efd680b43ab39a12905c19ae4cba54c1794422ad9cdbaca23b14e00582",
+      "bytes": 368527,
+      "role": "Known-reference joint feasibility diagnostic; not blind"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_06_10_23_41_1/analysis-inputs.json",
+      "sha256": "6ab9fddd662a418369261d0d5a056db07a6c3fd5c1508846bd94c1c038dbbe7a",
+      "bytes": 282,
+      "role": "Original audio/executable/decoder binding"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_06_10_23_41_1/analysis/detection.json",
+      "sha256": "2a042f407faaacfcc84dac5aa7d5f1acc852044ab2ee49506f9114946f97b371",
+      "bytes": 216180320,
+      "role": "Fresh full-recording Doppler proposals"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_06_10_23_41_1/statewide-tracks/fetch.json",
+      "sha256": "f6d34fc28a653575997cb7af357ed79394f00952976211c112ac0dd1c558c741",
+      "bytes": 1365,
+      "role": "State-wide data-source scope and coverage"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_06_10_23_41_1/statewide-tracks/tracks.csv",
+      "sha256": "fdf1275595ff2afce13ecc611a25f565cbf338dfc5f9fc87f69b7397435785bb",
+      "bytes": 198414158,
+      "role": "Competing geometric flight trajectories"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_06_10_23_41_1/localization.json",
+      "sha256": "2726a7ddb7e3ccc084d35bc43f45727837476f4dad3a55073f67fb04e584214a",
+      "bytes": 672,
+      "role": "Per-recording evaluation and limitations"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/2026_11_06_10_23_41_1/reference-area-diagnostic/run/automatic.json",
+      "sha256": "6acc9207d42962f36c2e1e8e3caa97825411c2fe18959cb8995a384572c6ff5b",
+      "bytes": 417759,
+      "role": "Known-reference joint feasibility diagnostic; not blind"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/protocol.json",
+      "sha256": "ca7cd85b51d0622e4a21ecb95cda7a3111cca57f5d86dd6026ae9affcc1a74ae",
+      "bytes": 2342,
+      "role": "Collection audit and evaluation report"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/summary.json",
+      "sha256": "95e1cf3ad384ec46749e13f84353835afb1b06e008e43c6cc872c669f20dbf64",
+      "bytes": 1928,
+      "role": "Collection audit and evaluation report"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/report.json",
+      "sha256": "f2b344456cd6f12110d9883190e503c1766e6f8a2662fe62b6a5ea81d93d10c4",
+      "bytes": 120674,
+      "role": "Collection audit and evaluation report"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/locations-report.json",
+      "sha256": "5bb8ea6d7453627026e64780486c2ec020629ac9cd2ab3a6823fc176c5b8ae18",
+      "bytes": 32719,
+      "role": "Collection audit and evaluation report"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/index.html",
+      "sha256": "a9fe5f6a29b98790fe2649a32d53172cf159615f9b5a94bc46afbcee7a7bb11e",
+      "bytes": 23501,
+      "role": "Collection audit and evaluation report"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/executables/9ac36ebcc6817a69e6741622dea4e2f1d08fe236cd941624938ebd10a32aba8e.bin",
+      "sha256": "9ac36ebcc6817a69e6741622dea4e2f1d08fe236cd941624938ebd10a32aba8e",
+      "bytes": 15211867,
+      "role": "Preserved Go evaluation executable"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/executables/f6c6a911a0d6b32be3e2a53950283fb663e43c97267905a0be27bdc15e5aea30.bin",
+      "sha256": "f6c6a911a0d6b32be3e2a53950283fb663e43c97267905a0be27bdc15e5aea30",
+      "bytes": 15215947,
+      "role": "Preserved Go evaluation executable"
+    },
+    {
+      "path": "tools/audit_samples.py",
+      "sha256": "7458710c0da058c015246182d06152e8ac6145660872595189e383d9c1d90de8",
+      "bytes": 8897,
+      "role": "Evaluation orchestration/source"
+    },
+    {
+      "path": "tools/audit_sample_locations.py",
+      "sha256": "36b929a1d4f53476f149d7b228707a33f445d1caa920cfdec68ed6785d7575ee",
+      "bytes": 15968,
+      "role": "Evaluation orchestration/source"
+    },
+    {
+      "path": "tools/locate_sample.go",
+      "sha256": "7c67c06452b052500bbdd154fbac61f9a2a741a9395994a9e12b4449d88b6735",
+      "bytes": 11867,
+      "role": "Evaluation orchestration/source"
+    },
+    {
+      "path": "tools/fetch_sample_tracks.go",
+      "sha256": "14f690f34f81243a02e629c3f3de2702e2eccd8eb1072b7386679596ff21b34f",
+      "bytes": 4906,
+      "role": "Evaluation orchestration/source"
+    },
+    {
+      "path": "work/sample-audit-2026-11-07/results.csv",
+      "sha256": "5f877e61923324f3d046919fd56a5ad09284496f193dfbb16d3d9e807f96564e",
+      "bytes": 12983,
+      "role": "Per-recording evaluation table"
+    }
+  ],
+  "traffic_sources": [
+    "https://globe.adsb.lol/globe_history/",
+    "data/2026-05-14/ (verified daily archive, existing source registry)",
+    "data/2026-05-16/ (verified daily archive, existing source registry)"
+  ],
+  "traffic_cache": "work/sample-audit-data/cache",
+  "coverage_limit": "Missing geometric traces and three failed older replay-acquisition passes are recorded per case. Full-state discovery does not prove complete receiver-network coverage.",
+  "evaluation_limit": "No exact public GPS accuracy; private coordinates remain in local work/evaluation records. Three stationary phone cases have reference-area diagnostics only, with no full-state ranking. Moving receiver reconstruction is unsupported.",
+  "conclusion": "Current automatic localization is not reliable on this collection. Curve recovery and conditional supplied-track fits cannot substitute for independent location validation."
+}

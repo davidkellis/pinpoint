@@ -1,0 +1,667 @@
+{
+  "version": 1,
+  "manifest_sha256": "3f20d7097091576d13bd15e133f9b706b3dcfa2f6ec59b3e48602bc73f8f4c07",
+  "go_source_sha256": "889163f79ce4c56f4d8b0b518f014a1c21b8f6bc2d51ed23b5cc1de30798e7a7",
+  "go_version": "go1.26.5",
+  "started_utc": "2026-11-06T04:17:39Z",
+  "profile": "all",
+  "status": "fail",
+  "verified_assets": 95,
+  "cases": [
+    {
+      "id": "r21-standard",
+      "status": "fail",
+      "seconds": 2.133271684,
+      "fragments": 129,
+      "curves": [
+        {
+          "id": "publisher-frequency-trace",
+          "anchor_hit_fraction": 0.37538940809968846,
+          "anchor_coverage": 0.3925233644859813,
+          "rmse_hz": 3.4522385533183892,
+          "harmonic_ratio": 1,
+          "strong": false,
+          "pass": false
+        }
+      ],
+      "failures": [
+        "did not recover publisher-frequency-trace"
+      ],
+      "note": "All publisher anchors evaluated against one continuous detected ridge. A failed recovery is reported as failure, not absence of an aircraft."
+    },
+    {
+      "id": "r21-short-pass",
+      "status": "fail",
+      "seconds": 14.582292398,
+      "fragments": 567,
+      "strong_candidates": 3,
+      "curves": [
+        {
+          "id": "publisher-frequency-trace",
+          "anchor_hit_fraction": 0.32087227414330216,
+          "anchor_coverage": 0.3442367601246106,
+          "rmse_hz": 6.2854857840886424,
+          "harmonic_ratio": 1,
+          "strong": true,
+          "pass": false
+        }
+      ],
+      "failures": [
+        "did not recover publisher-frequency-trace"
+      ],
+      "note": "All publisher anchors evaluated against one continuous detected ridge. A failed recovery is reported as failure, not absence of an aircraft."
+    },
+    {
+      "id": "r50-standard",
+      "status": "fail",
+      "seconds": 0.837553797,
+      "fragments": 58,
+      "curves": [
+        {
+          "id": "publisher-frequency-trace",
+          "anchor_hit_fraction": 0.06153846153846154,
+          "anchor_coverage": 0.36153846153846153,
+          "rmse_hz": 29.867208371204253,
+          "harmonic_ratio": 3,
+          "strong": false,
+          "pass": false
+        }
+      ],
+      "failures": [
+        "did not recover publisher-frequency-trace"
+      ],
+      "note": "All publisher anchors evaluated against one continuous detected ridge. A failed recovery is reported as failure, not absence of an aircraft."
+    },
+    {
+      "id": "r50-short-pass",
+      "status": "fail",
+      "seconds": 5.634641826,
+      "fragments": 245,
+      "curves": [
+        {
+          "id": "publisher-frequency-trace",
+          "anchor_hit_fraction": 0.16153846153846155,
+          "anchor_coverage": 0.18461538461538463,
+          "rmse_hz": 1.6243308442760873,
+          "harmonic_ratio": 1,
+          "strong": false,
+          "pass": false
+        }
+      ],
+      "failures": [
+        "did not recover publisher-frequency-trace"
+      ],
+      "note": "All publisher anchors evaluated against one continuous detected ridge. A failed recovery is reported as failure, not absence of an aircraft."
+    },
+    {
+      "id": "challenger-competing-california",
+      "status": "fail",
+      "seconds": 76.466574402,
+      "best": {
+        "lat": 32.808195330578506,
+        "lon": -116.61103787780853,
+        "height_ellipsoid_m": 1031.9390183158732,
+        "clock_offset_s": -3.200000000000003,
+        "score_db": 22.06810910324461,
+        "events": [
+          {
+            "track_id": "4851b1-1778889600.000-3608",
+            "f0_hz": 671.4237146478822,
+            "score_db": 22.06810910324461,
+            "coverage": 1,
+            "cpa": {
+              "Emitted": 1778955894.834441,
+              "Heard": 1778955903.3033118,
+              "Distance": 2904.8227388498412,
+              "Speed": 150.3161260294306
+            }
+          }
+        ]
+      },
+      "flight_groups": [
+        {
+          "lat": 32.808195330578506,
+          "lon": -116.61103787780853,
+          "height_ellipsoid_m": 1031.9390183158732,
+          "clock_offset_s": -3.200000000000003,
+          "score_db": 22.06810910324461,
+          "events": [
+            {
+              "track_id": "4851b1-1778889600.000-3608",
+              "f0_hz": 671.4237146478822,
+              "score_db": 22.06810910324461,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955894.834441,
+                "Heard": 1778955903.3033118,
+                "Distance": 2904.8227388498412,
+                "Speed": 150.3161260294306
+              }
+            }
+          ]
+        },
+        {
+          "lat": 37.66021008983112,
+          "lon": -121.78187934764696,
+          "height_ellipsoid_m": 122.7744208078368,
+          "clock_offset_s": -0.03955296404275868,
+          "score_db": 21.767372761309453,
+          "events": [
+            {
+              "track_id": "a732a2-1778889600.000-1035",
+              "f0_hz": 700.8060052183255,
+              "score_db": 21.767372761309453,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955898.2937315,
+                "Heard": 1778955904.1948364,
+                "Distance": 2024.0789650142326,
+                "Speed": 135.41500440117153
+              }
+            }
+          ]
+        },
+        {
+          "lat": 38.44220686040244,
+          "lon": -121.5050699281969,
+          "height_ellipsoid_m": -25.593885228841582,
+          "clock_offset_s": -3.8000000000000034,
+          "score_db": 21.7435899024826,
+          "events": [
+            {
+              "track_id": "a55055-1778889600.000-3179",
+              "f0_hz": 700.1596504471574,
+              "score_db": 21.7435899024826,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955895.0079253,
+                "Heard": 1778955900.9248505,
+                "Distance": 2029.5053562239557,
+                "Speed": 129.43680393204943
+              }
+            }
+          ]
+        },
+        {
+          "lat": 37.42916445562343,
+          "lon": -121.81203354661127,
+          "height_ellipsoid_m": 497.62203144513074,
+          "clock_offset_s": -4.200000000000003,
+          "score_db": 21.711804706808778,
+          "events": [
+            {
+              "track_id": "a53dac-1778889600.000-2058",
+              "f0_hz": 688.9096144638318,
+              "score_db": 21.711804706808778,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955895.3095958,
+                "Heard": 1778955900.7952225,
+                "Distance": 1881.5699445232983,
+                "Speed": 127.57053740632846
+              }
+            }
+          ]
+        },
+        {
+          "lat": 34.007772050844416,
+          "lon": -118.44535953389875,
+          "height_ellipsoid_m": -8.87358414810376,
+          "clock_offset_s": -0.13955296404275824,
+          "score_db": 21.504912811532996,
+          "events": [
+            {
+              "track_id": "781a1f-1778889600.000-987",
+              "f0_hz": 704.8001254092469,
+              "score_db": 21.504912811532996,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955896.746,
+                "Heard": 1778955904.0697541,
+                "Distance": 2512.047680388515,
+                "Speed": 134.81409108421482
+              }
+            }
+          ]
+        },
+        {
+          "lat": 34.25307280991736,
+          "lon": -118.60575116343092,
+          "height_ellipsoid_m": 256.13541770923024,
+          "clock_offset_s": -1.8000000000000016,
+          "score_db": 21.368373044430403,
+          "events": [
+            {
+              "track_id": "a28e6c-1778889600.000-709",
+              "f0_hz": 701.1461033900318,
+              "score_db": 21.368373044430403,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955897.6918945,
+                "Heard": 1778955902.4013674,
+                "Distance": 1615.34921469372,
+                "Speed": 119.99386408132035
+              }
+            }
+          ]
+        },
+        {
+          "lat": 33.99247830309019,
+          "lon": -117.92339946504055,
+          "height_ellipsoid_m": 103.56935514081076,
+          "clock_offset_s": -5,
+          "score_db": 21.218269766510655,
+          "events": [
+            {
+              "track_id": "ac10af-1778889600.000-1085",
+              "f0_hz": 693.0258134839099,
+              "score_db": 21.218269766510655,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955893.5957801,
+                "Heard": 1778955899.8352969,
+                "Distance": 2140.1542716777794,
+                "Speed": 133.1023154505599
+              }
+            }
+          ]
+        },
+        {
+          "lat": 38.77988203108156,
+          "lon": -119.74657372406344,
+          "height_ellipsoid_m": 1703.68004040194,
+          "clock_offset_s": -0.03955296404275868,
+          "score_db": 21.14133084238872,
+          "events": [
+            {
+              "track_id": "a3a263-1778889600.000-1600",
+              "f0_hz": 714.7739271459061,
+              "score_db": 21.14133084238872,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955898.497512,
+                "Heard": 1778955903.4416897,
+                "Distance": 1695.852900069827,
+                "Speed": 123.95073619441926
+              }
+            }
+          ]
+        },
+        {
+          "lat": 36.977678824110676,
+          "lon": -121.64940780933243,
+          "height_ellipsoid_m": 330.25843507205786,
+          "clock_offset_s": 0.8208940719144792,
+          "score_db": 21.096918448260595,
+          "events": [
+            {
+              "track_id": "ac8009-1778889600.000-3868",
+              "f0_hz": 687.2564745551811,
+              "score_db": 21.096918448260595,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955898.146564,
+                "Heard": 1778955906.0580573,
+                "Distance": 2713.6422137353893,
+                "Speed": 147.40059664341186
+              }
+            }
+          ]
+        },
+        {
+          "lat": 33.768012798239305,
+          "lon": -117.62424018160404,
+          "height_ellipsoid_m": 792.1822302658395,
+          "clock_offset_s": 1.7999999999999996,
+          "score_db": 20.636749853826938,
+          "events": [
+            {
+              "track_id": "a02c91-1778889600.000-2645",
+              "f0_hz": 723.0740691143548,
+              "score_db": 20.636749853826938,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955899.9816208,
+                "Heard": 1778955904.847428,
+                "Distance": 1668.9719253256108,
+                "Speed": 123.1818397075057
+              }
+            }
+          ]
+        },
+        {
+          "lat": 33.80540500089831,
+          "lon": -117.41107485197743,
+          "height_ellipsoid_m": 513.5581252283903,
+          "clock_offset_s": 0.19999999999999898,
+          "score_db": 20.524677539362703,
+          "events": [
+            {
+              "track_id": "a411d3-1778889600.000-2642",
+              "f0_hz": 672.4597830840678,
+              "score_db": 20.524677539362703,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955896.6834254,
+                "Heard": 1778955906.7471826,
+                "Distance": 3451.8687149459433,
+                "Speed": 166.03615677269337
+              }
+            }
+          ]
+        },
+        {
+          "lat": 33.948595802191875,
+          "lon": -117.13648463965589,
+          "height_ellipsoid_m": 563.5532778224534,
+          "clock_offset_s": 4.123129251700685,
+          "score_db": 20.264470675305393,
+          "events": [
+            {
+              "track_id": "a87876-1778889600.000-2026",
+              "f0_hz": 707.658465056759,
+              "score_db": 20.264470675305393,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955903.4103923,
+                "Heard": 1778955908.0329912,
+                "Distance": 1585.5514119580914,
+                "Speed": 119.61236816915411
+              }
+            }
+          ]
+        },
+        {
+          "lat": 33.91088919062163,
+          "lon": -117.33555606808439,
+          "height_ellipsoid_m": 437.5674868478707,
+          "clock_offset_s": -3.8000000000000034,
+          "score_db": 20.140625886292458,
+          "events": [
+            {
+              "track_id": "a091d5-1778889600.000-1950",
+              "f0_hz": 673.1130725445623,
+              "score_db": 20.140625886292458,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955894.2113378,
+                "Heard": 1778955902.711085,
+                "Distance": 2915.41329102095,
+                "Speed": 146.86595435490227
+              }
+            }
+          ]
+        },
+        {
+          "lat": 37.85678303269852,
+          "lon": -122.12717766685343,
+          "height_ellipsoid_m": 159.4771102047127,
+          "clock_offset_s": -5,
+          "score_db": 19.78064994762313,
+          "events": [
+            {
+              "track_id": "a39fb1-1778889600.000-2223",
+              "f0_hz": 662.6085187471962,
+              "score_db": 19.78064994762313,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955889.2830603,
+                "Heard": 1778955902.2147398,
+                "Distance": 4435.566063465296,
+                "Speed": 171.72211685129423
+              }
+            }
+          ]
+        },
+        {
+          "lat": 33.682448658821414,
+          "lon": -116.9451901356855,
+          "height_ellipsoid_m": 582.3342066448909,
+          "clock_offset_s": -4.3000000000000025,
+          "score_db": 19.575877889133366,
+          "events": [
+            {
+              "track_id": "a553ce-1778889600.000-1473",
+              "f0_hz": 562.2091755369308,
+              "score_db": 19.575877889133366,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955886.2682261,
+                "Heard": 1778955912.9354336,
+                "Distance": 9146.85219804784,
+                "Speed": 205.5810079305791
+              }
+            }
+          ]
+        },
+        {
+          "lat": 38.25749162504492,
+          "lon": -121.31099843177745,
+          "height_ellipsoid_m": -15.514695642814054,
+          "clock_offset_s": 4,
+          "score_db": 19.265619184258266,
+          "events": [
+            {
+              "track_id": "e0b14a-1778889600.000-542",
+              "f0_hz": 583.6765049222491,
+              "score_db": 19.265619184258266,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955901.439107,
+                "Heard": 1778955918.1002004,
+                "Distance": 5714.755025490997,
+                "Speed": 189.70310457446925
+              }
+            }
+          ]
+        },
+        {
+          "lat": 37.64042478620194,
+          "lon": -121.39345244042383,
+          "height_ellipsoid_m": 46.712695013803625,
+          "clock_offset_s": -3.9000000000000035,
+          "score_db": 19.187972768924926,
+          "events": [
+            {
+              "track_id": "a49238-1778889600.000-1388",
+              "f0_hz": 698.0647646421668,
+              "score_db": 19.187972768924926,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955895.262579,
+                "Heard": 1778955900.5062761,
+                "Distance": 1798.5880896645476,
+                "Speed": 123.00563353813155
+              }
+            }
+          ]
+        },
+        {
+          "lat": 38.24253474398132,
+          "lon": -122.18926274805365,
+          "height_ellipsoid_m": 199.1590503388289,
+          "clock_offset_s": -4.800000000000001,
+          "score_db": 19.171859433510946,
+          "events": [
+            {
+              "track_id": "aa9220-1778889600.000-2975",
+              "f0_hz": 575.4470682185007,
+              "score_db": 19.171859433510946,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955892.3157508,
+                "Heard": 1778955910.50685,
+                "Distance": 6239.547007426964,
+                "Speed": 195.6045655015463
+              }
+            }
+          ]
+        },
+        {
+          "lat": 38.96690485267697,
+          "lon": -121.19432615789951,
+          "height_ellipsoid_m": 164.06017260292083,
+          "clock_offset_s": 1.7208940719144825,
+          "score_db": 19.019846372948376,
+          "events": [
+            {
+              "track_id": "a448f8-1778889600.000-3562",
+              "f0_hz": 626.0687697092583,
+              "score_db": 19.019846372948376,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955899.349721,
+                "Heard": 1778955911.299349,
+                "Distance": 4098.722417590953,
+                "Speed": 172.24507547655693
+              }
+            }
+          ]
+        },
+        {
+          "lat": 33.9064650080848,
+          "lon": -118.4211401801578,
+          "height_ellipsoid_m": -3.7949859469438003,
+          "clock_offset_s": -0.30000000000000104,
+          "score_db": 18.8109509653545,
+          "events": [
+            {
+              "track_id": "a0b7b8-1778889600.000-2079",
+              "f0_hz": 645.7848039116534,
+              "score_db": 18.8109509653545,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955893.8163347,
+                "Heard": 1778955908.6480265,
+                "Distance": 5087.2702932947695,
+                "Speed": 197.74126192682817
+              }
+            }
+          ]
+        },
+        {
+          "lat": 37.13623074649658,
+          "lon": -121.2691312411654,
+          "height_ellipsoid_m": 458.6258059665512,
+          "clock_offset_s": 4.86268221574344,
+          "score_db": 18.431085165356457,
+          "events": [
+            {
+              "track_id": "a24370-1778889600.000-2387",
+              "f0_hz": 639.4036861199043,
+              "score_db": 18.431085165356457,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955901.685063,
+                "Heard": 1778955914.024226,
+                "Distance": 4232.332966655996,
+                "Speed": 168.40119458381938
+              }
+            }
+          ]
+        },
+        {
+          "lat": 34.65753741645706,
+          "lon": -118.02785823388115,
+          "height_ellipsoid_m": 723.0908688927685,
+          "clock_offset_s": -4.600000000000001,
+          "score_db": 18.060732205217658,
+          "events": [
+            {
+              "track_id": "a2cfa2-1778889600.000-3470",
+              "f0_hz": 614.4554378503559,
+              "score_db": 18.060732205217658,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955895.2479768,
+                "Heard": 1778955906.629425,
+                "Distance": 3903.836728703003,
+                "Speed": 157.74741315116688
+              }
+            }
+          ]
+        },
+        {
+          "lat": 33.98877276949335,
+          "lon": -117.36153012339146,
+          "height_ellipsoid_m": 232.07656625312853,
+          "clock_offset_s": -1,
+          "score_db": 17.80361970519118,
+          "events": [
+            {
+              "track_id": "a22d9f-1778889600.000-1180",
+              "f0_hz": 623.0830540494375,
+              "score_db": 17.80361970519118,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955896.9754584,
+                "Heard": 1778955909.5633233,
+                "Distance": 4317.637618770074,
+                "Speed": 173.17169137364812
+              }
+            }
+          ]
+        },
+        {
+          "lat": 33.924094364893996,
+          "lon": -116.19729328229677,
+          "height_ellipsoid_m": 1235.9908615281033,
+          "clock_offset_s": -5,
+          "score_db": 17.710846496751596,
+          "events": [
+            {
+              "track_id": "aa4c1a-1778889600.000-2998",
+              "f0_hz": 630.0760781165297,
+              "score_db": 17.710846496751596,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955889.341459,
+                "Heard": 1778955905.0004246,
+                "Distance": 5371.025159047477,
+                "Speed": 186.81086878833807
+              }
+            }
+          ]
+        },
+        {
+          "lat": 34.70323899748473,
+          "lon": -116.55836380090099,
+          "height_ellipsoid_m": 1056.5702909593901,
+          "clock_offset_s": 4.062682215743443,
+          "score_db": 16.411143892379332,
+          "events": [
+            {
+              "track_id": "a4ef90-1778889600.000-222",
+              "f0_hz": 587.837514449462,
+              "score_db": 16.411143892379332,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955901.9289126,
+                "Heard": 1778955917.6611612,
+                "Distance": 5396.161283767581,
+                "Speed": 187.00444934316113
+              }
+            }
+          ]
+        }
+      ],
+      "locations_evaluated": 6445482,
+      "ambiguity": "Ambiguous: locations more than 10 km apart score within 1 dB of the top fit, including possible alternatives for the same aircraft. This recording does not establish one location.",
+      "failures": [
+        "top candidate outside reported regional label",
+        "wrong aircraft for event 1"
+      ],
+      "note": "Known single passage: select longest automatically strong/usable curve, before reading aircraft or location labels. Search all California at 200 m with refinement to 10 m against competing archived flights. Inferred audio clock from publisher UTC labels. Broad city-area evaluation, not surveyed GPS. Current winner is wrong; expected to fail until discrimination improves."
+    },
+    {
+      "id": "regional-jet-supplied-track-auto",
+      "status": "error",
+      "seconds": 5.190414208,
+      "failures": [
+        "expected 1 automatically usable events, found 0"
+      ],
+      "note": ""
+    }
+  ],
+  "decoder": "ffmpeg version 8.1.3 Copyright (c) 2000-2026 the FFmpeg developers"
+}

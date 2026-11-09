@@ -1,0 +1,101 @@
+{
+  "cases": [
+    {
+      "id": "holdout-prop-in-walk-15",
+      "label": "Synthetic prop in Nov 3 noise (-15 dB)",
+      "kind": "injection",
+      "audio": "samples/walking_2026_11_03_18_50_11_1.mp3",
+      "start_s": 1600,
+      "duration_s": 120,
+      "seed": 20261104,
+      "inject": {
+        "kind": "prop",
+        "snr_db": -15
+      }
+    },
+    {
+      "id": "holdout-prop-in-walk-25",
+      "label": "Synthetic prop in Nov 3 noise (-25 dB)",
+      "kind": "injection",
+      "audio": "samples/walking_2026_11_03_18_50_11_1.mp3",
+      "start_s": 1600,
+      "duration_s": 120,
+      "seed": 20261104,
+      "inject": {
+        "kind": "prop",
+        "snr_db": -25
+      }
+    },
+    {
+      "id": "holdout-prop-in-walk-35",
+      "label": "Synthetic prop in Nov 3 noise (-35 dB)",
+      "kind": "injection",
+      "audio": "samples/walking_2026_11_03_18_50_11_1.mp3",
+      "start_s": 1600,
+      "duration_s": 120,
+      "seed": 20261104,
+      "inject": {
+        "kind": "prop",
+        "snr_db": -35
+      }
+    },
+    {
+      "id": "holdout-jet-in-walk-15",
+      "label": "Synthetic jet in Nov 3 noise (-15 dB)",
+      "kind": "injection",
+      "audio": "samples/walking_2026_11_03_18_50_11_1.mp3",
+      "start_s": 1600,
+      "duration_s": 120,
+      "seed": 20261104,
+      "inject": {
+        "kind": "jet",
+        "snr_db": -15
+      }
+    },
+    {
+      "id": "holdout-jet-in-walk-25",
+      "label": "Synthetic jet in Nov 3 noise (-25 dB)",
+      "kind": "injection",
+      "audio": "samples/walking_2026_11_03_18_50_11_1.mp3",
+      "start_s": 1600,
+      "duration_s": 120,
+      "seed": 20261104,
+      "inject": {
+        "kind": "jet",
+        "snr_db": -25
+      }
+    },
+    {
+      "id": "holdout-jet-in-walk-35",
+      "label": "Synthetic jet in Nov 3 noise (-35 dB)",
+      "kind": "injection",
+      "audio": "samples/walking_2026_11_03_18_50_11_1.mp3",
+      "start_s": 1600,
+      "duration_s": 120,
+      "seed": 20261104,
+      "inject": {
+        "kind": "jet",
+        "snr_db": -35
+      }
+    },
+    {
+      "id": "holdout-noise",
+      "label": "New seed Noise + fixed tones",
+      "kind": "non_doppler",
+      "audio": "",
+      "start_s": 0,
+      "duration_s": 120,
+      "seed": 99718
+    },
+    {
+      "id": "holdout-bursts",
+      "label": "New seed Noise + footstep-like bursts",
+      "kind": "non_doppler",
+      "audio": "",
+      "start_s": 0,
+      "duration_s": 120,
+      "seed": 99718,
+      "control": "bursts"
+    }
+  ]
+}

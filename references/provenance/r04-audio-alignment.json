@@ -1,0 +1,63 @@
+{
+  "method": "CSV-to-audio timing: maximize mean measured spectral contrast along published UTC frequency trace; no aircraft trajectory or geography used.",
+  "first_csv_utc": "2026-05-14T17:41:37.239Z",
+  "wav_duration_s": 85.232666015625,
+  "csv_span_s": 75.23199987411499,
+  "first_csv_offset_in_wav_s": 4.9750000000000005,
+  "inferred_wav_start_utc": "2026-05-14T17:41:32.264Z",
+  "alignment_contrast_db": 20.209970474243164,
+  "top_alignments": [
+    [
+      20.209970474243164,
+      4.9750000000000005,
+      403
+    ],
+    [
+      20.199954986572266,
+      4.95,
+      403
+    ],
+    [
+      20.19147491455078,
+      5.0,
+      403
+    ],
+    [
+      20.167505264282227,
+      4.925000000000001,
+      403
+    ],
+    [
+      20.1656494140625,
+      5.025,
+      403
+    ],
+    [
+      20.129552841186523,
+      5.050000000000001,
+      403
+    ],
+    [
+      20.113422393798828,
+      4.9,
+      403
+    ],
+    [
+      20.076139450073242,
+      5.075,
+      403
+    ],
+    [
+      20.037729263305664,
+      4.875,
+      403
+    ],
+    [
+      19.999643325805664,
+      5.1000000000000005,
+      403
+    ]
+  ],
+  "clock_uncertainty_for_search_s": 5,
+  "note": "This is an inferred audio alignment, not independent verification of the publisher's UTC clock. Published frequency trace is assisted input; aircraft identity and source geographic results are withheld from search."
+}

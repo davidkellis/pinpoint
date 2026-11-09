@@ -1,0 +1,84 @@
+{
+  "methods": [
+    "production-2+4s",
+    "stft-1s",
+    "stft-2s",
+    "stft-4s",
+    "local-2s",
+    "harmonic-2s"
+  ],
+  "cases": [
+    {
+      "id": "n373df-r06",
+      "label": "N373DF_R06 \u2014 published aircraft passage; WAV timing unverified",
+      "kind": "unlabeled",
+      "audio": "samples/public/pathak-2026/N373DF_R06/audio.wav",
+      "start_s": 0,
+      "duration_s": 49.888,
+      "seed": 20261105
+    },
+    {
+      "id": "n394fx-r20",
+      "label": "N394FX_R20 \u2014 published aircraft passage; WAV timing unverified",
+      "kind": "unlabeled",
+      "audio": "samples/public/pathak-2026/N394FX_R20/audio.wav",
+      "start_s": 0,
+      "duration_s": 60.477,
+      "seed": 20261105
+    },
+    {
+      "id": "n4040-r12",
+      "label": "N4040_R12 \u2014 published aircraft passage; WAV timing unverified",
+      "kind": "unlabeled",
+      "audio": "samples/public/pathak-2026/N4040_R12/audio.wav",
+      "start_s": 0,
+      "duration_s": 91.87,
+      "seed": 20261105
+    },
+    {
+      "id": "n413ak-r49",
+      "label": "N413AK_R49 \u2014 published aircraft passage; WAV timing unverified",
+      "kind": "unlabeled",
+      "audio": "samples/public/pathak-2026/N413AK_R49/audio.wav",
+      "start_s": 0,
+      "duration_s": 93.17,
+      "seed": 20261105
+    },
+    {
+      "id": "n757ah-r41",
+      "label": "N757AH_R41 \u2014 published aircraft passage; WAV timing unverified",
+      "kind": "unlabeled",
+      "audio": "samples/public/pathak-2026/N757AH_R41/audio.wav",
+      "start_s": 0,
+      "duration_s": 56.39,
+      "seed": 20261105
+    },
+    {
+      "id": "n784mb-r04",
+      "label": "N784MB_R04 \u2014 published aircraft passage; WAV timing unverified",
+      "kind": "unlabeled",
+      "audio": "samples/public/pathak-2026/N784MB_R04/audio.wav",
+      "start_s": 0,
+      "duration_s": 85.183,
+      "seed": 20261105
+    },
+    {
+      "id": "n788bm-r03",
+      "label": "N788BM_R03 \u2014 published aircraft passage; WAV timing unverified",
+      "kind": "unlabeled",
+      "audio": "samples/public/pathak-2026/N788BM_R03/audio.wav",
+      "start_s": 0,
+      "duration_s": 67.977,
+      "seed": 20261105
+    },
+    {
+      "id": "n916kt-r22",
+      "label": "N916KT_R22 \u2014 published aircraft passage; WAV timing unverified",
+      "kind": "unlabeled",
+      "audio": "samples/public/pathak-2026/N916KT_R22/audio.wav",
+      "start_s": 0,
+      "duration_s": 77.381,
+      "seed": 20261105
+    }
+  ]
+}

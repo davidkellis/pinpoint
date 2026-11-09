@@ -1,0 +1,539 @@
+{
+  "version": 1,
+  "note": "Combined-profile replay of the existing supplied-track regional jet localization check. This case has no surveyed recorder GPS and does not validate exact jet location accuracy. Original aircraft/region/ambiguity gates are unchanged. This explicitly uses the existing longest_usable policy for this known single-passage clip; without it the combined detector yields three usable tones and the one-event replay stops. No curve is selected by expected aircraft, region, or GPS.",
+  "assets": [
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C7CD0_2022-12-08_12-29-45_0_0.wav",
+      "sha256": "e4b471da131570c8e80fdadf12101e1158f8cdf3dac64c80964effb4df8156cf",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C77FA_2022-12-08_09-21-43_0_0.wav",
+      "sha256": "1ac790e34513610d9e2b01d2962a964603cf8a78179c0a65edff9579694a90d5",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C7777_2022-12-08_10-06-22_0_0.wav",
+      "sha256": "fbb9b09a30b573ac0175b78c0cc6686b35b9f73d468cde9d09bb64d1fa02ed14",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/750262_2022-12-11_09-48-28_0_0.wav",
+      "sha256": "6e4558a729964d8cc2fa96706d9cf0076a2660cdf641df7d4b4a8aeae752e253",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/06A2B1_2022-12-08_19-55-46_0_0.wav",
+      "sha256": "323d3b3f62d5a1d31c2cac939da17e3bd2148c8e6db8832abf3f9b460ec59f40",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/000000_2022-12-08_09-05-46_0_0.wav",
+      "sha256": "f4c5f6bad0c8b20c91c590d6cff7ca56f25b59331072168b579f59b88ffd2596",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/000000_2023-03-01_13-33-54_1_1.wav",
+      "sha256": "1b0318e9598e9a7a3c1301c8362fdbe25b2a0186c068185b933d775af2c9045c",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/000000_2023-04-24_11-23-47_1_1.wav",
+      "sha256": "fea3ede512b7c9651f52d6a4d293c4638aba6df14bff223a316d2ebc0b4e7e02",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/pathak-2026/N394FX_R20/audio.wav",
+      "sha256": "cfd03401b5f891020d76c12000a7552be0c549f65b8e67dc571f06258f0178ac",
+      "profiles": [
+        "audio",
+        "location"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "samples/public/dlr-a320-rec139/microphone-080.wav",
+      "sha256": "e79e1e3d7d3f8301de7866632a7a7a12185da09652079ed675a876aa8641fbea",
+      "profiles": [
+        "audio"
+      ],
+      "source": "dlr-rec139"
+    },
+    {
+      "path": "samples/public/dlr-a320-rec139/geometry.json",
+      "sha256": "2146c8c9096bf0f72c4fd5207e4c31c443ac824b7679d2dbd3c4dc18ea45ccd5",
+      "profiles": [
+        "audio"
+      ],
+      "source": "dlr-rec139"
+    },
+    {
+      "path": "references/search/jet-phenom/california-band-1.json",
+      "sha256": "6decad9c94f20104079121397cc7b378fa58834c7132f910b0d5827febef65a3",
+      "profiles": [
+        "location"
+      ],
+      "source": "pinpoint-jet-protocol"
+    },
+    {
+      "path": "references/search/jet-phenom/california-band-2.json",
+      "sha256": "6e9b7590a2b5ee9d6634802e22c596133617f26e7f1b16362e75ae16eb46eadf",
+      "profiles": [
+        "location"
+      ],
+      "source": "pinpoint-jet-protocol"
+    },
+    {
+      "path": "references/search/jet-phenom/california-band-3.json",
+      "sha256": "74a3997e8e935ab03d649f5a100ba346e684c8cd8296c2f93b8eefb4df3bfff4",
+      "profiles": [
+        "location"
+      ],
+      "source": "pinpoint-jet-protocol"
+    },
+    {
+      "path": "references/search/jet-phenom/supplied-target.csv",
+      "sha256": "6255434bff627beedf3a97331ff3f3b47c573430922f6492b5c8342c8221c0a2",
+      "profiles": [
+        "location"
+      ],
+      "source": "pathak-2026"
+    },
+    {
+      "path": "work/web/cache/egm96_15.gtx",
+      "sha256": "c02a6eb70a7a78efebe5adf3ade626eb75390e170bb8b3f36136a2c28f5326a0",
+      "profiles": [
+        "location"
+      ],
+      "source": "egm96"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N32W115.hgt",
+      "sha256": "24e13c7d8a23ecfa140e3988a0eb05d5da1f6c9510310c6250fe993ea9b6b423",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N33W116.hgt",
+      "sha256": "b1ee9ddc8c652ba4fcb5fdb59322ba3d90bb895b1e120b77e313dbe610e7fe74",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N32W118.hgt",
+      "sha256": "444f7a2611c9d9520acbc46812e0e1729de1c41edf4a71524090ee7f72ead1f2",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N33W119.hgt",
+      "sha256": "39844e0ff91b8ec03f03608f3759e61ac933eaa971b174a6e1e873b770445ec0",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N32W117.hgt",
+      "sha256": "7d2fce7bafe991d028fd667dff11d8511424d084dfba63555021cb7ee75e9b77",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N33W118.hgt",
+      "sha256": "9038b1481cb9cfd59ffda09e824e1acdd392177dce073a125ff974e81bae229f",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N33W117.hgt",
+      "sha256": "8d9f0a3a4649fc22fedce4f1d39b19e1949e839351f675602ff143220ecb3446",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N34W118.hgt",
+      "sha256": "a145a56514299233e96e99e27682af4b1496f408f6396ccfc20f6321caa56cc1",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N34W115.hgt",
+      "sha256": "ad64a5611ecf872ff4e1af49480a3b08f91d9b726c8ddae0fcbc5a72167db1d4",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N34W116.hgt",
+      "sha256": "48b52fe0382feaa0221bc9b0d9d98f9d83060c8d0363cffd5c98b9e3fd9efda9",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N34W117.hgt",
+      "sha256": "a13eac026d8c7d340b8c1ec0c495b4be3f239ea19a36ce5a73984664e82e9ae8",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N34W121.hgt",
+      "sha256": "79181e5236465e60f3cbbb3e84caa1b6b53a1c66ac10bb98bb10f0c377836d86",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N34W119.hgt",
+      "sha256": "668571523ed9e5e4471093d0f41309a40c5391e513bf831ac1c0fd199d829999",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N35W115.hgt",
+      "sha256": "63c4e84464690c131e7a871854043333a95e0eb666ccd2467dde1cef3a0c60fc",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N34W120.hgt",
+      "sha256": "431525f133a5645c0887d84ae41e886e8a3d8b407ba6dd1560c1c97c41f20e10",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N35W116.hgt",
+      "sha256": "d1895c788647e1af0dfd0b52c39546ab2b5b2d814c54066e21c91390913e97a4",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N35W118.hgt",
+      "sha256": "389cf1c28efeed9dd6dbf3350a743a85f83e79841523a42f6e4d3699f8c40872",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N35W117.hgt",
+      "sha256": "89156b43e242037ab4349ca3e8fec2a15ba592bc18b349591e31ebaef60ecaa8",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N35W120.hgt",
+      "sha256": "9930caa2ce58f32e953e1b67b0bf27cb3dfdb1ab2d058c2525ba7d19e3982d1b",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N35W122.hgt",
+      "sha256": "009b9a5cc60562156da9ff0f75e12cae708379cb401a42dcc8f57e23548cc00c",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N35W119.hgt",
+      "sha256": "714ae0df25dead17123cfe65aa999bf6c62ee1857263e2498e21e87049f30797",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N35W121.hgt",
+      "sha256": "d6067446ce6fa7cbb9dcfde9943185d8f036836820f6ec2ff23fe6163c2e539c",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N36W120.hgt",
+      "sha256": "5cc78ca3b8d746152fd03bf2eeaf52ff1bb2bb817f7e5860afc148e2737ec0c6",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N36W117.hgt",
+      "sha256": "0015200cfea7d79f2ec87f52bbcf3f7c18a069d1f52af7c39ceccceb45e78705",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N36W116.hgt",
+      "sha256": "e0760e3678749b8a9287f0d8dc088d45b5917d81b001a464d0f211c36a0162f9",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N36W121.hgt",
+      "sha256": "a0df56a80d96f55d9a4b42f20adc34ff6b84e154641f31d8903df36f1af8e19e",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N36W123.hgt",
+      "sha256": "e733ccde7e68dfb3451ba1ae83f9f46630f85e35ce467b575558c2a8e8a18c92",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N36W119.hgt",
+      "sha256": "75cd6a676ca7ec3bed0fa86a7cb64673b2f80fca4e6fac9289289f4220b2a3eb",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N36W122.hgt",
+      "sha256": "a5b78dcd6499d232c03712c2b7bcbdd64e56301464bc3d2ab276d5fc872aa890",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N37W120.hgt",
+      "sha256": "fc71c4dcf8d4c1f385262f703dc35143da89860cbfd904d187f8530744fffe77",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N37W123.hgt",
+      "sha256": "d5603938893b4c18671902a07219852d05f878b1d4853a66bb7ab9e8c10cc4d4",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N37W122.hgt",
+      "sha256": "523e67fb6c18a1612ad99adb7119ecceb9b029e59ccd83c67c76ec1fe48881a4",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N37W121.hgt",
+      "sha256": "a8b5da592f4db0eb601db2d4e115c239cfebe96c14ae66df95c3197697ecf581",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N38W122.hgt",
+      "sha256": "509bf7f7705eb9a35744900991f247ce2828688379c5120f2e82d5547d9a6a78",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N38W120.hgt",
+      "sha256": "d6186f59b337be3f8c4c1d6ade1e535f2996693207daaef5343bdf0281614b1c",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N38W124.hgt",
+      "sha256": "a2fa61bfa6465007feb2731056727995b053fbb6497136379b2ff6fdb06639fa",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N38W121.hgt",
+      "sha256": "345b8e49b30c24cb7a7f137478bbbbed94c9e95e08a7c0274ad64e2dcf2a3407",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N39W120.hgt",
+      "sha256": "7a8702c5c0b310d11b1c609b929d6bc8df67cb53ea5b91f798d525fb49a84b61",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N38W123.hgt",
+      "sha256": "89724949a32811ae923938a03002862c7bae62b1158e447ca0b79868226748be",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N39W121.hgt",
+      "sha256": "0e4f8453432de7963c6733fa0f02173b07f8a4045f616bf003f2e69356ce02e6",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N39W122.hgt",
+      "sha256": "e461b343ceafac32c1e5fb3fafe3b0211d3d28655cfb32241d1157f1349d70f3",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N39W123.hgt",
+      "sha256": "41fc2f49e2cb3c39eb02c3db6d6081be2ac58a390bf19cebce29115d8373a0cf",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N40W121.hgt",
+      "sha256": "8b167b3da63147f9dd23ff21580bc2245ccc5ee3887512102a9c7e01fd482a64",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N39W124.hgt",
+      "sha256": "88e133099d19ec46187b8ae8d49ccc963b0e5381c6e6c5fa9cd653da0302e8b4",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N40W123.hgt",
+      "sha256": "3ab2e698279d233ea7b407ef172e114c0732d01202a449f272979ccfb69d9483",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N40W122.hgt",
+      "sha256": "3af5b5f42d0800b9330b22827868bc219d11159869d1dae55fcd452c9bf0372d",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    },
+    {
+      "path": "data/terrain-ca-3arc/N41W122.hgt",
+      "sha256": "c88e7824768cae485ffa4dfd63bf1a9bbfa3a8d5f82feff37559dd9b64a8d2da",
+      "profiles": [
+        "location"
+      ],
+      "source": "terrain"
+    }
+  ],
+  "acoustic": [],
+  "locations": [
+    {
+      "id": "hybrid-phenom-known-track-california",
+      "profiles": [
+        "location"
+      ],
+      "audio": "samples/public/pathak-2026/N394FX_R20/audio.wav",
+      "detector_profile": "hybrid",
+      "configs": [
+        "references/search/jet-phenom/california-band-1.json",
+        "references/search/jet-phenom/california-band-2.json",
+        "references/search/jet-phenom/california-band-3.json"
+      ],
+      "expected_aircraft": [
+        "N394FX"
+      ],
+      "expected_region": {
+        "south": 37.5,
+        "north": 37.85,
+        "west": -122,
+        "east": -121.6
+      },
+      "require_ambiguity": false,
+      "note": "ASSISTED known-aircraft test. Re-runs automatic curve extraction and California search. Target KML supplied; no competing aircraft. Expected broad Livermore region is evaluation-only. No verified microphone GPS; cannot assert metre-level error or global uniqueness. Combined profile: select the longest usable measured ridge from this known single-passage clip. This is not automatic flight-count discovery.",
+      "event_selection": "longest_usable"
+    }
+  ]
+}

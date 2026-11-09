@@ -1,0 +1,53 @@
+{
+  "clock_uncertainty_for_search_s": 5,
+  "first_csv_offset_in_wav_s": 5.000000000000004,
+  "first_csv_utc": "2026-05-16T18:24:01.34Z",
+  "inferred_wav_start_utc": "2026-05-16T18:23:56.34Z",
+  "label_count": 642,
+  "method": "Maximize mean measured whitened spectral power along the publisher frequency labels; 0.025 s offset sweep. No flight track or geography used.",
+  "note": "Inferred audio clock, not independent verification of UTC. Frequency labels must not be used to select automatic detections in blind evaluations.",
+  "source_csv": "samples/public/pathak-2026/N563FX_R21/frequency_vs_time_used.csv",
+  "source_spectrum": "work/additional-jets/r21/spectrogram.bin",
+  "top_alignments": [
+    {
+      "offset_s": 5.000000000000004,
+      "mean_spectral_contrast_db": 16.097701063271177
+    },
+    {
+      "offset_s": 4.975000000000004,
+      "mean_spectral_contrast_db": 15.991664146909322
+    },
+    {
+      "offset_s": 5.025000000000005,
+      "mean_spectral_contrast_db": 15.917646996278206
+    },
+    {
+      "offset_s": 4.950000000000004,
+      "mean_spectral_contrast_db": 15.595598961527156
+    },
+    {
+      "offset_s": 5.050000000000005,
+      "mean_spectral_contrast_db": 15.447565786139544
+    },
+    {
+      "offset_s": 4.925000000000003,
+      "mean_spectral_contrast_db": 14.977365677654506
+    },
+    {
+      "offset_s": 5.0750000000000055,
+      "mean_spectral_contrast_db": 14.798581657365704
+    },
+    {
+      "offset_s": 4.900000000000003,
+      "mean_spectral_contrast_db": 14.186983240763427
+    },
+    {
+      "offset_s": 5.100000000000006,
+      "mean_spectral_contrast_db": 14.06122639925251
+    },
+    {
+      "offset_s": 5.125000000000006,
+      "mean_spectral_contrast_db": 13.354287369410077
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "source_doi": "10.5281/zenodo.20494053",
+  "frame": "publisher local Cartesian frame, metres; GPS origin unknown",
+  "selection": "nearest to array origin, minimum x, maximum y; NumPy first index for ties; chosen before listening",
+  "sample_rate_hz": 48192,
+  "speed_of_sound_mps": 339.89,
+  "microphones": [
+    {
+      "index_zero_based": 80,
+      "position_m": [
+        0.125,
+        -0.0430000014603138,
+        -0.07900000363588333
+      ],
+      "audio": "samples/public/dlr-a320-rec139/microphone-080.wav",
+      "sha256": "e79e1e3d7d3f8301de7866632a7a7a12185da09652079ed675a876aa8641fbea",
+      "encoding": "IEEE float32, calibrated pressure in Pa, no gain applied"
+    },
+    {
+      "index_zero_based": 221,
+      "position_m": [
+        -20.95800018310547,
+        6.565999984741211,
+        -0.10400000214576721
+      ],
+      "audio": "samples/public/dlr-a320-rec139/microphone-221.wav",
+      "sha256": "35f75eb30860f2640cf56f2638540588fae8bff95322f3c5265de8088a146a61",
+      "encoding": "IEEE float32, calibrated pressure in Pa, no gain applied"
+    },
+    {
+      "index_zero_based": 222,
+      "position_m": [
+        -6.63700008392334,
+        17.21299934387207,
+        -0.34200000762939453
+      ],
+      "audio": "samples/public/dlr-a320-rec139/microphone-222.wav",
+      "sha256": "dcfdbc3d2ecae2a9427ed1d6c75a8a373a5116ddc7b9da251111b37cfe80f50f",
+      "encoding": "IEEE float32, calibrated pressure in Pa, no gain applied"
+    }
+  ],
+  "trajectories": {
+    "Trajectory060": {
+      "ReferencePosition": [
+        124.712,
+        2.156,
+        198.636
+      ],
+      "ReferenceSample": 89926,
+      "ReferenceVelocity": [
+        -88.034,
+        -0.317,
+        -9.484
+      ],
+      "WindVelocity": [
+        1.86356,
+        3.94718,
+        0.0
+      ],
+      "angles": [
+        -1.533,
+        7.438,
+        182.192
+      ]
+    },
+    "Trajectory090": {
+      "ReferencePosition": [
+        8.824,
+        -0.027,
+        186.22
+      ],
+      "ReferenceSample": 152624,
+      "ReferenceVelocity": [
+        -87.969,
+        -0.5,
+        -9.185
+      ],
+      "WindVelocity": [
+        1.72846,
+        4.52837,
+        0.0
+      ],
+      "angles": [
+        -0.56,
+        6.883,
+        182.611
+      ]
+    },
+    "Trajectory120": {
+      "ReferencePosition": [
+        -97.146,
+        -1.134,
+        175.365
+      ],
+      "ReferenceSample": 210406,
+      "ReferenceVelocity": [
+        -87.969,
+        -0.473,
+        -8.677
+      ],
+      "WindVelocity": [
+        1.71502,
+        4.20965,
+        0.0
+      ],
+      "angles": [
+        0.192,
+        6.597,
+        182.414
+      ]
+    }
+  }
+}

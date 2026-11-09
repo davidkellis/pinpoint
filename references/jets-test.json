@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "note": "Additional publisher test sessions. Detector frozen before evaluation. Eight aircraft-presence-labeled clips have no frequency-ridge truth and remain observations; two background controls assert zero strong curves. Coordinates are privacy-displaced, not GPS ground truth.",
+  "assets": [
+    {
+      "path": "samples/public/aerosonic-ypad0523/76CD0B_2023-05-10_06-58-39_0_1.wav",
+      "sha256": "95cc809df167772beed116295b168f4ae59f157e72d3d693720620f742a23e50",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/C827EE_2023-05-03_10-38-32_0_1.wav",
+      "sha256": "19a357eadf334c4d3dcc7823ab54bf0ec3c89afbfaa7ca01f6d91a6606cc4a71",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C1ABD_2023-05-03_11-28-53_0_1.wav",
+      "sha256": "5a60521b7688593962363e0306bc2fc329139ba0b21266a6b9d970993c1628ac",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C1B0F_2023-05-20_15-40-08_0_1.wav",
+      "sha256": "2c06a306744e7c6fccde9a0d878cfcb154c4d3b43083f1f0449ad33d98e46343",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C29D4_2023-05-03_11-38-48_0_1.wav",
+      "sha256": "02dea4fe3dbb1009c298f853abb94689b84f1e283e3696e9e7a844550d0eb77b",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C7CD0_2023-05-09_12-42-55_2_1.wav",
+      "sha256": "296ad9da04ac7b42ce1dae91db2c760cdbd26c297bc584bf4a28d3990c3c69a3",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C4209_2023-05-09_12-54-51_2_1.wav",
+      "sha256": "cc1b64304efdf4141dd0b53f1f33f280986a4f6c7c8f2ce94277a199401df5be",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/7C68B6_2023-05-09_12-56-13_2_1.wav",
+      "sha256": "cf330a2a797f016bd0f114feb055db6ae7755dac218f4d35c6abd45e6413236b",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/000000_2023-05-03_10-41-40_0_1.wav",
+      "sha256": "f06ec44d5d1c78fc96c51b95e20905082fd7bb275374184b34236c0a6d58465e",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/000000_2023-05-09_12-20-43_1_1.wav",
+      "sha256": "eb5c2c692e4bf9ee9d4651fde2b326e4a537a50e3be6d6ae5e3ab4054461445a",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "references/provenance/aerosonic-test-selection.json",
+      "sha256": "0a5dd6bfcca625473a274b95dc34e228dd931dd176637e38d47a2699b4336229",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/sample_meta.csv",
+      "sha256": "4dced5bcd953bc97a39cf54d2b585a7875ef7d9c43f3660951560869b009090c",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    },
+    {
+      "path": "samples/public/aerosonic-ypad0523/locations.json",
+      "sha256": "7c9517bbb6b993d1d001fba15fc6ba2eee4a239ff0ee27122d790c75a8fe72a7",
+      "profiles": [
+        "audio"
+      ],
+      "source": "aerosonic-ypad0523"
+    }
+  ],
+  "acoustic": [
+    {
+      "id": "a359-site0",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/aerosonic-ypad0523/76CD0B_2023-05-10_06-58-39_0_1.wav",
+      "detector_profile": "short-pass",
+      "labels": [],
+      "note": "Aircraft presence and type are publisher labels; no independent curve annotations yet. Displaced site coordinate only."
+    },
+    {
+      "id": "a21n-site0",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/aerosonic-ypad0523/C827EE_2023-05-03_10-38-32_0_1.wav",
+      "detector_profile": "short-pass",
+      "labels": [],
+      "note": "Aircraft presence and type are publisher labels; no independent curve annotations yet. Displaced site coordinate only."
+    },
+    {
+      "id": "f100-site0",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/aerosonic-ypad0523/7C1ABD_2023-05-03_11-28-53_0_1.wav",
+      "detector_profile": "short-pass",
+      "labels": [],
+      "note": "Aircraft presence and type are publisher labels; no independent curve annotations yet. Displaced site coordinate only."
+    },
+    {
+      "id": "pc24-site0",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/aerosonic-ypad0523/7C1B0F_2023-05-20_15-40-08_0_1.wav",
+      "detector_profile": "short-pass",
+      "labels": [],
+      "note": "Aircraft presence and type are publisher labels; no independent curve annotations yet. Displaced site coordinate only."
+    },
+    {
+      "id": "b738-site0",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/aerosonic-ypad0523/7C29D4_2023-05-03_11-38-48_0_1.wav",
+      "detector_profile": "short-pass",
+      "labels": [],
+      "note": "Aircraft presence and type are publisher labels; no independent curve annotations yet. Displaced site coordinate only."
+    },
+    {
+      "id": "a320-site2",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/aerosonic-ypad0523/7C7CD0_2023-05-09_12-42-55_2_1.wav",
+      "detector_profile": "short-pass",
+      "labels": [],
+      "note": "Aircraft presence and type are publisher labels; no independent curve annotations yet. Displaced site coordinate only."
+    },
+    {
+      "id": "b737-site2",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/aerosonic-ypad0523/7C4209_2023-05-09_12-54-51_2_1.wav",
+      "detector_profile": "short-pass",
+      "labels": [],
+      "note": "Aircraft presence and type are publisher labels; no independent curve annotations yet. Displaced site coordinate only."
+    },
+    {
+      "id": "e190-site2",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/aerosonic-ypad0523/7C68B6_2023-05-09_12-56-13_2_1.wav",
+      "detector_profile": "short-pass",
+      "labels": [],
+      "note": "Aircraft presence and type are publisher labels; no independent curve annotations yet. Displaced site coordinate only."
+    },
+    {
+      "id": "background-site0",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/aerosonic-ypad0523/000000_2023-05-03_10-41-40_0_1.wav",
+      "detector_profile": "short-pass",
+      "labels": [],
+      "note": "Publisher human-verified background. Short-pass profile permits detection in ten seconds; zero strong expected.",
+      "max_strong_candidates": 0
+    },
+    {
+      "id": "background-site2",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/aerosonic-ypad0523/000000_2023-05-09_12-20-43_1_1.wav",
+      "detector_profile": "short-pass",
+      "labels": [],
+      "note": "Publisher human-verified background. Short-pass profile permits detection in ten seconds; zero strong expected.",
+      "max_strong_candidates": 0
+    }
+  ],
+  "locations": []
+}

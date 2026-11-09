@@ -1,0 +1,37 @@
+{
+  "question": "Does a California-wide search recover the published Livermore area for N784MB_R04?",
+  "mode": "Assisted observed-curve plus original-spectrogram scoring; not an end-to-end automatic detection test.",
+  "inputs": [
+    "Unmodified audio WAV",
+    "UTC frequency measurements from the source CSV",
+    "All usable aircraft tracks from the independent May 14 archive in a padded California bounding box from 17:39 to 17:46 UTC",
+    "California state mask, terrain and EGM96 geoid"
+  ],
+  "withheld_from_scoring": [
+    "Target registration and ICAO24",
+    "Supplied target KML",
+    "Published speed, distance and height result table",
+    "Livermore coordinates or city bounds"
+  ],
+  "known_utc_assumption": "Published CSV UTC timestamps are approximately correct; WAV alignment is inferred only from recorded frequency content. +/-5 s shared clock search.",
+  "source_audio_sha256": "c0366b111fbf82877bcaba53aa53a99602f9f5512513bc996e629aa04633d37e",
+  "original_search_sha256": "80d2f1d97c128473bb508265ed0c4e467a67800470c152ac4a65bcdc73da0956",
+  "grid_m": [
+    200,
+    50,
+    25,
+    12.5,
+    10
+  ],
+  "coarse_search_limitations": "Single-event corridor search uses acoustic-derived speed and maximum-slant bounds; coarse spectral/shape rejection can miss subcell fits. Only up to eight competing flight/spatial peaks are refined per stage.",
+  "silence": "No silence constraints: no separately reviewed silent interval. Separate files are not treated as one continuous multi-event recording.",
+  "execution_partition": {
+    "reason": "Full-state flight-corridor grid exceeds two-million-point per-run limit.",
+    "bands": [
+      "work/pathak-california/search-band-1.json",
+      "work/pathak-california/search-band-2.json",
+      "work/pathak-california/search-band-3.json"
+    ],
+    "coverage": "Three contiguous latitude bands spanning the original full California bounds; every band retains California polygon mask and 200 m spacing."
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "recorded": "2026-11-07",
+  "source_registry": "references/sources.json",
+  "note": "Derived development experiments reuse registered sources. No new microphone GPS or jet audio was acquired. Private desk GPS is input to an association diagnostic; the reference search uses a disclosed known-area prior.",
+  "assets": [
+    {
+      "path": "samples/Unknown location - raw audio [4CxVxuMVkMc].mp3",
+      "sha256": "89512e9c28454029059cc3cf7bc79ca77811c9bc931bf17584481ad897e71487",
+      "bytes": 60700484,
+      "role": "Original Colsto reference MP3; no redistribution license verified"
+    },
+    {
+      "path": "work/traced-joint/reference/detection.json",
+      "sha256": "b56edd865647e2737011d2468c0f9a4d82f0ed167c6e549eb24c7e506c59cfd5",
+      "bytes": 9313852,
+      "role": "Previously computed standard-profile whole-audio proposals; no aircraft supplied"
+    },
+    {
+      "path": "work/traced-joint/reference/spectrogram.bin",
+      "sha256": "2e5a7d18a1ecda0f0f2b3b881c25a606f2f5e8056e2c7020ac79f3ea5f267493",
+      "bytes": 267097901,
+      "role": "Previously computed full audio spectrum; binds detection and training input fingerprint"
+    },
+    {
+      "path": "work/methodology/ny-tracks-typed.csv",
+      "sha256": "a8df8d47f2ec8942e4d1230eb9137b56ebd0bbbdb6b407b206f6cdf9ebc06ad1",
+      "bytes": 105916010,
+      "role": "Independent competing New York ADS-B tracks and aircraft type codes"
+    },
+    {
+      "path": "work/sequence-search/reference-final/config.json",
+      "sha256": "a5a0a659807a7541641dc1f80e6ac6120bb9d7bae510559368aadaa72eb9b35a",
+      "bytes": 19989,
+      "role": "Known-reference-area search settings, 12 scoring workers"
+    },
+    {
+      "path": "work/sequence-search/reference-final/training-binary",
+      "sha256": "7bc541c42a4f6d0ddffddf9f4b8c098b152ba5d9aded874f3b077695a36f4466",
+      "bytes": 17687235,
+      "role": "Original reference search executable; preserved for frozen-fit revalidation"
+    },
+    {
+      "path": "samples/2026_11_06_10_23_41_1.mp3",
+      "sha256": "16deb0dc12407922bf2e243316861401f1b1c195744791e5b8f1cd1fde0d4bde",
+      "bytes": 199690851,
+      "role": "User private indoor stationary desk recording; Central filename start time"
+    },
+    {
+      "path": "work/automatic-sequences/desk-full-v2/detection.json",
+      "sha256": "2a042f407faaacfcc84dac5aa7d5f1acc852044ab2ee49506f9114946f97b371",
+      "bytes": 216180320,
+      "role": "Full November 6 detection report; eight usable strong curves"
+    },
+    {
+      "path": "work/sequence-search/desk-expanded-tracks.csv",
+      "sha256": "80fa1bc7c9b1c3c897727d3fd1f10ab55ae49970f91f96df7ebb93f5a30f4ffc",
+      "bytes": 13067077,
+      "role": "Broader time import from existing cached November 6 readsb traces"
+    },
+    {
+      "path": "work/sequence-search/desk-known-position/config-expanded.json",
+      "sha256": "203bb0667d00620a0470ad4a349ab8e5d5a75acdaaab44c21b448ca0bbc8b7f0",
+      "bytes": 901,
+      "role": "Known-position association settings; no blind position recovery"
+    },
+    {
+      "path": "work/sequence-search/desk-training-binary",
+      "sha256": "fd79a8542b42f6d1bdf22db7fa57898e72579286448c73095b793270037d06b4",
+      "bytes": 17710080,
+      "role": "Original completed desk search executable"
+    },
+    {
+      "path": "work/sequence-search/desk-trace-inventory.json",
+      "sha256": "3047ac8d182cdf74f5080a5a23b2da8d9726d358c6f50ac7029b01ef43f85bcc",
+      "bytes": 82614,
+      "role": "Inventory of cached trace source bytes"
+    },
+    {
+      "path": "work/sequence-search/validation-binary",
+      "sha256": "018a568303a2104568a9790fb14a867004206adb8262acb86df44d187d6b3c82",
+      "bytes": 17719069,
+      "role": "Current validation implementation"
+    },
+    {
+      "path": "references/sequence-failures.json",
+      "sha256": "c15599ece6876e1028be56492b0aeef9d278e7dde36942eb4d796444aa93f8d7",
+      "bytes": 1778,
+      "role": "Frozen historical report digests and post-inference evaluation policy"
+    }
+  ],
+  "desk_track_import": {
+    "command": [
+      "pinpoint",
+      "import",
+      "--input",
+      "work/web/cache/traces/2026-11-06",
+      "--from",
+      "2026-11-06T15:50:00Z",
+      "--until",
+      "2026-11-06T20:25:00Z",
+      "--bounds",
+      "<redacted: private receiver area>",
+      "--max-gap",
+      "30",
+      "--out",
+      "work/sequence-search/desk-expanded-tracks.csv"
+    ],
+    "cached_files": 388,
+    "purpose": "Complete the source time range for all eight control shifts; first narrow import truncated the final positive control.",
+    "coverage_limit": "This import uses already discovered cached aircraft traces. A continuous source span does not establish complete receiver-network coverage or acoustic audibility."
+  },
+  "normalization": "Per-proposal raw audio decoded by FFmpeg; frequency backgrounds fitted using guarded training frames only. Standard and short-sweep analysis resolution preserved. Full-audio discovery makes validation proposal-conditioned.",
+  "terrain": "Each automatic report elevation_inputs records DEM/geoid paths and SHA-256. Original geometric aircraft altitude, geoid/terrain conversion and sound-travel delay remain mandatory.",
+  "evaluation": "Expected reference aircraft and video model coordinate are consumed after inference by tools/check_sequence_regressions.py. Livermore microphone GPS remains unverified.",
+  "decoder": "ffmpeg version 8.1.3 Copyright (c) 2000-2026 the FFmpeg developers",
+  "completed_reports": [
+    {
+      "path": "work/sequence-search/reference-final/run/automatic.json",
+      "sha256": "a92bd12b527d08241a7eb31414f859671e4f84eced8575a5c0f7fba8c8922ac3",
+      "status": "unresolved",
+      "groups": 1411,
+      "revalidation": null
+    },
+    {
+      "path": "work/sequence-search/reference-revalidated/automatic.json",
+      "sha256": "e4aeddf88ff28213d59e26dcc0185360e94d48af3450c45df142a9e593ded485",
+      "status": "unresolved",
+      "groups": 1411,
+      "revalidation": {
+        "original_report_sha256": "a92bd12b527d08241a7eb31414f859671e4f84eced8575a5c0f7fba8c8922ac3",
+        "training_binary_sha256": "7bc541c42a4f6d0ddffddf9f4b8c098b152ba5d9aded874f3b077695a36f4466",
+        "validation_binary_sha256": "018a568303a2104568a9790fb14a867004206adb8262acb86df44d187d6b3c82",
+        "finished_utc": "2026-11-07T06:57:00.875071502Z"
+      }
+    },
+    {
+      "path": "work/sequence-search/desk-final/automatic.json",
+      "sha256": "3fc9b4ebf45817b6dd71d17dfc76be731d1f849f109f8bdc1db1a9be4c2c0a15",
+      "status": "no_match",
+      "groups": 252,
+      "revalidation": null
+    },
+    {
+      "path": "work/sequence-search/desk-revalidated/automatic.json",
+      "sha256": "3d8e9fce85be30b88666564921ede0db8fd6e360e7e02d346b43da774c49d7b7",
+      "status": "no_match",
+      "groups": 252,
+      "revalidation": {
+        "original_report_sha256": "3fc9b4ebf45817b6dd71d17dfc76be731d1f849f109f8bdc1db1a9be4c2c0a15",
+        "training_binary_sha256": "fd79a8542b42f6d1bdf22db7fa57898e72579286448c73095b793270037d06b4",
+        "validation_binary_sha256": "018a568303a2104568a9790fb14a867004206adb8262acb86df44d187d6b3c82",
+        "finished_utc": "2026-11-07T06:48:02.070801145Z"
+      }
+    },
+    {
+      "path": "work/sequence-search/regression-check.json",
+      "sha256": "2478d1b04f908b2f54bb6f28e7e0351d9cbe8e93799991947c35700aa2b4847f",
+      "status": "pass",
+      "groups": 0,
+      "revalidation": null
+    }
+  ]
+}

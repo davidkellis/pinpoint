@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="pinpoint-consensus-version" content="1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pinpoint · Consensus location search</title>
+  <style>__LEAFLET_CSS__</style>
+  <style>
+    html,body{margin:0;height:100%;font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#0f1a21;color:#e6eef2}
+    .wrap{display:flex;height:100%}
+    aside{width:360px;max-width:42vw;overflow:auto;padding:16px 18px;box-sizing:border-box;border-right:1px solid #24343f}
+    #map{flex:1}
+    h1{font-size:18px;margin:4px 0 6px}
+    .eyebrow{letter-spacing:.08em;font-size:11px;color:#8fb3c2;margin:0}
+    .status{display:inline-block;padding:2px 8px;border-radius:10px;font-weight:600;font-size:12px}
+    .resolved{background:#1f6f4a}.ambiguous{background:#8a6a12}.no_match,.too_few_curves,.contradicted{background:#7a2d2d}
+    .muted{color:#9fb4bf}
+    ol{padding-left:20px}
+    li{margin:6px 0;cursor:pointer}
+    li:hover{color:#ffd56a}
+    code{font-size:12px}
+    label{display:block;margin:8px 0 2px}
+    .curves{font-size:12px}
+    @media (max-width:700px){.wrap{flex-direction:column}aside{width:auto;max-width:none;max-height:45vh}}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <aside>
+    <p class="eyebrow">CONSENSUS LOCATION SEARCH</p>
+    <h1 id="title">Locations where several flyovers agree</h1>
+    <p><span id="status" class="status"></span> <span id="margin" class="muted"></span></p>
+    <p id="summary" class="muted"></p>
+    <h2 style="font-size:15px">Separated candidate regions</h2>
+    <ol id="regions"></ol>
+    <label for="basemap">Background</label>
+    <select id="basemap"><option value="satellite">Satellite imagery · Esri</option><option value="streets">Street map · Esri</option><option value="none">Plain background · offline</option></select>
+    <p class="muted" style="font-size:12px">Dots: locations where enough curves agree, colored red (aircraft explain the curves' bends best) to purple (worse). Locations explaining too few curves are omitted.</p>
+    <h2 style="font-size:15px">Curves offered to the search</h2>
+    <div id="curves" class="curves muted"></div>
+    <p id="note" class="muted" style="font-size:12px"></p>
+    <p id="tile-message" class="muted" hidden></p>
+  </aside>
+  <div id="map"></div>
+</div>
+<script>__LEAFLET_JS__</script>
+<script>__MAP_CONTEXT__</script>
+<script id="borders-data" type="application/json">__STATE_BORDERS__</script>
+<script>
+const data = __MAP_DATA__;
+const $ = id => document.getElementById(id);
+const r = data.result;
+const labels = {resolved:'Resolved', ambiguous:'Ambiguous', contradicted:'Contradicted by loudness', no_match:'No consensus', too_few_curves:'Too few curves'};
+$('status').textContent = labels[r.status] || r.status;
+$('status').className = 'status ' + r.status;
+if (r.runner_up_ratio) $('margin').textContent = `runner-up's unexplained bend ${r.runner_up_ratio.toFixed(2)}× the winner's (resolve at ${r.options.resolve_ratio}×)`;
+$('summary').textContent = `${r.curves_supplied} curves offered; at least ${r.options.min_curves} must be explained by distinct aircraft under one shared clock. ${r.evaluated_points.toLocaleString()} locations evaluated (${r.options.grid_m} → ${r.options.refine_m} → ${r.options.final_grid_m} m).`;
+$('note').textContent = r.note || '';
+$('curves').innerHTML = (data.curves || []).map(c => `#${c.detector_index}: ${c.start_s.toFixed(0)}–${c.end_s.toFixed(0)} s · ${c.median_hz.toFixed(0)} Hz`).join('<br>') || 'none';
+const map = L.map('map', {preferCanvas: true});
+const context = PinpointMapContext(map, {boundaries: JSON.parse($('borders-data').textContent), selectedState: r.options.region_mask, onWarning: m => { $('tile-message').textContent = m; $('tile-message').hidden = !m; }});
+$('basemap').value = context.preferences.base;
+$('basemap').onchange = e => context.setBase(e.target.value);
+const b = r.options.bounds;
+map.fitBounds([[b.south, b.west], [b.north, b.east]]);
+const valid = (data.points || []).filter(p => p.valid);
+const worst = valid.map(p => p.worst).sort((a, c) => a - c);
+const lo = worst.length ? worst[0] : 0, hi = worst.length ? worst[Math.min(worst.length - 1, Math.floor(worst.length * .9))] : 1;
+const color = w => { const t = Math.max(0, Math.min(1, (w - lo) / Math.max(1e-9, hi - lo))); return `hsl(${Math.round(t * 270)},85%,55%)`; };
+const layer = L.layerGroup().addTo(map);
+function draw() {
+  layer.clearLayers();
+  for (const p of valid) {
+    L.circleMarker([p.lat, p.lon], {radius: p.grid_m <= 50 ? 3 : 2, stroke: false, fillOpacity: .75, fillColor: p.valid ? color(p.worst) : '#7d8a91'})
+      .bindPopup(p.valid ? `${p.lat.toFixed(6)}, ${p.lon.toFixed(6)}<br>unexplained bend ${p.worst.toFixed(3)} · clock ${p.clock_s.toFixed(1)} s · ${p.curves} curves` : `${p.lat.toFixed(5)}, ${p.lon.toFixed(5)}<br>not enough curves explained`)
+      .addTo(layer);
+  }
+}
+draw();
+const list = $('regions');
+(r.regions || []).forEach((g, i) => {
+  const li = document.createElement('li');
+  const aircraft = (g.matches || []).map(m => `curve ${m.event} → ${m.aircraft_identity}`).join(', ');
+  li.innerHTML = (g.loudness_contradicted ? '<span class="status contradicted">loudness contradicts</span> ' : '') + `<code>${g.lat.toFixed(6)}, ${g.lon.toFixed(6)}</code><br><span class="muted">unexplained bend ${g.worst_unexplained_curvature.toFixed(3)} · clock ${g.shared_clock_correction_s.toFixed(1)} s · ${g.curves_explained} curves${aircraft ? '<br>' + aircraft : ''}</span>`;
+  li.onclick = () => map.setView([g.lat, g.lon], 14);
+  list.appendChild(li);
+  L.circleMarker([g.lat, g.lon], {radius: 9, color: g.loudness_contradicted ? '#ff6b6b' : '#ffd56a', weight: 3, fill: false}).bindTooltip(String(i + 1) + (g.loudness_contradicted ? ' · loudness contradicts' : ''), {permanent: true, direction: 'right'}).addTo(map);
+});
+if (!(r.regions || []).length) list.innerHTML = '<li class="muted">No location explained enough curves.</li>';
+else if (r.status === 'resolved') map.setView([r.regions[0].lat, r.regions[0].lon], 13);
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+{
+  "note": "Separate November 6 development evaluation snapshots; original November 5 baselines are unchanged. Exact code and input hashes are recorded per reference report. These are not surveyed-GPS or calibrated aircraft confidence results. Private desk outputs are excluded. Diagnostic points are hypotheses.",
+  "files": [
+    {
+      "path": "references/provenance/jet-tracking-2026-11-06/challenger-california.json",
+      "sha256": "b0f207061447138cf5b921b36c2b5e6e3d217cc2112c2c29c7371dcf08019cf6"
+    },
+    {
+      "path": "references/provenance/jet-tracking-2026-11-06/challenger-supplied-track.json",
+      "sha256": "99ea14cf364c0551a8ed83e40beb668b94567513696422d2176b72e33f9d1616"
+    },
+    {
+      "path": "references/provenance/jet-tracking-2026-11-06/correct-flight.json",
+      "sha256": "b3b45cf3d63717153c8856023e2c9458fded018561a59b4c2adff601b4fc67aa"
+    },
+    {
+      "path": "references/provenance/jet-tracking-2026-11-06/final-challenges-all.json",
+      "sha256": "8ea1764b8d55620a60f939f958514d1d7b277b039aaaf9dafa7f81ccd7d369db"
+    },
+    {
+      "path": "references/provenance/jet-tracking-2026-11-06/full-trace-challenges.json",
+      "sha256": "4a8b1f910427b0ff894cb67b71ad4945145f96f5585ac478cf4c54ec3aa9126b"
+    },
+    {
+      "path": "references/provenance/jet-tracking-2026-11-06/jets-audio.json",
+      "sha256": "3a2c9db7443389cec3929a59913d6fbe05ed1bab3ba116f2ddec9473f342b8f8"
+    },
+    {
+      "path": "references/provenance/jet-tracking-2026-11-06/jets-test-audio.json",
+      "sha256": "384bcd4cf97b46bd93c2968b652fa418de23063a20197d91636ab86e575b198a"
+    },
+    {
+      "path": "references/provenance/jet-tracking-2026-11-06/r21-diagnostic.json",
+      "sha256": "71e3a588af93ced69522277ad1d9d3857fff236de874d390fa3242a915ad4392"
+    },
+    {
+      "path": "references/provenance/jet-tracking-2026-11-06/r50-diagnostic.json",
+      "sha256": "43e7efc54562a6a57dadcc90297a36b552c2fdb1a1516ef6e4f84e312be22101"
+    },
+    {
+      "path": "references/provenance/jet-tracking-2026-11-06/reference-audio.json",
+      "sha256": "37e9acf47948df188f073414b00e344b6ed5493827c9242c947cc99e226fb357"
+    },
+    {
+      "path": "references/provenance/jet-tracking-2026-11-06/reference-quick.json",
+      "sha256": "4eab6fe705ff617106670ec37101ff97fcb2e772356958c62c26cdd99d476dc8"
+    },
+    {
+      "path": "references/provenance/jet-tracking-2026-11-06/tracking-audio.json",
+      "sha256": "136d42250281089ccf5ed391052d6cbcc9f67be80b85131469999a077cb948e8"
+    },
+    {
+      "path": "references/provenance/jet-tracking-2026-11-06/wrong-winner.json",
+      "sha256": "fb0c437354dcf16d9bca06e0537d5c3bd4a9288c679407cc0b117f2d47f11faa"
+    }
+  ]
+}

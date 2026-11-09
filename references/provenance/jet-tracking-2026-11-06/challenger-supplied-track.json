@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "manifest_sha256": "aceb6abfe0a6d6ecfd977bace24be8e32b563195247d1d3fcc845cdb887d27de",
+  "go_source_sha256": "13e57fa441139f3e899cd17fc00791ee8c4b01fd6b48a7a4c358e3e0e7c5860e",
+  "go_version": "go1.26.5",
+  "started_utc": "2026-11-06T05:56:57Z",
+  "profile": "location",
+  "status": "pass",
+  "verified_assets": 85,
+  "cases": [
+    {
+      "id": "challenger-supplied-track-california",
+      "status": "pass",
+      "seconds": 16.775803372,
+      "best": {
+        "lat": 37.659053415379084,
+        "lon": -121.77666890854032,
+        "height_ellipsoid_m": 131.99004825590322,
+        "clock_offset_s": -4.200000000000003,
+        "score_db": 14.82040330286221,
+        "events": [
+          {
+            "track_id": "N563FX",
+            "f0_hz": 693.2335087043829,
+            "score_db": 14.82040330286221,
+            "coverage": 1,
+            "cpa": {
+              "Emitted": 1778955894.7570488,
+              "Heard": 1778955900.6433446,
+              "Distance": 2018.9994868481347,
+              "Speed": 133.88401577247285
+            }
+          }
+        ]
+      },
+      "flight_groups": [
+        {
+          "lat": 37.659053415379084,
+          "lon": -121.77666890854032,
+          "height_ellipsoid_m": 131.99004825590322,
+          "clock_offset_s": -4.200000000000003,
+          "score_db": 14.82040330286221,
+          "events": [
+            {
+              "track_id": "N563FX",
+              "f0_hz": 693.2335087043829,
+              "score_db": 14.82040330286221,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778955894.7570488,
+                "Heard": 1778955900.6433446,
+                "Distance": 2018.9994868481347,
+                "Speed": 133.88401577247285
+              }
+            }
+          ]
+        }
+      ],
+      "locations_evaluated": 43658,
+      "note": "ASSISTED supplied-aircraft track, known single passage, longest automatic usable ridge. City-area recovery only; no exact microphone GPS. Competing-flight challenge is separate and currently fails."
+    }
+  ],
+  "decoder": "ffmpeg version 8.1.3 Copyright (c) 2000-2026 the FFmpeg developers"
+}

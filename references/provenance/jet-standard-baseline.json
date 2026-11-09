@@ -1,0 +1,381 @@
+{
+  "version": "curvebench-v1",
+  "methods": [
+    "production-2+4s",
+    "stft-1s"
+  ],
+  "reports": [
+    {
+      "version": "curvebench-v1",
+      "match_version": "anchors-v2",
+      "input": {
+        "id": "a320",
+        "label": "A320 real jet; approximate site only",
+        "kind": "unlabeled",
+        "audio": "samples/public/aerosonic-ypad0523/7C7CD0_2022-12-08_12-29-45_0_0.wav",
+        "start_s": 0,
+        "duration_s": 60,
+        "seed": 0
+      },
+      "audio_sha256": "e4b471da131570c8e80fdadf12101e1158f8cdf3dac64c80964effb4df8156cf",
+      "raw": {
+        "width": 0,
+        "height": 0,
+        "start": 0,
+        "end": 0,
+        "low_hz": 0,
+        "high_hz": 0,
+        "floor": 0,
+        "ceiling": 0
+      },
+      "results": [
+        {
+          "method": "production-2+4s",
+          "milliseconds": 1031,
+          "fragments": 93,
+          "strong": 0,
+          "review": 0,
+          "events": null,
+          "plot": {
+            "width": 0,
+            "height": 0,
+            "start": 0,
+            "end": 0,
+            "low_hz": 0,
+            "high_hz": 0,
+            "floor": 0,
+            "ceiling": 0
+          }
+        },
+        {
+          "method": "stft-1s",
+          "milliseconds": 164,
+          "fragments": 0,
+          "strong": 0,
+          "review": 0,
+          "events": null,
+          "plot": {
+            "width": 0,
+            "height": 0,
+            "start": 0,
+            "end": 0,
+            "low_hz": 0,
+            "high_hz": 0,
+            "floor": 0,
+            "ceiling": 0
+          }
+        }
+      ]
+    },
+    {
+      "version": "curvebench-v1",
+      "match_version": "anchors-v2",
+      "input": {
+        "id": "b738",
+        "label": "B738 real jet; approximate site only",
+        "kind": "unlabeled",
+        "audio": "samples/public/aerosonic-ypad0523/7C77FA_2022-12-08_09-21-43_0_0.wav",
+        "start_s": 0,
+        "duration_s": 60,
+        "seed": 0
+      },
+      "audio_sha256": "1ac790e34513610d9e2b01d2962a964603cf8a78179c0a65edff9579694a90d5",
+      "raw": {
+        "width": 0,
+        "height": 0,
+        "start": 0,
+        "end": 0,
+        "low_hz": 0,
+        "high_hz": 0,
+        "floor": 0,
+        "ceiling": 0
+      },
+      "results": [
+        {
+          "method": "production-2+4s",
+          "milliseconds": 769,
+          "fragments": 73,
+          "strong": 0,
+          "review": 2,
+          "events": null,
+          "plot": {
+            "width": 0,
+            "height": 0,
+            "start": 0,
+            "end": 0,
+            "low_hz": 0,
+            "high_hz": 0,
+            "floor": 0,
+            "ceiling": 0
+          }
+        },
+        {
+          "method": "stft-1s",
+          "milliseconds": 185,
+          "fragments": 0,
+          "strong": 0,
+          "review": 0,
+          "events": null,
+          "plot": {
+            "width": 0,
+            "height": 0,
+            "start": 0,
+            "end": 0,
+            "low_hz": 0,
+            "high_hz": 0,
+            "floor": 0,
+            "ceiling": 0
+          }
+        }
+      ]
+    },
+    {
+      "version": "curvebench-v1",
+      "match_version": "anchors-v2",
+      "input": {
+        "id": "e190",
+        "label": "E190 real jet; approximate site only",
+        "kind": "unlabeled",
+        "audio": "samples/public/aerosonic-ypad0523/7C7777_2022-12-08_10-06-22_0_0.wav",
+        "start_s": 0,
+        "duration_s": 60,
+        "seed": 0
+      },
+      "audio_sha256": "fbb9b09a30b573ac0175b78c0cc6686b35b9f73d468cde9d09bb64d1fa02ed14",
+      "raw": {
+        "width": 0,
+        "height": 0,
+        "start": 0,
+        "end": 0,
+        "low_hz": 0,
+        "high_hz": 0,
+        "floor": 0,
+        "ceiling": 0
+      },
+      "results": [
+        {
+          "method": "production-2+4s",
+          "milliseconds": 848,
+          "fragments": 91,
+          "strong": 0,
+          "review": 1,
+          "events": null,
+          "plot": {
+            "width": 0,
+            "height": 0,
+            "start": 0,
+            "end": 0,
+            "low_hz": 0,
+            "high_hz": 0,
+            "floor": 0,
+            "ceiling": 0
+          }
+        },
+        {
+          "method": "stft-1s",
+          "milliseconds": 183,
+          "fragments": 1,
+          "strong": 0,
+          "review": 0,
+          "events": null,
+          "plot": {
+            "width": 0,
+            "height": 0,
+            "start": 0,
+            "end": 0,
+            "low_hz": 0,
+            "high_hz": 0,
+            "floor": 0,
+            "ceiling": 0
+          }
+        }
+      ]
+    },
+    {
+      "version": "curvebench-v1",
+      "match_version": "anchors-v2",
+      "input": {
+        "id": "a333",
+        "label": "A333 real jet; approximate site only",
+        "kind": "unlabeled",
+        "audio": "samples/public/aerosonic-ypad0523/750262_2022-12-11_09-48-28_0_0.wav",
+        "start_s": 0,
+        "duration_s": 60,
+        "seed": 0
+      },
+      "audio_sha256": "6e4558a729964d8cc2fa96706d9cf0076a2660cdf641df7d4b4a8aeae752e253",
+      "raw": {
+        "width": 0,
+        "height": 0,
+        "start": 0,
+        "end": 0,
+        "low_hz": 0,
+        "high_hz": 0,
+        "floor": 0,
+        "ceiling": 0
+      },
+      "results": [
+        {
+          "method": "production-2+4s",
+          "milliseconds": 993,
+          "fragments": 94,
+          "strong": 1,
+          "review": 5,
+          "events": null,
+          "plot": {
+            "width": 0,
+            "height": 0,
+            "start": 0,
+            "end": 0,
+            "low_hz": 0,
+            "high_hz": 0,
+            "floor": 0,
+            "ceiling": 0
+          }
+        },
+        {
+          "method": "stft-1s",
+          "milliseconds": 171,
+          "fragments": 0,
+          "strong": 0,
+          "review": 0,
+          "events": null,
+          "plot": {
+            "width": 0,
+            "height": 0,
+            "start": 0,
+            "end": 0,
+            "low_hz": 0,
+            "high_hz": 0,
+            "floor": 0,
+            "ceiling": 0
+          }
+        }
+      ]
+    },
+    {
+      "version": "curvebench-v1",
+      "match_version": "anchors-v2",
+      "input": {
+        "id": "b77w",
+        "label": "B77W real jet; approximate site only",
+        "kind": "unlabeled",
+        "audio": "samples/public/aerosonic-ypad0523/06A2B1_2022-12-08_19-55-46_0_0.wav",
+        "start_s": 0,
+        "duration_s": 60,
+        "seed": 0
+      },
+      "audio_sha256": "323d3b3f62d5a1d31c2cac939da17e3bd2148c8e6db8832abf3f9b460ec59f40",
+      "raw": {
+        "width": 0,
+        "height": 0,
+        "start": 0,
+        "end": 0,
+        "low_hz": 0,
+        "high_hz": 0,
+        "floor": 0,
+        "ceiling": 0
+      },
+      "results": [
+        {
+          "method": "production-2+4s",
+          "milliseconds": 842,
+          "fragments": 87,
+          "strong": 1,
+          "review": 0,
+          "events": null,
+          "plot": {
+            "width": 0,
+            "height": 0,
+            "start": 0,
+            "end": 0,
+            "low_hz": 0,
+            "high_hz": 0,
+            "floor": 0,
+            "ceiling": 0
+          }
+        },
+        {
+          "method": "stft-1s",
+          "milliseconds": 171,
+          "fragments": 0,
+          "strong": 0,
+          "review": 0,
+          "events": null,
+          "plot": {
+            "width": 0,
+            "height": 0,
+            "start": 0,
+            "end": 0,
+            "low_hz": 0,
+            "high_hz": 0,
+            "floor": 0,
+            "ceiling": 0
+          }
+        }
+      ]
+    },
+    {
+      "version": "curvebench-v1",
+      "match_version": "anchors-v2",
+      "input": {
+        "id": "phenom-r20",
+        "label": "Pathak N394FX Phenom 300",
+        "kind": "unlabeled",
+        "audio": "samples/public/pathak-2026/N394FX_R20/audio.wav",
+        "start_s": 0,
+        "duration_s": 60.526,
+        "seed": 0
+      },
+      "audio_sha256": "cfd03401b5f891020d76c12000a7552be0c549f65b8e67dc571f06258f0178ac",
+      "raw": {
+        "width": 0,
+        "height": 0,
+        "start": 0,
+        "end": 0,
+        "low_hz": 0,
+        "high_hz": 0,
+        "floor": 0,
+        "ceiling": 0
+      },
+      "results": [
+        {
+          "method": "production-2+4s",
+          "milliseconds": 676,
+          "fragments": 65,
+          "strong": 1,
+          "review": 1,
+          "events": null,
+          "plot": {
+            "width": 0,
+            "height": 0,
+            "start": 0,
+            "end": 0,
+            "low_hz": 0,
+            "high_hz": 0,
+            "floor": 0,
+            "ceiling": 0
+          }
+        },
+        {
+          "method": "stft-1s",
+          "milliseconds": 172,
+          "fragments": 0,
+          "strong": 0,
+          "review": 0,
+          "events": null,
+          "plot": {
+            "width": 0,
+            "height": 0,
+            "start": 0,
+            "end": 0,
+            "low_hz": 0,
+            "high_hz": 0,
+            "floor": 0,
+            "ceiling": 0
+          }
+        }
+      ]
+    }
+  ]
+}

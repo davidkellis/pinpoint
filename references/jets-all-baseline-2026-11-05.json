@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "manifest_sha256": "21c48b55ec94fb5611c08e41f8ed3ca5ae301d10251ab90709011578a8660141",
+  "go_source_sha256": "e531b789fa4876aa094d4448b1e9e54aac8d72817c41fac5105b6ac44025b6c2",
+  "go_version": "go1.26.5",
+  "started_utc": "2026-11-05T18:40:15Z",
+  "profile": "all",
+  "status": "pass",
+  "verified_assets": 63,
+  "cases": [
+    {
+      "id": "a320",
+      "status": "pass",
+      "seconds": 6.562133325,
+      "fragments": 296,
+      "strong_candidates": 2,
+      "curves": [
+        {
+          "id": "upper-tonal-branch",
+          "anchor_hit_fraction": 1,
+          "anchor_coverage": 1,
+          "rmse_hz": 1.790251378996829,
+          "harmonic_ratio": 1,
+          "strong": true,
+          "pass": true
+        }
+      ],
+      "note": "Training subset, not a held-out accuracy estimate. Aircraft labels do not by themselves establish a trackable curve. Public recorder coordinates are displaced."
+    },
+    {
+      "id": "b738",
+      "status": "unlabeled_observation",
+      "seconds": 5.348779813,
+      "fragments": 232,
+      "note": "Training subset, not a held-out accuracy estimate. Aircraft labels do not by themselves establish a trackable curve. Public recorder coordinates are displaced."
+    },
+    {
+      "id": "e190",
+      "status": "unlabeled_observation",
+      "seconds": 6.004556689,
+      "fragments": 280,
+      "strong_candidates": 2,
+      "note": "Training subset, not a held-out accuracy estimate. Aircraft labels do not by themselves establish a trackable curve. Public recorder coordinates are displaced."
+    },
+    {
+      "id": "a333",
+      "status": "unlabeled_observation",
+      "seconds": 8.124362826,
+      "fragments": 378,
+      "strong_candidates": 2,
+      "note": "Training subset, not a held-out accuracy estimate. Aircraft labels do not by themselves establish a trackable curve. Public recorder coordinates are displaced."
+    },
+    {
+      "id": "b77w",
+      "status": "unlabeled_observation",
+      "seconds": 6.719505178,
+      "fragments": 286,
+      "note": "Training subset, not a held-out accuracy estimate. Aircraft labels do not by themselves establish a trackable curve. Public recorder coordinates are displaced."
+    },
+    {
+      "id": "background-0",
+      "status": "pass",
+      "seconds": 0.854014875,
+      "fragments": 27,
+      "note": "Publisher human-verified 10-second background clip without aircraft. Tests the short-pass mode; too short to test the standard 30-second criterion."
+    },
+    {
+      "id": "background-1",
+      "status": "pass",
+      "seconds": 1.342740133,
+      "fragments": 75,
+      "note": "Publisher human-verified 10-second background clip without aircraft. Tests the short-pass mode; too short to test the standard 30-second criterion."
+    },
+    {
+      "id": "background-2",
+      "status": "pass",
+      "seconds": 1.204634553,
+      "fragments": 69,
+      "note": "Publisher human-verified 10-second background clip without aircraft. Tests the short-pass mode; too short to test the standard 30-second criterion."
+    },
+    {
+      "id": "phenom-r20",
+      "status": "pass",
+      "seconds": 7.878284092,
+      "fragments": 270,
+      "strong_candidates": 2,
+      "curves": [
+        {
+          "id": "publisher-frequency-trace",
+          "anchor_hit_fraction": 0.7872340425531915,
+          "anchor_coverage": 0.8127659574468085,
+          "rmse_hz": 2.2164226244089584,
+          "harmonic_ratio": 1,
+          "strong": true,
+          "pass": true
+        }
+      ],
+      "note": "Real E55P jet. All 235 published trace samples evaluated. Alignment +5.05 s inferred from audio only. Development gate for partial recovery, not full trace completion. Recorder GPS unverified."
+    },
+    {
+      "id": "dlr-rec139-080",
+      "status": "unlabeled_observation",
+      "seconds": 0.8746927,
+      "fragments": 38,
+      "note": "Known local microphone coordinates and aircraft trajectory; no independently labeled tone. No curve found yet. Unknown GPS origin; do not count this as a successful localization."
+    },
+    {
+      "id": "phenom-known-track-california",
+      "status": "pass",
+      "seconds": 6.899040062,
+      "best": {
+        "lat": 37.66734033596838,
+        "lon": -121.79093640953606,
+        "height_ellipsoid_m": 106.69300649294505,
+        "clock_offset_s": -4.400000000000002,
+        "score_db": 16.459845971225395,
+        "events": [
+          {
+            "track_id": "N394FX",
+            "f0_hz": 353.5262772368982,
+            "score_db": 16.459845971225395,
+            "coverage": 1,
+            "cpa": {
+              "Emitted": 1778962352.7754705,
+              "Heard": 1778962357.9176807,
+              "Distance": 1763.778111456054,
+              "Speed": 135.1105615540389
+            }
+          }
+        ]
+      },
+      "flight_groups": [
+        {
+          "lat": 37.66734033596838,
+          "lon": -121.79093640953606,
+          "height_ellipsoid_m": 106.69300649294505,
+          "clock_offset_s": -4.400000000000002,
+          "score_db": 16.459845971225395,
+          "events": [
+            {
+              "track_id": "N394FX",
+              "f0_hz": 353.5262772368982,
+              "score_db": 16.459845971225395,
+              "coverage": 1,
+              "cpa": {
+                "Emitted": 1778962352.7754705,
+                "Heard": 1778962357.9176807,
+                "Distance": 1763.778111456054,
+                "Speed": 135.1105615540389
+              }
+            }
+          ]
+        }
+      ],
+      "locations_evaluated": 5703,
+      "note": "ASSISTED known-aircraft test. Re-runs automatic curve extraction and California search. Target KML supplied; no competing aircraft. Expected broad Livermore region is evaluation-only. No verified microphone GPS; cannot assert metre-level error or global uniqueness."
+    }
+  ],
+  "decoder": "ffmpeg version 8.1.3 Copyright (c) 2000-2026 the FFmpeg developers"
+}

@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "manifest_sha256": "21c48b55ec94fb5611c08e41f8ed3ca5ae301d10251ab90709011578a8660141",
+  "go_source_sha256": "a48da1c728fe8a30a36ca659ffa545b91386039409384674dc40d1dcee34da1e",
+  "go_version": "go1.26.5",
+  "started_utc": "2026-11-06T06:16:55Z",
+  "profile": "audio",
+  "status": "pass",
+  "verified_assets": 11,
+  "cases": [
+    {
+      "id": "a320",
+      "status": "pass",
+      "seconds": 20.924136754,
+      "fragments": 296,
+      "strong_candidates": 2,
+      "curves": [
+        {
+          "id": "upper-tonal-branch",
+          "anchor_hit_fraction": 1,
+          "anchor_coverage": 1,
+          "rmse_hz": 2.8248893783651163,
+          "harmonic_ratio": 1,
+          "strong": true,
+          "pass": true
+        }
+      ],
+      "note": "Training subset, not a held-out accuracy estimate. Aircraft labels do not by themselves establish a trackable curve. Public recorder coordinates are displaced."
+    },
+    {
+      "id": "b738",
+      "status": "unlabeled_observation",
+      "seconds": 12.653752118,
+      "fragments": 232,
+      "note": "Training subset, not a held-out accuracy estimate. Aircraft labels do not by themselves establish a trackable curve. Public recorder coordinates are displaced."
+    },
+    {
+      "id": "e190",
+      "status": "unlabeled_observation",
+      "seconds": 12.51599453,
+      "fragments": 279,
+      "strong_candidates": 2,
+      "note": "Training subset, not a held-out accuracy estimate. Aircraft labels do not by themselves establish a trackable curve. Public recorder coordinates are displaced."
+    },
+    {
+      "id": "a333",
+      "status": "unlabeled_observation",
+      "seconds": 18.420373918,
+      "fragments": 376,
+      "strong_candidates": 1,
+      "note": "Training subset, not a held-out accuracy estimate. Aircraft labels do not by themselves establish a trackable curve. Public recorder coordinates are displaced."
+    },
+    {
+      "id": "b77w",
+      "status": "unlabeled_observation",
+      "seconds": 15.438794233,
+      "fragments": 286,
+      "note": "Training subset, not a held-out accuracy estimate. Aircraft labels do not by themselves establish a trackable curve. Public recorder coordinates are displaced."
+    },
+    {
+      "id": "background-0",
+      "status": "pass",
+      "seconds": 2.536117045,
+      "fragments": 27,
+      "note": "Publisher human-verified 10-second background clip without aircraft. Tests the short-pass mode; too short to test the standard 30-second criterion."
+    },
+    {
+      "id": "background-1",
+      "status": "pass",
+      "seconds": 3.665233799,
+      "fragments": 75,
+      "note": "Publisher human-verified 10-second background clip without aircraft. Tests the short-pass mode; too short to test the standard 30-second criterion."
+    },
+    {
+      "id": "background-2",
+      "status": "pass",
+      "seconds": 2.557592113,
+      "fragments": 69,
+      "note": "Publisher human-verified 10-second background clip without aircraft. Tests the short-pass mode; too short to test the standard 30-second criterion."
+    },
+    {
+      "id": "phenom-r20",
+      "status": "pass",
+      "seconds": 13.185275925,
+      "fragments": 268,
+      "strong_candidates": 2,
+      "curves": [
+        {
+          "id": "publisher-frequency-trace",
+          "anchor_hit_fraction": 0.8,
+          "anchor_coverage": 0.8297872340425532,
+          "rmse_hz": 2.1883714492891224,
+          "harmonic_ratio": 1,
+          "strong": true,
+          "pass": true
+        }
+      ],
+      "note": "Real E55P jet. All 235 published trace samples evaluated. Alignment +5.05 s inferred from audio only. Development gate for partial recovery, not full trace completion. Recorder GPS unverified."
+    },
+    {
+      "id": "dlr-rec139-080",
+      "status": "unlabeled_observation",
+      "seconds": 1.162119058,
+      "fragments": 38,
+      "note": "Known local microphone coordinates and aircraft trajectory; no independently labeled tone. No curve found yet. Unknown GPS origin; do not count this as a successful localization."
+    }
+  ],
+  "decoder": "ffmpeg version 8.1.3 Copyright (c) 2000-2026 the FFmpeg developers"
+}

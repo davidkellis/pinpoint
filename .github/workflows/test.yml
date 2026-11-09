@@ -1,0 +1,25 @@
+name: test
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: go test -race ./...
+      - run: go test -race tools/flight_timeline.go tools/flight_timeline_test.go
+      - run: go test -race tools/audit_receiver_schedules.go tools/audit_receiver_schedules_test.go
+      - run: go test -race tools/enrich_track_motion.go tools/enrich_track_motion_test.go
+      - run: go test -race tools/scan_receiver_region.go tools/scan_receiver_region_test.go
+      - run: go vet ./...
+      - run: go build ./cmd/pinpoint
+      - run: python3 tools/fetch_reference.py
+      - run: go run ./cmd/refcheck --suite quick
+      - run: python3 tools/fetch_jet_reference.py
+      - run: go run ./cmd/refcheck --manifest references/jets.json --suite audio --out work/jet-reference-check
+      - run: python3 tools/fetch_additional_jets.py
+      - run: go run ./cmd/refcheck --manifest references/jets-challenger.json --suite audio --out work/additional-jets/regression
+      - run: go run ./cmd/refcheck --manifest references/jets-tracking.json --suite audio --out work/jet-improvements/tracking-regression

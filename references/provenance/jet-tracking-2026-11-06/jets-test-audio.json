@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "manifest_sha256": "b8012008b0566cdb63629fe1f2cc8df2c280c0ef2673b518317f47ba62912942",
+  "go_source_sha256": "a48da1c728fe8a30a36ca659ffa545b91386039409384674dc40d1dcee34da1e",
+  "go_version": "go1.26.5",
+  "started_utc": "2026-11-06T06:18:39Z",
+  "profile": "audio",
+  "status": "pass",
+  "verified_assets": 13,
+  "cases": [
+    {
+      "id": "a359-site0",
+      "status": "unlabeled_observation",
+      "seconds": 14.078388554,
+      "fragments": 326,
+      "strong_candidates": 1,
+      "note": "Aircraft presence and type are publisher labels; no independent curve annotations yet. Displaced site coordinate only."
+    },
+    {
+      "id": "a21n-site0",
+      "status": "unlabeled_observation",
+      "seconds": 12.326476974,
+      "fragments": 331,
+      "note": "Aircraft presence and type are publisher labels; no independent curve annotations yet. Displaced site coordinate only."
+    },
+    {
+      "id": "f100-site0",
+      "status": "unlabeled_observation",
+      "seconds": 11.01075914,
+      "fragments": 282,
+      "note": "Aircraft presence and type are publisher labels; no independent curve annotations yet. Displaced site coordinate only."
+    },
+    {
+      "id": "pc24-site0",
+      "status": "unlabeled_observation",
+      "seconds": 8.557939685000001,
+      "fragments": 344,
+      "strong_candidates": 1,
+      "note": "Aircraft presence and type are publisher labels; no independent curve annotations yet. Displaced site coordinate only."
+    },
+    {
+      "id": "b738-site0",
+      "status": "unlabeled_observation",
+      "seconds": 8.401705521,
+      "fragments": 314,
+      "note": "Aircraft presence and type are publisher labels; no independent curve annotations yet. Displaced site coordinate only."
+    },
+    {
+      "id": "a320-site2",
+      "status": "unlabeled_observation",
+      "seconds": 11.964863567,
+      "fragments": 419,
+      "strong_candidates": 12,
+      "note": "Aircraft presence and type are publisher labels; no independent curve annotations yet. Displaced site coordinate only."
+    },
+    {
+      "id": "b737-site2",
+      "status": "unlabeled_observation",
+      "seconds": 16.768749161,
+      "fragments": 475,
+      "strong_candidates": 9,
+      "note": "Aircraft presence and type are publisher labels; no independent curve annotations yet. Displaced site coordinate only."
+    },
+    {
+      "id": "e190-site2",
+      "status": "unlabeled_observation",
+      "seconds": 13.120539162,
+      "fragments": 367,
+      "strong_candidates": 3,
+      "note": "Aircraft presence and type are publisher labels; no independent curve annotations yet. Displaced site coordinate only."
+    },
+    {
+      "id": "background-site0",
+      "status": "pass",
+      "seconds": 1.7838699569999998,
+      "fragments": 115,
+      "note": "Publisher human-verified background. Short-pass profile permits detection in ten seconds; zero strong expected."
+    },
+    {
+      "id": "background-site2",
+      "status": "pass",
+      "seconds": 2.595559557,
+      "fragments": 86,
+      "note": "Publisher human-verified background. Short-pass profile permits detection in ten seconds; zero strong expected."
+    }
+  ],
+  "decoder": "ffmpeg version 8.1.3 Copyright (c) 2000-2026 the FFmpeg developers"
+}

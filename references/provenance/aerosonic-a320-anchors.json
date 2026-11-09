@@ -1,0 +1,37 @@
+{
+  "method": "Development annotation of the upper visible descending tonal branch in the raw 0.5-second Hann STFT. Selected manually from plotted audio and local spectral maxima; no modeled trajectory or detector ridge used. Not an untouched holdout or published curve label.",
+  "anchors": [
+    {
+      "time_s": 22,
+      "hz": 787.9
+    },
+    {
+      "time_s": 26,
+      "hz": 785.9
+    },
+    {
+      "time_s": 30,
+      "hz": 719.9
+    },
+    {
+      "time_s": 34,
+      "hz": 619.9
+    },
+    {
+      "time_s": 38,
+      "hz": 534
+    },
+    {
+      "time_s": 42,
+      "hz": 498
+    },
+    {
+      "time_s": 46,
+      "hz": 476
+    },
+    {
+      "time_s": 50,
+      "hz": 464
+    }
+  ]
+}

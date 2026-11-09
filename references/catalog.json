@@ -1,0 +1,2109 @@
+{
+  "version": 1,
+  "as_of": "2026-11-08",
+  "truth_policy": "Reported, model-inferred, synthetic and unknown positions must remain distinct. No inferred fit is surveyed GPS. All currently exercised recordings are development data.",
+  "recordings": [
+    {
+      "id": "pathak-n86lp_r01",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-17",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N86LP",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-17T22:20:14.579Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n9393t_r02",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-17",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N9393T",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-17T22:03:07.336Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n788bm_r03",
+      "source_id": "pathak-2026",
+      "audio": "samples/public/pathak-2026/N788BM_R03/audio.wav",
+      "sha256": "8d23e3aa36ad439801fcbec6ef3f7f80647ed70d3b9ed11157539e72e771b38b",
+      "availability": "downloaded",
+      "session": "2026-05-17",
+      "category": "V_constant_H_constant",
+      "aircraft_registration": "N788BM",
+      "split": "development",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-17T19:29:49.139Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n784mb_r04",
+      "source_id": "pathak-2026",
+      "audio": "samples/public/pathak-2026/N784MB_R04/audio.wav",
+      "sha256": "c0366b111fbf82877bcaba53aa53a99602f9f5512513bc996e629aa04633d37e",
+      "availability": "downloaded",
+      "session": "2026-05-14",
+      "category": "V_constant_H_constant",
+      "aircraft_registration": "N784MB",
+      "split": "development",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-14T17:41:37.239Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace aligned to WAV +4.975s"
+    },
+    {
+      "id": "pathak-n413ak_r05",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-16",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N413AK",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-16T20:50:59.108Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n373df_r06",
+      "source_id": "pathak-2026",
+      "audio": "samples/public/pathak-2026/N373DF_R06/audio.wav",
+      "sha256": "27629dee59acf4877ac3094f9b6db46189b1f6572bf2ceecff06360caaee49bd",
+      "availability": "downloaded",
+      "session": "2026-05-13",
+      "category": "V_constant_H_constant",
+      "aircraft_registration": "N373DF",
+      "split": "development",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-13T20:03:45.776Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n814sr_r07",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-12",
+      "category": "V_varying_H_constant",
+      "aircraft_registration": "N814SR",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-12T20:22:20.291Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n2933a_r08",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-09",
+      "category": "V_varying_H_varying",
+      "aircraft_registration": "N2933A",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.695539,
+        "lon": -121.845009,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-09T22:50:14.021Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n60rs_r11",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-17",
+      "category": "V_varying_H_constant",
+      "aircraft_registration": "N60RS",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-17T20:46:18.867Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n4040_r12",
+      "source_id": "pathak-2026",
+      "audio": "samples/public/pathak-2026/N4040_R12/audio.wav",
+      "sha256": "f0a78abf7fb124e0688ce82d0eb6410475b840188209b5e07dc21519c8bfa3df",
+      "availability": "downloaded",
+      "session": "2026-05-17",
+      "category": "V_constant_H_constant",
+      "aircraft_registration": "N4040",
+      "split": "development",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-17T23:27:47.016Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n795mm_r13",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-17",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N795MM",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-17T21:44:40.904Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n248lf_r14",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-17",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N248LF",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-17T16:50:59.707Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n913tc_r15",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-17",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N913TC",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-17T18:31:42.818Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n413ak_r16",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-17",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N413AK",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-17T21:46:38.493Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n500mg_r17",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-17",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N500MG",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-17T21:01:30.227Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n621ks_r18",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-17",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N621KS",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-17T23:21:46.568Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n4004r_r19",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-16",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N4004R",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-16T23:56:04.031Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n394fx_r20",
+      "source_id": "pathak-2026",
+      "audio": "samples/public/pathak-2026/N394FX_R20/audio.wav",
+      "sha256": "cfd03401b5f891020d76c12000a7552be0c549f65b8e67dc571f06258f0178ac",
+      "availability": "downloaded",
+      "session": "2026-05-16",
+      "category": "V_constant_H_constant",
+      "aircraft_registration": "N394FX",
+      "split": "development",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-16T20:12:29.429Z",
+        "wav_start_utc": "2026-05-16T20:12:24.379Z",
+        "basis": "inferred CSV-to-WAV audio alignment; not independently verified UTC"
+      },
+      "curve_label": "235 publisher samples aligned +5.05 s; partial recovery development regression",
+      "aircraft_type": "E55P",
+      "aircraft_type_source": "faa-rvsm-202604"
+    },
+    {
+      "id": "pathak-n563fx_r21",
+      "source_id": "pathak-2026",
+      "audio": "samples/public/pathak-2026/N563FX_R21/audio.wav",
+      "sha256": "427a7575ec97a84feb8fe81f7fb8b1cff5a122e79223fba11d5327c0ba9e1179",
+      "availability": "downloaded_verified",
+      "session": "2026-05-16",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N563FX",
+      "split": "development_regression",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-16T18:24:01.340Z",
+        "wav_start_utc": "2026-05-16T18:23:56.34Z",
+        "basis": "Audio alignment of publisher UTC frequency trace; inferred start, not independently verified recorder clock",
+        "uncertainty_s": 5
+      },
+      "curve_label": "All publisher frequency samples, aligned against audio only; references/provenance/pathak-r21/anchors.json",
+      "aircraft_type": "CL35 (archive); CL30 (FAA RVSM listing)",
+      "tests": [
+        "references/jets-additional.json",
+        "references/jets-challenger.json"
+      ]
+    },
+    {
+      "id": "pathak-n916kt_r22",
+      "source_id": "pathak-2026",
+      "audio": "samples/public/pathak-2026/N916KT_R22/audio.wav",
+      "sha256": "81da035ff6af575fcaded1a4dfc3162bb6377a033c0d840af490eba47a879998",
+      "availability": "downloaded",
+      "session": "2026-05-16",
+      "category": "V_constant_H_constant",
+      "aircraft_registration": "N916KT",
+      "split": "development",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-16T17:13:07.900Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n310mg_r23",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-16",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N310MG",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-16T17:04:17.370Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n9658k_r24",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-14",
+      "category": "V_varying_H_varying",
+      "aircraft_registration": "N9658K",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-14T17:49:34.639Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n8085w_r27",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-16",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N8085W",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-16T18:49:46.675Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n7rr_r30",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-16",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N7RR",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-16T17:19:51.927Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n172el_r35",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-17",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N172EL",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-17T18:28:01.950Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n748sp_r36",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-17",
+      "category": "V_varying_H_constant",
+      "aircraft_registration": "N748SP",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-17T20:06:48.691Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n61ng_r37",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-17",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N61NG",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-17T20:57:43.069Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n456cs_r38",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-17",
+      "category": "V_varying_H_constant",
+      "aircraft_registration": "N456CS",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-17T21:54:12.979Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n3012n_r40",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-16",
+      "category": "V_varying_H_varying",
+      "aircraft_registration": "N3012N",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-16T16:38:23.331Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n757ah_r41",
+      "source_id": "pathak-2026",
+      "audio": "samples/public/pathak-2026/N757AH_R41/audio.wav",
+      "sha256": "e47eb35b076a9fbeb4983498221f6853d1d0cc9d8af7259a430557a100bed293",
+      "availability": "downloaded",
+      "session": "2026-05-12",
+      "category": "V_constant_H_constant",
+      "aircraft_registration": "N757AH",
+      "split": "development",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-12T20:02:01.786Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n1387u_r44",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-09",
+      "category": "V_varying_H_varying",
+      "aircraft_registration": "N1387U",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.695539,
+        "lon": -121.845009,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-09T22:36:12.851Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n451ee_r45",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-09",
+      "category": "V_varying_H_varying",
+      "aircraft_registration": "N451EE",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.695539,
+        "lon": -121.845009,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-09T21:09:16.676Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n759nc_r46",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-14",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N759NC",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-14T17:26:08.539Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n662ez_r48",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-13",
+      "category": "V_varying_H_varying",
+      "aircraft_registration": "N662EZ",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-13T23:31:05.963Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n413ak_r49",
+      "source_id": "pathak-2026",
+      "audio": "samples/public/pathak-2026/N413AK_R49/audio.wav",
+      "sha256": "c28412b7c3de34b006b40bf6fe005ba042145ee4d480547a0647091e531a5b3b",
+      "availability": "downloaded",
+      "session": "2026-05-16",
+      "category": "V_constant_H_constant",
+      "aircraft_registration": "N413AK",
+      "split": "development",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-16T21:37:57.562Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n958jx_r50",
+      "source_id": "pathak-2026",
+      "audio": "samples/public/pathak-2026/N958JX_R50/audio.wav",
+      "sha256": "3cfa0ca3a58db714074487004ca3b7505ab9ee4e4882b7efbfdf62f8d7f1a426",
+      "availability": "downloaded_verified",
+      "session": "2026-05-16",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N958JX",
+      "split": "development_regression",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-16T18:31:24.748Z",
+        "wav_start_utc": "2026-05-16T18:31:19.748Z",
+        "basis": "Audio alignment of publisher UTC frequency trace; inferred start, not independently verified recorder clock",
+        "uncertainty_s": 5
+      },
+      "curve_label": "All publisher frequency samples, aligned against audio only; references/provenance/pathak-r50/anchors.json",
+      "aircraft_type": "E145",
+      "tests": [
+        "references/jets-additional.json"
+      ]
+    },
+    {
+      "id": "pathak-n451ee_r51",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-13",
+      "category": "V_varying_H_varying",
+      "aircraft_registration": "N451EE",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-13T20:43:26.966Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n231dt_r57",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-17",
+      "category": "V_varying_H_varying",
+      "aircraft_registration": "N231DT",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-17T17:40:05.112Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n67wl_r59",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-17",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N67WL",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-17T17:01:52.838Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "pathak-n7pg_r60",
+      "source_id": "pathak-2026",
+      "audio": null,
+      "sha256": null,
+      "availability": "publisher_catalog_only",
+      "session": "2026-05-17",
+      "category": "V_constant_H_varying",
+      "aircraft_registration": "N7PG",
+      "split": "unassigned_not_evaluated",
+      "location": {
+        "basis": "publisher_reported_city",
+        "city": "Livermore, California, USA",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "secondary_reference": {
+        "source_id": "dopplerprint",
+        "basis": "model_inferred_track_offset_fit",
+        "lat": 37.663216,
+        "lon": -121.781876,
+        "note": "External estimate only; not used as search input or meter-accuracy truth."
+      },
+      "timing": {
+        "first_selected_frequency_utc": "2026-05-17T17:29:29.814Z",
+        "wav_start_utc": null,
+        "basis": "publisher UTC labels; sample-zero time unpublished"
+      },
+      "curve_label": "published UTC trace; audio-relative anchors pending"
+    },
+    {
+      "id": "colsto-oyster-bay",
+      "source_id": "colsto-audio",
+      "audio": "samples/Unknown location - raw audio [4CxVxuMVkMc].mp3",
+      "sha256": "89512e9c28454029059cc3cf7bc79ca77811c9bc931bf17584481ad897e71487",
+      "split": "development",
+      "location": {
+        "basis": "video_reported_result_with_visual_camera_match",
+        "lat": 40.876466,
+        "lon": -73.524951,
+        "uncertainty_m": null,
+        "note": "User-supplied video frame; no survey accuracy claimed."
+      },
+      "timing": {
+        "date": "2026-09-08",
+        "wav_start_utc": null,
+        "basis": "Year supplied by user and matched archive; exact start inferred in previous fits."
+      },
+      "curve_label": "independently inspected spectral anchors for two flyovers"
+    },
+    {
+      "id": "personal-2026_11_04_13_01_27_1",
+      "source_id": "personal-audio",
+      "audio": "samples/2026_11_04_13_01_27_1.mp3",
+      "sha256": "0f617350a9086535074341ba13a93e8706e4b621f53e51643d53be05daf0f842",
+      "aliases": [
+        "samples/desk_2026_11_04_13_01_27_1.mp3"
+      ],
+      "split": "unlabeled_development",
+      "location": {
+        "basis": "user_reported_desk_coordinate",
+        "microphone_coordinate": null,
+        "private_coordinate_record": "work/desk-flights/config.json",
+        "uncertainty_m": null,
+        "note": "Exact coordinate retained in local work output; not surveyed.",
+        "current_user_context_record": "work/personal-samples-2026-11-08/receiver-context.json",
+        "current_context_key": "desk",
+        "context_confirmed": true
+      },
+      "curve_label": null,
+      "negative_label": false,
+      "redistribution": "Not authorized; do not include in a public media bundle.",
+      "receiver_motion": "Stationary at desk (user confirmed)",
+      "timing": {
+        "recording_start": "2026-11-04T13:01:27-06:00",
+        "time_zone": "America/Chicago",
+        "basis": "User confirmed filename contains recording start time; sample-exact epoch not independently calibrated"
+      },
+      "flight_alignment_report": "work/desk-flights/2026_11_04_13_01_27/fits.json",
+      "model_research_2026_11_08": {
+        "overview": "work/overnight-improvements-2026-11-08/index.html",
+        "note": "Experimental window counts and curve/trajectory fits are not aircraft identity truth or new GPS labels. Desk two-aircraft schedules fail matched wrong-time controls. Walking file positions are unknown within the supplied park context."
+      }
+    },
+    {
+      "id": "personal-2026_11_04_15_05_14_1",
+      "source_id": "personal-audio",
+      "audio": "samples/2026_11_04_15_05_14_1.mp3",
+      "sha256": "2c77f1b56707d86c5a7aa0ae1ea259dce75292018991a5dfb3eecb6cc5297ded",
+      "aliases": [],
+      "split": "unlabeled_development",
+      "location": {
+        "basis": "user_reported_desk_coordinate",
+        "microphone_coordinate": null,
+        "private_coordinate_record": "work/desk-flights/config.json",
+        "uncertainty_m": null,
+        "note": "Exact coordinate retained in local work output; not surveyed.",
+        "current_user_context_record": "work/personal-samples-2026-11-08/receiver-context.json",
+        "current_context_key": "desk",
+        "context_confirmed": true
+      },
+      "curve_label": null,
+      "negative_label": false,
+      "redistribution": "Not authorized; do not include in a public media bundle.",
+      "receiver_motion": "Stationary at desk (user confirmed)",
+      "timing": {
+        "recording_start": "2026-11-04T15:05:14-06:00",
+        "time_zone": "America/Chicago",
+        "basis": "User confirmed filename contains recording start time; sample-exact epoch not independently calibrated"
+      },
+      "flight_alignment_report": "work/desk-flights/2026_11_04_15_05_14/fits.json",
+      "model_research_2026_11_08": {
+        "overview": "work/overnight-improvements-2026-11-08/index.html",
+        "note": "Experimental window counts and curve/trajectory fits are not aircraft identity truth or new GPS labels. Desk two-aircraft schedules fail matched wrong-time controls. Walking file positions are unknown within the supplied park context."
+      }
+    },
+    {
+      "id": "personal-2026_11_04_15_43_19_1",
+      "source_id": "personal-audio",
+      "audio": "samples/2026_11_04_15_43_19_1.mp3",
+      "sha256": "abb254b2aa89e4243711101bc1160b590e7e89540929b9b6a866a1c15b2f7853",
+      "aliases": [],
+      "split": "unlabeled_development",
+      "location": {
+        "basis": "user_reported_desk_coordinate",
+        "microphone_coordinate": null,
+        "private_coordinate_record": "work/desk-flights/config.json",
+        "uncertainty_m": null,
+        "note": "Exact coordinate retained in local work output; not surveyed.",
+        "current_user_context_record": "work/personal-samples-2026-11-08/receiver-context.json",
+        "current_context_key": "desk",
+        "context_confirmed": true
+      },
+      "curve_label": null,
+      "negative_label": false,
+      "redistribution": "Not authorized; do not include in a public media bundle.",
+      "receiver_motion": "Stationary at desk (user confirmed)",
+      "timing": {
+        "recording_start": "2026-11-04T15:43:19-06:00",
+        "time_zone": "America/Chicago",
+        "basis": "User confirmed filename contains recording start time; sample-exact epoch not independently calibrated"
+      },
+      "flight_alignment_report": "work/desk-flights/2026_11_04_15_43_19/fits.json",
+      "model_research_2026_11_08": {
+        "overview": "work/overnight-improvements-2026-11-08/index.html",
+        "note": "Experimental window counts and curve/trajectory fits are not aircraft identity truth or new GPS labels. Desk two-aircraft schedules fail matched wrong-time controls. Walking file positions are unknown within the supplied park context."
+      }
+    },
+    {
+      "id": "personal-2026_11_04_21_49_04_1",
+      "source_id": "personal-audio",
+      "audio": "samples/2026_11_04_21_49_04_1.mp3",
+      "sha256": "310137c53ab8ac8a181fa97edb7148a356fcd489a194a06d52f59af7d52cddff",
+      "aliases": [],
+      "split": "unlabeled_development",
+      "location": {
+        "basis": "user_reported_desk_coordinate",
+        "microphone_coordinate": null,
+        "private_coordinate_record": "work/desk-flights/config.json",
+        "uncertainty_m": null,
+        "note": "Exact coordinate retained in local work output; not surveyed.",
+        "current_user_context_record": "work/personal-samples-2026-11-08/receiver-context.json",
+        "current_context_key": "desk",
+        "context_confirmed": true
+      },
+      "curve_label": null,
+      "negative_label": false,
+      "redistribution": "Not authorized; do not include in a public media bundle.",
+      "receiver_motion": "Stationary at desk (user confirmed)",
+      "timing": {
+        "recording_start": "2026-11-04T21:49:04-06:00",
+        "time_zone": "America/Chicago",
+        "basis": "User confirmed filename contains recording start time; sample-exact epoch not independently calibrated"
+      },
+      "flight_alignment_report": "work/desk-flights/2026_11_04_21_49_04/fits.json",
+      "model_research_2026_11_08": {
+        "overview": "work/overnight-improvements-2026-11-08/index.html",
+        "note": "Experimental window counts and curve/trajectory fits are not aircraft identity truth or new GPS labels. Desk two-aircraft schedules fail matched wrong-time controls. Walking file positions are unknown within the supplied park context."
+      }
+    },
+    {
+      "id": "personal-walking_2026_11_03_18_50_11_1",
+      "source_id": "personal-audio",
+      "audio": "samples/walking_2026_11_03_18_50_11_1.mp3",
+      "sha256": "e7ea849627b8ea7e583eadc0003dedc36fc4700b9e24a7ca3d456f45c7146a19",
+      "aliases": [],
+      "split": "unlabeled_development",
+      "location": {
+        "basis": "user_reported_approximate_park_centre",
+        "place": "Neighborhood park, Texas (exact site private)",
+        "microphone_coordinate": null,
+        "receiver_motion": "walking/running",
+        "current_user_context_record": "work/personal-samples-2026-11-08/receiver-context.json",
+        "current_context_key": "park",
+        "context_confirmed": true
+      },
+      "curve_label": null,
+      "negative_label": false,
+      "redistribution": "Not authorized; do not include in a public media bundle.",
+      "historical_flight_inventory": {
+        "source_id": "fr24-public-playback",
+        "report": "work/fr24-review-2026-11-07/walking_2026_11_03_18_50_11_1/index.html",
+        "scope": "32 sparse map observations of surrounding aircraft. Receiver motion and sound arrival times are not modeled; no acoustic identity or receiver position is inferred."
+      },
+      "receiver_motion": "Walking at park; per-sample microphone trajectory unknown"
+    },
+    {
+      "id": "aerosonic-7c7cd0_2022-12-08_12-29-45_0_0",
+      "source_id": "aerosonic-ypad0523",
+      "audio": "samples/public/aerosonic-ypad0523/7C7CD0_2022-12-08_12-29-45_0_0.wav",
+      "sha256": "e4b471da131570c8e80fdadf12101e1158f8cdf3dac64c80964effb4df8156cf",
+      "availability": "downloaded",
+      "session": "0",
+      "aircraft_type": "A320",
+      "aircraft_registration": "VH-YXU",
+      "split": "upstream training; Pinpoint development",
+      "location": {
+        "basis": "publisher deliberately displaced public coordinate",
+        "site": "0",
+        "coordinate_file": "samples/public/aerosonic-ypad0523/locations.json (upstream missing final brace; original bytes preserved)",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "timing": {
+        "filename_time": "2022-12-08 12-29-45",
+        "time_zone": null,
+        "basis": "No UTC epoch assumed"
+      },
+      "curve_label": "manual upper branch anchors"
+    },
+    {
+      "id": "aerosonic-7c77fa_2022-12-08_09-21-43_0_0",
+      "source_id": "aerosonic-ypad0523",
+      "audio": "samples/public/aerosonic-ypad0523/7C77FA_2022-12-08_09-21-43_0_0.wav",
+      "sha256": "1ac790e34513610d9e2b01d2962a964603cf8a78179c0a65edff9579694a90d5",
+      "availability": "downloaded",
+      "session": "0",
+      "aircraft_type": "B738",
+      "aircraft_registration": "VH-XZG",
+      "split": "upstream training; Pinpoint development",
+      "location": {
+        "basis": "publisher deliberately displaced public coordinate",
+        "site": "0",
+        "coordinate_file": "samples/public/aerosonic-ypad0523/locations.json (upstream missing final brace; original bytes preserved)",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "timing": {
+        "filename_time": "2022-12-08 09-21-43",
+        "time_zone": null,
+        "basis": "No UTC epoch assumed"
+      },
+      "curve_label": "aircraft presence only; no independent curve label"
+    },
+    {
+      "id": "aerosonic-7c7777_2022-12-08_10-06-22_0_0",
+      "source_id": "aerosonic-ypad0523",
+      "audio": "samples/public/aerosonic-ypad0523/7C7777_2022-12-08_10-06-22_0_0.wav",
+      "sha256": "fbb9b09a30b573ac0175b78c0cc6686b35b9f73d468cde9d09bb64d1fa02ed14",
+      "availability": "downloaded",
+      "session": "0",
+      "aircraft_type": "E190",
+      "aircraft_registration": "VH-XVT",
+      "split": "upstream training; Pinpoint development",
+      "location": {
+        "basis": "publisher deliberately displaced public coordinate",
+        "site": "0",
+        "coordinate_file": "samples/public/aerosonic-ypad0523/locations.json (upstream missing final brace; original bytes preserved)",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "timing": {
+        "filename_time": "2022-12-08 10-06-22",
+        "time_zone": null,
+        "basis": "No UTC epoch assumed"
+      },
+      "curve_label": "aircraft presence only; no independent curve label"
+    },
+    {
+      "id": "aerosonic-750262_2022-12-11_09-48-28_0_0",
+      "source_id": "aerosonic-ypad0523",
+      "audio": "samples/public/aerosonic-ypad0523/750262_2022-12-11_09-48-28_0_0.wav",
+      "sha256": "6e4558a729964d8cc2fa96706d9cf0076a2660cdf641df7d4b4a8aeae752e253",
+      "availability": "downloaded",
+      "session": "1",
+      "aircraft_type": "A333",
+      "aircraft_registration": "9M-MTO",
+      "split": "upstream training; Pinpoint development",
+      "location": {
+        "basis": "publisher deliberately displaced public coordinate",
+        "site": "0",
+        "coordinate_file": "samples/public/aerosonic-ypad0523/locations.json (upstream missing final brace; original bytes preserved)",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "timing": {
+        "filename_time": "2022-12-11 09-48-28",
+        "time_zone": null,
+        "basis": "No UTC epoch assumed"
+      },
+      "curve_label": "aircraft presence only; no independent curve label"
+    },
+    {
+      "id": "aerosonic-06a2b1_2022-12-08_19-55-46_0_0",
+      "source_id": "aerosonic-ypad0523",
+      "audio": "samples/public/aerosonic-ypad0523/06A2B1_2022-12-08_19-55-46_0_0.wav",
+      "sha256": "323d3b3f62d5a1d31c2cac939da17e3bd2148c8e6db8832abf3f9b460ec59f40",
+      "availability": "downloaded",
+      "session": "0",
+      "aircraft_type": "B77W",
+      "aircraft_registration": "A7-BEM",
+      "split": "upstream training; Pinpoint development",
+      "location": {
+        "basis": "publisher deliberately displaced public coordinate",
+        "site": "0",
+        "coordinate_file": "samples/public/aerosonic-ypad0523/locations.json (upstream missing final brace; original bytes preserved)",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "timing": {
+        "filename_time": "2022-12-08 19-55-46",
+        "time_zone": null,
+        "basis": "No UTC epoch assumed"
+      },
+      "curve_label": "aircraft presence only; no independent curve label"
+    },
+    {
+      "id": "aerosonic-000000_2022-12-08_09-05-46_0_0",
+      "source_id": "aerosonic-ypad0523",
+      "audio": "samples/public/aerosonic-ypad0523/000000_2022-12-08_09-05-46_0_0.wav",
+      "sha256": "f4c5f6bad0c8b20c91c590d6cff7ca56f25b59331072168b579f59b88ffd2596",
+      "availability": "downloaded",
+      "session": "0",
+      "aircraft_type": null,
+      "aircraft_registration": null,
+      "split": "upstream training; Pinpoint development",
+      "location": {
+        "basis": "publisher deliberately displaced public coordinate",
+        "site": "0",
+        "coordinate_file": "samples/public/aerosonic-ypad0523/locations.json (upstream missing final brace; original bytes preserved)",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "timing": {
+        "filename_time": "2022-12-08 09-05-46",
+        "time_zone": null,
+        "basis": "No UTC epoch assumed"
+      },
+      "curve_label": "no aircraft, human verified"
+    },
+    {
+      "id": "aerosonic-000000_2023-03-01_13-33-54_1_1",
+      "source_id": "aerosonic-ypad0523",
+      "audio": "samples/public/aerosonic-ypad0523/000000_2023-03-01_13-33-54_1_1.wav",
+      "sha256": "1b0318e9598e9a7a3c1301c8362fdbe25b2a0186c068185b933d775af2c9045c",
+      "availability": "downloaded",
+      "session": "5",
+      "aircraft_type": null,
+      "aircraft_registration": null,
+      "split": "upstream training; Pinpoint development",
+      "location": {
+        "basis": "publisher deliberately displaced public coordinate",
+        "site": "1",
+        "coordinate_file": "samples/public/aerosonic-ypad0523/locations.json (upstream missing final brace; original bytes preserved)",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "timing": {
+        "filename_time": "2023-03-01 13-33-54",
+        "time_zone": null,
+        "basis": "No UTC epoch assumed"
+      },
+      "curve_label": "no aircraft, human verified"
+    },
+    {
+      "id": "aerosonic-000000_2023-04-24_11-23-47_1_1",
+      "source_id": "aerosonic-ypad0523",
+      "audio": "samples/public/aerosonic-ypad0523/000000_2023-04-24_11-23-47_1_1.wav",
+      "sha256": "fea3ede512b7c9651f52d6a4d293c4638aba6df14bff223a316d2ebc0b4e7e02",
+      "availability": "downloaded",
+      "session": "18",
+      "aircraft_type": null,
+      "aircraft_registration": null,
+      "split": "upstream training; Pinpoint development",
+      "location": {
+        "basis": "publisher deliberately displaced public coordinate",
+        "site": "2",
+        "coordinate_file": "samples/public/aerosonic-ypad0523/locations.json (upstream missing final brace; original bytes preserved)",
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "timing": {
+        "filename_time": "2023-04-24 11-23-47",
+        "time_zone": null,
+        "basis": "No UTC epoch assumed"
+      },
+      "curve_label": "no aircraft, human verified"
+    },
+    {
+      "id": "dlr-rec139-mic-80",
+      "source_id": "dlr-rec139",
+      "audio": "samples/public/dlr-a320-rec139/microphone-080.wav",
+      "sha256": "e79e1e3d7d3f8301de7866632a7a7a12185da09652079ed675a876aa8641fbea",
+      "availability": "derived from verified HDF5",
+      "session": "REC139; all channels share one flight",
+      "aircraft_type": "A320-232",
+      "split": "development",
+      "location": {
+        "basis": "publisher local microphone array coordinates",
+        "local_xyz_m": [
+          0.125,
+          -0.0430000014603138,
+          -0.07900000363588333
+        ],
+        "microphone_coordinate": null,
+        "gps_origin": null
+      },
+      "timing": {
+        "basis": "sample index at 48192 Hz",
+        "wav_start_utc": null
+      },
+      "curve_label": "unlabeled; center channel currently yields no usable curve"
+    },
+    {
+      "id": "dlr-rec139-mic-221",
+      "source_id": "dlr-rec139",
+      "audio": "samples/public/dlr-a320-rec139/microphone-221.wav",
+      "sha256": "35f75eb30860f2640cf56f2638540588fae8bff95322f3c5265de8088a146a61",
+      "availability": "derived from verified HDF5",
+      "session": "REC139; all channels share one flight",
+      "aircraft_type": "A320-232",
+      "split": "development",
+      "location": {
+        "basis": "publisher local microphone array coordinates",
+        "local_xyz_m": [
+          -20.95800018310547,
+          6.565999984741211,
+          -0.10400000214576721
+        ],
+        "microphone_coordinate": null,
+        "gps_origin": null
+      },
+      "timing": {
+        "basis": "sample index at 48192 Hz",
+        "wav_start_utc": null
+      },
+      "curve_label": "unlabeled; center channel currently yields no usable curve"
+    },
+    {
+      "id": "dlr-rec139-mic-222",
+      "source_id": "dlr-rec139",
+      "audio": "samples/public/dlr-a320-rec139/microphone-222.wav",
+      "sha256": "dcfdbc3d2ecae2a9427ed1d6c75a8a373a5116ddc7b9da251111b37cfe80f50f",
+      "availability": "derived from verified HDF5",
+      "session": "REC139; all channels share one flight",
+      "aircraft_type": "A320-232",
+      "split": "development",
+      "location": {
+        "basis": "publisher local microphone array coordinates",
+        "local_xyz_m": [
+          -6.63700008392334,
+          17.21299934387207,
+          -0.34200000762939453
+        ],
+        "microphone_coordinate": null,
+        "gps_origin": null
+      },
+      "timing": {
+        "basis": "sample index at 48192 Hz",
+        "wav_start_utc": null
+      },
+      "curve_label": "unlabeled; center channel currently yields no usable curve"
+    },
+    {
+      "id": "aerosonic-76cd0b_2023-05-10_06-58-39_0_1",
+      "source_id": "aerosonic-ypad0523",
+      "audio": "samples/public/aerosonic-ypad0523/76CD0B_2023-05-10_06-58-39_0_1.wav",
+      "sha256": "95cc809df167772beed116295b168f4ae59f157e72d3d693720620f742a23e50",
+      "availability": "downloaded",
+      "session": "25",
+      "aircraft_type": "A359",
+      "aircraft_registration": "9V-SHK",
+      "split": "publisher test; first evaluation with frozen short-pass-v1, 2026-11-05",
+      "location": {
+        "basis": "publisher deliberately displaced public coordinate",
+        "site": "0",
+        "public_lat": -34.85364,
+        "public_lon": 138.67517,
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "timing": {
+        "filename_time": "2023-05-10 06-58-39",
+        "time_zone": null,
+        "basis": "No UTC epoch assumed"
+      },
+      "curve_label": "none; publisher aircraft presence only",
+      "provenance": "references/provenance/aerosonic-test-selection.json"
+    },
+    {
+      "id": "aerosonic-c827ee_2023-05-03_10-38-32_0_1",
+      "source_id": "aerosonic-ypad0523",
+      "audio": "samples/public/aerosonic-ypad0523/C827EE_2023-05-03_10-38-32_0_1.wav",
+      "sha256": "19a357eadf334c4d3dcc7823ab54bf0ec3c89afbfaa7ca01f6d91a6606cc4a71",
+      "availability": "downloaded",
+      "session": "22",
+      "aircraft_type": "A21N",
+      "aircraft_registration": "ZK-NNF",
+      "split": "publisher test; first evaluation with frozen short-pass-v1, 2026-11-05",
+      "location": {
+        "basis": "publisher deliberately displaced public coordinate",
+        "site": "0",
+        "public_lat": -34.85364,
+        "public_lon": 138.67517,
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "timing": {
+        "filename_time": "2023-05-03 10-38-32",
+        "time_zone": null,
+        "basis": "No UTC epoch assumed"
+      },
+      "curve_label": "none; publisher aircraft presence only",
+      "provenance": "references/provenance/aerosonic-test-selection.json"
+    },
+    {
+      "id": "aerosonic-7c1abd_2023-05-03_11-28-53_0_1",
+      "source_id": "aerosonic-ypad0523",
+      "audio": "samples/public/aerosonic-ypad0523/7C1ABD_2023-05-03_11-28-53_0_1.wav",
+      "sha256": "5a60521b7688593962363e0306bc2fc329139ba0b21266a6b9d970993c1628ac",
+      "availability": "downloaded",
+      "session": "22",
+      "aircraft_type": "F100",
+      "aircraft_registration": "VH-FKF",
+      "split": "publisher test; first evaluation with frozen short-pass-v1, 2026-11-05",
+      "location": {
+        "basis": "publisher deliberately displaced public coordinate",
+        "site": "0",
+        "public_lat": -34.85364,
+        "public_lon": 138.67517,
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "timing": {
+        "filename_time": "2023-05-03 11-28-53",
+        "time_zone": null,
+        "basis": "No UTC epoch assumed"
+      },
+      "curve_label": "none; publisher aircraft presence only",
+      "provenance": "references/provenance/aerosonic-test-selection.json"
+    },
+    {
+      "id": "aerosonic-7c1b0f_2023-05-20_15-40-08_0_1",
+      "source_id": "aerosonic-ypad0523",
+      "audio": "samples/public/aerosonic-ypad0523/7C1B0F_2023-05-20_15-40-08_0_1.wav",
+      "sha256": "2c06a306744e7c6fccde9a0d878cfcb154c4d3b43083f1f0449ad33d98e46343",
+      "availability": "downloaded",
+      "session": "26",
+      "aircraft_type": "PC24",
+      "aircraft_registration": "VH-FMP",
+      "split": "publisher test; first evaluation with frozen short-pass-v1, 2026-11-05",
+      "location": {
+        "basis": "publisher deliberately displaced public coordinate",
+        "site": "0",
+        "public_lat": -34.85364,
+        "public_lon": 138.67517,
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "timing": {
+        "filename_time": "2023-05-20 15-40-08",
+        "time_zone": null,
+        "basis": "No UTC epoch assumed"
+      },
+      "curve_label": "none; publisher aircraft presence only",
+      "provenance": "references/provenance/aerosonic-test-selection.json"
+    },
+    {
+      "id": "aerosonic-7c29d4_2023-05-03_11-38-48_0_1",
+      "source_id": "aerosonic-ypad0523",
+      "audio": "samples/public/aerosonic-ypad0523/7C29D4_2023-05-03_11-38-48_0_1.wav",
+      "sha256": "02dea4fe3dbb1009c298f853abb94689b84f1e283e3696e9e7a844550d0eb77b",
+      "availability": "downloaded",
+      "session": "22",
+      "aircraft_type": "B738",
+      "aircraft_registration": "VH-IJQ",
+      "split": "publisher test; first evaluation with frozen short-pass-v1, 2026-11-05",
+      "location": {
+        "basis": "publisher deliberately displaced public coordinate",
+        "site": "0",
+        "public_lat": -34.85364,
+        "public_lon": 138.67517,
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "timing": {
+        "filename_time": "2023-05-03 11-38-48",
+        "time_zone": null,
+        "basis": "No UTC epoch assumed"
+      },
+      "curve_label": "none; publisher aircraft presence only",
+      "provenance": "references/provenance/aerosonic-test-selection.json"
+    },
+    {
+      "id": "aerosonic-7c7cd0_2023-05-09_12-42-55_2_1",
+      "source_id": "aerosonic-ypad0523",
+      "audio": "samples/public/aerosonic-ypad0523/7C7CD0_2023-05-09_12-42-55_2_1.wav",
+      "sha256": "296ad9da04ac7b42ce1dae91db2c760cdbd26c297bc584bf4a28d3990c3c69a3",
+      "availability": "downloaded",
+      "session": "24",
+      "aircraft_type": "A320",
+      "aircraft_registration": "VH-YXU",
+      "split": "publisher test; first evaluation with frozen short-pass-v1, 2026-11-05",
+      "location": {
+        "basis": "publisher deliberately displaced public coordinate",
+        "site": "2",
+        "public_lat": -34.96428,
+        "public_lon": 138.51011,
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "timing": {
+        "filename_time": "2023-05-09 12-42-55",
+        "time_zone": null,
+        "basis": "No UTC epoch assumed"
+      },
+      "curve_label": "none; publisher aircraft presence only",
+      "provenance": "references/provenance/aerosonic-test-selection.json"
+    },
+    {
+      "id": "aerosonic-7c4209_2023-05-09_12-54-51_2_1",
+      "source_id": "aerosonic-ypad0523",
+      "audio": "samples/public/aerosonic-ypad0523/7C4209_2023-05-09_12-54-51_2_1.wav",
+      "sha256": "cc1b64304efdf4141dd0b53f1f33f280986a4f6c7c8f2ce94277a199401df5be",
+      "availability": "downloaded",
+      "session": "24",
+      "aircraft_type": "B737",
+      "aircraft_registration": "VH-NBV",
+      "split": "publisher test; first evaluation with frozen short-pass-v1, 2026-11-05",
+      "location": {
+        "basis": "publisher deliberately displaced public coordinate",
+        "site": "2",
+        "public_lat": -34.96428,
+        "public_lon": 138.51011,
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "timing": {
+        "filename_time": "2023-05-09 12-54-51",
+        "time_zone": null,
+        "basis": "No UTC epoch assumed"
+      },
+      "curve_label": "none; publisher aircraft presence only",
+      "provenance": "references/provenance/aerosonic-test-selection.json"
+    },
+    {
+      "id": "aerosonic-7c68b6_2023-05-09_12-56-13_2_1",
+      "source_id": "aerosonic-ypad0523",
+      "audio": "samples/public/aerosonic-ypad0523/7C68B6_2023-05-09_12-56-13_2_1.wav",
+      "sha256": "cf330a2a797f016bd0f114feb055db6ae7755dac218f4d35c6abd45e6413236b",
+      "availability": "downloaded",
+      "session": "24",
+      "aircraft_type": "E190",
+      "aircraft_registration": "VH-UYW",
+      "split": "publisher test; first evaluation with frozen short-pass-v1, 2026-11-05",
+      "location": {
+        "basis": "publisher deliberately displaced public coordinate",
+        "site": "2",
+        "public_lat": -34.96428,
+        "public_lon": 138.51011,
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "timing": {
+        "filename_time": "2023-05-09 12-56-13",
+        "time_zone": null,
+        "basis": "No UTC epoch assumed"
+      },
+      "curve_label": "none; publisher aircraft presence only",
+      "provenance": "references/provenance/aerosonic-test-selection.json"
+    },
+    {
+      "id": "aerosonic-000000_2023-05-03_10-41-40_0_1",
+      "source_id": "aerosonic-ypad0523",
+      "audio": "samples/public/aerosonic-ypad0523/000000_2023-05-03_10-41-40_0_1.wav",
+      "sha256": "f06ec44d5d1c78fc96c51b95e20905082fd7bb275374184b34236c0a6d58465e",
+      "availability": "downloaded",
+      "session": "22",
+      "aircraft_type": null,
+      "aircraft_registration": null,
+      "split": "publisher test; first evaluation with frozen short-pass-v1, 2026-11-05",
+      "location": {
+        "basis": "publisher deliberately displaced public coordinate",
+        "site": "0",
+        "public_lat": -34.85364,
+        "public_lon": 138.67517,
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "timing": {
+        "filename_time": "2023-05-03 10-41-40",
+        "time_zone": null,
+        "basis": "No UTC epoch assumed"
+      },
+      "curve_label": "publisher-verified no aircraft",
+      "provenance": "references/provenance/aerosonic-test-selection.json"
+    },
+    {
+      "id": "aerosonic-000000_2023-05-09_12-20-43_1_1",
+      "source_id": "aerosonic-ypad0523",
+      "audio": "samples/public/aerosonic-ypad0523/000000_2023-05-09_12-20-43_1_1.wav",
+      "sha256": "eb5c2c692e4bf9ee9d4651fde2b326e4a537a50e3be6d6ae5e3ab4054461445a",
+      "availability": "downloaded",
+      "session": "24",
+      "aircraft_type": null,
+      "aircraft_registration": null,
+      "split": "publisher test; first evaluation with frozen short-pass-v1, 2026-11-05",
+      "location": {
+        "basis": "publisher deliberately displaced public coordinate",
+        "site": "2",
+        "public_lat": -34.96428,
+        "public_lon": 138.51011,
+        "microphone_coordinate": null,
+        "uncertainty_m": null
+      },
+      "timing": {
+        "filename_time": "2023-05-09 12-20-43",
+        "time_zone": null,
+        "basis": "No UTC epoch assumed"
+      },
+      "curve_label": "publisher-verified no aircraft",
+      "provenance": "references/provenance/aerosonic-test-selection.json"
+    },
+    {
+      "id": "personal-2026_11_05_10_17_58_1",
+      "source_id": "personal-audio",
+      "audio": "samples/2026_11_05_10_17_58_1.mp3",
+      "sha256": "fe8fe6d4379f4d07dc65dd5745bb4919413ebf33fa98bda2715977b51a2e1c98",
+      "duration_s": 10039.454563,
+      "split": "unlabeled_development",
+      "location": {
+        "basis": "user_reported_desk_coordinate",
+        "microphone_coordinate": null,
+        "private_coordinate_record": "work/desk-flights/config.json",
+        "uncertainty_m": null,
+        "note": "Exact coordinate retained in local work output; not surveyed.",
+        "current_user_context_record": "work/personal-samples-2026-11-08/receiver-context.json",
+        "current_context_key": "desk",
+        "context_confirmed": true
+      },
+      "timing": {
+        "recording_start": "2026-11-05T10:17:58-06:00",
+        "time_zone": "America/Chicago",
+        "basis": "User confirmed filename contains recording start time; sample-exact epoch not independently calibrated"
+      },
+      "receiver_motion": "Stationary at desk (user confirmed)",
+      "curve_label": null,
+      "negative_label": false,
+      "redistribution": "Not authorized; do not include in a public media bundle.",
+      "flight_alignment_report": "work/desk-flights/2026_11_05_10_17_58/fits.json",
+      "candidate_flight_association": {
+        "status": "Aircraft association, timing and geometry are private; see references/private/catalog-personal.json"
+      },
+      "private_regression": {
+        "manifest": "work/desk-regression/frozen-suite-2026-11-05.json",
+        "report": "work/desk-regression/check/all.json",
+        "outcome": "Tracked turboprop ranked first and the desk vicinity stayed within 1 dB; the winning coordinate was about 19.5 km away, so geographic ambiguity was required",
+        "aircraft_identity_truth": "inferred association, not independently confirmed"
+      },
+      "model_research_2026_11_08": {
+        "overview": "work/overnight-improvements-2026-11-08/index.html",
+        "note": "Experimental window counts and curve/trajectory fits are not aircraft identity truth or new GPS labels. Desk two-aircraft schedules fail matched wrong-time controls. Walking file positions are unknown within the supplied park context."
+      }
+    },
+    {
+      "id": "personal-2026_11_07_15_01_53_1",
+      "source_id": "personal-audio",
+      "audio": "samples/2026_11_07_15_01_53_1.mp3",
+      "sha256": "cb4eeb2dd2c99236470bb96b499743e2b92d87230098736af0d1875910e0a1be",
+      "duration_s": 4499.252125,
+      "split": "unlabeled_development",
+      "location": {
+        "basis": "desk_or_park_file_assignment_not_confirmed",
+        "microphone_coordinate": null,
+        "private_coordinate_record": "work/desk-flights/config.json",
+        "context_confirmed": false,
+        "current_user_context_record": "work/personal-samples-2026-11-08/receiver-context.json",
+        "current_context_key": null
+      },
+      "timing": {
+        "recording_start": "2026-11-07T15:01:53-06:00",
+        "time_zone": "America/Chicago",
+        "basis": "Filename interpreted using prior Central start-time convention; confirmation pending"
+      },
+      "receiver_motion": "Indoors and stationary assumed pending confirmation",
+      "curve_label": null,
+      "negative_label": false,
+      "redistribution": "Not authorized; local research only",
+      "flight_alignment_report": "work/nov07-desk/2026_11_07_15_01_53/index.html",
+      "provenance": "references/private/provenance/nov07-desk-review.json"
+    },
+    {
+      "id": "personal-2026_11_07_17_38_51_1",
+      "source_id": "personal-audio",
+      "audio": "samples/2026_11_07_17_38_51_1.mp3",
+      "sha256": "1c2bd2bc01027f9e03fb85c145f872a208c394454f6ac09e42d024016acb016e",
+      "duration_s": 73.926438,
+      "split": "unlabeled_development",
+      "location": {
+        "basis": "user_reported_approximate_park_centre",
+        "microphone_coordinate": null,
+        "current_user_context_record": "work/personal-samples-2026-11-08/receiver-context.json",
+        "current_context_key": "park",
+        "context_confirmed": true
+      },
+      "receiver_motion": "Walking at park (user confirmed); microphone trajectory unknown",
+      "timing": {
+        "recording_start": "2026-11-07T17:38:51-06:00",
+        "time_zone": "America/Chicago",
+        "basis": "Previously established filename start-time convention"
+      },
+      "curve_label": null,
+      "negative_label": false,
+      "redistribution": "Not authorized; local research only",
+      "diagnostic_report": "work/personal-samples-2026-11-08/2026_11_07_17_38_51_1/index.html",
+      "candidate_flight_association": {
+        "status": "Aircraft association, timing and geometry are private; see references/private/catalog-personal.json"
+      },
+      "model_research_2026_11_08": {
+        "overview": "work/overnight-improvements-2026-11-08/index.html",
+        "note": "Experimental window counts and curve/trajectory fits are not aircraft identity truth or new GPS labels. Desk two-aircraft schedules fail matched wrong-time controls. Walking file positions are unknown within the supplied park context."
+      }
+    },
+    {
+      "id": "personal-2026_11_07_18_04_04_1",
+      "source_id": "personal-audio",
+      "audio": "samples/2026_11_07_18_04_04_1.mp3",
+      "sha256": "d481bec8d0139ee9715c3022c69293f9621df618c09fd1ed5937f1e7c64e30a5",
+      "duration_s": 90.244188,
+      "split": "unlabeled_development",
+      "location": {
+        "basis": "user_reported_approximate_park_centre",
+        "microphone_coordinate": null,
+        "current_user_context_record": "work/personal-samples-2026-11-08/receiver-context.json",
+        "current_context_key": "park",
+        "context_confirmed": true
+      },
+      "receiver_motion": "Walking at park (user confirmed); microphone trajectory unknown",
+      "timing": {
+        "recording_start": "2026-11-07T18:04:04-06:00",
+        "time_zone": "America/Chicago",
+        "basis": "Previously established filename start-time convention"
+      },
+      "curve_label": null,
+      "negative_label": false,
+      "redistribution": "Not authorized; local research only",
+      "diagnostic_report": "work/personal-samples-2026-11-08/2026_11_07_18_04_04_1/index.html",
+      "model_research_2026_11_08": {
+        "overview": "work/overnight-improvements-2026-11-08/index.html",
+        "note": "Experimental window counts and curve/trajectory fits are not aircraft identity truth or new GPS labels. Desk two-aircraft schedules fail matched wrong-time controls. Walking file positions are unknown within the supplied park context."
+      }
+    },
+    {
+      "id": "personal-2026_11_07_18_05_46_1",
+      "source_id": "personal-audio",
+      "audio": "samples/2026_11_07_18_05_46_1.mp3",
+      "sha256": "7d4c23989ef134d38001e06f0c18161498efa0f65ca56b05c9f155c7698706c4",
+      "duration_s": 1051.189125,
+      "split": "unlabeled_development",
+      "location": {
+        "basis": "user_reported_approximate_park_centre",
+        "microphone_coordinate": null,
+        "current_user_context_record": "work/personal-samples-2026-11-08/receiver-context.json",
+        "current_context_key": "park",
+        "context_confirmed": true
+      },
+      "receiver_motion": "Walking at park (user confirmed); microphone trajectory unknown",
+      "timing": {
+        "recording_start": "2026-11-07T18:05:46-06:00",
+        "time_zone": "America/Chicago",
+        "basis": "Previously established filename start-time convention"
+      },
+      "curve_label": null,
+      "negative_label": false,
+      "redistribution": "Not authorized; local research only",
+      "diagnostic_report": "work/personal-samples-2026-11-08/2026_11_07_18_05_46_1/index.html",
+      "model_research_2026_11_08": {
+        "overview": "work/overnight-improvements-2026-11-08/index.html",
+        "note": "Experimental window counts and curve/trajectory fits are not aircraft identity truth or new GPS labels. Desk two-aircraft schedules fail matched wrong-time controls. Walking file positions are unknown within the supplied park context."
+      }
+    },
+    {
+      "id": "personal-2026_11_06_10_23_41_1",
+      "source_id": "personal-audio",
+      "audio": "samples/2026_11_06_10_23_41_1.mp3",
+      "sha256": "16deb0dc12407922bf2e243316861401f1b1c195744791e5b8f1cd1fde0d4bde",
+      "duration_s": 12480.678188,
+      "split": "unlabeled_development",
+      "location": {
+        "basis": "user_reported_stationary_desk",
+        "current_user_context_record": "work/personal-samples-2026-11-08/receiver-context.json",
+        "current_context_key": "desk",
+        "context_confirmed": true
+      },
+      "receiver_motion": "Stationary indoors at desk; user confirmed",
+      "timing": {
+        "recording_start": "2026-11-06T10:23:41-06:00",
+        "time_zone": "America/Chicago",
+        "basis": "User confirmed Central filename start time"
+      },
+      "curve_label": null,
+      "negative_label": false,
+      "redistribution": "Not authorized; local research only",
+      "preexisting_hash_record": "work/sample-audit-2026-11-07/2026_11_06_10_23_41_1/analysis-inputs.json",
+      "model_research_2026_11_08": {
+        "overview": "work/overnight-improvements-2026-11-08/index.html",
+        "note": "Four local spectral windows pass exploratory checks, but the training-selected two-aircraft schedule fails wrong-clock controls. No aircraft identity/GPS label is promoted."
+      }
+    }
+  ]
+}

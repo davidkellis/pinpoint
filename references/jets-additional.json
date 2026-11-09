@@ -1,0 +1,7086 @@
+{
+  "version": 1,
+  "note": "New public jet challenge cases. Frozen 75% single-ridge coverage/hit target; not a successful localization claim. Failing cases remain visible.",
+  "assets": [
+    {
+      "path": "samples/public/pathak-2026/N958JX_R50/result_page.pdf",
+      "sha256": "9b0d81a46cbe9573dd17cc43f0fd02792f6cb9a8e2f0ab796dd5fc1d09c4c50f",
+      "source": "pathak-2026",
+      "profiles": [
+        "audio"
+      ]
+    },
+    {
+      "path": "samples/public/pathak-2026/N958JX_R50/N958JX-track-EGM96.kml",
+      "sha256": "5f980bb38674baaeb3d8340e1b1fd513bacfedef048f1d0e41f934fea3ef9e67",
+      "source": "pathak-2026",
+      "profiles": [
+        "audio"
+      ]
+    },
+    {
+      "path": "samples/public/pathak-2026/N958JX_R50/audio.wav",
+      "sha256": "3cfa0ca3a58db714074487004ca3b7505ab9ee4e4882b7efbfdf62f8d7f1a426",
+      "source": "pathak-2026",
+      "profiles": [
+        "audio",
+        "location"
+      ]
+    },
+    {
+      "path": "samples/public/pathak-2026/N958JX_R50/frequency_vs_time_used.csv",
+      "sha256": "6bcd151abeb8f9c8978bee8d5fbc00df951d7674c417a5d229989b529a72d8fd",
+      "source": "pathak-2026",
+      "profiles": [
+        "audio"
+      ]
+    },
+    {
+      "path": "samples/public/pathak-2026/N563FX_R21/result_page.pdf",
+      "sha256": "2fc1e2eac37e1e09049f0c86377158f16ec23ad9270ed3c895812fefe4bd2966",
+      "source": "pathak-2026",
+      "profiles": [
+        "audio"
+      ]
+    },
+    {
+      "path": "samples/public/pathak-2026/N563FX_R21/N563FX-track-EGM96.kml",
+      "sha256": "af3373fe1b03f04b0b23ae10ff36224ed5bfdf6d78e1901a7df64a1ae3d9dc8c",
+      "source": "pathak-2026",
+      "profiles": [
+        "audio"
+      ]
+    },
+    {
+      "path": "samples/public/pathak-2026/N563FX_R21/audio.wav",
+      "sha256": "427a7575ec97a84feb8fe81f7fb8b1cff5a122e79223fba11d5327c0ba9e1179",
+      "source": "pathak-2026",
+      "profiles": [
+        "audio",
+        "location"
+      ]
+    },
+    {
+      "path": "samples/public/pathak-2026/N563FX_R21/frequency_vs_time_used.csv",
+      "sha256": "ee79d4883a42f9b9871169e6aa155bd0584235cc9e0feb7f73f65faf4f76a6d3",
+      "source": "pathak-2026",
+      "profiles": [
+        "audio"
+      ]
+    },
+    {
+      "path": "references/search/jet-challenger/california-tracks.csv",
+      "profiles": [
+        "location"
+      ],
+      "source": "adsblol-2026-05-16",
+      "sha256": "7f557519434c439368ab76ff5070088982ed35b8f6797ca1b3daa765dd343484"
+    },
+    {
+      "path": "references/search/jet-challenger/supplied-target.csv",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "c21e9aaa7ebfe875d8195f7ac0e7c801c6afbbee298a4646cf772579220b913b"
+    },
+    {
+      "path": "references/search/jet-challenger/competing-band-01.json",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "47323bea000270af13a341f1c182b86760ab55c9c10777d74e205d779a61ffeb"
+    },
+    {
+      "path": "references/search/jet-challenger/competing-band-02.json",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "c2363a58608e569eb2f4820168874500210a4f288b550e2c610af008ae7ff9ca"
+    },
+    {
+      "path": "references/search/jet-challenger/competing-band-03.json",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "7d93d69cee20daeeeb395661dcabbb6df66a19128fddb915b44f4af31ac3ba4f"
+    },
+    {
+      "path": "references/search/jet-challenger/competing-band-04.json",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "c3990a44228e5bbcb6baf33951da265606356359d334457979b374366b8fac50"
+    },
+    {
+      "path": "references/search/jet-challenger/competing-band-05.json",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "64a7006d930910456ce68bdf38487e0e2e5b036c205a9a49b58c5ea6fa27253e"
+    },
+    {
+      "path": "references/search/jet-challenger/competing-band-06.json",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "ad9b3df09dfa817f9dc2e765eb9fef2f3fc7bb817a0315d464851afc22a5d9f8"
+    },
+    {
+      "path": "references/search/jet-challenger/competing-band-07.json",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "691a98a7decace16389263ed6ab2681bfda7eac2bdfe7b8add44d7fa43df99c4"
+    },
+    {
+      "path": "references/search/jet-challenger/competing-band-08.json",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "118b2fd6326b0b6d5002e9b80c2e62b1c9cb1c066331c9e0a9ef065da187b255"
+    },
+    {
+      "path": "references/search/jet-challenger/competing-band-09.json",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "2f85bb325260f13601d10433dad0bd87d31139bdb4762b2db1dbe4d797d097e2"
+    },
+    {
+      "path": "references/search/jet-challenger/competing-band-10.json",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "38e6fb3313c881d66bf145a4db78ba8f576fd5b5513ed012ce768fa1cd15a9d4"
+    },
+    {
+      "path": "references/search/jet-challenger/competing-band-11.json",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "fd9727e7006b89a423a41f07575b391e14150bea40ca02d09140838d64690fe7"
+    },
+    {
+      "path": "references/search/jet-challenger/competing-band-12.json",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "d2a8ffdbd09fd61d975b2917df89816880b0e68bf7de65cfd774c479dbfa2e3e"
+    },
+    {
+      "path": "references/search/jet-challenger/supplied-band-1.json",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "144b6ebecb1f9f2b75dcb1bc8d23db2a7dc7c72c7454e773f99276f639fbe373"
+    },
+    {
+      "path": "references/search/jet-challenger/supplied-band-2.json",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "b4663801f31ed6363df0b6a8b6572596c84a5b6e1241dad6f6ab08224224403d"
+    },
+    {
+      "path": "references/search/jet-challenger/supplied-band-3.json",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "fb8aa251e8c93ef86b4a33fddcb1b26ffefa36af62fcb1af4ce289dfaf75ee6c"
+    },
+    {
+      "path": "work/web/cache/egm96_15.gtx",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "c02a6eb70a7a78efebe5adf3ade626eb75390e170bb8b3f36136a2c28f5326a0"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N32W115.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "24e13c7d8a23ecfa140e3988a0eb05d5da1f6c9510310c6250fe993ea9b6b423"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N32W116.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "43f3f5a3c2fef203f6e38eb3146054762c4892edaad552330b866674d21bfe66"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N32W117.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "7d2fce7bafe991d028fd667dff11d8511424d084dfba63555021cb7ee75e9b77"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N32W118.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "444f7a2611c9d9520acbc46812e0e1729de1c41edf4a71524090ee7f72ead1f2"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N33W115.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "25913f18cf13c8d0329b701d4492bc0e1ed88e4eeeda0832cfef722ec433e12b"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N33W116.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "b1ee9ddc8c652ba4fcb5fdb59322ba3d90bb895b1e120b77e313dbe610e7fe74"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N33W117.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "8d9f0a3a4649fc22fedce4f1d39b19e1949e839351f675602ff143220ecb3446"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N33W118.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "9038b1481cb9cfd59ffda09e824e1acdd392177dce073a125ff974e81bae229f"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N33W119.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "39844e0ff91b8ec03f03608f3759e61ac933eaa971b174a6e1e873b770445ec0"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N33W120.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "2db471bab33b0bcafc8303995926676ee7b3eef30bb0f2a7603329d8c5559645"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N33W121.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "17405b7c36323f89834a494c526cdb32041e98b2ef13cc9f0dfe0e78064b1411"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N34W115.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "ad64a5611ecf872ff4e1af49480a3b08f91d9b726c8ddae0fcbc5a72167db1d4"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N34W116.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "48b52fe0382feaa0221bc9b0d9d98f9d83060c8d0363cffd5c98b9e3fd9efda9"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N34W117.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "a13eac026d8c7d340b8c1ec0c495b4be3f239ea19a36ce5a73984664e82e9ae8"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N34W118.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "a145a56514299233e96e99e27682af4b1496f408f6396ccfc20f6321caa56cc1"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N34W119.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "668571523ed9e5e4471093d0f41309a40c5391e513bf831ac1c0fd199d829999"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N34W120.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "431525f133a5645c0887d84ae41e886e8a3d8b407ba6dd1560c1c97c41f20e10"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N34W121.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "79181e5236465e60f3cbbb3e84caa1b6b53a1c66ac10bb98bb10f0c377836d86"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N35W115.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "63c4e84464690c131e7a871854043333a95e0eb666ccd2467dde1cef3a0c60fc"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N35W116.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "d1895c788647e1af0dfd0b52c39546ab2b5b2d814c54066e21c91390913e97a4"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N35W117.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "89156b43e242037ab4349ca3e8fec2a15ba592bc18b349591e31ebaef60ecaa8"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N35W118.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "389cf1c28efeed9dd6dbf3350a743a85f83e79841523a42f6e4d3699f8c40872"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N35W119.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "714ae0df25dead17123cfe65aa999bf6c62ee1857263e2498e21e87049f30797"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N35W120.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "9930caa2ce58f32e953e1b67b0bf27cb3dfdb1ab2d058c2525ba7d19e3982d1b"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N35W121.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "d6067446ce6fa7cbb9dcfde9943185d8f036836820f6ec2ff23fe6163c2e539c"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N35W122.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "009b9a5cc60562156da9ff0f75e12cae708379cb401a42dcc8f57e23548cc00c"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N36W116.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "e0760e3678749b8a9287f0d8dc088d45b5917d81b001a464d0f211c36a0162f9"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N36W117.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "0015200cfea7d79f2ec87f52bbcf3f7c18a069d1f52af7c39ceccceb45e78705"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N36W118.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "2c0290f14d38ccacf8443f744fa501435bfcdd1d08b9c9eef6a45615ac456f99"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N36W119.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "75cd6a676ca7ec3bed0fa86a7cb64673b2f80fca4e6fac9289289f4220b2a3eb"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N36W120.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "5cc78ca3b8d746152fd03bf2eeaf52ff1bb2bb817f7e5860afc148e2737ec0c6"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N36W121.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "a0df56a80d96f55d9a4b42f20adc34ff6b84e154641f31d8903df36f1af8e19e"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N36W122.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "a5b78dcd6499d232c03712c2b7bcbdd64e56301464bc3d2ab276d5fc872aa890"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N36W123.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "e733ccde7e68dfb3451ba1ae83f9f46630f85e35ce467b575558c2a8e8a18c92"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N37W118.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "6f0340442a6164f1fb5f29f9c62164bf2507f118362346ab759757d80231b3e3"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N37W119.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "626d2eb2a8ad64fe77d22cdab32f8e1eaff59c45c641b7e651ee36780c1529dc"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N37W120.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "fc71c4dcf8d4c1f385262f703dc35143da89860cbfd904d187f8530744fffe77"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N37W121.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "a8b5da592f4db0eb601db2d4e115c239cfebe96c14ae66df95c3197697ecf581"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N37W122.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "523e67fb6c18a1612ad99adb7119ecceb9b029e59ccd83c67c76ec1fe48881a4"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N37W123.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "d5603938893b4c18671902a07219852d05f878b1d4853a66bb7ab9e8c10cc4d4"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N37W124.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "6dddf4c1123dc7ae94f87d32d147bc27a5e4186e6f41a7ee0087047a0f19b9f8"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N38W119.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "2d271369b244301892ee23c87d7cc012b20e80f3c365a24190b50ed47e5569fa"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N38W120.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "d6186f59b337be3f8c4c1d6ade1e535f2996693207daaef5343bdf0281614b1c"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N38W121.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "345b8e49b30c24cb7a7f137478bbbbed94c9e95e08a7c0274ad64e2dcf2a3407"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N38W122.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "509bf7f7705eb9a35744900991f247ce2828688379c5120f2e82d5547d9a6a78"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N38W123.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "89724949a32811ae923938a03002862c7bae62b1158e447ca0b79868226748be"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N38W124.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "a2fa61bfa6465007feb2731056727995b053fbb6497136379b2ff6fdb06639fa"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N39W120.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "7a8702c5c0b310d11b1c609b929d6bc8df67cb53ea5b91f798d525fb49a84b61"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N39W121.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "0e4f8453432de7963c6733fa0f02173b07f8a4045f616bf003f2e69356ce02e6"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N39W122.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "e461b343ceafac32c1e5fb3fafe3b0211d3d28655cfb32241d1157f1349d70f3"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N39W123.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "41fc2f49e2cb3c39eb02c3db6d6081be2ac58a390bf19cebce29115d8373a0cf"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N39W124.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "88e133099d19ec46187b8ae8d49ccc963b0e5381c6e6c5fa9cd653da0302e8b4"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N40W120.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "1757ac7135855c002983abb4fe25dd00ee0e60091da1f45dc68c08332495c32b"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N40W121.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "8b167b3da63147f9dd23ff21580bc2245ccc5ee3887512102a9c7e01fd482a64"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N40W122.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "3af5b5f42d0800b9330b22827868bc219d11159869d1dae55fcd452c9bf0372d"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N40W123.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "3ab2e698279d233ea7b407ef172e114c0732d01202a449f272979ccfb69d9483"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N40W124.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "2069a5b43efd826aabdc147425681d9636a4c106deacf681b1bf611285617b80"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N40W125.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "b8b464cd9452efff1e4348e18aeb5567cd738d245e1156ca99f3e9a775bb3867"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N41W120.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "88614cd4cb159a7ca7eee5655619a65a9e1e78afdc287e84396c0a9cc4a11d4e"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N41W121.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "017fc5f5d30a6c2d76649653b715a73908532eb50d604ed1fe4a30503d708e32"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N41W122.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "c88e7824768cae485ffa4dfd63bf1a9bbfa3a8d5f82feff37559dd9b64a8d2da"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N41W123.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "720a1faf2e54fe3738b03a714d3ef0678fb37665bfa11123b031b5433f201c7f"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N41W124.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "23c313a3603ad16f5a60a8044c01ebfc8dcb5d19bc8d9fe8cdddaa18bfe1a234"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N41W125.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "b1e8dc026f8bc7ccbc08d2fc39acb17bb0862a3022b39167549172bc4a4e5c89"
+    },
+    {
+      "path": "data/terrain-ca-jets-3arc/N42W123.hgt",
+      "profiles": [
+        "location"
+      ],
+      "source": "reference-protocol-or-terrain",
+      "sha256": "0c77e1a34e44465f535e37d9c2d46625f906ff595d97f20f38ee13a1f9d2d0b3"
+    },
+    {
+      "path": "references/search/jet-regional/supplied-target.csv",
+      "profiles": [
+        "location"
+      ],
+      "source": "pathak-2026",
+      "sha256": "0a6e30ddde1b366b235178f5085c6f5eba3f3ce2300fd35943a6f0bd0aff3926"
+    },
+    {
+      "path": "references/search/jet-regional/supplied-band-1.json",
+      "profiles": [
+        "location"
+      ],
+      "source": "pathak-2026",
+      "sha256": "7bcccc79de0bdac84c18e5c89733cb837d7c284cbaabccbe47df51a156a0daea"
+    },
+    {
+      "path": "references/search/jet-regional/supplied-band-2.json",
+      "profiles": [
+        "location"
+      ],
+      "source": "pathak-2026",
+      "sha256": "9edd52e6d99dbbd4cc3f7746c9af6c8941330a293f3716957afaf3cbac0f1ca3"
+    },
+    {
+      "path": "references/search/jet-regional/supplied-band-3.json",
+      "profiles": [
+        "location"
+      ],
+      "source": "pathak-2026",
+      "sha256": "133916b4129e11c2da4ce95b6989f410c64673ab88593ca60f4f9ca1434561bb"
+    }
+  ],
+  "acoustic": [
+    {
+      "id": "r21-standard",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/pathak-2026/N563FX_R21/audio.wav",
+      "detector_profile": "standard",
+      "labels": [
+        {
+          "id": "publisher-frequency-trace",
+          "anchors": [
+            {
+              "time_s": 5.000000000000004,
+              "hz": 1253.572
+            },
+            {
+              "time_s": 5.186000000000004,
+              "hz": 1251.051
+            },
+            {
+              "time_s": 5.372000000000004,
+              "hz": 1223.993
+            },
+            {
+              "time_s": 5.558000000000004,
+              "hz": 1239.128
+            },
+            {
+              "time_s": 5.743000000000005,
+              "hz": 1242.478
+            },
+            {
+              "time_s": 5.929000000000005,
+              "hz": 1249.774
+            },
+            {
+              "time_s": 6.115000000000005,
+              "hz": 1248.102
+            },
+            {
+              "time_s": 6.301000000000005,
+              "hz": 1254.02
+            },
+            {
+              "time_s": 6.486000000000004,
+              "hz": 1252.088
+            },
+            {
+              "time_s": 6.672000000000004,
+              "hz": 1250.873
+            },
+            {
+              "time_s": 6.858000000000004,
+              "hz": 1261.111
+            },
+            {
+              "time_s": 7.044000000000004,
+              "hz": 1263.824
+            },
+            {
+              "time_s": 7.2290000000000045,
+              "hz": 1291.651
+            },
+            {
+              "time_s": 7.4150000000000045,
+              "hz": 1286.219
+            },
+            {
+              "time_s": 7.601000000000004,
+              "hz": 1268.22
+            },
+            {
+              "time_s": 7.787000000000004,
+              "hz": 1251.164
+            },
+            {
+              "time_s": 7.972000000000005,
+              "hz": 1253.664
+            },
+            {
+              "time_s": 8.158000000000005,
+              "hz": 1270.213
+            },
+            {
+              "time_s": 8.344000000000005,
+              "hz": 1232.022
+            },
+            {
+              "time_s": 8.530000000000005,
+              "hz": 1236.318
+            },
+            {
+              "time_s": 8.715000000000003,
+              "hz": 1231.079
+            },
+            {
+              "time_s": 8.901000000000003,
+              "hz": 1226.314
+            },
+            {
+              "time_s": 9.087000000000003,
+              "hz": 1236.92
+            },
+            {
+              "time_s": 9.273000000000003,
+              "hz": 1247.337
+            },
+            {
+              "time_s": 9.458000000000006,
+              "hz": 1253.082
+            },
+            {
+              "time_s": 9.644000000000005,
+              "hz": 1235.56
+            },
+            {
+              "time_s": 9.830000000000005,
+              "hz": 1238.027
+            },
+            {
+              "time_s": 10.016000000000005,
+              "hz": 1208.399
+            },
+            {
+              "time_s": 10.201000000000004,
+              "hz": 1209.268
+            },
+            {
+              "time_s": 10.387000000000004,
+              "hz": 1203.38
+            },
+            {
+              "time_s": 10.573000000000004,
+              "hz": 1222.171
+            },
+            {
+              "time_s": 10.759000000000004,
+              "hz": 1217.232
+            },
+            {
+              "time_s": 10.945000000000004,
+              "hz": 1230.043
+            },
+            {
+              "time_s": 11.130000000000004,
+              "hz": 1208.562
+            },
+            {
+              "time_s": 11.316000000000004,
+              "hz": 1251.766
+            },
+            {
+              "time_s": 11.502000000000004,
+              "hz": 1234.115
+            },
+            {
+              "time_s": 11.688000000000004,
+              "hz": 1228.869
+            },
+            {
+              "time_s": 11.873000000000005,
+              "hz": 1234.174
+            },
+            {
+              "time_s": 12.059000000000005,
+              "hz": 1231.187
+            },
+            {
+              "time_s": 12.245000000000005,
+              "hz": 1266.183
+            },
+            {
+              "time_s": 12.431000000000004,
+              "hz": 1265.62
+            },
+            {
+              "time_s": 12.616000000000003,
+              "hz": 1276.045
+            },
+            {
+              "time_s": 12.802000000000003,
+              "hz": 1247.723
+            },
+            {
+              "time_s": 12.988000000000003,
+              "hz": 1248.7
+            },
+            {
+              "time_s": 13.174000000000003,
+              "hz": 1190.658
+            },
+            {
+              "time_s": 13.359000000000005,
+              "hz": 1204.314
+            },
+            {
+              "time_s": 13.545000000000005,
+              "hz": 1203.566
+            },
+            {
+              "time_s": 13.731000000000005,
+              "hz": 1205.064
+            },
+            {
+              "time_s": 13.917000000000005,
+              "hz": 1219.937
+            },
+            {
+              "time_s": 14.102000000000004,
+              "hz": 1207.653
+            },
+            {
+              "time_s": 14.288000000000004,
+              "hz": 1204.901
+            },
+            {
+              "time_s": 14.474000000000004,
+              "hz": 1212.87
+            },
+            {
+              "time_s": 14.660000000000004,
+              "hz": 1230.553
+            },
+            {
+              "time_s": 14.845000000000006,
+              "hz": 1230.112
+            },
+            {
+              "time_s": 15.031000000000006,
+              "hz": 1198.338
+            },
+            {
+              "time_s": 15.217000000000006,
+              "hz": 1180.557
+            },
+            {
+              "time_s": 15.403000000000006,
+              "hz": 1175.035
+            },
+            {
+              "time_s": 15.589000000000006,
+              "hz": 1178.816
+            },
+            {
+              "time_s": 15.774000000000004,
+              "hz": 1173.876
+            },
+            {
+              "time_s": 15.960000000000004,
+              "hz": 1187.055
+            },
+            {
+              "time_s": 16.146000000000004,
+              "hz": 1196.212
+            },
+            {
+              "time_s": 16.332000000000004,
+              "hz": 1205.342
+            },
+            {
+              "time_s": 16.517000000000003,
+              "hz": 1206.247
+            },
+            {
+              "time_s": 16.703000000000003,
+              "hz": 1195.546
+            },
+            {
+              "time_s": 16.889000000000003,
+              "hz": 1206.543
+            },
+            {
+              "time_s": 17.075000000000003,
+              "hz": 1236.446
+            },
+            {
+              "time_s": 17.260000000000005,
+              "hz": 1234.716
+            },
+            {
+              "time_s": 17.446000000000005,
+              "hz": 1223.555
+            },
+            {
+              "time_s": 17.632000000000005,
+              "hz": 1213.425
+            },
+            {
+              "time_s": 17.818000000000005,
+              "hz": 1173.042
+            },
+            {
+              "time_s": 18.003000000000004,
+              "hz": 1188.904
+            },
+            {
+              "time_s": 18.189000000000004,
+              "hz": 1225.239
+            },
+            {
+              "time_s": 18.375000000000004,
+              "hz": 1216.818
+            },
+            {
+              "time_s": 18.561000000000003,
+              "hz": 1185.967
+            },
+            {
+              "time_s": 18.746000000000006,
+              "hz": 1165.523
+            },
+            {
+              "time_s": 18.932000000000006,
+              "hz": 1175.24
+            },
+            {
+              "time_s": 19.118000000000006,
+              "hz": 1191.035
+            },
+            {
+              "time_s": 19.304000000000006,
+              "hz": 1203.561
+            },
+            {
+              "time_s": 19.489000000000004,
+              "hz": 1186.67
+            },
+            {
+              "time_s": 19.675000000000004,
+              "hz": 1176.342
+            },
+            {
+              "time_s": 19.861000000000004,
+              "hz": 1190.731
+            },
+            {
+              "time_s": 20.047000000000004,
+              "hz": 1198.647
+            },
+            {
+              "time_s": 20.233000000000004,
+              "hz": 1181.628
+            },
+            {
+              "time_s": 20.418000000000003,
+              "hz": 1174.77
+            },
+            {
+              "time_s": 20.604000000000003,
+              "hz": 1198.832
+            },
+            {
+              "time_s": 20.790000000000003,
+              "hz": 1195.811
+            },
+            {
+              "time_s": 20.976000000000003,
+              "hz": 1195.452
+            },
+            {
+              "time_s": 21.161000000000005,
+              "hz": 1199.749
+            },
+            {
+              "time_s": 21.347000000000005,
+              "hz": 1195.507
+            },
+            {
+              "time_s": 21.533000000000005,
+              "hz": 1175.506
+            },
+            {
+              "time_s": 21.719000000000005,
+              "hz": 1194.178
+            },
+            {
+              "time_s": 21.904000000000003,
+              "hz": 1192.85
+            },
+            {
+              "time_s": 22.090000000000003,
+              "hz": 1173.357
+            },
+            {
+              "time_s": 22.276000000000003,
+              "hz": 1180.64
+            },
+            {
+              "time_s": 22.462000000000003,
+              "hz": 1168.584
+            },
+            {
+              "time_s": 22.647000000000002,
+              "hz": 1168.01
+            },
+            {
+              "time_s": 22.833000000000002,
+              "hz": 1165.718
+            },
+            {
+              "time_s": 23.019000000000002,
+              "hz": 1188.955
+            },
+            {
+              "time_s": 23.205000000000002,
+              "hz": 1171.605
+            },
+            {
+              "time_s": 23.390000000000004,
+              "hz": 1181.798
+            },
+            {
+              "time_s": 23.576000000000004,
+              "hz": 1194.007
+            },
+            {
+              "time_s": 23.762000000000004,
+              "hz": 1215.124
+            },
+            {
+              "time_s": 23.948000000000004,
+              "hz": 1220.775
+            },
+            {
+              "time_s": 24.133000000000003,
+              "hz": 1208.118
+            },
+            {
+              "time_s": 24.319000000000003,
+              "hz": 1209.862
+            },
+            {
+              "time_s": 24.505000000000003,
+              "hz": 1215.053
+            },
+            {
+              "time_s": 24.691000000000003,
+              "hz": 1193.658
+            },
+            {
+              "time_s": 24.877000000000002,
+              "hz": 1166.13
+            },
+            {
+              "time_s": 25.062000000000005,
+              "hz": 1201.403
+            },
+            {
+              "time_s": 25.248000000000005,
+              "hz": 1203.449
+            },
+            {
+              "time_s": 25.434000000000005,
+              "hz": 1186.67
+            },
+            {
+              "time_s": 25.620000000000005,
+              "hz": 1173.055
+            },
+            {
+              "time_s": 25.805000000000003,
+              "hz": 1182.243
+            },
+            {
+              "time_s": 25.991000000000003,
+              "hz": 1176.425
+            },
+            {
+              "time_s": 26.177000000000003,
+              "hz": 1165.753
+            },
+            {
+              "time_s": 26.363000000000003,
+              "hz": 1175.642
+            },
+            {
+              "time_s": 26.920000000000005,
+              "hz": 1122.885
+            },
+            {
+              "time_s": 27.106000000000005,
+              "hz": 1131.474
+            },
+            {
+              "time_s": 27.291000000000004,
+              "hz": 1182.352
+            },
+            {
+              "time_s": 27.477000000000004,
+              "hz": 1160.504
+            },
+            {
+              "time_s": 27.663000000000004,
+              "hz": 1149.58
+            },
+            {
+              "time_s": 27.849000000000004,
+              "hz": 1150.995
+            },
+            {
+              "time_s": 28.034000000000002,
+              "hz": 1148.685
+            },
+            {
+              "time_s": 28.220000000000002,
+              "hz": 1159.066
+            },
+            {
+              "time_s": 28.406000000000002,
+              "hz": 1163.214
+            },
+            {
+              "time_s": 28.592000000000002,
+              "hz": 1175.438
+            },
+            {
+              "time_s": 28.777000000000005,
+              "hz": 1144.736
+            },
+            {
+              "time_s": 28.963000000000005,
+              "hz": 1151.58
+            },
+            {
+              "time_s": 29.149000000000004,
+              "hz": 1174.294
+            },
+            {
+              "time_s": 29.335000000000004,
+              "hz": 1177.744
+            },
+            {
+              "time_s": 29.520000000000003,
+              "hz": 1175.324
+            },
+            {
+              "time_s": 29.706000000000003,
+              "hz": 1173.058
+            },
+            {
+              "time_s": 29.892000000000003,
+              "hz": 1144.985
+            },
+            {
+              "time_s": 30.078000000000003,
+              "hz": 1153.69
+            },
+            {
+              "time_s": 30.264000000000003,
+              "hz": 1174.191
+            },
+            {
+              "time_s": 30.449000000000005,
+              "hz": 1185.95
+            },
+            {
+              "time_s": 30.635000000000005,
+              "hz": 1193.159
+            },
+            {
+              "time_s": 30.821000000000005,
+              "hz": 1144.498
+            },
+            {
+              "time_s": 31.007000000000005,
+              "hz": 1150.244
+            },
+            {
+              "time_s": 31.192000000000004,
+              "hz": 1142.525
+            },
+            {
+              "time_s": 31.378000000000004,
+              "hz": 1149.271
+            },
+            {
+              "time_s": 31.564000000000004,
+              "hz": 1158.52
+            },
+            {
+              "time_s": 31.750000000000004,
+              "hz": 1154.409
+            },
+            {
+              "time_s": 31.935000000000002,
+              "hz": 1155.682
+            },
+            {
+              "time_s": 32.121,
+              "hz": 1149.722
+            },
+            {
+              "time_s": 32.307,
+              "hz": 1149.303
+            },
+            {
+              "time_s": 32.493,
+              "hz": 1151.472
+            },
+            {
+              "time_s": 32.678000000000004,
+              "hz": 1161.258
+            },
+            {
+              "time_s": 32.864000000000004,
+              "hz": 1158.202
+            },
+            {
+              "time_s": 33.050000000000004,
+              "hz": 1137.901
+            },
+            {
+              "time_s": 33.236000000000004,
+              "hz": 1141.252
+            },
+            {
+              "time_s": 33.42100000000001,
+              "hz": 1124.761
+            },
+            {
+              "time_s": 33.607000000000006,
+              "hz": 1126.301
+            },
+            {
+              "time_s": 33.793000000000006,
+              "hz": 1129.843
+            },
+            {
+              "time_s": 33.979000000000006,
+              "hz": 1136.365
+            },
+            {
+              "time_s": 34.16400000000001,
+              "hz": 1116.182
+            },
+            {
+              "time_s": 34.35000000000001,
+              "hz": 1126.123
+            },
+            {
+              "time_s": 34.53600000000001,
+              "hz": 1133.796
+            },
+            {
+              "time_s": 34.72200000000001,
+              "hz": 1136.572
+            },
+            {
+              "time_s": 34.90800000000001,
+              "hz": 1133.414
+            },
+            {
+              "time_s": 35.093,
+              "hz": 1131.972
+            },
+            {
+              "time_s": 35.279,
+              "hz": 1130.567
+            },
+            {
+              "time_s": 35.465,
+              "hz": 1128.086
+            },
+            {
+              "time_s": 35.651,
+              "hz": 1121.168
+            },
+            {
+              "time_s": 35.836000000000006,
+              "hz": 1115.61
+            },
+            {
+              "time_s": 36.022000000000006,
+              "hz": 1122.606
+            },
+            {
+              "time_s": 36.208000000000006,
+              "hz": 1107.814
+            },
+            {
+              "time_s": 36.394000000000005,
+              "hz": 1120.767
+            },
+            {
+              "time_s": 36.57900000000001,
+              "hz": 1120.288
+            },
+            {
+              "time_s": 36.76500000000001,
+              "hz": 1118.047
+            },
+            {
+              "time_s": 36.95100000000001,
+              "hz": 1138.12
+            },
+            {
+              "time_s": 37.13700000000001,
+              "hz": 1111.373
+            },
+            {
+              "time_s": 37.32200000000001,
+              "hz": 1112.69
+            },
+            {
+              "time_s": 37.50800000000001,
+              "hz": 1126.695
+            },
+            {
+              "time_s": 37.69400000000001,
+              "hz": 1122.131
+            },
+            {
+              "time_s": 37.88000000000001,
+              "hz": 1109.043
+            },
+            {
+              "time_s": 38.065000000000005,
+              "hz": 1109.172
+            },
+            {
+              "time_s": 38.251000000000005,
+              "hz": 1106.778
+            },
+            {
+              "time_s": 38.437000000000005,
+              "hz": 1106.595
+            },
+            {
+              "time_s": 38.623000000000005,
+              "hz": 1113.235
+            },
+            {
+              "time_s": 38.80800000000001,
+              "hz": 1100.287
+            },
+            {
+              "time_s": 38.99400000000001,
+              "hz": 1106.486
+            },
+            {
+              "time_s": 39.18000000000001,
+              "hz": 1121.824
+            },
+            {
+              "time_s": 39.36600000000001,
+              "hz": 1108.418
+            },
+            {
+              "time_s": 39.55200000000001,
+              "hz": 1110.553
+            },
+            {
+              "time_s": 39.73700000000001,
+              "hz": 1107.746
+            },
+            {
+              "time_s": 39.92300000000001,
+              "hz": 1100.8
+            },
+            {
+              "time_s": 40.10900000000001,
+              "hz": 1109.432
+            },
+            {
+              "time_s": 40.29500000000001,
+              "hz": 1116.36
+            },
+            {
+              "time_s": 40.480000000000004,
+              "hz": 1101.694
+            },
+            {
+              "time_s": 40.666000000000004,
+              "hz": 1112.457
+            },
+            {
+              "time_s": 40.852000000000004,
+              "hz": 1103.282
+            },
+            {
+              "time_s": 41.038000000000004,
+              "hz": 1111.729
+            },
+            {
+              "time_s": 41.223000000000006,
+              "hz": 1106.98
+            },
+            {
+              "time_s": 41.409000000000006,
+              "hz": 1097.686
+            },
+            {
+              "time_s": 41.595000000000006,
+              "hz": 1098.478
+            },
+            {
+              "time_s": 41.781000000000006,
+              "hz": 1100.842
+            },
+            {
+              "time_s": 41.96600000000001,
+              "hz": 1094.383
+            },
+            {
+              "time_s": 42.15200000000001,
+              "hz": 1094.285
+            },
+            {
+              "time_s": 42.33800000000001,
+              "hz": 1103.552
+            },
+            {
+              "time_s": 42.52400000000001,
+              "hz": 1097.747
+            },
+            {
+              "time_s": 42.70900000000001,
+              "hz": 1093.671
+            },
+            {
+              "time_s": 42.89500000000001,
+              "hz": 1087.374
+            },
+            {
+              "time_s": 43.08100000000001,
+              "hz": 1094.125
+            },
+            {
+              "time_s": 43.26700000000001,
+              "hz": 1088.456
+            },
+            {
+              "time_s": 43.452000000000005,
+              "hz": 1086.844
+            },
+            {
+              "time_s": 43.638000000000005,
+              "hz": 1085.436
+            },
+            {
+              "time_s": 43.824000000000005,
+              "hz": 1085.199
+            },
+            {
+              "time_s": 44.010000000000005,
+              "hz": 1084.796
+            },
+            {
+              "time_s": 44.196000000000005,
+              "hz": 1087.744
+            },
+            {
+              "time_s": 44.38100000000001,
+              "hz": 1075.966
+            },
+            {
+              "time_s": 44.56700000000001,
+              "hz": 1074.809
+            },
+            {
+              "time_s": 44.75300000000001,
+              "hz": 1075.129
+            },
+            {
+              "time_s": 44.93900000000001,
+              "hz": 1072.947
+            },
+            {
+              "time_s": 45.12400000000001,
+              "hz": 1073.802
+            },
+            {
+              "time_s": 45.31000000000001,
+              "hz": 1085.079
+            },
+            {
+              "time_s": 45.49600000000001,
+              "hz": 1078.48
+            },
+            {
+              "time_s": 45.68200000000001,
+              "hz": 1074.9
+            },
+            {
+              "time_s": 45.867000000000004,
+              "hz": 1070.303
+            },
+            {
+              "time_s": 46.053000000000004,
+              "hz": 1070.091
+            },
+            {
+              "time_s": 46.239000000000004,
+              "hz": 1077.294
+            },
+            {
+              "time_s": 46.425000000000004,
+              "hz": 1065.545
+            },
+            {
+              "time_s": 46.61000000000001,
+              "hz": 1061.904
+            },
+            {
+              "time_s": 46.79600000000001,
+              "hz": 1065.281
+            },
+            {
+              "time_s": 46.982000000000006,
+              "hz": 1068.585
+            },
+            {
+              "time_s": 47.168000000000006,
+              "hz": 1064.991
+            },
+            {
+              "time_s": 47.35300000000001,
+              "hz": 1044.479
+            },
+            {
+              "time_s": 47.53900000000001,
+              "hz": 1055.396
+            },
+            {
+              "time_s": 47.72500000000001,
+              "hz": 1051.828
+            },
+            {
+              "time_s": 47.91100000000001,
+              "hz": 1050.955
+            },
+            {
+              "time_s": 48.096000000000004,
+              "hz": 1053.575
+            },
+            {
+              "time_s": 48.282000000000004,
+              "hz": 1042.245
+            },
+            {
+              "time_s": 48.46800000000001,
+              "hz": 1045.146
+            },
+            {
+              "time_s": 48.65400000000001,
+              "hz": 1040.901
+            },
+            {
+              "time_s": 48.84000000000001,
+              "hz": 1043.57
+            },
+            {
+              "time_s": 49.025000000000006,
+              "hz": 1028.545
+            },
+            {
+              "time_s": 49.211000000000006,
+              "hz": 1035.24
+            },
+            {
+              "time_s": 49.397000000000006,
+              "hz": 1029.997
+            },
+            {
+              "time_s": 49.583000000000006,
+              "hz": 1033.594
+            },
+            {
+              "time_s": 49.76800000000001,
+              "hz": 1030.902
+            },
+            {
+              "time_s": 49.95400000000001,
+              "hz": 1029.75
+            },
+            {
+              "time_s": 50.14000000000001,
+              "hz": 1025.519
+            },
+            {
+              "time_s": 50.32600000000001,
+              "hz": 1018.837
+            },
+            {
+              "time_s": 50.51100000000001,
+              "hz": 1018.907
+            },
+            {
+              "time_s": 50.69700000000001,
+              "hz": 1017.444
+            },
+            {
+              "time_s": 50.88300000000001,
+              "hz": 1013.888
+            },
+            {
+              "time_s": 51.06900000000001,
+              "hz": 1012.061
+            },
+            {
+              "time_s": 51.254000000000005,
+              "hz": 1009.369
+            },
+            {
+              "time_s": 51.440000000000005,
+              "hz": 1006.677
+            },
+            {
+              "time_s": 51.626000000000005,
+              "hz": 1003.986
+            },
+            {
+              "time_s": 51.812000000000005,
+              "hz": 1001.294
+            },
+            {
+              "time_s": 51.99700000000001,
+              "hz": 992.678
+            },
+            {
+              "time_s": 52.18300000000001,
+              "hz": 997.269
+            },
+            {
+              "time_s": 52.36900000000001,
+              "hz": 991.462
+            },
+            {
+              "time_s": 52.55500000000001,
+              "hz": 982.309
+            },
+            {
+              "time_s": 52.74000000000001,
+              "hz": 982.829
+            },
+            {
+              "time_s": 52.92600000000001,
+              "hz": 985.144
+            },
+            {
+              "time_s": 53.11200000000001,
+              "hz": 982.452
+            },
+            {
+              "time_s": 53.29800000000001,
+              "hz": 979.972
+            },
+            {
+              "time_s": 53.483000000000004,
+              "hz": 965.585
+            },
+            {
+              "time_s": 53.669000000000004,
+              "hz": 974.918
+            },
+            {
+              "time_s": 53.855000000000004,
+              "hz": 965.905
+            },
+            {
+              "time_s": 54.041000000000004,
+              "hz": 971.686
+            },
+            {
+              "time_s": 54.227000000000004,
+              "hz": 969.582
+            },
+            {
+              "time_s": 54.412000000000006,
+              "hz": 966.302
+            },
+            {
+              "time_s": 54.598000000000006,
+              "hz": 963.611
+            },
+            {
+              "time_s": 54.784000000000006,
+              "hz": 958.205
+            },
+            {
+              "time_s": 54.970000000000006,
+              "hz": 956.371
+            },
+            {
+              "time_s": 55.15500000000001,
+              "hz": 949.455
+            },
+            {
+              "time_s": 55.34100000000001,
+              "hz": 948.961
+            },
+            {
+              "time_s": 55.52700000000001,
+              "hz": 950.51
+            },
+            {
+              "time_s": 55.71300000000001,
+              "hz": 947.461
+            },
+            {
+              "time_s": 55.89800000000001,
+              "hz": 941.4
+            },
+            {
+              "time_s": 56.08400000000001,
+              "hz": 940.508
+            },
+            {
+              "time_s": 56.27000000000001,
+              "hz": 936.857
+            },
+            {
+              "time_s": 56.45600000000001,
+              "hz": 937.753
+            },
+            {
+              "time_s": 56.641000000000005,
+              "hz": 930.323
+            },
+            {
+              "time_s": 56.827000000000005,
+              "hz": 919.172
+            },
+            {
+              "time_s": 57.013000000000005,
+              "hz": 926.689
+            },
+            {
+              "time_s": 57.199000000000005,
+              "hz": 922.836
+            },
+            {
+              "time_s": 57.38400000000001,
+              "hz": 922.443
+            },
+            {
+              "time_s": 57.57000000000001,
+              "hz": 914.893
+            },
+            {
+              "time_s": 57.75600000000001,
+              "hz": 906.35
+            },
+            {
+              "time_s": 57.94200000000001,
+              "hz": 907.602
+            },
+            {
+              "time_s": 58.12700000000001,
+              "hz": 905.618
+            },
+            {
+              "time_s": 58.31300000000001,
+              "hz": 907.518
+            },
+            {
+              "time_s": 58.49900000000001,
+              "hz": 904.727
+            },
+            {
+              "time_s": 58.68500000000001,
+              "hz": 902.584
+            },
+            {
+              "time_s": 58.87100000000001,
+              "hz": 893.221
+            },
+            {
+              "time_s": 59.056000000000004,
+              "hz": 895.002
+            },
+            {
+              "time_s": 59.242000000000004,
+              "hz": 896.71
+            },
+            {
+              "time_s": 59.428000000000004,
+              "hz": 879.296
+            },
+            {
+              "time_s": 59.614000000000004,
+              "hz": 883.501
+            },
+            {
+              "time_s": 59.79900000000001,
+              "hz": 866.881
+            },
+            {
+              "time_s": 59.98500000000001,
+              "hz": 868.527
+            },
+            {
+              "time_s": 60.17100000000001,
+              "hz": 866.443
+            },
+            {
+              "time_s": 60.357000000000006,
+              "hz": 863.927
+            },
+            {
+              "time_s": 60.54200000000001,
+              "hz": 857.429
+            },
+            {
+              "time_s": 60.72800000000001,
+              "hz": 853.698
+            },
+            {
+              "time_s": 60.91400000000001,
+              "hz": 853.776
+            },
+            {
+              "time_s": 61.10000000000001,
+              "hz": 842.582
+            },
+            {
+              "time_s": 61.285000000000004,
+              "hz": 840.034
+            },
+            {
+              "time_s": 61.471000000000004,
+              "hz": 844.129
+            },
+            {
+              "time_s": 61.657000000000004,
+              "hz": 829.64
+            },
+            {
+              "time_s": 61.84300000000001,
+              "hz": 828.138
+            },
+            {
+              "time_s": 62.028000000000006,
+              "hz": 820.13
+            },
+            {
+              "time_s": 62.214000000000006,
+              "hz": 815.093
+            },
+            {
+              "time_s": 62.400000000000006,
+              "hz": 816.773
+            },
+            {
+              "time_s": 62.586000000000006,
+              "hz": 804.074
+            },
+            {
+              "time_s": 62.77100000000001,
+              "hz": 803.704
+            },
+            {
+              "time_s": 62.95700000000001,
+              "hz": 803.041
+            },
+            {
+              "time_s": 63.14300000000001,
+              "hz": 801.526
+            },
+            {
+              "time_s": 63.32900000000001,
+              "hz": 794.238
+            },
+            {
+              "time_s": 63.51500000000001,
+              "hz": 792.341
+            },
+            {
+              "time_s": 63.70000000000001,
+              "hz": 786.909
+            },
+            {
+              "time_s": 63.88600000000001,
+              "hz": 783.107
+            },
+            {
+              "time_s": 64.072,
+              "hz": 784.398
+            },
+            {
+              "time_s": 64.25800000000001,
+              "hz": 781.817
+            },
+            {
+              "time_s": 64.443,
+              "hz": 767.49
+            },
+            {
+              "time_s": 64.629,
+              "hz": 764.926
+            },
+            {
+              "time_s": 64.815,
+              "hz": 761.038
+            },
+            {
+              "time_s": 65.001,
+              "hz": 760.014
+            },
+            {
+              "time_s": 65.186,
+              "hz": 751.543
+            },
+            {
+              "time_s": 65.372,
+              "hz": 752.166
+            },
+            {
+              "time_s": 65.558,
+              "hz": 738.618
+            },
+            {
+              "time_s": 65.744,
+              "hz": 744.608
+            },
+            {
+              "time_s": 65.929,
+              "hz": 737.628
+            },
+            {
+              "time_s": 66.11500000000001,
+              "hz": 737.817
+            },
+            {
+              "time_s": 66.301,
+              "hz": 729.341
+            },
+            {
+              "time_s": 66.48700000000001,
+              "hz": 728.663
+            },
+            {
+              "time_s": 66.672,
+              "hz": 726.199
+            },
+            {
+              "time_s": 66.858,
+              "hz": 723.175
+            },
+            {
+              "time_s": 67.044,
+              "hz": 723.287
+            },
+            {
+              "time_s": 67.23,
+              "hz": 713.972
+            },
+            {
+              "time_s": 67.415,
+              "hz": 714.028
+            },
+            {
+              "time_s": 67.601,
+              "hz": 718.661
+            },
+            {
+              "time_s": 67.787,
+              "hz": 709.159
+            },
+            {
+              "time_s": 67.973,
+              "hz": 706.609
+            },
+            {
+              "time_s": 68.159,
+              "hz": 712.672
+            },
+            {
+              "time_s": 68.34400000000001,
+              "hz": 699.139
+            },
+            {
+              "time_s": 68.53,
+              "hz": 689.482
+            },
+            {
+              "time_s": 68.71600000000001,
+              "hz": 695.463
+            },
+            {
+              "time_s": 68.902,
+              "hz": 691.121
+            },
+            {
+              "time_s": 69.087,
+              "hz": 682.657
+            },
+            {
+              "time_s": 69.273,
+              "hz": 679.296
+            },
+            {
+              "time_s": 69.459,
+              "hz": 681.321
+            },
+            {
+              "time_s": 69.645,
+              "hz": 674.919
+            },
+            {
+              "time_s": 69.83,
+              "hz": 681.047
+            },
+            {
+              "time_s": 70.016,
+              "hz": 672.24
+            },
+            {
+              "time_s": 70.202,
+              "hz": 666.171
+            },
+            {
+              "time_s": 70.388,
+              "hz": 664.767
+            },
+            {
+              "time_s": 70.573,
+              "hz": 663.358
+            },
+            {
+              "time_s": 70.759,
+              "hz": 662.41
+            },
+            {
+              "time_s": 70.945,
+              "hz": 662.241
+            },
+            {
+              "time_s": 71.131,
+              "hz": 655.778
+            },
+            {
+              "time_s": 71.316,
+              "hz": 655.294
+            },
+            {
+              "time_s": 71.502,
+              "hz": 651.564
+            },
+            {
+              "time_s": 71.688,
+              "hz": 644.031
+            },
+            {
+              "time_s": 71.874,
+              "hz": 650.638
+            },
+            {
+              "time_s": 72.059,
+              "hz": 640.959
+            },
+            {
+              "time_s": 72.245,
+              "hz": 640.205
+            },
+            {
+              "time_s": 72.431,
+              "hz": 640.26
+            },
+            {
+              "time_s": 72.617,
+              "hz": 642.782
+            },
+            {
+              "time_s": 72.802,
+              "hz": 645.468
+            },
+            {
+              "time_s": 72.988,
+              "hz": 631.528
+            },
+            {
+              "time_s": 73.174,
+              "hz": 619.666
+            },
+            {
+              "time_s": 73.36,
+              "hz": 624.974
+            },
+            {
+              "time_s": 73.546,
+              "hz": 631.355
+            },
+            {
+              "time_s": 73.731,
+              "hz": 633.515
+            },
+            {
+              "time_s": 73.917,
+              "hz": 625.076
+            },
+            {
+              "time_s": 74.103,
+              "hz": 618.851
+            },
+            {
+              "time_s": 74.289,
+              "hz": 620.826
+            },
+            {
+              "time_s": 74.474,
+              "hz": 621.629
+            },
+            {
+              "time_s": 74.66,
+              "hz": 617.935
+            },
+            {
+              "time_s": 74.846,
+              "hz": 611.143
+            },
+            {
+              "time_s": 75.032,
+              "hz": 614.568
+            },
+            {
+              "time_s": 75.217,
+              "hz": 612.37
+            },
+            {
+              "time_s": 75.403,
+              "hz": 608.649
+            },
+            {
+              "time_s": 75.589,
+              "hz": 607.375
+            },
+            {
+              "time_s": 75.775,
+              "hz": 612.359
+            },
+            {
+              "time_s": 75.96,
+              "hz": 599.422
+            },
+            {
+              "time_s": 76.146,
+              "hz": 597.07
+            },
+            {
+              "time_s": 76.332,
+              "hz": 600.621
+            },
+            {
+              "time_s": 76.518,
+              "hz": 607.137
+            },
+            {
+              "time_s": 76.703,
+              "hz": 599.099
+            },
+            {
+              "time_s": 76.889,
+              "hz": 598.569
+            },
+            {
+              "time_s": 77.075,
+              "hz": 593.777
+            },
+            {
+              "time_s": 77.261,
+              "hz": 585.333
+            },
+            {
+              "time_s": 77.446,
+              "hz": 598.62
+            },
+            {
+              "time_s": 77.632,
+              "hz": 598.182
+            },
+            {
+              "time_s": 77.818,
+              "hz": 593.814
+            },
+            {
+              "time_s": 78.004,
+              "hz": 586.263
+            },
+            {
+              "time_s": 78.19,
+              "hz": 584.519
+            },
+            {
+              "time_s": 78.375,
+              "hz": 583.827
+            },
+            {
+              "time_s": 78.561,
+              "hz": 582.41
+            },
+            {
+              "time_s": 78.747,
+              "hz": 584.552
+            },
+            {
+              "time_s": 78.933,
+              "hz": 585.393
+            },
+            {
+              "time_s": 79.118,
+              "hz": 579.886
+            },
+            {
+              "time_s": 79.304,
+              "hz": 580.951
+            },
+            {
+              "time_s": 79.49,
+              "hz": 581.584
+            },
+            {
+              "time_s": 79.676,
+              "hz": 574.745
+            },
+            {
+              "time_s": 79.861,
+              "hz": 576.678
+            },
+            {
+              "time_s": 80.047,
+              "hz": 570.078
+            },
+            {
+              "time_s": 80.233,
+              "hz": 567.748
+            },
+            {
+              "time_s": 80.419,
+              "hz": 573.977
+            },
+            {
+              "time_s": 80.604,
+              "hz": 571.378
+            },
+            {
+              "time_s": 80.79,
+              "hz": 567.986
+            },
+            {
+              "time_s": 80.976,
+              "hz": 567.338
+            },
+            {
+              "time_s": 81.162,
+              "hz": 567.601
+            },
+            {
+              "time_s": 81.347,
+              "hz": 574.053
+            },
+            {
+              "time_s": 81.533,
+              "hz": 568.305
+            },
+            {
+              "time_s": 81.719,
+              "hz": 572.588
+            },
+            {
+              "time_s": 81.905,
+              "hz": 575.637
+            },
+            {
+              "time_s": 82.09,
+              "hz": 571.208
+            },
+            {
+              "time_s": 82.276,
+              "hz": 567.806
+            },
+            {
+              "time_s": 82.462,
+              "hz": 567.668
+            },
+            {
+              "time_s": 82.648,
+              "hz": 560.043
+            },
+            {
+              "time_s": 82.834,
+              "hz": 565.592
+            },
+            {
+              "time_s": 83.019,
+              "hz": 560.301
+            },
+            {
+              "time_s": 83.205,
+              "hz": 558.572
+            },
+            {
+              "time_s": 83.391,
+              "hz": 559.438
+            },
+            {
+              "time_s": 83.577,
+              "hz": 557.664
+            },
+            {
+              "time_s": 83.762,
+              "hz": 553.477
+            },
+            {
+              "time_s": 83.948,
+              "hz": 552.48
+            },
+            {
+              "time_s": 84.134,
+              "hz": 556.838
+            },
+            {
+              "time_s": 84.32,
+              "hz": 556.176
+            },
+            {
+              "time_s": 84.505,
+              "hz": 551.76
+            },
+            {
+              "time_s": 84.691,
+              "hz": 556.733
+            },
+            {
+              "time_s": 84.877,
+              "hz": 554.738
+            },
+            {
+              "time_s": 85.063,
+              "hz": 554.814
+            },
+            {
+              "time_s": 85.248,
+              "hz": 548.124
+            },
+            {
+              "time_s": 85.434,
+              "hz": 551.79
+            },
+            {
+              "time_s": 85.62,
+              "hz": 555.575
+            },
+            {
+              "time_s": 85.806,
+              "hz": 554.906
+            },
+            {
+              "time_s": 85.991,
+              "hz": 555.021
+            },
+            {
+              "time_s": 86.177,
+              "hz": 550.94
+            },
+            {
+              "time_s": 86.363,
+              "hz": 550.074
+            },
+            {
+              "time_s": 86.549,
+              "hz": 550.684
+            },
+            {
+              "time_s": 86.734,
+              "hz": 550.745
+            },
+            {
+              "time_s": 86.92,
+              "hz": 544.706
+            },
+            {
+              "time_s": 87.106,
+              "hz": 542.072
+            },
+            {
+              "time_s": 87.292,
+              "hz": 549.802
+            },
+            {
+              "time_s": 87.478,
+              "hz": 549.004
+            },
+            {
+              "time_s": 87.663,
+              "hz": 548.359
+            },
+            {
+              "time_s": 87.849,
+              "hz": 547.185
+            },
+            {
+              "time_s": 88.035,
+              "hz": 548.706
+            },
+            {
+              "time_s": 88.221,
+              "hz": 548.711
+            },
+            {
+              "time_s": 88.406,
+              "hz": 547.445
+            },
+            {
+              "time_s": 88.592,
+              "hz": 544.42
+            },
+            {
+              "time_s": 88.778,
+              "hz": 539.367
+            },
+            {
+              "time_s": 88.964,
+              "hz": 541.863
+            },
+            {
+              "time_s": 89.149,
+              "hz": 542.479
+            },
+            {
+              "time_s": 89.335,
+              "hz": 539.7
+            },
+            {
+              "time_s": 89.521,
+              "hz": 542.066
+            },
+            {
+              "time_s": 89.707,
+              "hz": 538.43
+            },
+            {
+              "time_s": 89.892,
+              "hz": 539.064
+            },
+            {
+              "time_s": 90.078,
+              "hz": 539.803
+            },
+            {
+              "time_s": 90.264,
+              "hz": 542.34
+            },
+            {
+              "time_s": 90.45,
+              "hz": 540.629
+            },
+            {
+              "time_s": 90.635,
+              "hz": 538.894
+            },
+            {
+              "time_s": 90.821,
+              "hz": 538.833
+            },
+            {
+              "time_s": 91.007,
+              "hz": 537.369
+            },
+            {
+              "time_s": 91.193,
+              "hz": 537.982
+            },
+            {
+              "time_s": 91.378,
+              "hz": 535.873
+            },
+            {
+              "time_s": 91.564,
+              "hz": 537.887
+            },
+            {
+              "time_s": 91.75,
+              "hz": 540.613
+            },
+            {
+              "time_s": 91.936,
+              "hz": 534.827
+            },
+            {
+              "time_s": 92.121,
+              "hz": 536.462
+            },
+            {
+              "time_s": 92.307,
+              "hz": 535.736
+            },
+            {
+              "time_s": 92.493,
+              "hz": 536.097
+            },
+            {
+              "time_s": 92.679,
+              "hz": 534.721
+            },
+            {
+              "time_s": 92.865,
+              "hz": 534.876
+            },
+            {
+              "time_s": 93.05,
+              "hz": 534.098
+            },
+            {
+              "time_s": 93.236,
+              "hz": 533.003
+            },
+            {
+              "time_s": 93.422,
+              "hz": 531.926
+            },
+            {
+              "time_s": 93.608,
+              "hz": 533.445
+            },
+            {
+              "time_s": 93.793,
+              "hz": 531.288
+            },
+            {
+              "time_s": 93.979,
+              "hz": 532.92
+            },
+            {
+              "time_s": 94.165,
+              "hz": 530.015
+            },
+            {
+              "time_s": 94.351,
+              "hz": 535.113
+            },
+            {
+              "time_s": 94.536,
+              "hz": 533.563
+            },
+            {
+              "time_s": 94.722,
+              "hz": 534.204
+            },
+            {
+              "time_s": 94.908,
+              "hz": 532.281
+            },
+            {
+              "time_s": 95.094,
+              "hz": 532.911
+            },
+            {
+              "time_s": 95.279,
+              "hz": 533.321
+            },
+            {
+              "time_s": 95.465,
+              "hz": 531.777
+            },
+            {
+              "time_s": 95.651,
+              "hz": 529.79
+            },
+            {
+              "time_s": 95.837,
+              "hz": 535.464
+            },
+            {
+              "time_s": 96.022,
+              "hz": 531.173
+            },
+            {
+              "time_s": 96.208,
+              "hz": 528.669
+            },
+            {
+              "time_s": 96.394,
+              "hz": 526.185
+            },
+            {
+              "time_s": 96.58,
+              "hz": 526.427
+            },
+            {
+              "time_s": 96.765,
+              "hz": 529.918
+            },
+            {
+              "time_s": 96.951,
+              "hz": 530.494
+            },
+            {
+              "time_s": 97.137,
+              "hz": 529.328
+            },
+            {
+              "time_s": 97.323,
+              "hz": 526.384
+            },
+            {
+              "time_s": 97.509,
+              "hz": 529.302
+            },
+            {
+              "time_s": 97.694,
+              "hz": 527.075
+            },
+            {
+              "time_s": 97.88,
+              "hz": 527.239
+            },
+            {
+              "time_s": 98.066,
+              "hz": 519.662
+            },
+            {
+              "time_s": 98.252,
+              "hz": 522.083
+            },
+            {
+              "time_s": 98.437,
+              "hz": 527.279
+            },
+            {
+              "time_s": 98.623,
+              "hz": 523.222
+            },
+            {
+              "time_s": 98.809,
+              "hz": 525.496
+            },
+            {
+              "time_s": 98.995,
+              "hz": 523.295
+            },
+            {
+              "time_s": 99.18,
+              "hz": 527.011
+            },
+            {
+              "time_s": 99.366,
+              "hz": 518.659
+            },
+            {
+              "time_s": 99.552,
+              "hz": 520.53
+            },
+            {
+              "time_s": 99.738,
+              "hz": 525.651
+            },
+            {
+              "time_s": 99.923,
+              "hz": 527.663
+            },
+            {
+              "time_s": 100.109,
+              "hz": 524.812
+            },
+            {
+              "time_s": 100.295,
+              "hz": 525.772
+            },
+            {
+              "time_s": 100.481,
+              "hz": 524.301
+            },
+            {
+              "time_s": 100.666,
+              "hz": 524.151
+            },
+            {
+              "time_s": 100.852,
+              "hz": 524.865
+            },
+            {
+              "time_s": 101.038,
+              "hz": 522.539
+            },
+            {
+              "time_s": 101.224,
+              "hz": 523.353
+            },
+            {
+              "time_s": 101.409,
+              "hz": 525.079
+            },
+            {
+              "time_s": 101.595,
+              "hz": 516.411
+            },
+            {
+              "time_s": 101.781,
+              "hz": 522.036
+            },
+            {
+              "time_s": 101.967,
+              "hz": 523.514
+            },
+            {
+              "time_s": 102.153,
+              "hz": 525.269
+            },
+            {
+              "time_s": 102.338,
+              "hz": 527.899
+            },
+            {
+              "time_s": 102.524,
+              "hz": 522.988
+            },
+            {
+              "time_s": 102.71,
+              "hz": 521.875
+            },
+            {
+              "time_s": 102.896,
+              "hz": 524.778
+            },
+            {
+              "time_s": 103.081,
+              "hz": 525.695
+            },
+            {
+              "time_s": 103.267,
+              "hz": 528.315
+            },
+            {
+              "time_s": 103.453,
+              "hz": 519.86
+            },
+            {
+              "time_s": 103.639,
+              "hz": 525.897
+            },
+            {
+              "time_s": 103.824,
+              "hz": 522.327
+            },
+            {
+              "time_s": 104.01,
+              "hz": 520.792
+            },
+            {
+              "time_s": 104.196,
+              "hz": 519.751
+            },
+            {
+              "time_s": 104.382,
+              "hz": 522.302
+            },
+            {
+              "time_s": 104.567,
+              "hz": 529.636
+            },
+            {
+              "time_s": 104.753,
+              "hz": 520.318
+            },
+            {
+              "time_s": 104.939,
+              "hz": 522.937
+            },
+            {
+              "time_s": 105.125,
+              "hz": 524.619
+            },
+            {
+              "time_s": 105.31,
+              "hz": 520.727
+            },
+            {
+              "time_s": 105.496,
+              "hz": 520.921
+            },
+            {
+              "time_s": 105.682,
+              "hz": 524.612
+            },
+            {
+              "time_s": 105.868,
+              "hz": 517.504
+            },
+            {
+              "time_s": 106.053,
+              "hz": 519.828
+            },
+            {
+              "time_s": 106.239,
+              "hz": 518.987
+            },
+            {
+              "time_s": 106.425,
+              "hz": 522.46
+            },
+            {
+              "time_s": 106.611,
+              "hz": 518.345
+            },
+            {
+              "time_s": 106.797,
+              "hz": 517.76
+            },
+            {
+              "time_s": 106.982,
+              "hz": 515.994
+            },
+            {
+              "time_s": 107.168,
+              "hz": 515.74
+            },
+            {
+              "time_s": 107.354,
+              "hz": 523.946
+            },
+            {
+              "time_s": 107.54,
+              "hz": 519.179
+            },
+            {
+              "time_s": 107.725,
+              "hz": 522.203
+            },
+            {
+              "time_s": 107.911,
+              "hz": 518.043
+            },
+            {
+              "time_s": 108.097,
+              "hz": 519.668
+            },
+            {
+              "time_s": 108.283,
+              "hz": 520.733
+            },
+            {
+              "time_s": 108.468,
+              "hz": 517.601
+            },
+            {
+              "time_s": 108.654,
+              "hz": 516.333
+            },
+            {
+              "time_s": 108.84,
+              "hz": 523.286
+            },
+            {
+              "time_s": 109.026,
+              "hz": 522.521
+            },
+            {
+              "time_s": 109.211,
+              "hz": 520.766
+            },
+            {
+              "time_s": 109.397,
+              "hz": 521.106
+            },
+            {
+              "time_s": 109.583,
+              "hz": 518.933
+            },
+            {
+              "time_s": 109.769,
+              "hz": 514.745
+            },
+            {
+              "time_s": 109.954,
+              "hz": 519.117
+            },
+            {
+              "time_s": 110.14,
+              "hz": 519.166
+            },
+            {
+              "time_s": 110.326,
+              "hz": 514.544
+            },
+            {
+              "time_s": 110.512,
+              "hz": 518.104
+            },
+            {
+              "time_s": 110.697,
+              "hz": 517.758
+            },
+            {
+              "time_s": 110.883,
+              "hz": 517.738
+            },
+            {
+              "time_s": 111.069,
+              "hz": 515.989
+            },
+            {
+              "time_s": 111.255,
+              "hz": 516.867
+            },
+            {
+              "time_s": 111.44,
+              "hz": 519.01
+            },
+            {
+              "time_s": 111.626,
+              "hz": 520.605
+            },
+            {
+              "time_s": 111.812,
+              "hz": 514.154
+            },
+            {
+              "time_s": 111.998,
+              "hz": 518.523
+            },
+            {
+              "time_s": 112.184,
+              "hz": 518.811
+            },
+            {
+              "time_s": 112.369,
+              "hz": 514.793
+            },
+            {
+              "time_s": 112.555,
+              "hz": 517.356
+            },
+            {
+              "time_s": 112.741,
+              "hz": 515.585
+            },
+            {
+              "time_s": 112.927,
+              "hz": 519.662
+            },
+            {
+              "time_s": 113.112,
+              "hz": 513.482
+            },
+            {
+              "time_s": 113.298,
+              "hz": 513.987
+            },
+            {
+              "time_s": 113.484,
+              "hz": 513.647
+            },
+            {
+              "time_s": 113.67,
+              "hz": 513.261
+            },
+            {
+              "time_s": 113.855,
+              "hz": 512.524
+            },
+            {
+              "time_s": 114.227,
+              "hz": 519.013
+            },
+            {
+              "time_s": 114.413,
+              "hz": 516.942
+            },
+            {
+              "time_s": 114.598,
+              "hz": 510.85
+            },
+            {
+              "time_s": 114.784,
+              "hz": 517.283
+            },
+            {
+              "time_s": 114.97,
+              "hz": 515.676
+            },
+            {
+              "time_s": 115.156,
+              "hz": 515.922
+            },
+            {
+              "time_s": 115.341,
+              "hz": 515.92
+            },
+            {
+              "time_s": 115.527,
+              "hz": 516.089
+            },
+            {
+              "time_s": 115.713,
+              "hz": 514.253
+            },
+            {
+              "time_s": 115.899,
+              "hz": 514.956
+            },
+            {
+              "time_s": 116.084,
+              "hz": 515.302
+            },
+            {
+              "time_s": 116.27,
+              "hz": 515.236
+            },
+            {
+              "time_s": 116.456,
+              "hz": 518.053
+            },
+            {
+              "time_s": 116.642,
+              "hz": 505.743
+            },
+            {
+              "time_s": 116.828,
+              "hz": 506.338
+            },
+            {
+              "time_s": 117.013,
+              "hz": 516.106
+            },
+            {
+              "time_s": 117.199,
+              "hz": 515.795
+            },
+            {
+              "time_s": 117.385,
+              "hz": 514.119
+            },
+            {
+              "time_s": 117.571,
+              "hz": 517.417
+            },
+            {
+              "time_s": 117.756,
+              "hz": 517.381
+            },
+            {
+              "time_s": 117.942,
+              "hz": 515.082
+            },
+            {
+              "time_s": 118.128,
+              "hz": 516.545
+            },
+            {
+              "time_s": 118.314,
+              "hz": 515.271
+            },
+            {
+              "time_s": 118.499,
+              "hz": 514.462
+            },
+            {
+              "time_s": 118.685,
+              "hz": 512.175
+            },
+            {
+              "time_s": 118.871,
+              "hz": 512.221
+            },
+            {
+              "time_s": 119.057,
+              "hz": 511.068
+            },
+            {
+              "time_s": 119.242,
+              "hz": 510.766
+            },
+            {
+              "time_s": 119.428,
+              "hz": 510.74
+            },
+            {
+              "time_s": 119.614,
+              "hz": 508.576
+            },
+            {
+              "time_s": 119.8,
+              "hz": 516.881
+            },
+            {
+              "time_s": 119.985,
+              "hz": 510.021
+            },
+            {
+              "time_s": 120.171,
+              "hz": 516.792
+            },
+            {
+              "time_s": 120.357,
+              "hz": 508.788
+            },
+            {
+              "time_s": 120.543,
+              "hz": 510.802
+            },
+            {
+              "time_s": 120.728,
+              "hz": 508.705
+            },
+            {
+              "time_s": 120.914,
+              "hz": 512.576
+            },
+            {
+              "time_s": 121.1,
+              "hz": 511.211
+            },
+            {
+              "time_s": 121.286,
+              "hz": 514.42
+            },
+            {
+              "time_s": 121.472,
+              "hz": 513.061
+            },
+            {
+              "time_s": 121.657,
+              "hz": 508.802
+            },
+            {
+              "time_s": 121.843,
+              "hz": 510.97
+            },
+            {
+              "time_s": 122.029,
+              "hz": 512.503
+            },
+            {
+              "time_s": 122.215,
+              "hz": 517.521
+            },
+            {
+              "time_s": 122.4,
+              "hz": 516.055
+            },
+            {
+              "time_s": 122.586,
+              "hz": 513.972
+            },
+            {
+              "time_s": 122.772,
+              "hz": 518.913
+            },
+            {
+              "time_s": 122.958,
+              "hz": 506.83
+            },
+            {
+              "time_s": 123.143,
+              "hz": 513.516
+            },
+            {
+              "time_s": 123.329,
+              "hz": 510.794
+            },
+            {
+              "time_s": 123.515,
+              "hz": 514.757
+            },
+            {
+              "time_s": 123.701,
+              "hz": 509.904
+            },
+            {
+              "time_s": 123.886,
+              "hz": 513.08
+            },
+            {
+              "time_s": 124.072,
+              "hz": 512.319
+            },
+            {
+              "time_s": 124.258,
+              "hz": 511.59
+            },
+            {
+              "time_s": 124.444,
+              "hz": 511.795
+            },
+            {
+              "time_s": 124.629,
+              "hz": 508.407
+            }
+          ],
+          "min_hit_fraction": 0.75,
+          "min_coverage": 0.75,
+          "max_rmse_hz": 8,
+          "require_strong": true
+        }
+      ],
+      "note": "All publisher anchors evaluated against one continuous detected ridge. A failed recovery is reported as failure, not absence of an aircraft."
+    },
+    {
+      "id": "r21-short-pass",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/pathak-2026/N563FX_R21/audio.wav",
+      "detector_profile": "short-pass",
+      "labels": [
+        {
+          "id": "publisher-frequency-trace",
+          "anchors": [
+            {
+              "time_s": 5.000000000000004,
+              "hz": 1253.572
+            },
+            {
+              "time_s": 5.186000000000004,
+              "hz": 1251.051
+            },
+            {
+              "time_s": 5.372000000000004,
+              "hz": 1223.993
+            },
+            {
+              "time_s": 5.558000000000004,
+              "hz": 1239.128
+            },
+            {
+              "time_s": 5.743000000000005,
+              "hz": 1242.478
+            },
+            {
+              "time_s": 5.929000000000005,
+              "hz": 1249.774
+            },
+            {
+              "time_s": 6.115000000000005,
+              "hz": 1248.102
+            },
+            {
+              "time_s": 6.301000000000005,
+              "hz": 1254.02
+            },
+            {
+              "time_s": 6.486000000000004,
+              "hz": 1252.088
+            },
+            {
+              "time_s": 6.672000000000004,
+              "hz": 1250.873
+            },
+            {
+              "time_s": 6.858000000000004,
+              "hz": 1261.111
+            },
+            {
+              "time_s": 7.044000000000004,
+              "hz": 1263.824
+            },
+            {
+              "time_s": 7.2290000000000045,
+              "hz": 1291.651
+            },
+            {
+              "time_s": 7.4150000000000045,
+              "hz": 1286.219
+            },
+            {
+              "time_s": 7.601000000000004,
+              "hz": 1268.22
+            },
+            {
+              "time_s": 7.787000000000004,
+              "hz": 1251.164
+            },
+            {
+              "time_s": 7.972000000000005,
+              "hz": 1253.664
+            },
+            {
+              "time_s": 8.158000000000005,
+              "hz": 1270.213
+            },
+            {
+              "time_s": 8.344000000000005,
+              "hz": 1232.022
+            },
+            {
+              "time_s": 8.530000000000005,
+              "hz": 1236.318
+            },
+            {
+              "time_s": 8.715000000000003,
+              "hz": 1231.079
+            },
+            {
+              "time_s": 8.901000000000003,
+              "hz": 1226.314
+            },
+            {
+              "time_s": 9.087000000000003,
+              "hz": 1236.92
+            },
+            {
+              "time_s": 9.273000000000003,
+              "hz": 1247.337
+            },
+            {
+              "time_s": 9.458000000000006,
+              "hz": 1253.082
+            },
+            {
+              "time_s": 9.644000000000005,
+              "hz": 1235.56
+            },
+            {
+              "time_s": 9.830000000000005,
+              "hz": 1238.027
+            },
+            {
+              "time_s": 10.016000000000005,
+              "hz": 1208.399
+            },
+            {
+              "time_s": 10.201000000000004,
+              "hz": 1209.268
+            },
+            {
+              "time_s": 10.387000000000004,
+              "hz": 1203.38
+            },
+            {
+              "time_s": 10.573000000000004,
+              "hz": 1222.171
+            },
+            {
+              "time_s": 10.759000000000004,
+              "hz": 1217.232
+            },
+            {
+              "time_s": 10.945000000000004,
+              "hz": 1230.043
+            },
+            {
+              "time_s": 11.130000000000004,
+              "hz": 1208.562
+            },
+            {
+              "time_s": 11.316000000000004,
+              "hz": 1251.766
+            },
+            {
+              "time_s": 11.502000000000004,
+              "hz": 1234.115
+            },
+            {
+              "time_s": 11.688000000000004,
+              "hz": 1228.869
+            },
+            {
+              "time_s": 11.873000000000005,
+              "hz": 1234.174
+            },
+            {
+              "time_s": 12.059000000000005,
+              "hz": 1231.187
+            },
+            {
+              "time_s": 12.245000000000005,
+              "hz": 1266.183
+            },
+            {
+              "time_s": 12.431000000000004,
+              "hz": 1265.62
+            },
+            {
+              "time_s": 12.616000000000003,
+              "hz": 1276.045
+            },
+            {
+              "time_s": 12.802000000000003,
+              "hz": 1247.723
+            },
+            {
+              "time_s": 12.988000000000003,
+              "hz": 1248.7
+            },
+            {
+              "time_s": 13.174000000000003,
+              "hz": 1190.658
+            },
+            {
+              "time_s": 13.359000000000005,
+              "hz": 1204.314
+            },
+            {
+              "time_s": 13.545000000000005,
+              "hz": 1203.566
+            },
+            {
+              "time_s": 13.731000000000005,
+              "hz": 1205.064
+            },
+            {
+              "time_s": 13.917000000000005,
+              "hz": 1219.937
+            },
+            {
+              "time_s": 14.102000000000004,
+              "hz": 1207.653
+            },
+            {
+              "time_s": 14.288000000000004,
+              "hz": 1204.901
+            },
+            {
+              "time_s": 14.474000000000004,
+              "hz": 1212.87
+            },
+            {
+              "time_s": 14.660000000000004,
+              "hz": 1230.553
+            },
+            {
+              "time_s": 14.845000000000006,
+              "hz": 1230.112
+            },
+            {
+              "time_s": 15.031000000000006,
+              "hz": 1198.338
+            },
+            {
+              "time_s": 15.217000000000006,
+              "hz": 1180.557
+            },
+            {
+              "time_s": 15.403000000000006,
+              "hz": 1175.035
+            },
+            {
+              "time_s": 15.589000000000006,
+              "hz": 1178.816
+            },
+            {
+              "time_s": 15.774000000000004,
+              "hz": 1173.876
+            },
+            {
+              "time_s": 15.960000000000004,
+              "hz": 1187.055
+            },
+            {
+              "time_s": 16.146000000000004,
+              "hz": 1196.212
+            },
+            {
+              "time_s": 16.332000000000004,
+              "hz": 1205.342
+            },
+            {
+              "time_s": 16.517000000000003,
+              "hz": 1206.247
+            },
+            {
+              "time_s": 16.703000000000003,
+              "hz": 1195.546
+            },
+            {
+              "time_s": 16.889000000000003,
+              "hz": 1206.543
+            },
+            {
+              "time_s": 17.075000000000003,
+              "hz": 1236.446
+            },
+            {
+              "time_s": 17.260000000000005,
+              "hz": 1234.716
+            },
+            {
+              "time_s": 17.446000000000005,
+              "hz": 1223.555
+            },
+            {
+              "time_s": 17.632000000000005,
+              "hz": 1213.425
+            },
+            {
+              "time_s": 17.818000000000005,
+              "hz": 1173.042
+            },
+            {
+              "time_s": 18.003000000000004,
+              "hz": 1188.904
+            },
+            {
+              "time_s": 18.189000000000004,
+              "hz": 1225.239
+            },
+            {
+              "time_s": 18.375000000000004,
+              "hz": 1216.818
+            },
+            {
+              "time_s": 18.561000000000003,
+              "hz": 1185.967
+            },
+            {
+              "time_s": 18.746000000000006,
+              "hz": 1165.523
+            },
+            {
+              "time_s": 18.932000000000006,
+              "hz": 1175.24
+            },
+            {
+              "time_s": 19.118000000000006,
+              "hz": 1191.035
+            },
+            {
+              "time_s": 19.304000000000006,
+              "hz": 1203.561
+            },
+            {
+              "time_s": 19.489000000000004,
+              "hz": 1186.67
+            },
+            {
+              "time_s": 19.675000000000004,
+              "hz": 1176.342
+            },
+            {
+              "time_s": 19.861000000000004,
+              "hz": 1190.731
+            },
+            {
+              "time_s": 20.047000000000004,
+              "hz": 1198.647
+            },
+            {
+              "time_s": 20.233000000000004,
+              "hz": 1181.628
+            },
+            {
+              "time_s": 20.418000000000003,
+              "hz": 1174.77
+            },
+            {
+              "time_s": 20.604000000000003,
+              "hz": 1198.832
+            },
+            {
+              "time_s": 20.790000000000003,
+              "hz": 1195.811
+            },
+            {
+              "time_s": 20.976000000000003,
+              "hz": 1195.452
+            },
+            {
+              "time_s": 21.161000000000005,
+              "hz": 1199.749
+            },
+            {
+              "time_s": 21.347000000000005,
+              "hz": 1195.507
+            },
+            {
+              "time_s": 21.533000000000005,
+              "hz": 1175.506
+            },
+            {
+              "time_s": 21.719000000000005,
+              "hz": 1194.178
+            },
+            {
+              "time_s": 21.904000000000003,
+              "hz": 1192.85
+            },
+            {
+              "time_s": 22.090000000000003,
+              "hz": 1173.357
+            },
+            {
+              "time_s": 22.276000000000003,
+              "hz": 1180.64
+            },
+            {
+              "time_s": 22.462000000000003,
+              "hz": 1168.584
+            },
+            {
+              "time_s": 22.647000000000002,
+              "hz": 1168.01
+            },
+            {
+              "time_s": 22.833000000000002,
+              "hz": 1165.718
+            },
+            {
+              "time_s": 23.019000000000002,
+              "hz": 1188.955
+            },
+            {
+              "time_s": 23.205000000000002,
+              "hz": 1171.605
+            },
+            {
+              "time_s": 23.390000000000004,
+              "hz": 1181.798
+            },
+            {
+              "time_s": 23.576000000000004,
+              "hz": 1194.007
+            },
+            {
+              "time_s": 23.762000000000004,
+              "hz": 1215.124
+            },
+            {
+              "time_s": 23.948000000000004,
+              "hz": 1220.775
+            },
+            {
+              "time_s": 24.133000000000003,
+              "hz": 1208.118
+            },
+            {
+              "time_s": 24.319000000000003,
+              "hz": 1209.862
+            },
+            {
+              "time_s": 24.505000000000003,
+              "hz": 1215.053
+            },
+            {
+              "time_s": 24.691000000000003,
+              "hz": 1193.658
+            },
+            {
+              "time_s": 24.877000000000002,
+              "hz": 1166.13
+            },
+            {
+              "time_s": 25.062000000000005,
+              "hz": 1201.403
+            },
+            {
+              "time_s": 25.248000000000005,
+              "hz": 1203.449
+            },
+            {
+              "time_s": 25.434000000000005,
+              "hz": 1186.67
+            },
+            {
+              "time_s": 25.620000000000005,
+              "hz": 1173.055
+            },
+            {
+              "time_s": 25.805000000000003,
+              "hz": 1182.243
+            },
+            {
+              "time_s": 25.991000000000003,
+              "hz": 1176.425
+            },
+            {
+              "time_s": 26.177000000000003,
+              "hz": 1165.753
+            },
+            {
+              "time_s": 26.363000000000003,
+              "hz": 1175.642
+            },
+            {
+              "time_s": 26.920000000000005,
+              "hz": 1122.885
+            },
+            {
+              "time_s": 27.106000000000005,
+              "hz": 1131.474
+            },
+            {
+              "time_s": 27.291000000000004,
+              "hz": 1182.352
+            },
+            {
+              "time_s": 27.477000000000004,
+              "hz": 1160.504
+            },
+            {
+              "time_s": 27.663000000000004,
+              "hz": 1149.58
+            },
+            {
+              "time_s": 27.849000000000004,
+              "hz": 1150.995
+            },
+            {
+              "time_s": 28.034000000000002,
+              "hz": 1148.685
+            },
+            {
+              "time_s": 28.220000000000002,
+              "hz": 1159.066
+            },
+            {
+              "time_s": 28.406000000000002,
+              "hz": 1163.214
+            },
+            {
+              "time_s": 28.592000000000002,
+              "hz": 1175.438
+            },
+            {
+              "time_s": 28.777000000000005,
+              "hz": 1144.736
+            },
+            {
+              "time_s": 28.963000000000005,
+              "hz": 1151.58
+            },
+            {
+              "time_s": 29.149000000000004,
+              "hz": 1174.294
+            },
+            {
+              "time_s": 29.335000000000004,
+              "hz": 1177.744
+            },
+            {
+              "time_s": 29.520000000000003,
+              "hz": 1175.324
+            },
+            {
+              "time_s": 29.706000000000003,
+              "hz": 1173.058
+            },
+            {
+              "time_s": 29.892000000000003,
+              "hz": 1144.985
+            },
+            {
+              "time_s": 30.078000000000003,
+              "hz": 1153.69
+            },
+            {
+              "time_s": 30.264000000000003,
+              "hz": 1174.191
+            },
+            {
+              "time_s": 30.449000000000005,
+              "hz": 1185.95
+            },
+            {
+              "time_s": 30.635000000000005,
+              "hz": 1193.159
+            },
+            {
+              "time_s": 30.821000000000005,
+              "hz": 1144.498
+            },
+            {
+              "time_s": 31.007000000000005,
+              "hz": 1150.244
+            },
+            {
+              "time_s": 31.192000000000004,
+              "hz": 1142.525
+            },
+            {
+              "time_s": 31.378000000000004,
+              "hz": 1149.271
+            },
+            {
+              "time_s": 31.564000000000004,
+              "hz": 1158.52
+            },
+            {
+              "time_s": 31.750000000000004,
+              "hz": 1154.409
+            },
+            {
+              "time_s": 31.935000000000002,
+              "hz": 1155.682
+            },
+            {
+              "time_s": 32.121,
+              "hz": 1149.722
+            },
+            {
+              "time_s": 32.307,
+              "hz": 1149.303
+            },
+            {
+              "time_s": 32.493,
+              "hz": 1151.472
+            },
+            {
+              "time_s": 32.678000000000004,
+              "hz": 1161.258
+            },
+            {
+              "time_s": 32.864000000000004,
+              "hz": 1158.202
+            },
+            {
+              "time_s": 33.050000000000004,
+              "hz": 1137.901
+            },
+            {
+              "time_s": 33.236000000000004,
+              "hz": 1141.252
+            },
+            {
+              "time_s": 33.42100000000001,
+              "hz": 1124.761
+            },
+            {
+              "time_s": 33.607000000000006,
+              "hz": 1126.301
+            },
+            {
+              "time_s": 33.793000000000006,
+              "hz": 1129.843
+            },
+            {
+              "time_s": 33.979000000000006,
+              "hz": 1136.365
+            },
+            {
+              "time_s": 34.16400000000001,
+              "hz": 1116.182
+            },
+            {
+              "time_s": 34.35000000000001,
+              "hz": 1126.123
+            },
+            {
+              "time_s": 34.53600000000001,
+              "hz": 1133.796
+            },
+            {
+              "time_s": 34.72200000000001,
+              "hz": 1136.572
+            },
+            {
+              "time_s": 34.90800000000001,
+              "hz": 1133.414
+            },
+            {
+              "time_s": 35.093,
+              "hz": 1131.972
+            },
+            {
+              "time_s": 35.279,
+              "hz": 1130.567
+            },
+            {
+              "time_s": 35.465,
+              "hz": 1128.086
+            },
+            {
+              "time_s": 35.651,
+              "hz": 1121.168
+            },
+            {
+              "time_s": 35.836000000000006,
+              "hz": 1115.61
+            },
+            {
+              "time_s": 36.022000000000006,
+              "hz": 1122.606
+            },
+            {
+              "time_s": 36.208000000000006,
+              "hz": 1107.814
+            },
+            {
+              "time_s": 36.394000000000005,
+              "hz": 1120.767
+            },
+            {
+              "time_s": 36.57900000000001,
+              "hz": 1120.288
+            },
+            {
+              "time_s": 36.76500000000001,
+              "hz": 1118.047
+            },
+            {
+              "time_s": 36.95100000000001,
+              "hz": 1138.12
+            },
+            {
+              "time_s": 37.13700000000001,
+              "hz": 1111.373
+            },
+            {
+              "time_s": 37.32200000000001,
+              "hz": 1112.69
+            },
+            {
+              "time_s": 37.50800000000001,
+              "hz": 1126.695
+            },
+            {
+              "time_s": 37.69400000000001,
+              "hz": 1122.131
+            },
+            {
+              "time_s": 37.88000000000001,
+              "hz": 1109.043
+            },
+            {
+              "time_s": 38.065000000000005,
+              "hz": 1109.172
+            },
+            {
+              "time_s": 38.251000000000005,
+              "hz": 1106.778
+            },
+            {
+              "time_s": 38.437000000000005,
+              "hz": 1106.595
+            },
+            {
+              "time_s": 38.623000000000005,
+              "hz": 1113.235
+            },
+            {
+              "time_s": 38.80800000000001,
+              "hz": 1100.287
+            },
+            {
+              "time_s": 38.99400000000001,
+              "hz": 1106.486
+            },
+            {
+              "time_s": 39.18000000000001,
+              "hz": 1121.824
+            },
+            {
+              "time_s": 39.36600000000001,
+              "hz": 1108.418
+            },
+            {
+              "time_s": 39.55200000000001,
+              "hz": 1110.553
+            },
+            {
+              "time_s": 39.73700000000001,
+              "hz": 1107.746
+            },
+            {
+              "time_s": 39.92300000000001,
+              "hz": 1100.8
+            },
+            {
+              "time_s": 40.10900000000001,
+              "hz": 1109.432
+            },
+            {
+              "time_s": 40.29500000000001,
+              "hz": 1116.36
+            },
+            {
+              "time_s": 40.480000000000004,
+              "hz": 1101.694
+            },
+            {
+              "time_s": 40.666000000000004,
+              "hz": 1112.457
+            },
+            {
+              "time_s": 40.852000000000004,
+              "hz": 1103.282
+            },
+            {
+              "time_s": 41.038000000000004,
+              "hz": 1111.729
+            },
+            {
+              "time_s": 41.223000000000006,
+              "hz": 1106.98
+            },
+            {
+              "time_s": 41.409000000000006,
+              "hz": 1097.686
+            },
+            {
+              "time_s": 41.595000000000006,
+              "hz": 1098.478
+            },
+            {
+              "time_s": 41.781000000000006,
+              "hz": 1100.842
+            },
+            {
+              "time_s": 41.96600000000001,
+              "hz": 1094.383
+            },
+            {
+              "time_s": 42.15200000000001,
+              "hz": 1094.285
+            },
+            {
+              "time_s": 42.33800000000001,
+              "hz": 1103.552
+            },
+            {
+              "time_s": 42.52400000000001,
+              "hz": 1097.747
+            },
+            {
+              "time_s": 42.70900000000001,
+              "hz": 1093.671
+            },
+            {
+              "time_s": 42.89500000000001,
+              "hz": 1087.374
+            },
+            {
+              "time_s": 43.08100000000001,
+              "hz": 1094.125
+            },
+            {
+              "time_s": 43.26700000000001,
+              "hz": 1088.456
+            },
+            {
+              "time_s": 43.452000000000005,
+              "hz": 1086.844
+            },
+            {
+              "time_s": 43.638000000000005,
+              "hz": 1085.436
+            },
+            {
+              "time_s": 43.824000000000005,
+              "hz": 1085.199
+            },
+            {
+              "time_s": 44.010000000000005,
+              "hz": 1084.796
+            },
+            {
+              "time_s": 44.196000000000005,
+              "hz": 1087.744
+            },
+            {
+              "time_s": 44.38100000000001,
+              "hz": 1075.966
+            },
+            {
+              "time_s": 44.56700000000001,
+              "hz": 1074.809
+            },
+            {
+              "time_s": 44.75300000000001,
+              "hz": 1075.129
+            },
+            {
+              "time_s": 44.93900000000001,
+              "hz": 1072.947
+            },
+            {
+              "time_s": 45.12400000000001,
+              "hz": 1073.802
+            },
+            {
+              "time_s": 45.31000000000001,
+              "hz": 1085.079
+            },
+            {
+              "time_s": 45.49600000000001,
+              "hz": 1078.48
+            },
+            {
+              "time_s": 45.68200000000001,
+              "hz": 1074.9
+            },
+            {
+              "time_s": 45.867000000000004,
+              "hz": 1070.303
+            },
+            {
+              "time_s": 46.053000000000004,
+              "hz": 1070.091
+            },
+            {
+              "time_s": 46.239000000000004,
+              "hz": 1077.294
+            },
+            {
+              "time_s": 46.425000000000004,
+              "hz": 1065.545
+            },
+            {
+              "time_s": 46.61000000000001,
+              "hz": 1061.904
+            },
+            {
+              "time_s": 46.79600000000001,
+              "hz": 1065.281
+            },
+            {
+              "time_s": 46.982000000000006,
+              "hz": 1068.585
+            },
+            {
+              "time_s": 47.168000000000006,
+              "hz": 1064.991
+            },
+            {
+              "time_s": 47.35300000000001,
+              "hz": 1044.479
+            },
+            {
+              "time_s": 47.53900000000001,
+              "hz": 1055.396
+            },
+            {
+              "time_s": 47.72500000000001,
+              "hz": 1051.828
+            },
+            {
+              "time_s": 47.91100000000001,
+              "hz": 1050.955
+            },
+            {
+              "time_s": 48.096000000000004,
+              "hz": 1053.575
+            },
+            {
+              "time_s": 48.282000000000004,
+              "hz": 1042.245
+            },
+            {
+              "time_s": 48.46800000000001,
+              "hz": 1045.146
+            },
+            {
+              "time_s": 48.65400000000001,
+              "hz": 1040.901
+            },
+            {
+              "time_s": 48.84000000000001,
+              "hz": 1043.57
+            },
+            {
+              "time_s": 49.025000000000006,
+              "hz": 1028.545
+            },
+            {
+              "time_s": 49.211000000000006,
+              "hz": 1035.24
+            },
+            {
+              "time_s": 49.397000000000006,
+              "hz": 1029.997
+            },
+            {
+              "time_s": 49.583000000000006,
+              "hz": 1033.594
+            },
+            {
+              "time_s": 49.76800000000001,
+              "hz": 1030.902
+            },
+            {
+              "time_s": 49.95400000000001,
+              "hz": 1029.75
+            },
+            {
+              "time_s": 50.14000000000001,
+              "hz": 1025.519
+            },
+            {
+              "time_s": 50.32600000000001,
+              "hz": 1018.837
+            },
+            {
+              "time_s": 50.51100000000001,
+              "hz": 1018.907
+            },
+            {
+              "time_s": 50.69700000000001,
+              "hz": 1017.444
+            },
+            {
+              "time_s": 50.88300000000001,
+              "hz": 1013.888
+            },
+            {
+              "time_s": 51.06900000000001,
+              "hz": 1012.061
+            },
+            {
+              "time_s": 51.254000000000005,
+              "hz": 1009.369
+            },
+            {
+              "time_s": 51.440000000000005,
+              "hz": 1006.677
+            },
+            {
+              "time_s": 51.626000000000005,
+              "hz": 1003.986
+            },
+            {
+              "time_s": 51.812000000000005,
+              "hz": 1001.294
+            },
+            {
+              "time_s": 51.99700000000001,
+              "hz": 992.678
+            },
+            {
+              "time_s": 52.18300000000001,
+              "hz": 997.269
+            },
+            {
+              "time_s": 52.36900000000001,
+              "hz": 991.462
+            },
+            {
+              "time_s": 52.55500000000001,
+              "hz": 982.309
+            },
+            {
+              "time_s": 52.74000000000001,
+              "hz": 982.829
+            },
+            {
+              "time_s": 52.92600000000001,
+              "hz": 985.144
+            },
+            {
+              "time_s": 53.11200000000001,
+              "hz": 982.452
+            },
+            {
+              "time_s": 53.29800000000001,
+              "hz": 979.972
+            },
+            {
+              "time_s": 53.483000000000004,
+              "hz": 965.585
+            },
+            {
+              "time_s": 53.669000000000004,
+              "hz": 974.918
+            },
+            {
+              "time_s": 53.855000000000004,
+              "hz": 965.905
+            },
+            {
+              "time_s": 54.041000000000004,
+              "hz": 971.686
+            },
+            {
+              "time_s": 54.227000000000004,
+              "hz": 969.582
+            },
+            {
+              "time_s": 54.412000000000006,
+              "hz": 966.302
+            },
+            {
+              "time_s": 54.598000000000006,
+              "hz": 963.611
+            },
+            {
+              "time_s": 54.784000000000006,
+              "hz": 958.205
+            },
+            {
+              "time_s": 54.970000000000006,
+              "hz": 956.371
+            },
+            {
+              "time_s": 55.15500000000001,
+              "hz": 949.455
+            },
+            {
+              "time_s": 55.34100000000001,
+              "hz": 948.961
+            },
+            {
+              "time_s": 55.52700000000001,
+              "hz": 950.51
+            },
+            {
+              "time_s": 55.71300000000001,
+              "hz": 947.461
+            },
+            {
+              "time_s": 55.89800000000001,
+              "hz": 941.4
+            },
+            {
+              "time_s": 56.08400000000001,
+              "hz": 940.508
+            },
+            {
+              "time_s": 56.27000000000001,
+              "hz": 936.857
+            },
+            {
+              "time_s": 56.45600000000001,
+              "hz": 937.753
+            },
+            {
+              "time_s": 56.641000000000005,
+              "hz": 930.323
+            },
+            {
+              "time_s": 56.827000000000005,
+              "hz": 919.172
+            },
+            {
+              "time_s": 57.013000000000005,
+              "hz": 926.689
+            },
+            {
+              "time_s": 57.199000000000005,
+              "hz": 922.836
+            },
+            {
+              "time_s": 57.38400000000001,
+              "hz": 922.443
+            },
+            {
+              "time_s": 57.57000000000001,
+              "hz": 914.893
+            },
+            {
+              "time_s": 57.75600000000001,
+              "hz": 906.35
+            },
+            {
+              "time_s": 57.94200000000001,
+              "hz": 907.602
+            },
+            {
+              "time_s": 58.12700000000001,
+              "hz": 905.618
+            },
+            {
+              "time_s": 58.31300000000001,
+              "hz": 907.518
+            },
+            {
+              "time_s": 58.49900000000001,
+              "hz": 904.727
+            },
+            {
+              "time_s": 58.68500000000001,
+              "hz": 902.584
+            },
+            {
+              "time_s": 58.87100000000001,
+              "hz": 893.221
+            },
+            {
+              "time_s": 59.056000000000004,
+              "hz": 895.002
+            },
+            {
+              "time_s": 59.242000000000004,
+              "hz": 896.71
+            },
+            {
+              "time_s": 59.428000000000004,
+              "hz": 879.296
+            },
+            {
+              "time_s": 59.614000000000004,
+              "hz": 883.501
+            },
+            {
+              "time_s": 59.79900000000001,
+              "hz": 866.881
+            },
+            {
+              "time_s": 59.98500000000001,
+              "hz": 868.527
+            },
+            {
+              "time_s": 60.17100000000001,
+              "hz": 866.443
+            },
+            {
+              "time_s": 60.357000000000006,
+              "hz": 863.927
+            },
+            {
+              "time_s": 60.54200000000001,
+              "hz": 857.429
+            },
+            {
+              "time_s": 60.72800000000001,
+              "hz": 853.698
+            },
+            {
+              "time_s": 60.91400000000001,
+              "hz": 853.776
+            },
+            {
+              "time_s": 61.10000000000001,
+              "hz": 842.582
+            },
+            {
+              "time_s": 61.285000000000004,
+              "hz": 840.034
+            },
+            {
+              "time_s": 61.471000000000004,
+              "hz": 844.129
+            },
+            {
+              "time_s": 61.657000000000004,
+              "hz": 829.64
+            },
+            {
+              "time_s": 61.84300000000001,
+              "hz": 828.138
+            },
+            {
+              "time_s": 62.028000000000006,
+              "hz": 820.13
+            },
+            {
+              "time_s": 62.214000000000006,
+              "hz": 815.093
+            },
+            {
+              "time_s": 62.400000000000006,
+              "hz": 816.773
+            },
+            {
+              "time_s": 62.586000000000006,
+              "hz": 804.074
+            },
+            {
+              "time_s": 62.77100000000001,
+              "hz": 803.704
+            },
+            {
+              "time_s": 62.95700000000001,
+              "hz": 803.041
+            },
+            {
+              "time_s": 63.14300000000001,
+              "hz": 801.526
+            },
+            {
+              "time_s": 63.32900000000001,
+              "hz": 794.238
+            },
+            {
+              "time_s": 63.51500000000001,
+              "hz": 792.341
+            },
+            {
+              "time_s": 63.70000000000001,
+              "hz": 786.909
+            },
+            {
+              "time_s": 63.88600000000001,
+              "hz": 783.107
+            },
+            {
+              "time_s": 64.072,
+              "hz": 784.398
+            },
+            {
+              "time_s": 64.25800000000001,
+              "hz": 781.817
+            },
+            {
+              "time_s": 64.443,
+              "hz": 767.49
+            },
+            {
+              "time_s": 64.629,
+              "hz": 764.926
+            },
+            {
+              "time_s": 64.815,
+              "hz": 761.038
+            },
+            {
+              "time_s": 65.001,
+              "hz": 760.014
+            },
+            {
+              "time_s": 65.186,
+              "hz": 751.543
+            },
+            {
+              "time_s": 65.372,
+              "hz": 752.166
+            },
+            {
+              "time_s": 65.558,
+              "hz": 738.618
+            },
+            {
+              "time_s": 65.744,
+              "hz": 744.608
+            },
+            {
+              "time_s": 65.929,
+              "hz": 737.628
+            },
+            {
+              "time_s": 66.11500000000001,
+              "hz": 737.817
+            },
+            {
+              "time_s": 66.301,
+              "hz": 729.341
+            },
+            {
+              "time_s": 66.48700000000001,
+              "hz": 728.663
+            },
+            {
+              "time_s": 66.672,
+              "hz": 726.199
+            },
+            {
+              "time_s": 66.858,
+              "hz": 723.175
+            },
+            {
+              "time_s": 67.044,
+              "hz": 723.287
+            },
+            {
+              "time_s": 67.23,
+              "hz": 713.972
+            },
+            {
+              "time_s": 67.415,
+              "hz": 714.028
+            },
+            {
+              "time_s": 67.601,
+              "hz": 718.661
+            },
+            {
+              "time_s": 67.787,
+              "hz": 709.159
+            },
+            {
+              "time_s": 67.973,
+              "hz": 706.609
+            },
+            {
+              "time_s": 68.159,
+              "hz": 712.672
+            },
+            {
+              "time_s": 68.34400000000001,
+              "hz": 699.139
+            },
+            {
+              "time_s": 68.53,
+              "hz": 689.482
+            },
+            {
+              "time_s": 68.71600000000001,
+              "hz": 695.463
+            },
+            {
+              "time_s": 68.902,
+              "hz": 691.121
+            },
+            {
+              "time_s": 69.087,
+              "hz": 682.657
+            },
+            {
+              "time_s": 69.273,
+              "hz": 679.296
+            },
+            {
+              "time_s": 69.459,
+              "hz": 681.321
+            },
+            {
+              "time_s": 69.645,
+              "hz": 674.919
+            },
+            {
+              "time_s": 69.83,
+              "hz": 681.047
+            },
+            {
+              "time_s": 70.016,
+              "hz": 672.24
+            },
+            {
+              "time_s": 70.202,
+              "hz": 666.171
+            },
+            {
+              "time_s": 70.388,
+              "hz": 664.767
+            },
+            {
+              "time_s": 70.573,
+              "hz": 663.358
+            },
+            {
+              "time_s": 70.759,
+              "hz": 662.41
+            },
+            {
+              "time_s": 70.945,
+              "hz": 662.241
+            },
+            {
+              "time_s": 71.131,
+              "hz": 655.778
+            },
+            {
+              "time_s": 71.316,
+              "hz": 655.294
+            },
+            {
+              "time_s": 71.502,
+              "hz": 651.564
+            },
+            {
+              "time_s": 71.688,
+              "hz": 644.031
+            },
+            {
+              "time_s": 71.874,
+              "hz": 650.638
+            },
+            {
+              "time_s": 72.059,
+              "hz": 640.959
+            },
+            {
+              "time_s": 72.245,
+              "hz": 640.205
+            },
+            {
+              "time_s": 72.431,
+              "hz": 640.26
+            },
+            {
+              "time_s": 72.617,
+              "hz": 642.782
+            },
+            {
+              "time_s": 72.802,
+              "hz": 645.468
+            },
+            {
+              "time_s": 72.988,
+              "hz": 631.528
+            },
+            {
+              "time_s": 73.174,
+              "hz": 619.666
+            },
+            {
+              "time_s": 73.36,
+              "hz": 624.974
+            },
+            {
+              "time_s": 73.546,
+              "hz": 631.355
+            },
+            {
+              "time_s": 73.731,
+              "hz": 633.515
+            },
+            {
+              "time_s": 73.917,
+              "hz": 625.076
+            },
+            {
+              "time_s": 74.103,
+              "hz": 618.851
+            },
+            {
+              "time_s": 74.289,
+              "hz": 620.826
+            },
+            {
+              "time_s": 74.474,
+              "hz": 621.629
+            },
+            {
+              "time_s": 74.66,
+              "hz": 617.935
+            },
+            {
+              "time_s": 74.846,
+              "hz": 611.143
+            },
+            {
+              "time_s": 75.032,
+              "hz": 614.568
+            },
+            {
+              "time_s": 75.217,
+              "hz": 612.37
+            },
+            {
+              "time_s": 75.403,
+              "hz": 608.649
+            },
+            {
+              "time_s": 75.589,
+              "hz": 607.375
+            },
+            {
+              "time_s": 75.775,
+              "hz": 612.359
+            },
+            {
+              "time_s": 75.96,
+              "hz": 599.422
+            },
+            {
+              "time_s": 76.146,
+              "hz": 597.07
+            },
+            {
+              "time_s": 76.332,
+              "hz": 600.621
+            },
+            {
+              "time_s": 76.518,
+              "hz": 607.137
+            },
+            {
+              "time_s": 76.703,
+              "hz": 599.099
+            },
+            {
+              "time_s": 76.889,
+              "hz": 598.569
+            },
+            {
+              "time_s": 77.075,
+              "hz": 593.777
+            },
+            {
+              "time_s": 77.261,
+              "hz": 585.333
+            },
+            {
+              "time_s": 77.446,
+              "hz": 598.62
+            },
+            {
+              "time_s": 77.632,
+              "hz": 598.182
+            },
+            {
+              "time_s": 77.818,
+              "hz": 593.814
+            },
+            {
+              "time_s": 78.004,
+              "hz": 586.263
+            },
+            {
+              "time_s": 78.19,
+              "hz": 584.519
+            },
+            {
+              "time_s": 78.375,
+              "hz": 583.827
+            },
+            {
+              "time_s": 78.561,
+              "hz": 582.41
+            },
+            {
+              "time_s": 78.747,
+              "hz": 584.552
+            },
+            {
+              "time_s": 78.933,
+              "hz": 585.393
+            },
+            {
+              "time_s": 79.118,
+              "hz": 579.886
+            },
+            {
+              "time_s": 79.304,
+              "hz": 580.951
+            },
+            {
+              "time_s": 79.49,
+              "hz": 581.584
+            },
+            {
+              "time_s": 79.676,
+              "hz": 574.745
+            },
+            {
+              "time_s": 79.861,
+              "hz": 576.678
+            },
+            {
+              "time_s": 80.047,
+              "hz": 570.078
+            },
+            {
+              "time_s": 80.233,
+              "hz": 567.748
+            },
+            {
+              "time_s": 80.419,
+              "hz": 573.977
+            },
+            {
+              "time_s": 80.604,
+              "hz": 571.378
+            },
+            {
+              "time_s": 80.79,
+              "hz": 567.986
+            },
+            {
+              "time_s": 80.976,
+              "hz": 567.338
+            },
+            {
+              "time_s": 81.162,
+              "hz": 567.601
+            },
+            {
+              "time_s": 81.347,
+              "hz": 574.053
+            },
+            {
+              "time_s": 81.533,
+              "hz": 568.305
+            },
+            {
+              "time_s": 81.719,
+              "hz": 572.588
+            },
+            {
+              "time_s": 81.905,
+              "hz": 575.637
+            },
+            {
+              "time_s": 82.09,
+              "hz": 571.208
+            },
+            {
+              "time_s": 82.276,
+              "hz": 567.806
+            },
+            {
+              "time_s": 82.462,
+              "hz": 567.668
+            },
+            {
+              "time_s": 82.648,
+              "hz": 560.043
+            },
+            {
+              "time_s": 82.834,
+              "hz": 565.592
+            },
+            {
+              "time_s": 83.019,
+              "hz": 560.301
+            },
+            {
+              "time_s": 83.205,
+              "hz": 558.572
+            },
+            {
+              "time_s": 83.391,
+              "hz": 559.438
+            },
+            {
+              "time_s": 83.577,
+              "hz": 557.664
+            },
+            {
+              "time_s": 83.762,
+              "hz": 553.477
+            },
+            {
+              "time_s": 83.948,
+              "hz": 552.48
+            },
+            {
+              "time_s": 84.134,
+              "hz": 556.838
+            },
+            {
+              "time_s": 84.32,
+              "hz": 556.176
+            },
+            {
+              "time_s": 84.505,
+              "hz": 551.76
+            },
+            {
+              "time_s": 84.691,
+              "hz": 556.733
+            },
+            {
+              "time_s": 84.877,
+              "hz": 554.738
+            },
+            {
+              "time_s": 85.063,
+              "hz": 554.814
+            },
+            {
+              "time_s": 85.248,
+              "hz": 548.124
+            },
+            {
+              "time_s": 85.434,
+              "hz": 551.79
+            },
+            {
+              "time_s": 85.62,
+              "hz": 555.575
+            },
+            {
+              "time_s": 85.806,
+              "hz": 554.906
+            },
+            {
+              "time_s": 85.991,
+              "hz": 555.021
+            },
+            {
+              "time_s": 86.177,
+              "hz": 550.94
+            },
+            {
+              "time_s": 86.363,
+              "hz": 550.074
+            },
+            {
+              "time_s": 86.549,
+              "hz": 550.684
+            },
+            {
+              "time_s": 86.734,
+              "hz": 550.745
+            },
+            {
+              "time_s": 86.92,
+              "hz": 544.706
+            },
+            {
+              "time_s": 87.106,
+              "hz": 542.072
+            },
+            {
+              "time_s": 87.292,
+              "hz": 549.802
+            },
+            {
+              "time_s": 87.478,
+              "hz": 549.004
+            },
+            {
+              "time_s": 87.663,
+              "hz": 548.359
+            },
+            {
+              "time_s": 87.849,
+              "hz": 547.185
+            },
+            {
+              "time_s": 88.035,
+              "hz": 548.706
+            },
+            {
+              "time_s": 88.221,
+              "hz": 548.711
+            },
+            {
+              "time_s": 88.406,
+              "hz": 547.445
+            },
+            {
+              "time_s": 88.592,
+              "hz": 544.42
+            },
+            {
+              "time_s": 88.778,
+              "hz": 539.367
+            },
+            {
+              "time_s": 88.964,
+              "hz": 541.863
+            },
+            {
+              "time_s": 89.149,
+              "hz": 542.479
+            },
+            {
+              "time_s": 89.335,
+              "hz": 539.7
+            },
+            {
+              "time_s": 89.521,
+              "hz": 542.066
+            },
+            {
+              "time_s": 89.707,
+              "hz": 538.43
+            },
+            {
+              "time_s": 89.892,
+              "hz": 539.064
+            },
+            {
+              "time_s": 90.078,
+              "hz": 539.803
+            },
+            {
+              "time_s": 90.264,
+              "hz": 542.34
+            },
+            {
+              "time_s": 90.45,
+              "hz": 540.629
+            },
+            {
+              "time_s": 90.635,
+              "hz": 538.894
+            },
+            {
+              "time_s": 90.821,
+              "hz": 538.833
+            },
+            {
+              "time_s": 91.007,
+              "hz": 537.369
+            },
+            {
+              "time_s": 91.193,
+              "hz": 537.982
+            },
+            {
+              "time_s": 91.378,
+              "hz": 535.873
+            },
+            {
+              "time_s": 91.564,
+              "hz": 537.887
+            },
+            {
+              "time_s": 91.75,
+              "hz": 540.613
+            },
+            {
+              "time_s": 91.936,
+              "hz": 534.827
+            },
+            {
+              "time_s": 92.121,
+              "hz": 536.462
+            },
+            {
+              "time_s": 92.307,
+              "hz": 535.736
+            },
+            {
+              "time_s": 92.493,
+              "hz": 536.097
+            },
+            {
+              "time_s": 92.679,
+              "hz": 534.721
+            },
+            {
+              "time_s": 92.865,
+              "hz": 534.876
+            },
+            {
+              "time_s": 93.05,
+              "hz": 534.098
+            },
+            {
+              "time_s": 93.236,
+              "hz": 533.003
+            },
+            {
+              "time_s": 93.422,
+              "hz": 531.926
+            },
+            {
+              "time_s": 93.608,
+              "hz": 533.445
+            },
+            {
+              "time_s": 93.793,
+              "hz": 531.288
+            },
+            {
+              "time_s": 93.979,
+              "hz": 532.92
+            },
+            {
+              "time_s": 94.165,
+              "hz": 530.015
+            },
+            {
+              "time_s": 94.351,
+              "hz": 535.113
+            },
+            {
+              "time_s": 94.536,
+              "hz": 533.563
+            },
+            {
+              "time_s": 94.722,
+              "hz": 534.204
+            },
+            {
+              "time_s": 94.908,
+              "hz": 532.281
+            },
+            {
+              "time_s": 95.094,
+              "hz": 532.911
+            },
+            {
+              "time_s": 95.279,
+              "hz": 533.321
+            },
+            {
+              "time_s": 95.465,
+              "hz": 531.777
+            },
+            {
+              "time_s": 95.651,
+              "hz": 529.79
+            },
+            {
+              "time_s": 95.837,
+              "hz": 535.464
+            },
+            {
+              "time_s": 96.022,
+              "hz": 531.173
+            },
+            {
+              "time_s": 96.208,
+              "hz": 528.669
+            },
+            {
+              "time_s": 96.394,
+              "hz": 526.185
+            },
+            {
+              "time_s": 96.58,
+              "hz": 526.427
+            },
+            {
+              "time_s": 96.765,
+              "hz": 529.918
+            },
+            {
+              "time_s": 96.951,
+              "hz": 530.494
+            },
+            {
+              "time_s": 97.137,
+              "hz": 529.328
+            },
+            {
+              "time_s": 97.323,
+              "hz": 526.384
+            },
+            {
+              "time_s": 97.509,
+              "hz": 529.302
+            },
+            {
+              "time_s": 97.694,
+              "hz": 527.075
+            },
+            {
+              "time_s": 97.88,
+              "hz": 527.239
+            },
+            {
+              "time_s": 98.066,
+              "hz": 519.662
+            },
+            {
+              "time_s": 98.252,
+              "hz": 522.083
+            },
+            {
+              "time_s": 98.437,
+              "hz": 527.279
+            },
+            {
+              "time_s": 98.623,
+              "hz": 523.222
+            },
+            {
+              "time_s": 98.809,
+              "hz": 525.496
+            },
+            {
+              "time_s": 98.995,
+              "hz": 523.295
+            },
+            {
+              "time_s": 99.18,
+              "hz": 527.011
+            },
+            {
+              "time_s": 99.366,
+              "hz": 518.659
+            },
+            {
+              "time_s": 99.552,
+              "hz": 520.53
+            },
+            {
+              "time_s": 99.738,
+              "hz": 525.651
+            },
+            {
+              "time_s": 99.923,
+              "hz": 527.663
+            },
+            {
+              "time_s": 100.109,
+              "hz": 524.812
+            },
+            {
+              "time_s": 100.295,
+              "hz": 525.772
+            },
+            {
+              "time_s": 100.481,
+              "hz": 524.301
+            },
+            {
+              "time_s": 100.666,
+              "hz": 524.151
+            },
+            {
+              "time_s": 100.852,
+              "hz": 524.865
+            },
+            {
+              "time_s": 101.038,
+              "hz": 522.539
+            },
+            {
+              "time_s": 101.224,
+              "hz": 523.353
+            },
+            {
+              "time_s": 101.409,
+              "hz": 525.079
+            },
+            {
+              "time_s": 101.595,
+              "hz": 516.411
+            },
+            {
+              "time_s": 101.781,
+              "hz": 522.036
+            },
+            {
+              "time_s": 101.967,
+              "hz": 523.514
+            },
+            {
+              "time_s": 102.153,
+              "hz": 525.269
+            },
+            {
+              "time_s": 102.338,
+              "hz": 527.899
+            },
+            {
+              "time_s": 102.524,
+              "hz": 522.988
+            },
+            {
+              "time_s": 102.71,
+              "hz": 521.875
+            },
+            {
+              "time_s": 102.896,
+              "hz": 524.778
+            },
+            {
+              "time_s": 103.081,
+              "hz": 525.695
+            },
+            {
+              "time_s": 103.267,
+              "hz": 528.315
+            },
+            {
+              "time_s": 103.453,
+              "hz": 519.86
+            },
+            {
+              "time_s": 103.639,
+              "hz": 525.897
+            },
+            {
+              "time_s": 103.824,
+              "hz": 522.327
+            },
+            {
+              "time_s": 104.01,
+              "hz": 520.792
+            },
+            {
+              "time_s": 104.196,
+              "hz": 519.751
+            },
+            {
+              "time_s": 104.382,
+              "hz": 522.302
+            },
+            {
+              "time_s": 104.567,
+              "hz": 529.636
+            },
+            {
+              "time_s": 104.753,
+              "hz": 520.318
+            },
+            {
+              "time_s": 104.939,
+              "hz": 522.937
+            },
+            {
+              "time_s": 105.125,
+              "hz": 524.619
+            },
+            {
+              "time_s": 105.31,
+              "hz": 520.727
+            },
+            {
+              "time_s": 105.496,
+              "hz": 520.921
+            },
+            {
+              "time_s": 105.682,
+              "hz": 524.612
+            },
+            {
+              "time_s": 105.868,
+              "hz": 517.504
+            },
+            {
+              "time_s": 106.053,
+              "hz": 519.828
+            },
+            {
+              "time_s": 106.239,
+              "hz": 518.987
+            },
+            {
+              "time_s": 106.425,
+              "hz": 522.46
+            },
+            {
+              "time_s": 106.611,
+              "hz": 518.345
+            },
+            {
+              "time_s": 106.797,
+              "hz": 517.76
+            },
+            {
+              "time_s": 106.982,
+              "hz": 515.994
+            },
+            {
+              "time_s": 107.168,
+              "hz": 515.74
+            },
+            {
+              "time_s": 107.354,
+              "hz": 523.946
+            },
+            {
+              "time_s": 107.54,
+              "hz": 519.179
+            },
+            {
+              "time_s": 107.725,
+              "hz": 522.203
+            },
+            {
+              "time_s": 107.911,
+              "hz": 518.043
+            },
+            {
+              "time_s": 108.097,
+              "hz": 519.668
+            },
+            {
+              "time_s": 108.283,
+              "hz": 520.733
+            },
+            {
+              "time_s": 108.468,
+              "hz": 517.601
+            },
+            {
+              "time_s": 108.654,
+              "hz": 516.333
+            },
+            {
+              "time_s": 108.84,
+              "hz": 523.286
+            },
+            {
+              "time_s": 109.026,
+              "hz": 522.521
+            },
+            {
+              "time_s": 109.211,
+              "hz": 520.766
+            },
+            {
+              "time_s": 109.397,
+              "hz": 521.106
+            },
+            {
+              "time_s": 109.583,
+              "hz": 518.933
+            },
+            {
+              "time_s": 109.769,
+              "hz": 514.745
+            },
+            {
+              "time_s": 109.954,
+              "hz": 519.117
+            },
+            {
+              "time_s": 110.14,
+              "hz": 519.166
+            },
+            {
+              "time_s": 110.326,
+              "hz": 514.544
+            },
+            {
+              "time_s": 110.512,
+              "hz": 518.104
+            },
+            {
+              "time_s": 110.697,
+              "hz": 517.758
+            },
+            {
+              "time_s": 110.883,
+              "hz": 517.738
+            },
+            {
+              "time_s": 111.069,
+              "hz": 515.989
+            },
+            {
+              "time_s": 111.255,
+              "hz": 516.867
+            },
+            {
+              "time_s": 111.44,
+              "hz": 519.01
+            },
+            {
+              "time_s": 111.626,
+              "hz": 520.605
+            },
+            {
+              "time_s": 111.812,
+              "hz": 514.154
+            },
+            {
+              "time_s": 111.998,
+              "hz": 518.523
+            },
+            {
+              "time_s": 112.184,
+              "hz": 518.811
+            },
+            {
+              "time_s": 112.369,
+              "hz": 514.793
+            },
+            {
+              "time_s": 112.555,
+              "hz": 517.356
+            },
+            {
+              "time_s": 112.741,
+              "hz": 515.585
+            },
+            {
+              "time_s": 112.927,
+              "hz": 519.662
+            },
+            {
+              "time_s": 113.112,
+              "hz": 513.482
+            },
+            {
+              "time_s": 113.298,
+              "hz": 513.987
+            },
+            {
+              "time_s": 113.484,
+              "hz": 513.647
+            },
+            {
+              "time_s": 113.67,
+              "hz": 513.261
+            },
+            {
+              "time_s": 113.855,
+              "hz": 512.524
+            },
+            {
+              "time_s": 114.227,
+              "hz": 519.013
+            },
+            {
+              "time_s": 114.413,
+              "hz": 516.942
+            },
+            {
+              "time_s": 114.598,
+              "hz": 510.85
+            },
+            {
+              "time_s": 114.784,
+              "hz": 517.283
+            },
+            {
+              "time_s": 114.97,
+              "hz": 515.676
+            },
+            {
+              "time_s": 115.156,
+              "hz": 515.922
+            },
+            {
+              "time_s": 115.341,
+              "hz": 515.92
+            },
+            {
+              "time_s": 115.527,
+              "hz": 516.089
+            },
+            {
+              "time_s": 115.713,
+              "hz": 514.253
+            },
+            {
+              "time_s": 115.899,
+              "hz": 514.956
+            },
+            {
+              "time_s": 116.084,
+              "hz": 515.302
+            },
+            {
+              "time_s": 116.27,
+              "hz": 515.236
+            },
+            {
+              "time_s": 116.456,
+              "hz": 518.053
+            },
+            {
+              "time_s": 116.642,
+              "hz": 505.743
+            },
+            {
+              "time_s": 116.828,
+              "hz": 506.338
+            },
+            {
+              "time_s": 117.013,
+              "hz": 516.106
+            },
+            {
+              "time_s": 117.199,
+              "hz": 515.795
+            },
+            {
+              "time_s": 117.385,
+              "hz": 514.119
+            },
+            {
+              "time_s": 117.571,
+              "hz": 517.417
+            },
+            {
+              "time_s": 117.756,
+              "hz": 517.381
+            },
+            {
+              "time_s": 117.942,
+              "hz": 515.082
+            },
+            {
+              "time_s": 118.128,
+              "hz": 516.545
+            },
+            {
+              "time_s": 118.314,
+              "hz": 515.271
+            },
+            {
+              "time_s": 118.499,
+              "hz": 514.462
+            },
+            {
+              "time_s": 118.685,
+              "hz": 512.175
+            },
+            {
+              "time_s": 118.871,
+              "hz": 512.221
+            },
+            {
+              "time_s": 119.057,
+              "hz": 511.068
+            },
+            {
+              "time_s": 119.242,
+              "hz": 510.766
+            },
+            {
+              "time_s": 119.428,
+              "hz": 510.74
+            },
+            {
+              "time_s": 119.614,
+              "hz": 508.576
+            },
+            {
+              "time_s": 119.8,
+              "hz": 516.881
+            },
+            {
+              "time_s": 119.985,
+              "hz": 510.021
+            },
+            {
+              "time_s": 120.171,
+              "hz": 516.792
+            },
+            {
+              "time_s": 120.357,
+              "hz": 508.788
+            },
+            {
+              "time_s": 120.543,
+              "hz": 510.802
+            },
+            {
+              "time_s": 120.728,
+              "hz": 508.705
+            },
+            {
+              "time_s": 120.914,
+              "hz": 512.576
+            },
+            {
+              "time_s": 121.1,
+              "hz": 511.211
+            },
+            {
+              "time_s": 121.286,
+              "hz": 514.42
+            },
+            {
+              "time_s": 121.472,
+              "hz": 513.061
+            },
+            {
+              "time_s": 121.657,
+              "hz": 508.802
+            },
+            {
+              "time_s": 121.843,
+              "hz": 510.97
+            },
+            {
+              "time_s": 122.029,
+              "hz": 512.503
+            },
+            {
+              "time_s": 122.215,
+              "hz": 517.521
+            },
+            {
+              "time_s": 122.4,
+              "hz": 516.055
+            },
+            {
+              "time_s": 122.586,
+              "hz": 513.972
+            },
+            {
+              "time_s": 122.772,
+              "hz": 518.913
+            },
+            {
+              "time_s": 122.958,
+              "hz": 506.83
+            },
+            {
+              "time_s": 123.143,
+              "hz": 513.516
+            },
+            {
+              "time_s": 123.329,
+              "hz": 510.794
+            },
+            {
+              "time_s": 123.515,
+              "hz": 514.757
+            },
+            {
+              "time_s": 123.701,
+              "hz": 509.904
+            },
+            {
+              "time_s": 123.886,
+              "hz": 513.08
+            },
+            {
+              "time_s": 124.072,
+              "hz": 512.319
+            },
+            {
+              "time_s": 124.258,
+              "hz": 511.59
+            },
+            {
+              "time_s": 124.444,
+              "hz": 511.795
+            },
+            {
+              "time_s": 124.629,
+              "hz": 508.407
+            }
+          ],
+          "min_hit_fraction": 0.75,
+          "min_coverage": 0.75,
+          "max_rmse_hz": 8,
+          "require_strong": true
+        }
+      ],
+      "note": "All publisher anchors evaluated against one continuous detected ridge. A failed recovery is reported as failure, not absence of an aircraft."
+    },
+    {
+      "id": "r50-standard",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/pathak-2026/N958JX_R50/audio.wav",
+      "detector_profile": "standard",
+      "labels": [
+        {
+          "id": "publisher-frequency-trace",
+          "anchors": [
+            {
+              "time_s": 5.000000000000004,
+              "hz": 235.977
+            },
+            {
+              "time_s": 5.186000000000004,
+              "hz": 239.111
+            },
+            {
+              "time_s": 5.372000000000004,
+              "hz": 236.261
+            },
+            {
+              "time_s": 5.558000000000004,
+              "hz": 233.939
+            },
+            {
+              "time_s": 5.744000000000004,
+              "hz": 231.813
+            },
+            {
+              "time_s": 5.929000000000005,
+              "hz": 234.598
+            },
+            {
+              "time_s": 6.115000000000005,
+              "hz": 235.639
+            },
+            {
+              "time_s": 6.301000000000005,
+              "hz": 234.793
+            },
+            {
+              "time_s": 6.4870000000000045,
+              "hz": 236.64
+            },
+            {
+              "time_s": 6.672000000000004,
+              "hz": 237.598
+            },
+            {
+              "time_s": 6.858000000000004,
+              "hz": 237.814
+            },
+            {
+              "time_s": 7.230000000000004,
+              "hz": 235.016
+            },
+            {
+              "time_s": 7.4150000000000045,
+              "hz": 238.495
+            },
+            {
+              "time_s": 7.601000000000004,
+              "hz": 234.835
+            },
+            {
+              "time_s": 7.787000000000004,
+              "hz": 239.081
+            },
+            {
+              "time_s": 7.973000000000004,
+              "hz": 236.774
+            },
+            {
+              "time_s": 8.158000000000005,
+              "hz": 234.266
+            },
+            {
+              "time_s": 8.344000000000005,
+              "hz": 236.916
+            },
+            {
+              "time_s": 8.530000000000005,
+              "hz": 239.279
+            },
+            {
+              "time_s": 9.644000000000005,
+              "hz": 244.715
+            },
+            {
+              "time_s": 10.016000000000005,
+              "hz": 243.916
+            },
+            {
+              "time_s": 10.388000000000005,
+              "hz": 235.402
+            },
+            {
+              "time_s": 10.573000000000004,
+              "hz": 243.3
+            },
+            {
+              "time_s": 10.759000000000004,
+              "hz": 245.383
+            },
+            {
+              "time_s": 10.945000000000004,
+              "hz": 233.725
+            },
+            {
+              "time_s": 11.131000000000004,
+              "hz": 240.585
+            },
+            {
+              "time_s": 11.316000000000004,
+              "hz": 243.309
+            },
+            {
+              "time_s": 11.502000000000004,
+              "hz": 241.56
+            },
+            {
+              "time_s": 11.688000000000004,
+              "hz": 231.85
+            },
+            {
+              "time_s": 11.874000000000004,
+              "hz": 231.216
+            },
+            {
+              "time_s": 12.059000000000005,
+              "hz": 231.418
+            },
+            {
+              "time_s": 12.617000000000004,
+              "hz": 226.548
+            },
+            {
+              "time_s": 12.802000000000003,
+              "hz": 228.679
+            },
+            {
+              "time_s": 12.988000000000003,
+              "hz": 225.921
+            },
+            {
+              "time_s": 13.174000000000003,
+              "hz": 225.034
+            },
+            {
+              "time_s": 13.360000000000003,
+              "hz": 223.128
+            },
+            {
+              "time_s": 13.545000000000005,
+              "hz": 222.805
+            },
+            {
+              "time_s": 13.731000000000005,
+              "hz": 223.304
+            },
+            {
+              "time_s": 13.917000000000005,
+              "hz": 219.306
+            },
+            {
+              "time_s": 14.103000000000005,
+              "hz": 219.163
+            },
+            {
+              "time_s": 14.288000000000004,
+              "hz": 217.52
+            },
+            {
+              "time_s": 14.474000000000004,
+              "hz": 216.071
+            },
+            {
+              "time_s": 14.660000000000004,
+              "hz": 215.204
+            },
+            {
+              "time_s": 14.846000000000004,
+              "hz": 222.315
+            },
+            {
+              "time_s": 15.032000000000004,
+              "hz": 214.74
+            },
+            {
+              "time_s": 15.217000000000006,
+              "hz": 210.864
+            },
+            {
+              "time_s": 15.403000000000006,
+              "hz": 212.901
+            },
+            {
+              "time_s": 15.589000000000006,
+              "hz": 209.986
+            },
+            {
+              "time_s": 15.775000000000006,
+              "hz": 218.069
+            },
+            {
+              "time_s": 15.960000000000004,
+              "hz": 199.681
+            },
+            {
+              "time_s": 16.146000000000004,
+              "hz": 205.791
+            },
+            {
+              "time_s": 16.332000000000004,
+              "hz": 206.619
+            },
+            {
+              "time_s": 16.703000000000003,
+              "hz": 201.988
+            },
+            {
+              "time_s": 16.889000000000003,
+              "hz": 212.536
+            },
+            {
+              "time_s": 17.075000000000003,
+              "hz": 203.377
+            },
+            {
+              "time_s": 19.118000000000006,
+              "hz": 198.086
+            },
+            {
+              "time_s": 19.304000000000006,
+              "hz": 193.621
+            },
+            {
+              "time_s": 20.047000000000004,
+              "hz": 177.815
+            },
+            {
+              "time_s": 20.233000000000004,
+              "hz": 183.485
+            },
+            {
+              "time_s": 20.419000000000004,
+              "hz": 180.159
+            },
+            {
+              "time_s": 21.162000000000003,
+              "hz": 174.525
+            },
+            {
+              "time_s": 21.347000000000005,
+              "hz": 172.831
+            },
+            {
+              "time_s": 21.533000000000005,
+              "hz": 171.89
+            },
+            {
+              "time_s": 21.719000000000005,
+              "hz": 170.164
+            },
+            {
+              "time_s": 21.905000000000005,
+              "hz": 170.343
+            },
+            {
+              "time_s": 22.276000000000003,
+              "hz": 165.842
+            },
+            {
+              "time_s": 22.462000000000003,
+              "hz": 167.287
+            },
+            {
+              "time_s": 22.648000000000003,
+              "hz": 163.728
+            },
+            {
+              "time_s": 23.391000000000002,
+              "hz": 161.491
+            },
+            {
+              "time_s": 23.576000000000004,
+              "hz": 160.35
+            },
+            {
+              "time_s": 23.762000000000004,
+              "hz": 157.56
+            },
+            {
+              "time_s": 23.948000000000004,
+              "hz": 157.395
+            },
+            {
+              "time_s": 24.134000000000004,
+              "hz": 156.577
+            },
+            {
+              "time_s": 25.434000000000005,
+              "hz": 150.292
+            },
+            {
+              "time_s": 25.620000000000005,
+              "hz": 147.841
+            },
+            {
+              "time_s": 26.549000000000003,
+              "hz": 145.105
+            },
+            {
+              "time_s": 26.734000000000005,
+              "hz": 144.052
+            },
+            {
+              "time_s": 26.920000000000005,
+              "hz": 143.517
+            },
+            {
+              "time_s": 27.292000000000005,
+              "hz": 140.662
+            },
+            {
+              "time_s": 27.477000000000004,
+              "hz": 140.585
+            },
+            {
+              "time_s": 27.663000000000004,
+              "hz": 138.726
+            },
+            {
+              "time_s": 27.849000000000004,
+              "hz": 139.369
+            },
+            {
+              "time_s": 28.220000000000002,
+              "hz": 137.916
+            },
+            {
+              "time_s": 28.406000000000002,
+              "hz": 134.503
+            },
+            {
+              "time_s": 28.592000000000002,
+              "hz": 138.416
+            },
+            {
+              "time_s": 28.778000000000002,
+              "hz": 134.577
+            },
+            {
+              "time_s": 28.963000000000005,
+              "hz": 130.69
+            },
+            {
+              "time_s": 29.149000000000004,
+              "hz": 136.123
+            },
+            {
+              "time_s": 29.335000000000004,
+              "hz": 137.62
+            },
+            {
+              "time_s": 29.707000000000004,
+              "hz": 132.041
+            },
+            {
+              "time_s": 31.564000000000004,
+              "hz": 125.882
+            },
+            {
+              "time_s": 31.750000000000004,
+              "hz": 124.101
+            },
+            {
+              "time_s": 31.936000000000003,
+              "hz": 123.231
+            },
+            {
+              "time_s": 32.307,
+              "hz": 122.224
+            },
+            {
+              "time_s": 32.493,
+              "hz": 120.948
+            },
+            {
+              "time_s": 32.679,
+              "hz": 121.462
+            },
+            {
+              "time_s": 32.864000000000004,
+              "hz": 121.472
+            },
+            {
+              "time_s": 33.050000000000004,
+              "hz": 120.232
+            },
+            {
+              "time_s": 33.236000000000004,
+              "hz": 118.919
+            },
+            {
+              "time_s": 33.422000000000004,
+              "hz": 119.782
+            },
+            {
+              "time_s": 33.793000000000006,
+              "hz": 117.021
+            },
+            {
+              "time_s": 34.165000000000006,
+              "hz": 115.191
+            },
+            {
+              "time_s": 34.351000000000006,
+              "hz": 115.38
+            },
+            {
+              "time_s": 34.53600000000001,
+              "hz": 115.468
+            },
+            {
+              "time_s": 34.72200000000001,
+              "hz": 114.831
+            },
+            {
+              "time_s": 34.90800000000001,
+              "hz": 115.094
+            },
+            {
+              "time_s": 35.09400000000001,
+              "hz": 114.356
+            },
+            {
+              "time_s": 35.279,
+              "hz": 113.788
+            },
+            {
+              "time_s": 35.465,
+              "hz": 113.736
+            },
+            {
+              "time_s": 36.394000000000005,
+              "hz": 110.111
+            },
+            {
+              "time_s": 36.580000000000005,
+              "hz": 110.133
+            },
+            {
+              "time_s": 36.76500000000001,
+              "hz": 105.973
+            },
+            {
+              "time_s": 36.95100000000001,
+              "hz": 107.932
+            },
+            {
+              "time_s": 37.13700000000001,
+              "hz": 110.388
+            },
+            {
+              "time_s": 37.32300000000001,
+              "hz": 108.206
+            },
+            {
+              "time_s": 37.50800000000001,
+              "hz": 108.768
+            },
+            {
+              "time_s": 37.69400000000001,
+              "hz": 108.643
+            },
+            {
+              "time_s": 37.88000000000001,
+              "hz": 106.935
+            },
+            {
+              "time_s": 38.06600000000001,
+              "hz": 107.274
+            },
+            {
+              "time_s": 38.437000000000005,
+              "hz": 106.663
+            },
+            {
+              "time_s": 38.623000000000005,
+              "hz": 107.653
+            },
+            {
+              "time_s": 38.99400000000001,
+              "hz": 106.119
+            },
+            {
+              "time_s": 39.18000000000001,
+              "hz": 106.039
+            },
+            {
+              "time_s": 39.36600000000001,
+              "hz": 105.823
+            },
+            {
+              "time_s": 39.55200000000001,
+              "hz": 104.22
+            },
+            {
+              "time_s": 39.92300000000001,
+              "hz": 102.936
+            },
+            {
+              "time_s": 40.10900000000001,
+              "hz": 111.543
+            },
+            {
+              "time_s": 40.29500000000001,
+              "hz": 106.384
+            },
+            {
+              "time_s": 40.852000000000004,
+              "hz": 105.715
+            },
+            {
+              "time_s": 42.33800000000001,
+              "hz": 106.068
+            }
+          ],
+          "min_hit_fraction": 0.75,
+          "min_coverage": 0.75,
+          "max_rmse_hz": 8,
+          "require_strong": true
+        }
+      ],
+      "note": "All publisher anchors evaluated against one continuous detected ridge. A failed recovery is reported as failure, not absence of an aircraft."
+    },
+    {
+      "id": "r50-short-pass",
+      "profiles": [
+        "audio"
+      ],
+      "audio": "samples/public/pathak-2026/N958JX_R50/audio.wav",
+      "detector_profile": "short-pass",
+      "labels": [
+        {
+          "id": "publisher-frequency-trace",
+          "anchors": [
+            {
+              "time_s": 5.000000000000004,
+              "hz": 235.977
+            },
+            {
+              "time_s": 5.186000000000004,
+              "hz": 239.111
+            },
+            {
+              "time_s": 5.372000000000004,
+              "hz": 236.261
+            },
+            {
+              "time_s": 5.558000000000004,
+              "hz": 233.939
+            },
+            {
+              "time_s": 5.744000000000004,
+              "hz": 231.813
+            },
+            {
+              "time_s": 5.929000000000005,
+              "hz": 234.598
+            },
+            {
+              "time_s": 6.115000000000005,
+              "hz": 235.639
+            },
+            {
+              "time_s": 6.301000000000005,
+              "hz": 234.793
+            },
+            {
+              "time_s": 6.4870000000000045,
+              "hz": 236.64
+            },
+            {
+              "time_s": 6.672000000000004,
+              "hz": 237.598
+            },
+            {
+              "time_s": 6.858000000000004,
+              "hz": 237.814
+            },
+            {
+              "time_s": 7.230000000000004,
+              "hz": 235.016
+            },
+            {
+              "time_s": 7.4150000000000045,
+              "hz": 238.495
+            },
+            {
+              "time_s": 7.601000000000004,
+              "hz": 234.835
+            },
+            {
+              "time_s": 7.787000000000004,
+              "hz": 239.081
+            },
+            {
+              "time_s": 7.973000000000004,
+              "hz": 236.774
+            },
+            {
+              "time_s": 8.158000000000005,
+              "hz": 234.266
+            },
+            {
+              "time_s": 8.344000000000005,
+              "hz": 236.916
+            },
+            {
+              "time_s": 8.530000000000005,
+              "hz": 239.279
+            },
+            {
+              "time_s": 9.644000000000005,
+              "hz": 244.715
+            },
+            {
+              "time_s": 10.016000000000005,
+              "hz": 243.916
+            },
+            {
+              "time_s": 10.388000000000005,
+              "hz": 235.402
+            },
+            {
+              "time_s": 10.573000000000004,
+              "hz": 243.3
+            },
+            {
+              "time_s": 10.759000000000004,
+              "hz": 245.383
+            },
+            {
+              "time_s": 10.945000000000004,
+              "hz": 233.725
+            },
+            {
+              "time_s": 11.131000000000004,
+              "hz": 240.585
+            },
+            {
+              "time_s": 11.316000000000004,
+              "hz": 243.309
+            },
+            {
+              "time_s": 11.502000000000004,
+              "hz": 241.56
+            },
+            {
+              "time_s": 11.688000000000004,
+              "hz": 231.85
+            },
+            {
+              "time_s": 11.874000000000004,
+              "hz": 231.216
+            },
+            {
+              "time_s": 12.059000000000005,
+              "hz": 231.418
+            },
+            {
+              "time_s": 12.617000000000004,
+              "hz": 226.548
+            },
+            {
+              "time_s": 12.802000000000003,
+              "hz": 228.679
+            },
+            {
+              "time_s": 12.988000000000003,
+              "hz": 225.921
+            },
+            {
+              "time_s": 13.174000000000003,
+              "hz": 225.034
+            },
+            {
+              "time_s": 13.360000000000003,
+              "hz": 223.128
+            },
+            {
+              "time_s": 13.545000000000005,
+              "hz": 222.805
+            },
+            {
+              "time_s": 13.731000000000005,
+              "hz": 223.304
+            },
+            {
+              "time_s": 13.917000000000005,
+              "hz": 219.306
+            },
+            {
+              "time_s": 14.103000000000005,
+              "hz": 219.163
+            },
+            {
+              "time_s": 14.288000000000004,
+              "hz": 217.52
+            },
+            {
+              "time_s": 14.474000000000004,
+              "hz": 216.071
+            },
+            {
+              "time_s": 14.660000000000004,
+              "hz": 215.204
+            },
+            {
+              "time_s": 14.846000000000004,
+              "hz": 222.315
+            },
+            {
+              "time_s": 15.032000000000004,
+              "hz": 214.74
+            },
+            {
+              "time_s": 15.217000000000006,
+              "hz": 210.864
+            },
+            {
+              "time_s": 15.403000000000006,
+              "hz": 212.901
+            },
+            {
+              "time_s": 15.589000000000006,
+              "hz": 209.986
+            },
+            {
+              "time_s": 15.775000000000006,
+              "hz": 218.069
+            },
+            {
+              "time_s": 15.960000000000004,
+              "hz": 199.681
+            },
+            {
+              "time_s": 16.146000000000004,
+              "hz": 205.791
+            },
+            {
+              "time_s": 16.332000000000004,
+              "hz": 206.619
+            },
+            {
+              "time_s": 16.703000000000003,
+              "hz": 201.988
+            },
+            {
+              "time_s": 16.889000000000003,
+              "hz": 212.536
+            },
+            {
+              "time_s": 17.075000000000003,
+              "hz": 203.377
+            },
+            {
+              "time_s": 19.118000000000006,
+              "hz": 198.086
+            },
+            {
+              "time_s": 19.304000000000006,
+              "hz": 193.621
+            },
+            {
+              "time_s": 20.047000000000004,
+              "hz": 177.815
+            },
+            {
+              "time_s": 20.233000000000004,
+              "hz": 183.485
+            },
+            {
+              "time_s": 20.419000000000004,
+              "hz": 180.159
+            },
+            {
+              "time_s": 21.162000000000003,
+              "hz": 174.525
+            },
+            {
+              "time_s": 21.347000000000005,
+              "hz": 172.831
+            },
+            {
+              "time_s": 21.533000000000005,
+              "hz": 171.89
+            },
+            {
+              "time_s": 21.719000000000005,
+              "hz": 170.164
+            },
+            {
+              "time_s": 21.905000000000005,
+              "hz": 170.343
+            },
+            {
+              "time_s": 22.276000000000003,
+              "hz": 165.842
+            },
+            {
+              "time_s": 22.462000000000003,
+              "hz": 167.287
+            },
+            {
+              "time_s": 22.648000000000003,
+              "hz": 163.728
+            },
+            {
+              "time_s": 23.391000000000002,
+              "hz": 161.491
+            },
+            {
+              "time_s": 23.576000000000004,
+              "hz": 160.35
+            },
+            {
+              "time_s": 23.762000000000004,
+              "hz": 157.56
+            },
+            {
+              "time_s": 23.948000000000004,
+              "hz": 157.395
+            },
+            {
+              "time_s": 24.134000000000004,
+              "hz": 156.577
+            },
+            {
+              "time_s": 25.434000000000005,
+              "hz": 150.292
+            },
+            {
+              "time_s": 25.620000000000005,
+              "hz": 147.841
+            },
+            {
+              "time_s": 26.549000000000003,
+              "hz": 145.105
+            },
+            {
+              "time_s": 26.734000000000005,
+              "hz": 144.052
+            },
+            {
+              "time_s": 26.920000000000005,
+              "hz": 143.517
+            },
+            {
+              "time_s": 27.292000000000005,
+              "hz": 140.662
+            },
+            {
+              "time_s": 27.477000000000004,
+              "hz": 140.585
+            },
+            {
+              "time_s": 27.663000000000004,
+              "hz": 138.726
+            },
+            {
+              "time_s": 27.849000000000004,
+              "hz": 139.369
+            },
+            {
+              "time_s": 28.220000000000002,
+              "hz": 137.916
+            },
+            {
+              "time_s": 28.406000000000002,
+              "hz": 134.503
+            },
+            {
+              "time_s": 28.592000000000002,
+              "hz": 138.416
+            },
+            {
+              "time_s": 28.778000000000002,
+              "hz": 134.577
+            },
+            {
+              "time_s": 28.963000000000005,
+              "hz": 130.69
+            },
+            {
+              "time_s": 29.149000000000004,
+              "hz": 136.123
+            },
+            {
+              "time_s": 29.335000000000004,
+              "hz": 137.62
+            },
+            {
+              "time_s": 29.707000000000004,
+              "hz": 132.041
+            },
+            {
+              "time_s": 31.564000000000004,
+              "hz": 125.882
+            },
+            {
+              "time_s": 31.750000000000004,
+              "hz": 124.101
+            },
+            {
+              "time_s": 31.936000000000003,
+              "hz": 123.231
+            },
+            {
+              "time_s": 32.307,
+              "hz": 122.224
+            },
+            {
+              "time_s": 32.493,
+              "hz": 120.948
+            },
+            {
+              "time_s": 32.679,
+              "hz": 121.462
+            },
+            {
+              "time_s": 32.864000000000004,
+              "hz": 121.472
+            },
+            {
+              "time_s": 33.050000000000004,
+              "hz": 120.232
+            },
+            {
+              "time_s": 33.236000000000004,
+              "hz": 118.919
+            },
+            {
+              "time_s": 33.422000000000004,
+              "hz": 119.782
+            },
+            {
+              "time_s": 33.793000000000006,
+              "hz": 117.021
+            },
+            {
+              "time_s": 34.165000000000006,
+              "hz": 115.191
+            },
+            {
+              "time_s": 34.351000000000006,
+              "hz": 115.38
+            },
+            {
+              "time_s": 34.53600000000001,
+              "hz": 115.468
+            },
+            {
+              "time_s": 34.72200000000001,
+              "hz": 114.831
+            },
+            {
+              "time_s": 34.90800000000001,
+              "hz": 115.094
+            },
+            {
+              "time_s": 35.09400000000001,
+              "hz": 114.356
+            },
+            {
+              "time_s": 35.279,
+              "hz": 113.788
+            },
+            {
+              "time_s": 35.465,
+              "hz": 113.736
+            },
+            {
+              "time_s": 36.394000000000005,
+              "hz": 110.111
+            },
+            {
+              "time_s": 36.580000000000005,
+              "hz": 110.133
+            },
+            {
+              "time_s": 36.76500000000001,
+              "hz": 105.973
+            },
+            {
+              "time_s": 36.95100000000001,
+              "hz": 107.932
+            },
+            {
+              "time_s": 37.13700000000001,
+              "hz": 110.388
+            },
+            {
+              "time_s": 37.32300000000001,
+              "hz": 108.206
+            },
+            {
+              "time_s": 37.50800000000001,
+              "hz": 108.768
+            },
+            {
+              "time_s": 37.69400000000001,
+              "hz": 108.643
+            },
+            {
+              "time_s": 37.88000000000001,
+              "hz": 106.935
+            },
+            {
+              "time_s": 38.06600000000001,
+              "hz": 107.274
+            },
+            {
+              "time_s": 38.437000000000005,
+              "hz": 106.663
+            },
+            {
+              "time_s": 38.623000000000005,
+              "hz": 107.653
+            },
+            {
+              "time_s": 38.99400000000001,
+              "hz": 106.119
+            },
+            {
+              "time_s": 39.18000000000001,
+              "hz": 106.039
+            },
+            {
+              "time_s": 39.36600000000001,
+              "hz": 105.823
+            },
+            {
+              "time_s": 39.55200000000001,
+              "hz": 104.22
+            },
+            {
+              "time_s": 39.92300000000001,
+              "hz": 102.936
+            },
+            {
+              "time_s": 40.10900000000001,
+              "hz": 111.543
+            },
+            {
+              "time_s": 40.29500000000001,
+              "hz": 106.384
+            },
+            {
+              "time_s": 40.852000000000004,
+              "hz": 105.715
+            },
+            {
+              "time_s": 42.33800000000001,
+              "hz": 106.068
+            }
+          ],
+          "min_hit_fraction": 0.75,
+          "min_coverage": 0.75,
+          "max_rmse_hz": 8,
+          "require_strong": true
+        }
+      ],
+      "note": "All publisher anchors evaluated against one continuous detected ridge. A failed recovery is reported as failure, not absence of an aircraft."
+    }
+  ],
+  "locations": [
+    {
+      "id": "challenger-competing-california",
+      "profiles": [
+        "location"
+      ],
+      "audio": "samples/public/pathak-2026/N563FX_R21/audio.wav",
+      "detector_profile": "short-pass",
+      "event_selection": "longest_usable",
+      "configs": [
+        "references/search/jet-challenger/competing-band-01.json",
+        "references/search/jet-challenger/competing-band-02.json",
+        "references/search/jet-challenger/competing-band-03.json",
+        "references/search/jet-challenger/competing-band-04.json",
+        "references/search/jet-challenger/competing-band-05.json",
+        "references/search/jet-challenger/competing-band-06.json",
+        "references/search/jet-challenger/competing-band-07.json",
+        "references/search/jet-challenger/competing-band-08.json",
+        "references/search/jet-challenger/competing-band-09.json",
+        "references/search/jet-challenger/competing-band-10.json",
+        "references/search/jet-challenger/competing-band-11.json",
+        "references/search/jet-challenger/competing-band-12.json"
+      ],
+      "expected_aircraft": [
+        "a732a2"
+      ],
+      "expected_region": {
+        "south": 37.5,
+        "north": 37.85,
+        "west": -122,
+        "east": -121.6
+      },
+      "require_ambiguity": true,
+      "note": "Known single passage: select longest automatically strong/usable curve, before reading aircraft or location labels. Search all California at 200 m with refinement to 10 m against competing archived flights. Inferred audio clock from publisher UTC labels. Broad city-area evaluation, not surveyed GPS. Current winner is wrong; expected to fail until discrimination improves."
+    },
+    {
+      "id": "regional-jet-supplied-track-auto",
+      "profiles": [
+        "location"
+      ],
+      "audio": "samples/public/pathak-2026/N958JX_R50/audio.wav",
+      "detector_profile": "short-pass",
+      "configs": [
+        "references/search/jet-regional/supplied-band-1.json",
+        "references/search/jet-regional/supplied-band-2.json",
+        "references/search/jet-regional/supplied-band-3.json"
+      ],
+      "expected_aircraft": [
+        "N958JX"
+      ],
+      "expected_region": {
+        "south": 37.5,
+        "north": 37.85,
+        "west": -122,
+        "east": -121.6
+      },
+      "require_ambiguity": false,
+      "note": "Known target supplied as an easier diagnostic; automatic extraction currently supplies zero usable curves, so this fails before location search. No verified recorder GPS."
+    }
+  ]
+}

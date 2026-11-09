@@ -1,0 +1,29 @@
+{
+  "spectrogram": "work/additional-jets/r21/spectrogram.bin",
+  "tracks": "references/search/jet-challenger/california-tracks.csv",
+  "recording_start": "2026-05-16T18:23:56.34Z",
+  "clock_uncertainty_s": 5,
+  "clock_step_s": 1,
+  "bounds": {
+    "south": 40.43031,
+    "north": 41.2198975,
+    "west": -124.409591,
+    "east": -114.131211
+  },
+  "grid_m": 200,
+  "refine_m": 50,
+  "final_grid_m": 10,
+  "terrain_dir": "data/terrain-ca-jets-3arc",
+  "geoid_grid": "work/web/cache/egm96_15.gtx",
+  "microphone_height_agl_m": 1.5,
+  "sound_speed_mps": 343,
+  "max_track_gap_s": 30,
+  "min_event_score_db": 5,
+  "workers": 16,
+  "max_grid_points": 2000000,
+  "omit_unmodeled_points": true,
+  "exclude_known_jets": false,
+  "region_mask": "CA",
+  "flight_corridors": true,
+  "events": []
+}

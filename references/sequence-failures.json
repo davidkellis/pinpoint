@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "note": "Historical failure snapshots, preserved unchanged. New conditional sequence decisions require reserved-event checks, complete controls and an explicit explanation if the historical outcome changes. No ground truth enters fitting.",
+  "baselines": [
+    {
+      "id": "reference",
+      "report": "work/automatic-sequences/reference-conditional/run/automatic.json",
+      "sha256": "44afe2e8bed104a5365b7c8e8db48c0d0bf055cc1c06091f61fc363c55643232",
+      "status": "unresolved",
+      "pairs": 151,
+      "margin_db": 0.1619548994088973,
+      "scope": "Known reference-area rectangle"
+    },
+    {
+      "id": "desk",
+      "report": "work/automatic-sequences/desk-fixed-position-v2/run/automatic.json",
+      "sha256": "a8275b15ff686e7190c3e4eb191f50c6d1cf1c1ef6cc01ee7ef2b253867ef611",
+      "status": "no_match",
+      "pairs": 28,
+      "margin_db": null,
+      "scope": "Supplied desk position; not blind localization"
+    }
+  ],
+  "new_sequence_policy": {
+    "reference": {
+      "allowed_unresolved": [
+        "unresolved"
+      ],
+      "conditional_promotion_requires": {
+        "minimum_events": 3,
+        "required_aircraft": [
+          "a1dfeb",
+          "ace391"
+        ],
+        "evaluation_coordinate": [
+          40.876466,
+          -73.524951
+        ],
+        "maximum_evaluation_distance_m": 500,
+        "minimum_controls": 8,
+        "minimum_margin_db": 1
+      },
+      "note": "The coordinate and aircraft are evaluation-only. The video coordinate is a reported model result, not surveyed microphone GPS. Promotion remains conditional/unverified."
+    },
+    "desk": {
+      "required_status": "no_match",
+      "note": "Known-position association diagnostic; must not become a blind location claim."
+    }
+  }
+}

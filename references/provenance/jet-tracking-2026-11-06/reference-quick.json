@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "manifest_sha256": "48b0c14ff03cd5aeb5e5ded131e4ec50d3c92bf1b8831c4019c770e1f13340ec",
+  "go_source_sha256": "a48da1c728fe8a30a36ca659ffa545b91386039409384674dc40d1dcee34da1e",
+  "go_version": "go1.26.5",
+  "started_utc": "2026-11-06T06:16:29Z",
+  "profile": "quick",
+  "status": "pass",
+  "verified_assets": 8,
+  "cases": [
+    {
+      "id": "colsto-fixture-1",
+      "status": "pass",
+      "seconds": 1.335667384,
+      "fragments": 56,
+      "strong_candidates": 2,
+      "curves": [
+        {
+          "id": "colsto-flyover-1",
+          "anchor_hit_fraction": 1,
+          "anchor_coverage": 1,
+          "rmse_hz": 0.6422616289332564,
+          "harmonic_ratio": 1,
+          "strong": true,
+          "pass": true
+        }
+      ],
+      "note": "Whole-recording-whitened spectral excerpt; development regression, not a fresh audio decode."
+    },
+    {
+      "id": "colsto-fixture-2",
+      "status": "pass",
+      "seconds": 1.658680393,
+      "fragments": 51,
+      "strong_candidates": 1,
+      "curves": [
+        {
+          "id": "colsto-flyover-2",
+          "anchor_hit_fraction": 1,
+          "anchor_coverage": 1,
+          "rmse_hz": 0.7447734554883115,
+          "harmonic_ratio": 1,
+          "strong": true,
+          "pass": true
+        }
+      ],
+      "note": "Whole-recording-whitened spectral excerpt; development regression, not a fresh audio decode."
+    },
+    {
+      "id": "pathak-n784mb_r04",
+      "status": "pass",
+      "seconds": 3.583315183,
+      "fragments": 95,
+      "strong_candidates": 5,
+      "curves": [
+        {
+          "id": "publisher-r04",
+          "anchor_hit_fraction": 0.9578163771712159,
+          "anchor_coverage": 1,
+          "rmse_hz": 2.7386550363421693,
+          "harmonic_ratio": 0.5,
+          "strong": true,
+          "pass": true
+        }
+      ],
+      "note": "Publisher UTC trace independently aligned to audio by +4.975 s; development regression."
+    }
+  ],
+  "decoder": "ffmpeg version 8.1.3 Copyright (c) 2000-2026 the FFmpeg developers"
+}

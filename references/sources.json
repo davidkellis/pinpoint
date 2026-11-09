@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "accessed": "2026-11-08",
+  "sources": [
+    {
+      "id": "pathak-2026",
+      "title": "Aeroplane data full analysis and raw files",
+      "creator": "Praveen Pathak",
+      "url": "https://zenodo.org/records/23424278",
+      "doi": "10.5281/zenodo.23424278",
+      "version": "v1 (2026-10-16)",
+      "license": "CC BY 4.0 (record metadata)",
+      "local": [
+        "samples/public/pathak-2026/",
+        "work/public-flyover-source/",
+        "references/provenance/zenodo-23424278.json",
+        "references/provenance/pathak-additional-jets-selection.json",
+        "references/provenance/pathak-r21/",
+        "references/provenance/pathak-r50/"
+      ],
+      "role": "Real audio, target tracks, UTC frequency labels and published reference measurements",
+      "transforms": "Original WAV/CSV/KML/PDF unchanged. Audio spectrum and inferred sample-zero alignment are derived separately.",
+      "additional_jet_selection": "N563FX_R21 (Challenger), N958JX_R50 (E145), selected by aircraft identity before inspecting detector outcome. 78.5 MB V_constant_H_varying archive MD5 verified; original members SHA-256 pinned.",
+      "observer_location_limit": "Publisher reports Livermore only; precise microphone GPS not supplied."
+    },
+    {
+      "id": "colsto-audio",
+      "title": "Unknown location - raw audio",
+      "creator": "colsto",
+      "url": "https://www.youtube.com/watch?v=4CxVxuMVkMc",
+      "license": "No redistribution license verified",
+      "local": [
+        "samples/Unknown location - raw audio [4CxVxuMVkMc].mp3",
+        "internal/acoustic/testdata/"
+      ],
+      "role": "Two positive curve labels and video-reported camera reference",
+      "transforms": "User yt-dlp/ytmusic download transcoded YouTube Opus to MP3; exact file SHA pinned. Spectral fixtures derived after full-file whitening."
+    },
+    {
+      "id": "colsto-method",
+      "title": "Aircraft acoustic geolocation methodology video",
+      "creator": "colsto",
+      "url": "https://www.youtube.com/watch?v=UytYrhYLOKI",
+      "license": "No redistribution license verified",
+      "local": [
+        "README.md"
+      ],
+      "role": "Methodology described in user-supplied transcript; reported coordinate from video frame"
+    },
+    {
+      "id": "adsblol-20260514",
+      "title": "ADS-B lol May 14, 2026 daily aircraft traces",
+      "url": "https://github.com/adsblol/globe_history_2026/releases/tag/v2026.05.14-planes-readsb-prod-0",
+      "license": "Database ODbL 1.0; consult upstream for individual contents/CC0 distinction",
+      "local": [
+        "data/2026-05-14/",
+        "work/pathak-california/california-tracks.csv",
+        "references/provenance/adsblol-20260514.json"
+      ],
+      "role": "Independent competing-aircraft input for California search",
+      "transforms": "readsb traces imported 17:39–17:46 UTC, padded bounds 32.2,-124.8,42.35,-113.75; geometric altitudes required; no registration or jet filter."
+    },
+    {
+      "id": "adsblol-20260908",
+      "title": "ADS-B lol September 8, 2026 daily aircraft traces",
+      "url": "https://github.com/adsblol/globe_history_2026/releases/tag/v2026.09.08-planes-readsb-prod-0",
+      "license": "Database ODbL 1.0; consult upstream for contents",
+      "local": [
+        "data/2026-09-08/",
+        "work/methodology/ny-tracks-typed.csv",
+        "work/reproduction/archive-manifest.json"
+      ],
+      "role": "Oyster Bay reproduction flight inputs"
+    },
+    {
+      "id": "skadi",
+      "title": "Mapzen / Tilezen Skadi elevation tiles",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/skadi/",
+      "attribution_url": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+      "license": "Multiple underlying elevation providers; retain applicable upstream attributions",
+      "local": [
+        "data/terrain-ca-3arc/",
+        "data/terrain-ny-3arc/",
+        "internal/geo/download.go"
+      ],
+      "role": "Candidate ground elevation, not aircraft altitude",
+      "transforms": "HGT tiles sampled to 3 arcseconds; negative elevations clamped to zero, voids preserved. Geoid added for ellipsoid conversion."
+    },
+    {
+      "id": "egm96",
+      "title": "EGM96 15-minute geoid grid, PROJ datumgrid",
+      "url": "https://raw.githubusercontent.com/OSGeo/PROJ-datumgrid/master/egm96_15.gtx",
+      "license": "See upstream PROJ-datumgrid grid provenance; no blanket data license asserted here",
+      "local": [
+        "work/web/cache/egm96_15.gtx"
+      ],
+      "role": "Orthometric to WGS84 ellipsoid height conversion"
+    },
+    {
+      "id": "census-2024",
+      "title": "US Census 2024 state cartographic boundaries, 1:500000",
+      "url": "https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_state_500k.zip",
+      "license": "US Census source; retain attribution",
+      "local": [
+        "tools/census_states.py",
+        "internal/geo/",
+        "internal/mapview/"
+      ],
+      "role": "State search mask and visual state boundaries; no location truth"
+    },
+    {
+      "id": "aircraft-types",
+      "title": "tar1090-db ICAO aircraft engine lookup",
+      "url": "https://raw.githubusercontent.com/wiedehopf/tar1090-db/2ab834a65f2fbde9457823e88682cd46954b8bc1/db/icao_aircraft_types2.js",
+      "revision": "2ab834a65f2fbde9457823e88682cd46954b8bc1",
+      "local": [
+        "internal/tracks/data/type-engines.json"
+      ],
+      "role": "Optional known-jet exclusion; disabled in California reference search",
+      "source_sha256": "2e14ae03a97cb01bbba95d7dbe43b3b13dcc6cc5ce0ee93660c973e87aabb62e",
+      "license": "Retain tar1090-db/Mictronics upstream provenance"
+    },
+    {
+      "id": "dopplerprint",
+      "title": "dopplerprint",
+      "url": "https://github.com/Hexay/dopplerprint",
+      "revision": "f4ead9a52519562af0a50be12eecf0d70f54573b",
+      "license": "MIT (inspected repository code); third-party data retain own terms",
+      "local": [
+        "work/reference-repos/dopplerprint/"
+      ],
+      "role": "Comparison implementation; inferred Livermore reference, not surveyed truth"
+    },
+    {
+      "id": "dopplergeist",
+      "title": "DOPPLERGEIST",
+      "url": "https://github.com/1337isnot1337/DOPPLERGEIST",
+      "revision": "7d74fc2d6f4be4a1df747a13ded0fabeb9a31148",
+      "license": "PolyForm Noncommercial 1.0.0 (inspected revision); do not assume older MIT references apply",
+      "local": [
+        "work/reference-repos/DOPPLERGEIST/"
+      ],
+      "role": "Comparison implementation; leave-one-passage-out reference and coverage diagnostics. Code inspected, not copied or executed."
+    },
+    {
+      "id": "personal-audio",
+      "title": "User phone recordings",
+      "url": null,
+      "license": "Private user-supplied research inputs; redistribution not authorized",
+      "local": [
+        "samples/",
+        "work/desk-flights/provenance/manifest.json",
+        "work/desk-regression/frozen-suite-2026-11-05.json",
+        "work/desk-regression/check/all.json"
+      ],
+      "role": "Mostly unlabeled noisy indoor and walking evaluation; November 5 has a private development regression for an observed ridge and inferred aircraft association. Not aircraft-free negatives or a demonstrated precise geolocation.",
+      "current_user_context_record": "work/personal-samples-2026-11-08/receiver-context.json",
+      "additional_analysis_2026_11_08": {
+        "recordings": [
+          "2026_11_07_17_38_51_1",
+          "2026_11_07_18_04_04_1",
+          "2026_11_07_18_05_46_1"
+        ],
+        "context": "All three are park walks, explicitly confirmed by user",
+        "report": "work/personal-samples-2026-11-08/index.html"
+      },
+      "model_improvements_2026_11_08": {
+        "overview": "work/overnight-improvements-2026-11-08/index.html",
+        "results": "work/overnight-improvements-2026-11-08/improvements-summary.json",
+        "provenance": "references/private/provenance/model-improvements-2026-11-08.json",
+        "development_regressions": "references/private/receiver-recovery.json",
+        "scope": "Conditional forward-model recovery, FFT/model comparisons and a disclosed-region scan. No independent aircraft identity, unique GPS or state-wide accuracy is asserted."
+      }
+    },
+    {
+      "id": "pinpoint-derived",
+      "title": "Pinpoint derived inputs and evaluation labels",
+      "url": null,
+      "local": [
+        "references/",
+        "work/pathak-california/",
+        "work/reproduction/"
+      ],
+      "role": "Frozen configurations and derived protocol; original data retain upstream attribution"
+    },
+    {
+      "id": "aerosonic-ypad0523",
+      "title": "AeroSonicDB YPAD-0523",
+      "creator": "Blake Downward; dataset paper with Jon Nordby",
+      "url": "https://zenodo.org/records/10215080",
+      "doi": "10.5281/zenodo.10215080",
+      "version": "1.1.2 (November 2023)",
+      "license": "CC BY-NC 4.0",
+      "local": [
+        "samples/public/aerosonic-ypad0523/",
+        "references/provenance/zenodo-10215080.json",
+        "references/provenance/aerosonic-selection.json",
+        "references/provenance/aerosonic-test-selection.json",
+        "references/jets-test.json"
+      ],
+      "role": "Thirteen jet clips and five human-verified no-aircraft controls: initial training examples plus separate publisher test sessions. Public coordinates intentionally displaced; not precise recorder GPS.",
+      "transforms": "Unchanged selected WAVs. Pinned ZIP member CRC32 and local SHA-256 verified; whole archive was not downloaded, so its MD5 is not claimed verified.",
+      "paper": "https://arxiv.org/abs/2311.06368"
+    },
+    {
+      "id": "dlr-rec139",
+      "title": "RECORD 139 - Benchmark for Acoustic Source Localization of Flyover Microphone Array Measurements",
+      "creator": "Timo Schumacher and Henri Siller, DLR",
+      "url": "https://zenodo.org/records/20494053",
+      "doi": "10.5281/zenodo.20494053",
+      "license": "CC BY 4.0",
+      "local": [
+        "samples/public/dlr-a320-rec139/",
+        "work/jet-reference-source/20494053/",
+        "references/provenance/zenodo-20494053.json"
+      ],
+      "role": "Airbus A320-232 flyover, 231-channel calibrated pressure array with exact local microphone positions and three trajectory references. GPS origin and UTC epoch not documented in the inspected assets.",
+      "transforms": "Entire REC139.h5 MD5 verified (1fb08d67965550d26d5b35abaf71f3f3). Three microphone channels exported unchanged as float32 WAV, 48192 Hz, no gain applied. Channels share one flight.",
+      "analysis_status": "No usable curve in tested center microphone; not a passing location test."
+    },
+    {
+      "id": "faa-rvsm-202604",
+      "title": "FAA NAARMO US RVSM approvals, April 2026",
+      "url": "https://www.faa.gov/sites/faa.gov/files/2026-04/NAARMO_US_IGA_RVSM_Approvals_Part_135_91_Section_3.pdf",
+      "role": "N394FX listed as E55P; supports classification of Pathak R20 as a real Phenom 300 jet."
+    },
+    {
+      "id": "pinpoint-jet-protocol",
+      "title": "Pinpoint jet development experiments",
+      "local": [
+        "references/jets.json",
+        "references/search/jet-phenom/",
+        "tools/prepare_jet_location.py",
+        "docs/research/jet-validation.md"
+      ],
+      "role": "Automatic jet curve extraction and assisted California search. Expected city region reserved for evaluation. Precise GPS accuracy not established."
+    },
+    {
+      "id": "adsblol-2026-05-16",
+      "title": "ADS-B.lol May 16 2026 prod-0 historical aircraft traces",
+      "creator": "ADS-B.lol contributors",
+      "url": "https://github.com/adsblol/globe_history_2026/releases/tag/v2026.05.16-planes-readsb-prod-0",
+      "license": "ODbL 1.0; preserve source database attribution and applicable share-alike obligations",
+      "version": "v2026.05.16-planes-readsb-prod-0",
+      "local": [
+        "data/2026-05-16/",
+        "references/provenance/adsblol-2026-05-16-release.json",
+        "work/additional-jets/california-tracks.csv",
+        "references/search/jet-challenger/california-tracks.csv"
+      ],
+      "role": "Competing California aircraft, not target-only supplied KML",
+      "transforms": "Both archive parts downloaded and publisher SHA-256 verified. Go importer keeps geometric-altitude observations in 18:21–18:35 UTC and padded California bounds. Original pressure altitude is never substituted for geometric altitude."
+    },
+    {
+      "id": "fr24-public-playback",
+      "title": "Flightradar24 historical website playback",
+      "creator": "Flightradar24",
+      "url": "https://www.flightradar24.com/",
+      "accessed": "2026-11-07",
+      "local": [
+        "work/fr24-review-2026-11-07/",
+        "references/private/provenance/fr24-playback-review-2026-11-07.json",
+        "work/nov07-desk/",
+        "references/private/provenance/nov07-desk-review.json"
+      ],
+      "role": "Sparse public historical map observations: timestamps, flight IDs, callsigns and horizontal positions, cross-checked against separately sourced ADSB.lol geometric tracks",
+      "acquisition": "Anonymous Firefox/Selenium; 261 snapshots at two-minute intervals for six stationary November 4–6 desk recordings, plus 32 snapshots for the moving November 3 recording as a flight inventory only. No credentials or subscription settings altered.",
+      "altitude_policy": "FR24 displayed altitude has no verified ellipsoidal basis; it is not used for acoustic geometry.",
+      "validation_scope": "Known-position recognition review and explicitly flight-conditioned, geographically ambiguous single-curve Texas experiment; not blind localization or independent acoustic identity truth.",
+      "source_docs": [
+        "https://support.fr24.com/support/solutions/articles/3000115499-is-it-possible-to-see-playback-of-past-flights-",
+        "https://www.flightradar24.com/blog/inside-flightradar24/understanding-altitude-on-flightradar24/"
+      ],
+      "license": "Redistribution permission not verified; raw observations retained locally for research review.",
+      "additional_capture_2026_11_07": "38 two-minute snapshots for 2026_11_07_15_01_53_1.mp3. Receiver context is an explicit working assumption pending confirmation."
+    },
+    {
+      "id": "nasa-fan-noise-2014",
+      "title": "Enhanced Fan Noise Modeling for Turbofan Engines",
+      "url": "https://ntrs.nasa.gov/citations/20150000884",
+      "creator": "Eugene A. Krejsa and James R. Stone, NASA/CR-2014-218421",
+      "role": "Primary reference for turbofan tonal, combination-tone and broadband source components"
+    },
+    {
+      "id": "ihi-fan-noise",
+      "title": "Development of Technologies for Aerodynamics, Aeromechanics and Noise of Low Pressure Ratio Fan",
+      "url": "https://www.ihi.co.jp/en/technology/techinfo/contents_no/1202032_13586.html",
+      "creator": "Ryosuke Hayashi, Atsushi Tateishi and Shinya Kusuda, IHI",
+      "role": "Primary reference for fan tonal orders, broadband components and frequency dependence on rotation speed"
+    },
+    {
+      "id": "openstax-doppler",
+      "title": "University Physics Volume 1, 17.7 The Doppler Effect",
+      "creator": "OpenStax",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/17-7-the-doppler-effect",
+      "role": "Primary textbook support for separate source/observer velocity terms; the 3D retarded-time implementation is verified by independent forward-wavefront tests.",
+      "local": [
+        "internal/tracks/moving.go",
+        "internal/tracks/moving_test.go"
+      ],
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "readsb-json-motion-2026-11-08",
+      "title": "readsb JSON trace fields: ground speed, true track and geometric climb rate",
+      "url": "https://github.com/wiedehopf/readsb/blob/dev/README-json.md",
+      "retrieved_url": "https://raw.githubusercontent.com/wiedehopf/readsb/dev/README-json.md",
+      "retrieved_date": "2026-11-08",
+      "local": [
+        "work/desk-model-improvements-2026-11-08/sources/readsb-README-json.md",
+        "docs/research/desk-model-improvements-2026-11-08.md",
+        "references/private/provenance/desk-model-improvements-2026-11-08.json"
+      ],
+      "sha256": "abb581d94e5c12e52d45cd8f9096a250ee99cb4f84926e3217f5003c8d242b30",
+      "role": "Primary schema for optional ground-motion preservation; existing private ADSB.lol caches supply measurements. Branch snapshot retained for reproducibility.",
+      "transforms": "Unit conversion to m/s and geometric-only vertical rates; optional Hermite interpolation does not fit audio or receiver position."
+    },
+    {
+      "id": "texas-personal-statewide-evaluation-2026-11-08",
+      "title": "Texas phone corpus statewide development evaluation",
+      "url": "https://globe.adsb.lol/",
+      "local": [
+        "samples/",
+        "work/texas-evaluation-2026-11-08",
+        "references/private/texas-statewide-evaluation.json",
+        "docs/research/texas-statewide-evaluation-2026-11-08.md"
+      ],
+      "acquisition": "Previously cached state-wide desk flights; new whole-state replay discovery and geometric full traces for four November 7 recordings. No new FR24 acquisition.",
+      "transforms": "WGS84 trajectory/retarded-time fits; optional reported-motion interpolation; complete-state corridor grids; post-search user-site evaluation. SRTM plus EGM96 for observer height. Both six-second and exact-start protocols retained.",
+      "redistribution": "Original phone media remain private and are excluded from public CI/media bundles. Metadata and reproducibility output are local research artifacts.",
+      "result": "Automatic primary attempts fail the two-mile target. The reviewed turboprop interval reaches 320.5 m only with the exact filename-start assumption."
+    },
+    {
+      "id": "sarkka-svensson-filtering-smoothing-2023",
+      "title": "Bayesian Filtering and Smoothing, Second Edition",
+      "creator": "Simo Särkkä and Lennart Svensson",
+      "url": "https://users.aalto.fi/~ssarkka/pub/bfs_book_2023_online.pdf",
+      "accessed": "2026-11-08",
+      "local": [
+        "work/model-improvements-2026-11-08/sources/bfs_book_2023_online.pdf",
+        "internal/tracks/reconstruct.go",
+        "docs/research/trajectory-reconstruction-2026-11-08.md"
+      ],
+      "sha256": "6b57f19aedb36a539a0a882b3c0c7ef49155ac25d82ee6950fc808b0a60f9c55",
+      "role": "Primary reference for linear Kalman filtering and Rauch–Tung–Striebel smoothing; independent analytic tests validate the implemented Doppler behavior.",
+      "transforms": "Author-hosted PDF retained unchanged locally and parsed with pdfinfo; no redistribution license asserted."
+    },
+    {
+      "id": "texas-trajectory-reconstruction-2026-11-08",
+      "title": "Fixed-uncertainty trajectory reconstruction after statewide localization failures",
+      "url": "https://globe.adsb.lol/",
+      "local": [
+        "work/model-improvements-2026-11-08/",
+        "references/private/provenance/trajectory-reconstruction-2026-11-08.json",
+        "references/private/trajectory-reconstruction.json",
+        "docs/research/trajectory-reconstruction-2026-11-08.md"
+      ],
+      "acquisition": "Reuses original private phone recordings and the previously archived Texas-wide ADSB.lol geometric traces, reported speed/true track/geometric rate, SRTM and EGM96. No new flight or audio acquisition.",
+      "transforms": "Fixed position/velocity Kalman + RTS estimate, Hermite densification and complete retarded-time curve fits. Six-second clock allowance and all aircraft types retained.",
+      "receiver_truth": "Post-search evaluation only; no receiver/audio/aircraft ID supplied to telemetry reconstruction. The turboprop interval was previously reviewed, so this is assisted development evidence.",
+      "result": "Reviewed turboprop statewide winner is 426.5 m from desk; two walking case winners remain distant. Exact geometry optimizations preserve the winner and leading groups in a paired statewide replay.",
+      "redistribution": "Private original phone audio is unchanged and remains excluded from public bundles."
+    }
+  ]
+}

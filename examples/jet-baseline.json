@@ -1,0 +1,50 @@
+{
+  "cases": [
+    {
+      "id": "a320",
+      "label": "A320 real jet; approximate site only",
+      "kind": "unlabeled",
+      "audio": "samples/public/aerosonic-ypad0523/7C7CD0_2022-12-08_12-29-45_0_0.wav",
+      "duration_s": 60.0
+    },
+    {
+      "id": "b738",
+      "label": "B738 real jet; approximate site only",
+      "kind": "unlabeled",
+      "audio": "samples/public/aerosonic-ypad0523/7C77FA_2022-12-08_09-21-43_0_0.wav",
+      "duration_s": 60.0
+    },
+    {
+      "id": "e190",
+      "label": "E190 real jet; approximate site only",
+      "kind": "unlabeled",
+      "audio": "samples/public/aerosonic-ypad0523/7C7777_2022-12-08_10-06-22_0_0.wav",
+      "duration_s": 60.0
+    },
+    {
+      "id": "a333",
+      "label": "A333 real jet; approximate site only",
+      "kind": "unlabeled",
+      "audio": "samples/public/aerosonic-ypad0523/750262_2022-12-11_09-48-28_0_0.wav",
+      "duration_s": 60.0
+    },
+    {
+      "id": "b77w",
+      "label": "B77W real jet; approximate site only",
+      "kind": "unlabeled",
+      "audio": "samples/public/aerosonic-ypad0523/06A2B1_2022-12-08_19-55-46_0_0.wav",
+      "duration_s": 60.0
+    },
+    {
+      "id": "phenom-r20",
+      "label": "Pathak N394FX Phenom 300",
+      "kind": "unlabeled",
+      "audio": "samples/public/pathak-2026/N394FX_R20/audio.wav",
+      "duration_s": 60.526
+    }
+  ],
+  "methods": [
+    "production-2+4s",
+    "stft-1s"
+  ]
+}

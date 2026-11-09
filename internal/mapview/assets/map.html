@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="pinpoint-map-version" content="5">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pinpoint · Location map</title>
+  <style>__LEAFLET_CSS__</style>
+  <style>__APP_CSS__</style>
+  <style>__EVIDENCE_CSS__</style>
+</head>
+<body>
+  <header><div class="brand"><span class="brand-mark">◎</span> pinpoint <span class="subtitle">LOCATION SEARCH</span></div><span id="status" class="status">Loading results</span></header>
+  <div class="workspace">
+    <aside aria-label="Map controls and results">
+      <section class="intro"><p class="eyebrow">SEARCH RESULTS</p><h1 id="result-title">Candidate location fits</h1><p id="result-scope" class="summary"></p><p id="source" class="muted filename"></p><p id="summary" class="summary" aria-live="polite"></p></section>
+      <section id="best-card" class="best-card"><p class="eyebrow">HIGHEST-SCORING FIT</p><p id="ambiguity" hidden></p><button id="best" class="coordinate" disabled>—</button><div id="best-score" class="muted"></div><div id="best-clock" class="muted"></div></section>
+      <section class="controls">
+        <button id="compare-curves" class="button">Compare Doppler curves</button>
+        <p class="muted">Inspect the recorded sound and ranked flight predictions.</p>
+        <label for="metric">Color by</label><select id="metric"><option value="combined">Combined match score</option></select>
+        <div class="legend"><div class="gradient"></div><div class="legend-labels"><span id="legend-min">—</span><span id="legend-max">—</span></div><p class="muted">Purple: weaker fit · Red: stronger fit</p></div>
+        <label for="stage">Search grid</label><select id="stage"><option value="all">Coarse + refined</option><option value="coarse">Coarse only</option><option value="dense">Dense geometry survivors</option><option value="refined">Refined only</option></select>
+        <label for="basemap">Background</label><select id="basemap"><option value="satellite">Satellite imagery · Esri</option><option value="streets">Street map · Esri</option><option value="none">Plain background · offline</option></select>
+        <label class="check"><input id="state-borders" type="checkbox" checked> State borders</label>
+        <label class="check"><input id="road-labels" type="checkbox" checked> Roads and labels on satellite</label>
+        <label class="check"><input id="accepted-only" type="checkbox"> <span id="threshold-label">Only locations passing the score thresholds</span></label>
+        <label class="check"><input id="unscored" type="checkbox" checked> Show insufficient-data points in gray</label>
+        <label class="check"><input id="flights" type="checkbox"> Show highest-scoring fit's flight paths</label>
+        <label for="opacity">Dot opacity <output id="opacity-value">85%</output></label><input id="opacity" type="range" min="10" max="100" value="85">
+        <button id="fit" class="button">Fit search area</button>
+        <p id="visible-count" class="muted" aria-live="polite"></p>
+      </section>
+      <section id="details" aria-live="polite"><p class="eyebrow">INSPECT A LOCATION</p><p class="muted">Click a dot to see its coordinates, scores, aircraft and clock correction.</p></section>
+      <footer><p>Colors show relative fit, not location probabilities. Grid spacing is not an accuracy radius.</p><p id="analysis-note"></p><p>Search data stays in this file. State borders work offline. Satellite imagery and street tiles need internet access.</p><a href="score-grid.geojson" download>Download score grid</a><span> · </span><a href="best-overlay.svg">Audio evidence</a></footer>
+    </aside>
+    <main><div id="map" aria-label="Location score map"></div><div id="tile-message" class="map-message" role="status" hidden>Map tiles could not load. State borders and score dots still work; choose the offline background.</div><div class="map-caption"><span class="caption-dot"></span><span id="grid-caption"></span></div></main>
+  </div>
+  <noscript>This interactive map requires JavaScript. The scores are also available in score-grid.geojson.</noscript>
+  <script id="map-data" type="application/json">__MAP_DATA__</script>
+  <script id="borders-data" type="application/json">__STATE_BORDERS__</script>
+  <!-- Leaflet license:
+__LEAFLET_LICENSE__
+  -->
+  <script>__LEAFLET_JS__</script>
+  <script>__MAP_CONTEXT__</script>
+  <script>__EVIDENCE_JS__</script>
+  <script>__APP_JS__</script>
+</body>
+</html>

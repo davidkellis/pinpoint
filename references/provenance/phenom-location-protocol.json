@@ -1,0 +1,76 @@
+{
+  "mode": "assisted known-aircraft location fit",
+  "search_region": "California, three latitude bands",
+  "known_target": "samples/public/pathak-2026/N394FX_R20/N394FX-track-EGM96.kml",
+  "audio_evidence": "automatic short-pass detector; one usable ridge",
+  "altitude_conversion": "published EGM96 orthometric altitude + EGM96 GTX undulation",
+  "clock": {
+    "method": "CSV-to-audio timing: maximize mean measured spectral contrast along published UTC frequency trace; no aircraft trajectory or geography used.",
+    "first_csv_utc": "2026-05-16T20:12:29.429Z",
+    "wav_duration_s": 60.52685546875,
+    "csv_span_s": 50.527000188827515,
+    "first_csv_offset_in_wav_s": 5.050000000000001,
+    "inferred_wav_start_utc": "2026-05-16T20:12:24.379Z",
+    "alignment_contrast_db": 6.895965576171875,
+    "top_alignments": [
+      [
+        6.895965576171875,
+        5.050000000000001,
+        235
+      ],
+      [
+        6.893671989440918,
+        5.025,
+        235
+      ],
+      [
+        6.888492107391357,
+        5.075,
+        235
+      ],
+      [
+        6.876477241516113,
+        5.0,
+        235
+      ],
+      [
+        6.8706769943237305,
+        5.1000000000000005,
+        235
+      ],
+      [
+        6.839812755584717,
+        4.9750000000000005,
+        235
+      ],
+      [
+        6.839496612548828,
+        5.125,
+        235
+      ],
+      [
+        6.797473907470703,
+        5.15,
+        235
+      ],
+      [
+        6.79609489440918,
+        4.95,
+        235
+      ],
+      [
+        6.75139856338501,
+        5.175000000000001,
+        235
+      ]
+    ],
+    "clock_uncertainty_for_search_s": 5,
+    "note": "This is an inferred audio alignment, not independent verification of the publisher's UTC clock. Published frequency trace is assisted input; aircraft identity and source geographic results are withheld from search."
+  },
+  "recorder_gps": null,
+  "limitations": [
+    "No competing aircraft",
+    "Inferred recording clock",
+    "City-level recording reference only; no metre-level accuracy assertion"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "manifest_sha256": "4651add7e7c5058ae03f3a96745c8b537b728851febddd44ca6ec4489370ac1b",
+  "go_source_sha256": "a48da1c728fe8a30a36ca659ffa545b91386039409384674dc40d1dcee34da1e",
+  "go_version": "go1.26.5",
+  "started_utc": "2026-11-06T06:16:29Z",
+  "profile": "audio",
+  "status": "pass",
+  "verified_assets": 8,
+  "cases": [
+    {
+      "id": "challenger-extended-ridge",
+      "status": "pass",
+      "seconds": 25.851749859999998,
+      "fragments": 563,
+      "strong_candidates": 2,
+      "curves": [
+        {
+          "id": "publisher-frequency-trace",
+          "anchor_hit_fraction": 0.705607476635514,
+          "anchor_coverage": 0.7274143302180686,
+          "rmse_hz": 4.482991537287974,
+          "harmonic_ratio": 1,
+          "strong": true,
+          "pass": true
+        }
+      ],
+      "note": "At least 68% publisher anchor hits and 70% coverage on one strong continuous ridge. Still below the separate 75% full-trace target. Uses unchanged source files and labels; not GPS ground truth."
+    }
+  ],
+  "decoder": "ffmpeg version 8.1.3 Copyright (c) 2000-2026 the FFmpeg developers"
+}
