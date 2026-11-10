@@ -4,6 +4,7 @@ import (
 	"context"
 	"path/filepath"
 	"pinpoint/internal/acoustic"
+	"pinpoint/internal/search"
 )
 
 func (s *Server) detectRecording(ctx context.Context, j *job, primary *acoustic.Spectrum) (acoustic.DetectionReport, error) {
@@ -32,4 +33,16 @@ func (s *Server) detectRecording(ctx context.Context, j *job, primary *acoustic.
 		return acoustic.DetectionReport{}, err
 	}
 	return acoustic.CombineDetections(primary, acoustic.CorroborateCurves(longReport, short), acoustic.CorroborateCurves(shortReport, primary)), nil
+}
+
+// soundInventory explains the detection in plain language: which sounds have a
+// usable Doppler curve, which do not and why, and loud passes with no curve.
+// Loudness needs the audio; without it the inventory simply omits loud passes.
+func soundInventory(ctx context.Context, j *job, d acoustic.DetectionReport) *acoustic.SoundInventory {
+	var humps []acoustic.Hump
+	if l, err := acoustic.LoudnessEnvelope(ctx, filepath.Join(j.dir, "audio"), 0, 50, 2000, 1); err == nil {
+		humps = acoustic.FindHumps(l, acoustic.DefaultHumpOptions())
+	}
+	inv := acoustic.Inventory(d.Events, humps, acoustic.DefaultLocatableMaxHz, search.DefaultConsensusOptions().MinCurves)
+	return &inv
 }

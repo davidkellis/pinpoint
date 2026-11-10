@@ -109,7 +109,11 @@ run. Runtime flags always use double hyphens, and recipes forward them unchanged
 
 1. Open <http://127.0.0.1:8080> and choose a **Sound analysis** profile: long
    tonal curves, short sweeps, or both. Drag an audio or video file onto the
-   upload box; analysis starts automatically.
+   upload box; analysis starts automatically. The **What Pinpoint heard** panel
+   then lists every sound worth a look, in plain language: clear Doppler curves
+   the search will use, possible curves it will not use automatically,
+   curves too high-pitched to use, and loud passes with no traceable tone
+   (often jets). Each entry says why, and opens on the spectrogram.
 2. Enter the approximate recording **start time**, **time zone** and
    **uncertainty**. A date is required; audio does not encode one. Filenames such
    as `2026_11_03_18_50_11_1.mp3` prefill a suggestion to check.
@@ -157,6 +161,18 @@ just import --archive 'data/archive/v2025.09.08-planes-readsb-prod-0.tar.??' \
 just locate --config examples/search.json --out work/results
 just map --results work/results
 ```
+
+To see what a recording contains before searching, and whether it has enough
+usable flyovers, run:
+
+```sh
+just sounds --audio /path/to/recording.m4a   # or ./bin/pinpoint sounds
+```
+
+It explains each sound: a clear Doppler curve (usable), a possible curve, a
+curve too high-pitched to use, or a loud pass with no tone, plus counts of
+rejected fragments by reason. `consensus` prints the same summary first and
+saves it as `sounds.json`.
 
 For a stationary recording, the **consensus search** needs no reviewed windows
 and is the recommended statewide method. It offers every strong curve, requires

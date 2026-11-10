@@ -144,7 +144,36 @@
   $('adjust').onclick=()=>{$('results').hidden=true;$('workspace').hidden=false;$('result-nav').hidden=true;$('local-badge').hidden=false;setTimeout(()=>map.invalidateSize(),0);};
   const clockLabel=t=>`${Math.floor(t/60)}:${String(Math.floor(t%60)).padStart(2,'0')}`;
   const outcomeName={validation_pass:'Reserved checks pass · unverified',validation_failed:'Reserved audio rejected',pending:'Waiting',searching:'Searching',candidate_matches:'Candidate matches · unverified',no_match:'No supporting match',no_tracks:'No trajectory data in this interval',error:'Failed',not_run:'Not searched'};
+  const soundKind={usable:'Usable',possible:'Maybe',too_high:'Not usable',loud_only:'Not usable'};
+  function renderSounds(info){
+    const inv=info.sound_inventory;
+    $('sounds-card').hidden=!inv;
+    if(!inv)return;
+    $('sounds-verdict').textContent=inv.verdict;
+    $('sounds-list').replaceChildren();
+    for(const it of inv.items||[]){
+      const row=document.createElement('div');row.className=`sound-item sound-${it.kind}`;
+      const head=document.createElement('p');head.className='sound-head';
+      const badge=document.createElement('span');badge.className='sound-badge';badge.textContent=soundKind[it.kind]||it.kind;
+      const title=document.createElement('strong');title.textContent=` ${clockLabel(it.start_s)}–${clockLabel(it.end_s)} · ${it.title}`;
+      head.append(badge,title);row.append(head);
+      const list=document.createElement('ul');
+      for(const line of it.explanation||[]){const li=document.createElement('li');li.textContent=line;list.append(li);}
+      if(it.loudness_rise_db&&it.kind!=='loud_only'){const li=document.createElement('li');li.textContent=`The recording was about ${Math.round(it.loudness_rise_db)} dB louder at the time.`;list.append(li);}
+      if(it.related_detector_indices?.length){const li=document.createElement('li');li.textContent=`Also traced as ${it.related_detector_indices.length} weaker cop${it.related_detector_indices.length===1?'y':'ies'} (for example a harmonic or a second engine).`;list.append(li);}
+      row.append(list);
+      if(it.detector_index){const inspect=document.createElement('button');inspect.type='button';inspect.className='text-button';inspect.textContent='Show this curve on the spectrogram';inspect.onclick=()=>PinpointEvidence.open(`/api/jobs/${info.id}/detected/${it.detector_index}`);row.append(inspect);}
+      $('sounds-list').append(row);
+    }
+    const rejected=inv.rejected_fragments||0;
+    $('sounds-rejected').hidden=!rejected;
+    $('sounds-rejected-summary').textContent=`${rejected} other tonal fragments were rejected`;
+    $('sounds-rejected-list').replaceChildren();
+    for(const r of inv.rejected_reasons||[]){const li=document.createElement('li');li.textContent=`${r.count}: ${r.reason}`;$('sounds-rejected-list').append(li);}
+    $('sounds-note').textContent=inv.note;
+  }
   function renderCoverage(info){
+    renderSounds(info);
     const d=info.detection;
     $('coverage-card').hidden=!d;
     if(d){

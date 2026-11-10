@@ -13,9 +13,12 @@ import (
 )
 
 type JointRidgeMatch struct {
-	Event              int           `json:"event"`
-	Track              string        `json:"track_id"`
-	Aircraft           string        `json:"aircraft_identity"`
+	Event    int    `json:"event"`
+	Track    string `json:"track_id"`
+	Aircraft string `json:"aircraft_identity"`
+	// Pass numbers clearly separate passes of one aircraft over the receiver
+	// (see assignPasses); zero unless separate passes are enabled.
+	Pass               int           `json:"pass,omitempty"`
 	Fit                CurveModelFit `json:"fit"`
 	NormalizedTraining float64       `json:"normalized_training_rmse"`
 }
@@ -65,13 +68,14 @@ func assignRidgeAircraftBy(rows [][]JointRidgeMatch, cost func(JointRidgeMatch) 
 				if cost(q) > limit {
 					break
 				}
-				if seen[q.Aircraft] {
+				key := q.owner()
+				if seen[key] {
 					continue
 				}
-				seen[q.Aircraft] = true
-				old, used := owners[q.Aircraft]
+				seen[key] = true
+				old, used := owners[key]
 				if !used || augment(old, seen) {
-					owners[q.Aircraft] = event
+					owners[key] = event
 					choices[event] = j
 					return true
 				}

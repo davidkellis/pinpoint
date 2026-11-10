@@ -59,6 +59,7 @@ func consensusLocate(ctx context.Context, fs *flag.FlagSet, args []string) error
 	fs.Float64Var(&d.Criteria.MaxNormalized, "max-normalized", d.Criteria.MaxNormalized, "largest normalized training residual an explained curve may have")
 	fs.Float64Var(&d.Criteria.MaxUnexplained, "max-unexplained", d.Criteria.MaxUnexplained, "largest fraction of a curve's bend (Doppler/straight-line residual) an explaining aircraft may leave")
 	fs.BoolVar(&d.ExcludeKnownJets, "exclude-known-jets", false, "only non-jet or unknown aircraft types may explain curves (the sound was a propeller); jets still count in the loudness check")
+	fs.BoolVar(&d.Criteria.SeparatePasses, "separate-passes", false, "let one aircraft explain several curves from clearly separate passes (it moved at least 1 km farther away and came back between them)")
 	fs.Float64Var(&d.Criteria.MinSwingHz, "min-swing", d.Criteria.MinSwingHz, "minimum pitch swing (constant-model residual, Hz) for a curve to count")
 	fs.Float64Var(&d.Grid, "grid", d.Grid, "coarse grid metres")
 	fs.Float64Var(&d.Refine, "refine", d.Refine, "refinement grid metres")
@@ -145,6 +146,24 @@ func consensusLocate(ctx context.Context, fs *flag.FlagSet, args []string) error
 	for _, c := range curves {
 		fmt.Printf("  curve %d: %.1f-%.1f s, median %.0f Hz\n", c.Index, c.Start, c.End, c.MedianHz)
 	}
+	if *loud == "" {
+		*loud = *audio
+	}
+	var loudness *acoustic.Loudness
+	var humps []acoustic.Hump
+	if *loud != "" {
+		l, err := acoustic.LoudnessEnvelope(ctx, *loud, 0, 50, 2000, 1)
+		if err != nil {
+			return err
+		}
+		loudness = &l
+		humps = acoustic.FindHumps(l, acoustic.DefaultHumpOptions())
+	}
+	inventory := acoustic.Inventory(report.Events, humps, *maxHz, d.MinCurves)
+	fmt.Print(inventory.Text())
+	if err := search.JSON(filepath.Join(*out, "sounds.json"), inventory); err != nil {
+		return err
+	}
 	extra := map[string]any{"audio": *audio, "detection": *detectionPath, "tracks": *trackPath, "max_median_hz": *maxHz,
 		"receiver_truth": "not supplied; compare any ground truth only after this result is written"}
 	if len(events) < d.MinCurves {
@@ -179,15 +198,8 @@ func consensusLocate(ctx context.Context, fs *flag.FlagSet, args []string) error
 		return err
 	}
 	d.Height = heights.Func(ctx)
-	if *loud == "" {
-		*loud = *audio
-	}
-	if *loud != "" {
-		l, err := acoustic.LoudnessEnvelope(ctx, *loud, 0, 50, 2000, 1)
-		if err != nil {
-			return err
-		}
-		d.Loudness = &l
+	if loudness != nil {
+		d.Loudness = loudness
 		extra["loudness_audio"] = *loud
 	}
 	last := time.Time{}

@@ -263,3 +263,88 @@ func TestSubsetCriteriaRejectUninformativeCurves(t *testing.T) {
 		t.Fatal("a fit barely better than a straight line must not count")
 	}
 }
+
+// outAndBack flies east past the receiver (900 m north of it at t=100), turns
+// around 10.5 km east on a 1 km radius, and passes again 2.9 km north of it
+// heading west, about 345 s later.
+func outAndBack(id string, lat, lon, alt float64) tracks.Track {
+	const v, r = 70., 1000.
+	turnStart := 250.
+	turnEnd := turnStart + math.Pi*r/v
+	t := tracks.Track{ID: id}
+	for dt := -300.; dt <= 600; dt += 2 {
+		var e, n float64
+		switch {
+		case dt <= turnStart:
+			e, n = v*(dt-100), 900
+		case dt <= turnEnd:
+			a := -math.Pi/2 + (dt-turnStart)*v/r
+			e, n = v*(turnStart-100)+r*math.Cos(a), 900+r+r*math.Sin(a)
+		default:
+			e, n = v*(turnStart-100)-v*(dt-turnEnd), 900+2*r
+		}
+		la := lat + n/111320
+		lo := lon + e/(111320*math.Cos(lat*math.Pi/180))
+		t.Points = append(t.Points, tracks.Point{Time: consensusEpoch + dt, Lat: la, Lon: lo, Position: geo.ECEF(la, lo, alt)})
+	}
+	return t
+}
+
+func TestSeparatePassesOfOneAircraftCanAgree(t *testing.T) {
+	lat, lon := 30.01, -97.99
+	obs := geo.ECEF(lat, lon, 200)
+	tr := outAndBack("cccccc-1-1", lat, lon, 1200)
+	first := heardCurve(obs, tr, 120, 50, 160, 0)
+	second := heardCurve(obs, tr, 120, 400, 500, 0)
+	ts := []tracks.Track{tr.PrepareSegments()}
+	o := CurveModelOptions{Window: 1}
+	h := consensusReceiver(lat, lon, 0)
+	crit := DefaultSubsetCriteria()
+	r, err := FitRidgeSubset(context.Background(), h, ts, []acoustic.Event{first, second}, o, 2, crit)
+	if err != nil || r.Valid {
+		t.Fatal("by default one aircraft explains one curve", r, err)
+	}
+	crit.SeparatePasses = true
+	r, err = FitRidgeSubset(context.Background(), h, ts, []acoustic.Event{first, second}, o, 2, crit)
+	if err != nil || !r.Valid || r.Explained != 2 || r.Worst > .05 {
+		t.Fatal("two separate passes of one aircraft should both count", r, err)
+	}
+	if r.Matches[0].Pass == r.Matches[1].Pass {
+		t.Fatal("passes not numbered separately", r.Matches)
+	}
+	// The same flight, wrongly placed: the far turn is now near the receiver
+	// 10 km east, so curves heard there do not match the out-and-back shape.
+	far := consensusReceiver(lat, lon+10500/(111320*math.Cos(lat*math.Pi/180)), 0)
+	r, err = FitRidgeSubset(context.Background(), far, ts, []acoustic.Event{first, second}, o, 2, crit)
+	if err != nil || r.Valid && r.Worst < .05 {
+		t.Fatal("separate passes fit at the wrong receiver", r, err)
+	}
+}
+
+func TestOneStraightPassCannotBeSplitIntoTwo(t *testing.T) {
+	lat, lon := 30.01, -97.99
+	obs := geo.ECEF(lat, lon, 200)
+	tr := straightFlight("aaaaaa-1-1", lat, lon, 0, 900, 1400, 100, 1, 0, 70)
+	// The approach and the departure of one pass, as two nonoverlapping curves.
+	before := heardCurve(obs, tr, 110, 40, 104, 0)
+	after := heardCurve(obs, tr, 110, 106, 170, 0)
+	crit := DefaultSubsetCriteria()
+	crit.SeparatePasses = true
+	r, err := FitRidgeSubset(context.Background(), consensusReceiver(lat, lon, 0), []tracks.Track{tr.PrepareSegments()}, []acoustic.Event{before, after}, CurveModelOptions{Window: 1}, 2, crit)
+	if err != nil || r.Valid {
+		t.Fatal("one straight pass counted as two agreeing curves", r, err)
+	}
+}
+
+func TestProminentMaxima(t *testing.T) {
+	times := []float64{0, 1, 2, 3, 4, 5, 6, 7, 8}
+	// Out and back (one boundary), then a small wobble that is not a pass.
+	ranges := []float64{3000, 1000, 2500, 4000, 2500, 900, 1200, 1100, 1400}
+	got := prominentMaxima(times, ranges, 1000)
+	if len(got) != 1 || got[0] != 3 {
+		t.Fatal(got)
+	}
+	if got := prominentMaxima(times[:4], ranges[:4], 1000); len(got) != 0 {
+		t.Fatal("a maximum at the end of coverage is not a confirmed boundary", got)
+	}
+}

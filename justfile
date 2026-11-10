@@ -76,6 +76,12 @@ auto-locate +args: build
 consensus +args: build
     ./bin/pinpoint consensus "$@"
 
+# Example: just sounds --audio rec.mp3
+# Explain what a recording contains and which sounds can help locate it.
+[group('core')]
+sounds +args: build
+    ./bin/pinpoint sounds "$@"
+
 # Recheck frozen training winners; requires the original report and search binary.
 [group('checks')]
 revalidate-sequences +args: build

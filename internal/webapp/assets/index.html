@@ -19,6 +19,12 @@
       <p class="hint">Each block is one minute. Green marks a tonal fragment; gray means no fragment was detected. These are not counts of aircraft.</p>
       <a id="detection-report" target="_blank" rel="noopener">Download detection report</a>
     </section>
+    <section id="sounds-card" hidden aria-label="What Pinpoint heard">
+      <p class="eyebrow">WHAT PINPOINT HEARD</p><p id="sounds-verdict"></p>
+      <div id="sounds-list"></div>
+      <details id="sounds-rejected"><summary id="sounds-rejected-summary"></summary><ul id="sounds-rejected-list"></ul></details>
+      <p id="sounds-note" class="hint"></p>
+    </section>
     <details id="event-results" hidden><summary id="event-results-summary">Sound event results</summary><div id="event-outcomes"></div></details>
     <button id="view-results" class="secondary" hidden>View available maps</button>
     <form id="search-form">

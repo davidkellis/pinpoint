@@ -30,6 +30,7 @@ const usage = `pinpoint — acoustic aircraft geolocation (research prototype)
 
   pinpoint demo    --out demo-output
   pinpoint analyze --audio recording.m4a --out work [--channel 0]
+  pinpoint sounds  --audio recording.m4a [--detection detection.json]
   pinpoint fetch   --date 2025-09-08 [--instance prod-0] [--download --out data/archive]
   pinpoint import  --input data/extracted --from RFC3339 --until RFC3339 --out work/tracks.csv
                    [--bounds south,west,north,east]
@@ -121,6 +122,8 @@ func run(ctx context.Context, args []string) error {
 		return automaticLocate(ctx, fs, args[1:])
 	case "consensus":
 		return consensusLocate(ctx, fs, args[1:])
+	case "sounds":
+		return sounds(ctx, fs, args[1:])
 	case "revalidate-sequences":
 		return revalidateSequences(ctx, fs, args[1:])
 	case "diagnose":

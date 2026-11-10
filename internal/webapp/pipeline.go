@@ -169,11 +169,16 @@ func (s *Server) storeDetection(ctx context.Context, j *job, spectrum *acoustic.
 	if err = ctx.Err(); err != nil {
 		return err
 	}
+	sounds := soundInventory(ctx, j, detection)
+	if err = search.JSON(filepath.Join(j.dir, "sounds.json"), sounds); err != nil {
+		return err
+	}
 	j.update(func(i *JobInfo) {
 		i.State = "ready"
 		i.Phase = "ready"
 		i.Events = selected
 		i.Detection = &detection
+		i.Sounds = sounds
 		i.FirstTime = spectrum.Time(0)
 		i.LastTime = spectrum.Time(len(spectrum.Rows) - 1)
 		i.Message = detectionMessage(detection)
@@ -236,9 +241,11 @@ func (s *Server) search(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 		request.Events = acoustic.SearchEvents(detection.Events, !request.independent(), request.IncludeWeak)
+		sounds := soundInventory(r.Context(), j, detection)
 		j.update(func(i *JobInfo) {
 			i.Events = detection.Events
 			i.Detection = &detection
+			i.Sounds = sounds
 			i.Message = detectionMessage(detection)
 		})
 	} else if request.Events == nil {

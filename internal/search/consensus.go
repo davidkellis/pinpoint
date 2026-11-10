@@ -52,6 +52,10 @@ type SubsetCriteria struct {
 	MaxNormalized  float64 `json:"max_normalized_training_rmse"`
 	MaxUnexplained float64 `json:"max_unexplained_curvature"`
 	MinSwingHz     float64 `json:"min_swing_hz"`
+	// SeparatePasses lets one aircraft explain several curves when they lie
+	// in clearly separate passes over the receiver: between them the aircraft
+	// moved at least PassProminence farther away and came back.
+	SeparatePasses bool `json:"separate_passes,omitempty"`
 }
 
 func DefaultSubsetCriteria() SubsetCriteria {
@@ -97,6 +101,10 @@ func FitRidgeSubset(ctx context.Context, h CurveReceiver, ts []tracks.Track, eve
 			}
 		}
 		rows[i] = kept
+	}
+	if crit.SeparatePasses {
+		epoch := float64(start.Unix()) + float64(start.Nanosecond())/1e9 + h.Clock
+		assignPasses(rows, h, epoch, ts, events)
 	}
 	var usable []int
 	for i := range rows {
@@ -259,7 +267,7 @@ func (p ConsensusPoint) better(q ConsensusPoint) bool {
 func (p ConsensusPoint) aircraftKey() string {
 	ids := make([]string, 0, len(p.Matches))
 	for _, m := range p.Matches {
-		ids = append(ids, fmt.Sprintf("%d:%s", m.Event, m.Aircraft))
+		ids = append(ids, fmt.Sprintf("%d:%s", m.Event, m.owner()))
 	}
 	sort.Strings(ids)
 	return strings.Join(ids, "/")

@@ -43,6 +43,7 @@ type JobInfo struct {
 	EventsFiltered  bool                      `json:"events_filtered,omitempty"`
 	DetectorProfile string                    `json:"detector_profile,omitempty"`
 	Detection       *acoustic.DetectionReport `json:"detection,omitempty"`
+	Sounds          *acoustic.SoundInventory  `json:"sound_inventory,omitempty"`
 	EventMaps       []EventMap                `json:"event_maps,omitempty"`
 	MissingTraces   int                       `json:"missing_traces,omitempty"`
 	ID              string                    `json:"id"`
