@@ -63,6 +63,7 @@ func consensusOptions(c search.Config, workers int) search.ConsensusOptions {
 func (s *Server) findConsensus(ctx context.Context, j *job, r SearchRequest, c search.Config, ts []tracks.Track) error {
 	events, curves := consensusCurves(r, j.snapshot().Events)
 	o := consensusOptions(c, s.options.Workers)
+	o.ExcludeKnownJets = c.ExcludeJets
 	if len(events) < o.MinCurves {
 		return fmt.Errorf("Consensus search needs at least %d strong curves below %.0f Hz; this recording has %d. Review the detected curves, or use another matching method. No location is substituted.", o.MinCurves, acoustic.DefaultLocatableMaxHz, len(events))
 	}

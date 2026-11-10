@@ -152,6 +152,41 @@ func TestConsensusRecoversReceiverAndClockFromTwoCurves(t *testing.T) {
 	}
 }
 
+func TestConsensusJetExclusionOnlyNarrowsExplainingAircraft(t *testing.T) {
+	const clock = 3.
+	lat, lon, ts, events := consensusScene(clock)
+	o := DefaultConsensusOptions()
+	o.Bounds = geo.Bounds{South: lat - .03, North: lat + .03, West: lon - .035, East: lon + .035}
+	o.RecordingStart = time.Unix(int64(consensusEpoch), 0).UTC().Format(time.RFC3339)
+	o.Grid, o.Refine, o.Final = 600, 100, 20
+	o.RefinePeaks, o.FinalPeaks = 6, 3
+	o.ClockWindow, o.ClockStep, o.FineClockStep = 6, 3, 1
+	o.Window = 1
+	o.Height = func(float64, float64) (float64, error) { return 200, nil }
+	o.ExcludeKnownJets = true
+	props := append([]tracks.Track(nil), ts...)
+	for i := range props {
+		props[i].TypeCode = "PC12"
+	}
+	r, err := Consensus(context.Background(), events, props, o)
+	if err != nil || len(r.Regions) == 0 || r.Regions[0].Explains != 2 || r.TypeFilter.KnownNonJets != len(props) {
+		t.Fatal("propeller aircraft must stay eligible", err, r.Status, r.TypeFilter)
+	}
+	jets := append([]tracks.Track(nil), ts...)
+	jets[0].TypeCode = "B738"
+	r, err = Consensus(context.Background(), events, jets, o)
+	if err != nil || r.TypeFilter.ExcludedJets != 1 {
+		t.Fatal("known jet was not excluded", err, r.TypeFilter)
+	}
+	for _, g := range r.Regions {
+		for _, m := range g.Matches {
+			if m.Track == jets[0].ID {
+				t.Fatal("an excluded jet explained a curve")
+			}
+		}
+	}
+}
+
 func TestConsensusStatusUsesSeparatedRunnerUp(t *testing.T) {
 	p := func(lat, worst float64) ConsensusPoint { return ConsensusPoint{Lat: lat, Worst: worst, Valid: true} }
 	regions := ConsensusRegions([]ConsensusPoint{p(30, .2), p(30.001, .21), p(31, .25)}, 3218.688, 10)

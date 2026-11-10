@@ -19,7 +19,9 @@ Pinpoint is a **research prototype**, not a dependable locator.
   and a ±120 s clock. It ranked the true area first (**35 m** from the video's
   coordinate, with the correct two aircraft) and reported it as *ambiguous*
   because a 27 km alternative is close. In a 40 km box the same search is
-  *resolved* at 43 m. The Texas desk recordings contain at most one usable
+  *resolved* at 43 m. Adding the video's own propeller-only filter
+  (`--exclude-known-jets`, for sounds heard as propellers) makes the
+  statewide run *resolved* at 46 m, by a narrow margin. The Texas desk recordings contain at most one usable
   tracked flyover, so consensus correctly returns no location instead of a
   wrong one. See
   [consensus-search-2026-11-09.md](docs/research/consensus-search-2026-11-09.md).
@@ -168,11 +170,13 @@ just consensus --audio /path/to/recording.m4a --tracks work/tracks.csv \
 # open work/consensus/consensus.html; consensus.json lists every region
 ```
 
-Use `--detection detection.json` to reuse an analysis, `--bounds` for a smaller
-area, and a wider `--clock-window` (with `--clock-step 4`) when the start time is
-only known roughly. Tracks with reported motion are reconstructed and
-interpolated by default (`--reconstruct-track=false --reported-motion=false
---smooth-track-step 0` for plain position tracks).
+Use `--detection detection.json` to reuse an analysis, `--exclude-known-jets`
+when the flyovers were heard as propellers (jets still count in the loudness
+check), `--bounds` for a smaller area, and a wider `--clock-window` (with
+`--clock-step 4`) when the start time is only known roughly. Tracks with
+reported motion are reconstructed and interpolated by default
+(`--reconstruct-track=false --reported-motion=false --smooth-track-step 0` for
+plain position tracks).
 
 - `fetch` options: `--date`, `--instance`, `--download`, `--out`, `--max-gb`.
   `import` options: `--input` (extracted traces) or `--archive`, `--from`,
@@ -264,6 +268,7 @@ Research notes in `docs/research/`:
 | [texas-statewide-evaluation-2026-11-08.md](docs/research/texas-statewide-evaluation-2026-11-08.md) | Full-Texas evaluation: no automatic result within two miles; one conditional success |
 | [trajectory-reconstruction-2026-11-08.md](docs/research/trajectory-reconstruction-2026-11-08.md) | Kalman and RTS trajectory reconstruction; the reviewed tracked-flyover curve reaches 426.5 m |
 | [consensus-search-2026-11-09.md](docs/research/consensus-search-2026-11-09.md) | Why single curves cannot localize statewide; consensus search with curvature and loudness evidence; New York and Texas results |
+| [video-method-audit-2026-11-09.md](docs/research/video-method-audit-2026-11-09.md) | Step-by-step comparison with the published video method; jet filter in consensus; ground-reflection jet observable (not yet validated) |
 
 Also: [references/README.md](references/README.md) (reference dataset and
 regression gates), [samples/public/pathak-2026/README.md](samples/public/pathak-2026/README.md)

@@ -58,6 +58,7 @@ func consensusLocate(ctx context.Context, fs *flag.FlagSet, args []string) error
 	fs.IntVar(&d.MinCurves, "min-curves", d.MinCurves, "curves that must agree on one location and clock (1 = single-curve mode)")
 	fs.Float64Var(&d.Criteria.MaxNormalized, "max-normalized", d.Criteria.MaxNormalized, "largest normalized training residual an explained curve may have")
 	fs.Float64Var(&d.Criteria.MaxUnexplained, "max-unexplained", d.Criteria.MaxUnexplained, "largest fraction of a curve's bend (Doppler/straight-line residual) an explaining aircraft may leave")
+	fs.BoolVar(&d.ExcludeKnownJets, "exclude-known-jets", false, "only non-jet or unknown aircraft types may explain curves (the sound was a propeller); jets still count in the loudness check")
 	fs.Float64Var(&d.Criteria.MinSwingHz, "min-swing", d.Criteria.MinSwingHz, "minimum pitch swing (constant-model residual, Hz) for a curve to count")
 	fs.Float64Var(&d.Grid, "grid", d.Grid, "coarse grid metres")
 	fs.Float64Var(&d.Refine, "refine", d.Refine, "refinement grid metres")

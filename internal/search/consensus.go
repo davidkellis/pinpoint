@@ -206,12 +206,16 @@ type ConsensusOptions struct {
 	// Loudness, when supplied, adds a close-pass loudness check to each region.
 	Loudness        *acoustic.Loudness `json:"-"`
 	LoudnessOptions LoudnessOptions    `json:"loudness_options"`
-	MaxPoints       int                `json:"max_points"`
-	Workers         int                `json:"workers"`
-	Window          float64            `json:"fft_window_s"`
-	MaxSourceChange float64            `json:"max_fractional_source_change"`
-	SoundSpeed      float64            `json:"sound_speed_mps"`
-	MaxGap          float64            `json:"max_track_gap_s"`
+	// ExcludeKnownJets removes aircraft whose type code is a known jet from the
+	// candidates that may explain a curve (the source was heard as a
+	// propeller). Unknown types stay. Jets still count in the loudness check.
+	ExcludeKnownJets bool    `json:"exclude_known_jets,omitempty"`
+	MaxPoints        int     `json:"max_points"`
+	Workers          int     `json:"workers"`
+	Window           float64 `json:"fft_window_s"`
+	MaxSourceChange  float64 `json:"max_fractional_source_change"`
+	SoundSpeed       float64 `json:"sound_speed_mps"`
+	MaxGap           float64 `json:"max_track_gap_s"`
 	// Height returns the receiver ellipsoidal height. It is required.
 	Height   func(lat, lon float64) (float64, error)           `json:"-"`
 	Progress func(stage string, done, total int, best float64) `json:"-"`
@@ -265,6 +269,8 @@ type ConsensusResult struct {
 	Options ConsensusOptions `json:"options"`
 	Curves  int              `json:"curves_supplied"`
 	Tracks  int              `json:"track_segments_screened"`
+	// TypeFilter reports the known-jet exclusion when it was requested.
+	TypeFilter tracks.TypeFilterStats `json:"type_filter,omitempty"`
 	// Regions are the best point of each separated area, best first.
 	Regions []ConsensusPoint `json:"regions"`
 	Status  string           `json:"status"`
@@ -403,8 +409,16 @@ func Consensus(ctx context.Context, events []acoustic.Event, ts []tracks.Track, 
 	for i := range ts {
 		ts[i] = ts[i].PrepareSegments()
 	}
+	allTracks := ts
+	if o.ExcludeKnownJets {
+		ts, r.TypeFilter = tracks.ExcludeKnownJets(ts)
+	}
 	r.Tracks = len(ts)
 	nearby := TrackIndex(ts, 15000)
+	audible := nearby
+	if o.ExcludeKnownJets {
+		audible = TrackIndex(allTracks, 15000)
+	}
 	var corridor []acoustic.Event
 	for _, e := range events {
 		corridor = append(corridor, acoustic.Event{Start: e.Start, End: e.End, MinSpeed: 0, MaxSpeed: 1000, MaxSlant: 15000})
@@ -588,7 +602,7 @@ func Consensus(ctx context.Context, events []acoustic.Event, ts []tracks.Track, 
 		for i := range r.Regions {
 			g := &r.Regions[i]
 			obs := geo.ECEF(g.Lat, g.Lon, g.Height)
-			c := CheckLoudness(*o.Loudness, nearby(obs), obs, epoch+g.Clock, o.LoudnessOptions)
+			c := CheckLoudness(*o.Loudness, audible(obs), obs, epoch+g.Clock, o.LoudnessOptions)
 			g.Loudness = &c
 			g.Contradicted = c.Contradicts()
 		}
